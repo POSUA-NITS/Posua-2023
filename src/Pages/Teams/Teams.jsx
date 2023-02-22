@@ -1,7 +1,12 @@
 import React from "react";
+import TeamPosuaWording from "../../Components/Team/TeamPosuaWording/TeamPosuaWording";
 
 const Teams = () => {
-  return <div></div>;
+  return (
+    <div className="containerTeam">
+        <TeamPosuaWording />
+    </div>
+  )
 };
 
 export default Teams;
