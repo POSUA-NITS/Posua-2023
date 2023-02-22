@@ -8,18 +8,16 @@ import Teams from "./Pages/Teams/Teams";
 
 const App = () => {
   return (
-
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/events' element={<Events />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/teams' element={<Teams />} />
-        <Route path='*' element={<Error />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
-
   );
 };
 
