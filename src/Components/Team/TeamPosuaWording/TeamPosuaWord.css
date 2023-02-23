@@ -1,9 +1,0 @@
-.containerTeamWordMukha{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.WordingMukha2{
-    transform: scaleX(-1);
-}
