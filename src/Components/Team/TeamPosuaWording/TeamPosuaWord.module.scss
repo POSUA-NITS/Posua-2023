@@ -1,68 +1,54 @@
-
-.texturebg{
-    background-image: url('../../../Assets/texture.png');
-    background-color: #FCEBD1;
-    
+.texturebg {
+  background-image: url("../../../Assets/texture.png");
+  background-color: #fcebd1;
 }
 
-.containerTeamWordMukha{
-    display: flex;
+.containerTeamWordMukha {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+.WordingTeamPosua {
+  h1 {
+    font-family: "Philosopher", sans-serif;
+
+    background: -webkit-linear-gradient(360deg, #411400 35.1%, #ffb70f 100.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+  }
+  p {
+    padding-top: 6rem;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
     text-align: center;
-    justify-content: space-between;
-    padding-top: 4rem;
 
-    
+    color: #2e1300;
+  }
 }
 
-.WordingTeamPosua{
-    
-    h1{
-        font-family: 'Philosopher', sans-serif;
-            
-            background: -webkit-linear-gradient(360deg,  #411400 35.1%, #ffb70f 100.1%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 4rem;
-    }
-    p{
-        padding-top: 6rem;
-        font-family: 'Philosopher', sans-serif;
-        font-size: 1.5rem;
-        font-style: normal;
-font-weight: 700;
-line-height: 34px;
-text-align: center;
-
-color: #2E1300;
-
-    }
-    
+.WordingMukha2 {
+  transform: scaleX(-1);
 }
 
+.containerflower {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flower2 {
+  position: relative;
+  inset-inline: 14.8rem;
 
-
-
-
-.WordingMukha2{
-    transform: scaleX(-1);
+  transform: scale(-1);
+  transform: rotateY(180deg);
 }
 
-.containerflower{
-    display: flex;
-    justify-content: space-evenly;
-
+.flower {
+  position: relative;
+  inset-inline: -14.8rem;
 }
-.flower2{
-    position: relative;
-    inset-inline: 14.8rem;
-    
-    transform: scale(-1);
-    transform: rotateY(180deg);
-}
-
-.flower{
-    position: relative;
-    inset-inline: -14.8rem;
-
-}
-
