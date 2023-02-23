@@ -1,12 +1,12 @@
-.containerMember{
-    margin-left: 10em;
-    margin-right: 10em;
+.containerMember {
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-    gap: 0em;
-    margin: auto;
-    justify-items: center;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 0em;
+  margin: auto;
+  justify-items: center;
 }

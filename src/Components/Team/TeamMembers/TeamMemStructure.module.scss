@@ -1,38 +1,37 @@
-.emptyColoredDiv{
-    background-color: red;
-    border-radius: 50%;
-    width: 19.4em;
-    height: 19.2em;
-    justify-content: center;
-    text-align: center;
-    // position: relative;
+.emptyColoredDiv {
+  background-color: red;
+  border-radius: 50%;
+  width: 19.4em;
+  height: 19.2em;
+  justify-content: center;
+  text-align: center;
+  // position: relative;
 }
 
-.imageHoldingWrapper{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-    position: relative;
+.imageHoldingWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
 }
 
-.containerMemStructure{
-    display: flex;
+.containerMemStructure {
+  display: flex;
 }
 
-.teamMemberGrid{
-    align-items: center;
-    
+.teamMemberGrid {
+  align-items: center;
 }
 
-.LottiesSVG{
-    position: relative;
-    top: 20em;
+.LottiesSVG {
+  position: relative;
+  top: 20em;
 }
 
-.gamusaWriting{
-    text-align: center;
-    justify-content: center;
-    // position: relative;
+.gamusaWriting {
+  text-align: center;
+  justify-content: center;
+  // position: relative;
 }
