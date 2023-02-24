@@ -22,10 +22,10 @@ const TeamMemberStructure = (data) => {
           </div>
         </div>
         <div className={styles.LottiesSVG}>
-          <Lottie
-            options={defaultOptionsPepa}
-            height={400}
-            width={430}
+          <Lottie 
+            options={defaultOptionsPepa} 
+            height={400} 
+            width={430} 
           />
         </div>
         <div className={styles.gamusa}>
