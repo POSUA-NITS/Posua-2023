@@ -1,73 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 .main {
-    background-image: url("src/Assets/texture.png");
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+  background-image: url("src/Assets/texture.png");
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 
-    .content {
-        padding: 0 15%;
-        font-size: 3vmin;
-        text-align: center;
-        font-family: "Philosopher", sans-serif;
-    }
+  .content {
+    padding: 0 15%;
+    font-size: 3vmin;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+  }
 }
 
 .phoolTema {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 
-    top: 30%;
-    overflow: hidden;
-    width: 100%;
+  top: 40%;
+  overflow: hidden;
+  width: 100%;
 
-    img {
-        width: 50%;
-        position: relative;
-        transform: scale(1.5);
-    }
+  img {
+    width: 50%;
+    position: relative;
+    transform: scale(1.5);
+  }
 
-    #phoolLeft {
-        animation: phoolLeftAnime ease-in-out 6s 0s infinite;
-        animation-direction: alternate-reverse;
-    }
+  #phoolLeft {
+    animation: phoolLeftAnime ease-in-out 6s 0s infinite;
+    animation-direction: alternate-reverse;
+  }
 
-    #phoolRight {
-        animation: phoolRightAnime ease-in-out 6s 0s infinite;
-        animation-direction: alternate-reverse;
-    }
+  #phoolRight {
+    animation: phoolRightAnime ease-in-out 6s 0s infinite;
+    animation-direction: alternate-reverse;
+  }
 }
 
 @keyframes phoolLeftAnime {
-    to {
-        transform: scale(1.2) translateX(180px);
-    }
+  to {
+    transform: scale(1.2) translateX(180px);
+  }
 }
 
 @keyframes phoolRightAnime {
-    to {
-        transform: scale(1.2) translateX(-180px);
-    }
+  to {
+    transform: scale(1.2) translateX(-180px);
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .content {
+    font-size: 2vmin;
+  }
 
-    .content {
-        font-size: 2vmin;
-    }
+  #phoolLeft {
+    left: 7%;
+  }
 
-    #phoolLeft {
-        left: 7%;
-    }
-
-    #phoolRight {
-        right: 7%;
-    }
-
-
+  #phoolRight {
+    right: 7%;
+  }
 }
