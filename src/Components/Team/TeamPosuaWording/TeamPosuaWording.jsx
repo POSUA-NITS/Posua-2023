@@ -39,5 +39,4 @@ const TeamPosuaWording = () => {
     </>
   );
 };
-
 export default TeamPosuaWording;

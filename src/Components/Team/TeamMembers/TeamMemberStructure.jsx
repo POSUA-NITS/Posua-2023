@@ -2,6 +2,7 @@ import Lottie from "react-lottie";
 import animationData from "../../../Assets/Pepa.json";
 import styles from "./TeamMemStructure.module.scss";
 import Gamusa from "../../../Assets/Gamusa.png";
+import { useState } from "react";
 
 const TeamMemberStructure = (data) => {
   const defaultOptionsPepa = {
@@ -13,6 +14,11 @@ const TeamMemberStructure = (data) => {
     },
   };
 
+  const [Stopped, setIsStopped] = useState(true);
+  // const anima = () => {
+  //   setIsStopped(false);
+  // }
+
   return (
     <div className={styles.containerMemStructure}>
       <div className={styles.teamMemberGrid}>
@@ -21,12 +27,8 @@ const TeamMemberStructure = (data) => {
             <img src={data.image} />
           </div>
         </div>
-        <div className={styles.LottiesSVG}>
-          <Lottie 
-            options={defaultOptionsPepa} 
-            height={400} 
-            width={430} 
-          />
+        <div className={styles.LottiesSVG} onMouseOver={()=>setIsStopped(false)} onMouseOut={()=>setIsStopped(true)}>
+          <Lottie options={defaultOptionsPepa} height={400} width={430} isStopped={Stopped}   />
         </div>
         <div className={styles.gamusa}>
           <img src={Gamusa} />

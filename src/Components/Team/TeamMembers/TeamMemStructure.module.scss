@@ -5,15 +5,16 @@
   height: 19.2em;
   justify-content: center;
   text-align: center;
-  // position: relative;
+  img{
+    position: relative;
+    top: 10px;
+  }
 }
 
 .imageHoldingWrapper {
   display: flex;
   justify-content: center;
   text-align: center;
-  justify-items: center;
-  align-items: center;
   // position: absolute;
 }
 
