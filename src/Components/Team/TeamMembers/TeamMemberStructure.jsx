@@ -5,7 +5,7 @@ import Gamusa from "../../../Assets/Gamusa.png";
 
 const TeamMemberStructure = (data) => {
   const defaultOptionsPepa = {
-    loop: true,
+    loop: false,
     autoplay: false,
     animationData: animationData,
     rendererSettings: {
@@ -21,17 +21,20 @@ const TeamMemberStructure = (data) => {
             <img src={data.image} />
           </div>
         </div>
-        <Lottie
-          className={styles.LottiesSVG}
-          options={defaultOptionsPepa}
-          height={400}
-          width={400}
-        />
-        <div className={styles.gamusaWriting}>
+        <div className={styles.LottiesSVG}>
+          <Lottie
+            options={defaultOptionsPepa}
+            height={400}
+            width={430}
+          />
+        </div>
+        <div className={styles.gamusa}>
           <img src={Gamusa} />
-          <p>{data.name}</p>
-          <p>{data.desig}</p>
-          <p>{data.email}</p>
+          <div className={styles.gamusaWriting}>
+            <p>{data.name}</p>
+            <p>{data.desig}</p>
+            <p>{data.email}</p>
+          </div>
         </div>
       </div>
     </div>

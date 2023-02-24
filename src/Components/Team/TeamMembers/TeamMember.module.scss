@@ -1,6 +1,7 @@
 .containerMember {
   margin-left: 10em;
   margin-right: 10em;
+  // position: relative;
 }
 
 .wrapper {
@@ -9,4 +10,12 @@
   gap: 0em;
   margin: auto;
   justify-items: center;
+  position: relative;
+}
+
+@media (max-width: 420px) {
+  .containerMember{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
