@@ -12,7 +12,7 @@ const TeamPosuaWording = () => {
           </div>
           <div className={styles.WordingTeamPosua}>
             <div className={styles.center}>
-            <h1 className={styles.Heading}>TEAM POSUA</h1>
+              <h1 className={styles.Heading}>TEAM POSUA</h1>
             </div>
             <p>
               With the arrival of spring and the departure of winter days, our Mother

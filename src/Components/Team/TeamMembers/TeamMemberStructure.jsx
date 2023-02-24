@@ -27,8 +27,17 @@ const TeamMemberStructure = (data) => {
             <img src={data.image} />
           </div>
         </div>
-        <div className={styles.LottiesSVG} onMouseOver={()=>setIsStopped(false)} onMouseOut={()=>setIsStopped(true)}>
-          <Lottie options={defaultOptionsPepa} height={400} width={430} isStopped={Stopped}   />
+        <div
+          className={styles.LottiesSVG}
+          onMouseOver={() => setIsStopped(false)}
+          onMouseOut={() => setIsStopped(true)}
+        >
+          <Lottie
+            options={defaultOptionsPepa}
+            height={400}
+            width={430}
+            isStopped={Stopped}
+          />
         </div>
         <div className={styles.gamusa}>
           <img src={Gamusa} />
