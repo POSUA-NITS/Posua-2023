@@ -27,16 +27,17 @@ const TeamPosuaWording = () => {
           </div>
         </div>
 
-        <div className={styles.containerflower}>
+        {/* <div className={styles.containerflower}>
           <div className={styles.flower2}>
             <img src={flower} />
           </div>
           <div className={styles.flower}>
             <img src={flower} />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
 };
+
 export default TeamPosuaWording;

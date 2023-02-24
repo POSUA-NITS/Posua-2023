@@ -1,13 +1,18 @@
-.texturebg {
-  background-image: url("../../../Assets/texture.png");
-  background-color: #fcebd1;
-}
+
 
 .containerTeamWordMukha {
   display: flex;
   text-align: center;
   justify-content: space-between;
   padding-top: 4rem;
+}
+
+
+.containerflower{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
 }
 
 .WordingTeamPosua {
@@ -36,19 +41,50 @@
   transform: scaleX(-1);
 }
 
-.containerflower {
-  display: flex;
-  justify-content: space-evenly;
-}
+// .containerflower {
+//   display: flex;
+//   justify-content: space-evenly;
+// }
 .flower2 {
-  position: relative;
   inset-inline: 14.8rem;
-
   transform: scale(-1);
-  transform: rotateY(180deg);
+     transform: rotateY(180deg);
 }
+
 
 .flower {
-  position: relative;
   inset-inline: -14.8rem;
 }
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .WordingMukha1 {
+    display: none;
+  }
+  .WordingMukha2 {
+    display: none;
+  }
+  .WordingTeamPosua {
+    display: flex;
+    text-align: center;
+
+  }
+  .h1{
+    display: flex;
+  }
+  .containerTeamWordMukha{
+    display: flex;
+  }
+  
+
+
+
+  
+
+    .p {
+      top: -106px;
+    }
+}
+
