@@ -1,5 +1,5 @@
 {
-  "name": "guidance-grid",
+  "name": "posua-2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "@vitejs/plugin-react": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lottie": "^1.2.3",
     "react-router-dom": "^6.4.3",
     "vite": "^3.2.3"
   },
