@@ -8,19 +8,17 @@ import Teams from "./Pages/Teams/Teams";
 import Artists from "./Pages/Artists/Artists";
 const App = () => {
   return (
-
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/events' element={<Events />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/teams' element={<Teams />} />
-        <Route path='/artists' element={<Artists />} />
-        <Route path='*' element={<Error />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/artists" element={<Artists />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
-
   );
 };
 
