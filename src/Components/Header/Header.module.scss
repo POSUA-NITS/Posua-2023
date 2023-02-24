@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+    
+}
+
+.HeaderBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4% 0;
+}
+
+.main {
+    width: 100px;
+    height: 100px;
+    left: 100px;
+
+
+    .b {
+        position: relative;
+        width: 90%;
+        transition: all 1s;
+        top: 17px;
+        animation: moveBg ease-in-out 3s 0s infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+    .d {
+        position: relative;
+        width: 50%;
+        top: -67px;
+        left: 28px;
+        animation: moveDh ease-in-out 3s 0s infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    .g {
+        position: relative;
+        width: 131%;
+        top: -132px;
+        left: -32px;
+        animation: moveGm ease-in-out 3s 0s infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    .p {
+        position: relative;
+        width: 57%;
+        top: -180px;
+        animation: movePepa ease-in-out 3s 0s infinite;
+        animation-direction: alternate-reverse;
+    }
+
+}
+
+
+h1 {
+    width: fit-content;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 11vmin;
+    font-weight: bold;
+    margin: 2% 6%;
+    background: linear-gradient(to right, #7A2400, #EBB02A);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+#left {
+    transform: rotateY(180deg);
+}
+
+@keyframes moveBg {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes moveDh {
+    to {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes moveGm {
+    to {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes movePepa {
+    to {
+        transform: rotate(20deg);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .main {
+
+        width: 50px;
+        height: 50px;
+        left: 100px;
+
+        .d {
+            top: -46px;
+            left: 12px;
+            width: 54%;
+        }
+
+        .g {
+            top: -74px;
+            left: -18px;
+            width: 131%;
+        }
+
+        .p{
+            top:-106px;
+        }
+
+    }
+
+}
