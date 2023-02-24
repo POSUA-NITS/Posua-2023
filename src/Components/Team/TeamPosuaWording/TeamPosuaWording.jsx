@@ -11,7 +11,9 @@ const TeamPosuaWording = () => {
             <img src={Mukha} />
           </div>
           <div className={styles.WordingTeamPosua}>
+            <div className={styles.center}>
             <h1 className={styles.Heading}>TEAM POSUA</h1>
+            </div>
             <p>
               With the arrival of spring and the departure of winter days, our Mother
               Nature expresses her joy of welcoming the calming rejuvenation via greenery
@@ -27,14 +29,14 @@ const TeamPosuaWording = () => {
           </div>
         </div>
 
-        {/* <div className={styles.containerflower}>
+        <div className={styles.containerflower}>
           <div className={styles.flower2}>
             <img src={flower} />
           </div>
           <div className={styles.flower}>
             <img src={flower} />
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

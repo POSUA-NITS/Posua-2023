@@ -7,18 +7,48 @@
 
 .containerflower {
   display: flex;
-  text-align: center;
   justify-content: space-between;
+  overflow: hidden;
+  // gap: 18rem;
+  
+  .flower2 {
+    transform: rotateY(180deg) ;
+    transform: scale(1);
+    width: 2rem;
+    animation: move1 6s ease-in-out infinite;
+
+    // justify-self: flex-start;
+  }
+  
+  .flower {
+
+    justify-self: flex-end;
+ 
+    animation: move2 6s ease-in-out infinite;
+
+  } 
+  
 }
+
 
 .WordingTeamPosua {
   h1 {
-    font-family: "Philosopher", sans-serif;
+    display: flex;
 
-    background: -webkit-linear-gradient(360deg, #411400 35.1%, #ffb70f 100.1%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 5.2vw;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(90deg, #371000 0.1%, #f3b526 90.1%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   p {
     padding-top: 6rem;
@@ -41,32 +71,48 @@
 //   display: flex;
 //   justify-content: space-evenly;
 // }
-.flower2 {
-  inset-inline: 14.8rem;
-  transform: scale(-1);
-  transform: rotateY(180deg);
+
+
+@keyframes move1 {
+  0%,100%{
+      transform: translateX(0) ;
+  }
+  50%{
+      transform: translateX(2rem);
+  }
+  
 }
 
-.flower {
-  inset-inline: -14.8rem;
+@keyframes move2 {
+  0%,100%{
+      transform: translateX(0) rotateY(180deg);
+  }
+  50%{
+      transform: translateX(-2rem)  rotateY(180deg);
+  }
+  
 }
+
+
+@media only screen and (max-width: 1196px) {
+  .containerflower{
+    display: none;
+  }
+}
+
+
+
 
 @media only screen and (max-width: 400px) {
   .WordingMukha1 {
     display: none;
   }
+  .WordingMukha1 h1{
+    text-align: center;
+    }
+
   .WordingMukha2 {
     display: none;
-  }
-  .WordingTeamPosua {
-    display: flex;
-    text-align: center;
-  }
-  .h1 {
-    display: flex;
-  }
-  .containerTeamWordMukha {
-    display: flex;
   }
 
   .p {
