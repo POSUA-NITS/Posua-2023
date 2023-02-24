@@ -1,5 +1,4 @@
 import React from "react";
-
 import TeamPosuaWording from "../../Components/Team/TeamPosuaWording/TeamPosuaWording";
 import TeamMember from "../../Components/Team/TeamMembers/TeamMembers.jsx";
 

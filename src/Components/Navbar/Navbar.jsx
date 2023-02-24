@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <ul style={{ display: "flex" }}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -15,6 +15,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/teams">Teams</Link>
+        </li>
+        <li>
+          <Link to="/artists">Artists</Link>
         </li>
       </ul>
     </nav>
