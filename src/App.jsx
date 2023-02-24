@@ -6,6 +6,7 @@ import Events from "./Pages/Events/Events";
 import Gallery from "./Pages/Gallery/Gallery";
 import Teams from "./Pages/Teams/Teams";
 import Artists from "./Pages/Artists/Artists";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/artists" element={<Artists />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };
