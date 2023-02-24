@@ -5,16 +5,17 @@
   height: 19.2em;
   justify-content: center;
   text-align: center;
-  // position: relative;
+  img{
+    position: relative;
+    top: 10px;
+  }
 }
 
 .imageHoldingWrapper {
   display: flex;
   justify-content: center;
   text-align: center;
-  justify-items: center;
-  align-items: center;
-  position: relative;
+  // position: absolute;
 }
 
 .containerMemStructure {
@@ -23,15 +24,23 @@
 
 .teamMemberGrid {
   align-items: center;
+  position: relative;
+  height: 580px;
 }
 
 .LottiesSVG {
   position: relative;
-  top: 20em;
+  bottom: 318px;
+}
+
+.gamusa {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  bottom: 360px;
 }
 
 .gamusaWriting {
-  text-align: center;
-  justify-content: center;
-  // position: relative;
+  position: relative;
+  bottom: 5.8rem;
 }
