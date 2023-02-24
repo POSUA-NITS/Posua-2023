@@ -10,7 +10,7 @@ function Navbarbox({isOpen}) {
   };
 
   return (
-    <nav className={`${Styles.navbar}${isOpen ? Styles.active : ''}`}>
+    <nav className={`${Styles.navbar}`}>
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ''}`}>
         <div>
           <a href="#" className={` ${Styles.navbarButton} ${Styles.posuaButton} ${activeButton === 'Posua' ? Styles.active : ''}`} data-btn="Posua" onClick={() => handleButtonClick('Posua')}>
@@ -43,7 +43,7 @@ function HamburgerMenu({isOpen, toggleMenu}) {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (ref.current && !ref.current.contains(event.target)) {
-        const navbar = document.querySelector('.navbar');
+        const navbar = document.querySelector('.navbarContainer');
         if (navbar && !navbar.contains(event.target)) {
           toggleMenu(false);
         }
