@@ -1,6 +1,6 @@
 import styles from "./TeamPosuaWord.module.scss";
 import Mukha from "../../../Assets/Mukha.png";
-// import flower from "../../../Assets/flower.png";
+import flower from "../../../Assets/flower.png";
 
 const TeamPosuaWording = () => {
   return (
@@ -39,5 +39,4 @@ const TeamPosuaWording = () => {
     </>
   );
 };
-
 export default TeamPosuaWording;
