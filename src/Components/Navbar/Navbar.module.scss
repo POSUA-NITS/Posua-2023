@@ -11,29 +11,42 @@
     max-width: 100%;
     margin: auto;
     height: 62px;
-    display: flex;
     gap: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
   
   .navbarButton {
-    width: 70px;
     font-family: "Philosopher", sans-serif;
     font-size: 20px;
     color: black;
     padding: 10px;
-    transition: font-size 0.2s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
     text-decoration: none;
     text-align: center;
   }
+  .EventsButton{
+    width: 90px;
+  }
+  .GalleryButton{
+    width: 91.7px;
+  }
+  .TeamButton{
+    width: 75px;
+  }
+  .ArtistButton{
+    width: 78px;
+  }
+  .SponsorsButton{
+    width: 109.3px;
+  }
   
   .posuaButton {
-    width: 9vw;
+    width: 131px;
     font-family: "Philosopher", sans-serif;
-    padding: 10px 30px;
-    transition: font-size 0.2s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
     text-decoration: none;
     font-weight: bold;
     display: flex;
@@ -47,15 +60,15 @@
   .posualogo {
     height: 25px;
     width: 25px;
-    transition: height 0.2s ease-in-out, width 0.2s ease-in-out;
+    transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
   }
   .navbarButton:hover,
   .navbarButton.active {
-    font-size: 25px;
+    font-size: 23px;
   }
   .posuaButton:hover,
   .posuaButton.active {
-    font-size: 32px;
+    font-size: 30px;
   }
   .posuaButton:hover .posualogo,
   .posuaButton.active .posualogo {
@@ -73,7 +86,6 @@
   }
   .hamburgerMenu {
     left: 0%;
-    top: 10px;
     position: absolute;
     display: none;
     cursor: pointer;
