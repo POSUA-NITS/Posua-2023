@@ -44,7 +44,7 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
     const handleClickOutside = (event) => {
       if (ref.current && !ref.current.contains(event.target)) {
         const navbar = document.querySelector('.navbarContainer');
-        const navbar = document.querySelector(".navbar");
+        // const navbar = document.querySelector(".navbar");
         if (navbar && !navbar.contains(event.target)) {
           toggleMenu(false);
         }
