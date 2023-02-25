@@ -5,6 +5,7 @@ import flower from "../../../assets/flower.png";
 const TeamPosuaWording = () => {
   return (
     <>
+      <div className={styles.texturebg}>
         <div className={styles.containerTeamWordMukha}>
           <div className={styles.WordingMukha1}>
             <img src={Mukha} />
@@ -36,6 +37,7 @@ const TeamPosuaWording = () => {
             <img src={flower} />
           </div>
         </div>
+      </div>
     </>
   );
 };
