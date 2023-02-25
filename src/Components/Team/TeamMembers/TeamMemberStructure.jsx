@@ -32,7 +32,7 @@ const TeamMemberStructure = (data) => {
       window.removeEventListener("resize", handleWindowResize);
     };
   });
-
+  
   return (
     <div className={styles.containerMemStructure}>
       <div className={styles.teamMemberGrid}>
