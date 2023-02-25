@@ -1,0 +1,82 @@
+.Designation{
+    margin-bottom: 1.6rem;
+    text-align: center;
+    font-size: 3.6rem;
+    background: -webkit-linear-gradient(360deg, #411400 35.1%, #ffb70f 100.1%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Philosopher';
+    font-weight: 700;
+}
+
+.imgslider{
+    margin-inline: 6vw;   
+}
+.sliderDiv{
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &:hover{
+        .Card{
+            height: 35rem;
+            width: 27rem;
+        }
+        .TextForRotation{
+            opacity: 1;
+        }
+        .Images{
+            transform: scale(1.05);
+        }
+    }
+    .Card{
+        transition: all 1s ease-in-out;
+        width: 400px;
+        height: 33rem;
+    }
+    .Images{
+        width: 270px;
+        position: absolute;
+        top: 16%;
+        left: 19%;
+        transition: all 1s ease-in-out;
+    }
+    .TextForRotation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        position: absolute;
+        bottom: 0.1rem;
+        opacity: 0;
+        transition: all 450ms ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Card{
+        width: 300px !important;
+        height: 28rem !important;
+    }
+    .Images{
+        width: 200px !important;
+        left:18.5% !important;
+    }
+    .TextForRotation{
+        opacity: 1 !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .Images{
+        left: 22% !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .Images{
+        left:17.5% !important;
+    }
+}

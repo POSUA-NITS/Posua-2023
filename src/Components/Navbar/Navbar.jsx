@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Navbar.module.scss";
-import posuaLogo from "./PosuaLogo.png";
+import posuaLogo from "./posualogo.png";
+
 
 function Navbarbox({ isOpen }) {
   const [activeButton, setActiveButton] = useState("Posua");

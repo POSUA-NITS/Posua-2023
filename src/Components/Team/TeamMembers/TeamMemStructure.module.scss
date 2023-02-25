@@ -19,7 +19,7 @@
 }
 
 .containerMemStructure {
-  display: flex;
+  display: flex;  
 }
 
 .teamMemberGrid {
@@ -43,4 +43,33 @@
 .gamusaWriting {
   position: relative;
   bottom: 5.8rem;
+}
+ 
+.imgForEmpty{
+  width: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 420px) {
+  .teamMemberGrid{
+    width: 84%;
+  }
+  .imgForEmpty{
+    width: 90%;
+  }
+  .LottiesSVG{
+    right: 10%;
+  }
+  .emptyColoredDiv{
+    width: 70%;
+    height: 90%;
+  }
+  .imageGamusa{
+    width: 80%;
+  }
+  .gamusaWriting{
+    bottom: 75px;
+    font-size: 0.8rem;
+    // font-weight: 500;
+  }
 }
