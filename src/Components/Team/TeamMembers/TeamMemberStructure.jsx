@@ -35,7 +35,7 @@ const TeamMemberStructure = (data) => {
       window.removeEventListener('resize', handleWindowResize);
     };
   });
-
+  
   return (
     <div className={styles.containerMemStructure}>
       <div className={styles.teamMemberGrid}>
@@ -53,6 +53,7 @@ const TeamMemberStructure = (data) => {
             options={defaultOptionsPepa}
             height={windowSize[1]<420?300:400}
             width={windowSize[1]<420?300:430}
+
             isStopped={Stopped}
           />
         </div>

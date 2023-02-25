@@ -10,7 +10,9 @@ const TeamPosuaWording = () => {
             <img src={Mukha} />
           </div>
           <div className={styles.WordingTeamPosua}>
-            <h1 className={styles.Heading}>TEAM POSUA</h1>
+            <div className={styles.center}>
+              <h1 className={styles.Heading}>TEAM POSUA</h1>
+            </div>
             <p>
               With the arrival of spring and the departure of winter days, our Mother
               Nature expresses her joy of welcoming the calming rejuvenation via greenery
@@ -37,4 +39,5 @@ const TeamPosuaWording = () => {
     </>
   );
 };
+
 export default TeamPosuaWording;
