@@ -19,20 +19,17 @@ const TeamMemberStructure = (data) => {
   //   setIsStopped(false);
   // }
 
-  const [windowSize, setWindowSize] = useState([
-    window.innerWidth,
-    window.innerHeight,
-  ]);
+  const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
 
   useEffect(() => {
     const handleWindowResize = () => {
       setWindowSize([window.innerWidth, window.innerHeight]);
     };
 
-    window.addEventListener('resize', handleWindowResize);
+    window.addEventListener("resize", handleWindowResize);
 
     return () => {
-      window.removeEventListener('resize', handleWindowResize);
+      window.removeEventListener("resize", handleWindowResize);
     };
   });
 
@@ -51,13 +48,13 @@ const TeamMemberStructure = (data) => {
         >
           <Lottie
             options={defaultOptionsPepa}
-            height={windowSize[1]<420?300:400}
-            width={windowSize[1]<420?300:430}
+            height={windowSize[1] < 420 ? 300 : 400}
+            width={windowSize[1] < 420 ? 300 : 430}
             isStopped={Stopped}
           />
         </div>
         <div className={styles.gamusa}>
-          <img src={Gamusa} className={styles.imageGamusa}/>
+          <img src={Gamusa} className={styles.imageGamusa} />
           <div className={styles.gamusaWriting}>
             <p>{data.name}</p>
             <p>{data.desig}</p>

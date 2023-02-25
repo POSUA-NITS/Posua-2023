@@ -19,13 +19,14 @@
 }
 
 .containerMemStructure {
-  display: flex;  
+  display: flex;
 }
 
 .teamMemberGrid {
   align-items: center;
   position: relative;
   height: 580px;
+  margin-bottom: 10em;
 }
 
 .LottiesSVG {
@@ -44,30 +45,30 @@
   position: relative;
   bottom: 5.8rem;
 }
- 
-.imgForEmpty{
+
+.imgForEmpty {
   width: auto;
   border-radius: 50%;
 }
 
 @media (max-width: 420px) {
-  .teamMemberGrid{
+  .teamMemberGrid {
     width: 84%;
   }
-  .imgForEmpty{
+  .imgForEmpty {
     width: 90%;
   }
-  .LottiesSVG{
+  .LottiesSVG {
     right: 10%;
   }
-  .emptyColoredDiv{
+  .emptyColoredDiv {
     width: 70%;
     height: 90%;
   }
-  .imageGamusa{
+  .imageGamusa {
     width: 80%;
   }
-  .gamusaWriting{
+  .gamusaWriting {
     bottom: 75px;
     font-size: 0.8rem;
     // font-weight: 500;

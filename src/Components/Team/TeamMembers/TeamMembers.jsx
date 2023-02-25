@@ -46,7 +46,8 @@ const TeamMembers = () => {
     <div className={styles.containerMember}>
       <div className={styles.wrapper}>
         {Members.map((element, i) => (
-          <TeamMemberStructure className={styles.teamMemStr}
+          <TeamMemberStructure
+            className={styles.teamMemStr}
             key={i}
             name={element.name}
             desig={element.desig}

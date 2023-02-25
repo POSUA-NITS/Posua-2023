@@ -1,5 +1,5 @@
-import React from 'react'
-import Styles from './Footer.module.scss'
+import React from "react";
+import Styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
