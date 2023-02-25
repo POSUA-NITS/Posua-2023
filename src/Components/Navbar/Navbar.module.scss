@@ -1,140 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgba(153, 76, 22, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transition: all 0.5s linear;
+}
+
+.navbar-container {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-button {
+  width: 6vw;
+  font-family: "Philosopher", sans-serif;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  transition: font-size 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.posua-button {
+  width: 7vw;
+  font-family: "Philosopher", sans-serif;
+  color: black;
+  padding: 10px 30px;
+  transition: font-size 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #6f360d, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+}
+.posualogo {
+  height: 25px;
+  width: 25px;
+  transition: height 0.2s ease-in-out, width 0.2s ease-in-out;
+}
+.navbar-button:hover,
+.navbar-button.active {
+  font-size: 25px;
+}
+.posua-button:hover,
+.posua-button.active {
+  font-size: 32px;
+}
+.posua-button:hover .posualogo,
+.posua-button.active .posualogo {
+  animation: rotate 2s;
+  height: 28px;
+  width: 28px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hamburger-menu {
+  top: 0;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  padding: 20px;
+  width: 40px;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #6f360d, #ffa500);
+  transition: all 0.2s ease;
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    height: 100vh;
+    width: 0vw;
+    right: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+  }
+  .navbar.active {
+    width: 75vw;
+    left: 0;
+    background: rgba(223, 204, 177, 0.76);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+  }
+  .navbar-container {
+    display: none;
+    flex-direction: column;
+    gap: 1em;
     padding: 0;
   }
-  .navbar {
-    background-color: rgba(153, 76, 22, 0.2);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    transition: all 0.5s linear;
-  }
-  
-  .navbar-container {
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
   .navbar-button {
-    width: 6vw;
-    font-family: "Philosopher", sans-serif;
-    font-size: 20px;
-    color: black;
-    padding: 10px;
-    transition: font-size 0.2s ease-in-out;
-    text-decoration: none;
+    width: 13vh;
   }
-  
-  .posua-button {
-    width: 7vw;
-    font-family: "Philosopher", sans-serif;
-    color: black;
-    padding: 10px 30px;
-    transition: font-size 0.2s ease-in-out;
-    text-decoration: none;
-    font-weight: bold;
+  .navbar-container.active {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to right, #6f360d, #ffa500);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 28px;
-  }
-  .posualogo {
-    height: 25px;
-    width: 25px;
-    transition: height 0.2s ease-in-out, width 0.2s ease-in-out;
-  }
-  .navbar-button:hover,
-  .navbar-button.active {
-    font-size: 25px;
-  }
-  .posua-button:hover,
-  .posua-button.active {
-    font-size: 32px;
-  }
-  .posua-button:hover .posualogo,
-  .posua-button.active .posualogo {
-    animation: rotate 2s;
-    height: 28px;
-    width: 28px;
-  }
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
   }
   .hamburger-menu {
-    top: 0;
-    position: absolute;
-    display: none;
-    cursor: pointer;
-    padding: 20px;
-    width: 40px;
-  }
-  
-  .hamburger-menu span {
     display: block;
-    width: 100%;
-    height: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    background: linear-gradient(to right, #6f360d, #ffa500);
-    transition: all 0.2s ease;
   }
-  @media screen and (max-width: 800px) {
-    .navbar {
-      height: 100vh;
-      width: 0vw;
-      right: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: none;
-      padding: 0;
-      background-color: transparent;
-    }
-    .navbar.active {
-      width: 75vw;
-      left: 0;
-      background: rgba(223, 204, 177, 0.76);
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(5px);
-    }
-    .navbar-container {
-      display: none;
-      flex-direction: column;
-      gap: 1em;
-      padding: 0;
-    }
-    .navbar-button {
-      width: 13vh;
-    }
-    .navbar-container.active {
-      display: flex;
-    }
-    .hamburger-menu {
-      display: block;
-    }
-  
-    .hamburger-menu.active span:nth-child(1) {
-      transform: translateY(10px) rotate(45deg);
-    }
-  
-    .hamburger-menu.active span:nth-child(2) {
-      opacity: 0;
-    }
-  
-    .hamburger-menu.active span:nth-child(3) {
-      transform: translateY(-10px) rotate(-45deg);
-    }
+
+  .hamburger-menu.active span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
   }
-  
+
+  .hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+}
