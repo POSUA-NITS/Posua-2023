@@ -1,9 +1,9 @@
 import React, {useState, useEffect, useRef} from "react";
 import Styles from"./Navbar.module.scss";
-import posuaLogo from "./posualogo.png"
+import posuaLogo from "./PosuaLogo.png";
 
-function Navbarbox({isOpen}) {
-  const [activeButton, setActiveButton] = useState('Posua');
+function Navbarbox({ isOpen }) {
+  const [activeButton, setActiveButton] = useState("Posua");
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -30,20 +30,21 @@ function Navbarbox({isOpen}) {
           Artist
         </a>
         <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Sponsors' ? Styles.active : ''}`} data-btn="Sponsors" onClick={() => handleButtonClick('Sponsors')}>
-          Sponsors
+         Sponsors
         </a>
       </div>
     </nav>
   );
 }
 
-function HamburgerMenu({isOpen, toggleMenu}) {
+function HamburgerMenu({ isOpen, toggleMenu }) {
   const ref = useRef();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (ref.current && !ref.current.contains(event.target)) {
         const navbar = document.querySelector('.navbarContainer');
+        const navbar = document.querySelector(".navbar");
         if (navbar && !navbar.contains(event.target)) {
           toggleMenu(false);
         }
@@ -58,7 +59,11 @@ function HamburgerMenu({isOpen, toggleMenu}) {
   }, [ref, toggleMenu]);
 
   return (
-    <div ref={ref} className={`${Styles.hamburgerMenu} ${isOpen ? Styles.active : ''}`} onClick={() => toggleMenu(!isOpen)}>
+    <div
+      ref={ref}
+      className={`hamburger-menu ${isOpen ? "active" : ""}`}
+      onClick={() => toggleMenu(!isOpen)}
+    >
       <span></span>
       <span></span>
       <span></span>
