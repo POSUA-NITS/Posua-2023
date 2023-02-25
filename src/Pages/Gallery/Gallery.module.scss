@@ -1,0 +1,92 @@
+.container{
+  background-image: url("./background.png");
+
+  .title {
+    width: 29%;
+    height: 30%;
+    margin: auto;
+    padding-top: 3rem;
+
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 101px;
+
+    background: linear-gradient(91.92deg, #7a2400 0.1%, #ebb02a 100.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .para {
+    width: 1216px;
+    height: 180px;
+    margin: auto;
+    margin-top: 3rem;
+
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #433d07;
+  }
+
+  .flowers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .fleft {
+      height: 12rem;
+    }
+    .fright {
+      height: 12rem;
+    }
+  }
+
+  .dhull {
+    height: 11rem;
+    width: 10rem;
+
+    position: absolute;
+    left: 25.08%;
+    top: 20.25%;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .dhulr {
+    height: 11rem;
+    width: 10rem;
+
+    position: absolute;
+    left: 63.92%;
+    top: 20.25%;
+  }
+
+  .face_left {
+    height: 16rem;
+    width: 18rem;
+
+    img {
+      height:32rem;
+      width:20rem;
+
+      position: absolute;
+      left: 0;
+      top: 52rem;
+    }
+  }
+  .face_right {
+
+    img{
+      position: absolute;
+      right: 0;
+      top: 52rem;
+    }
+  }
+}
