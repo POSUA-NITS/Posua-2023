@@ -1,12 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Mousewheel } from "swiper";
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 import { CarouselCard } from "../../Components";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 
 import "./Carousel.scss";
 
@@ -20,24 +22,24 @@ const Carousel = () => {
     <>
       <Swiper
         effect={"coverflow"}
+        navigation={true}
         loop={true}
         centeredSlides={true}
-        slidesPerView={2}
+        slidesPerView={1}
         coverflowEffect={{
           rotate: 0,
-          stretch: 200,
+          stretch: 100,
           depth: 10,
           modifier: 1,
           scale: 0.8,
         }}
-        // breakpoints={{
-        //   640: {
-        //     slidesPerView: 2
-        //   }
-        // }}
-        mousewheel={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 2
+          }
+        }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination, Mousewheel]}
+        modules={[EffectCoverflow, Pagination, Navigation]}
       >
         <SwiperSlide>
           <CarouselCard data={data} />
