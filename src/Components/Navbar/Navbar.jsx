@@ -14,7 +14,7 @@ function Navbarbox({ isOpen }) {
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
           <a
-            href="#"
+            href="/Home"
             className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
               activeButton === "Posua" ? Styles.active : ""
             }`}
@@ -26,7 +26,7 @@ function Navbarbox({ isOpen }) {
           </a>
         </div>
         <a
-          href="#"
+          href="/Events"
           className={`${Styles.EventsButton} ${Styles.navbarButton} ${
             activeButton === "Events" ? Styles.active : ""
           }`}
@@ -36,7 +36,7 @@ function Navbarbox({ isOpen }) {
           Events
         </a>
         <a
-          href="#"
+          href="/Gallery"
           className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
             activeButton === "Gallery" ? Styles.active : ""
           }`}
@@ -46,7 +46,7 @@ function Navbarbox({ isOpen }) {
           Gallery
         </a>
         <a
-          href="#"
+          href="/Teams"
           className={`${Styles.TeamButton} ${Styles.navbarButton} ${
             activeButton === "Team" ? Styles.active : ""
           }`}
@@ -56,7 +56,7 @@ function Navbarbox({ isOpen }) {
           Team
         </a>
         <a
-          href="#"
+          href="Artists"
           className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
             activeButton === "Artist" ? Styles.active : ""
           }`}
@@ -66,7 +66,7 @@ function Navbarbox({ isOpen }) {
           Artist
         </a>
         <a
-          href="#"
+          href="Sponsors"
           className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
             activeButton === "Sponsors" ? Styles.active : ""
           }`}
