@@ -36,6 +36,7 @@
     font-weight: 700;
     background-image: linear-gradient(90deg, #371000 0.1%, #f3b526 90.1%);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,19 +95,26 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .WordingMukha1 {
-    display: none;
-  }
-  .WordingMukha1 h1 {
-    text-align: center;
-  }
+@media only screen and (max-width: 412px) {
+  .containerTeamWordMukha{
+    margin-inline: .5em;
+    padding-bottom: 5em;
 
-  .WordingMukha2 {
-    display: none;
-  }
-
-  .p {
-    top: -106px;
+    .WordingMukha1 {
+      display: none;
+    }
+    .WordingMukha1 h1 {
+      text-align: center;
+    }
+    .WordingMukha2 {
+      display: none;
+    }
+    .WordingTeamPosua > p{
+      font-size: 1.2rem;
+      top: 106px;
+    }
+    .Heading{
+      font-size: 2.7rem;
+    }
   }
 }

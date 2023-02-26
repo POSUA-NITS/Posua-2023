@@ -1,46 +1,67 @@
-.emptyColoredDiv {
-  background-color: red;
-  border-radius: 50%;
-  width: 19.4em;
-  height: 19.2em;
-  justify-content: center;
-  text-align: center;
-  img {
+.containerMemStructure {
+  display: flex;
+  position: static;
+  
+  .teamMemberGrid {
+    align-items: center;
+    // position: relative;
+    height: 580px;
+  }
+  
+  .imageHoldingWrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    // position: absolute;
+
+    .emptyColoredDiv {
+      background-color: red;
+      border-radius: 50%;
+      width: 19.4em;
+      height: 19.2em;
+      justify-content: center;
+      text-align: center;
+      img {
+        position: relative;
+        top: 10px;
+      }
+    }
+  }
+  
+  .LottiesSVG {
     position: relative;
-    top: 10px;
+    bottom: 318px;
+  }
+
+  .gamusa {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 360px;
+    
+    .gamusaWriting {
+      position: relative;
+      bottom: 5.2rem;
+      font-weight: 600;
+      font-family: 'Philosopher', sans-serif;
+    }
   }
 }
 
-.imageHoldingWrapper {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  // position: absolute;
-}
-
-.containerMemStructure {
-  display: flex;
-}
-
-.teamMemberGrid {
-  align-items: center;
-  position: relative;
-  height: 580px;
-}
-
-.LottiesSVG {
-  position: relative;
-  bottom: 318px;
-}
-
-.gamusa {
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  bottom: 360px;
-}
-
-.gamusaWriting {
-  position: relative;
-  bottom: 5.8rem;
+@media (max-width: 420px) {
+  .containerMemStructure{
+    margin-top: -6rem;
+  }
+  .teamMemberGrid{
+    transform: scale(0.8);
+    // position: relative;
+    // right: 60px;
+  }
+  .imageHoldingWrapper{
+    justify-content: left;
+    overflow: hidden;
+  }
+  // .LottiesSVG{
+  //   transform: scale(0.8);
+  // }
 }
