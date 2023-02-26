@@ -4,24 +4,21 @@
   padding-bottom: 50px;
 }
 
+.swiper-slide-next, .swiper-slide-prev {
+  pointer-events: none;
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 500px;
   height: 400px;
-  border: 10px double white;
-  border-color: transparent;
   transition: border 100ms linear !important;
-  border-radius: 20px;
-  &:hover {
-    border-color: #ed1c24;
-    transition: border 2s linear !important;
-  }
 }
 
-@media (width <= 650px) {
+@media (width <= 640px) {
   .swiper-slide {
-    height: 300px;
+    width: 300px;
   }
 }
 

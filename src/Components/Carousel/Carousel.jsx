@@ -21,16 +21,21 @@ const Carousel = () => {
       <Swiper
         effect={"coverflow"}
         loop={true}
-        grabCursor={true}
         centeredSlides={true}
         slidesPerView={2}
         coverflowEffect={{
           rotate: 0,
-          stretch: 80,
+          stretch: 200,
           depth: 10,
           modifier: 1,
           scale: 0.8,
         }}
+        // breakpoints={{
+        //   640: {
+        //     slidesPerView: 2
+        //   }
+        // }}
+        mousewheel={true}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Mousewheel]}
       >
