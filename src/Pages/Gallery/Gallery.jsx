@@ -1,7 +1,10 @@
 import React from "react";
+import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 
 const Gallery = () => {
-  return <div></div>;
+  return <div>
+    <FilmRoll/>
+  </div>;
 };
 
 export default Gallery;
