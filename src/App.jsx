@@ -1,6 +1,6 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { Navbar } from "./Components";
-import { Home } from "./Pages";
+import  Home  from "./Pages/Home/Home";
 import Error from "./Pages/Error/Error";
 import Events from "./Pages/Events/Events";
 import Gallery from "./Pages/Gallery/Gallery";

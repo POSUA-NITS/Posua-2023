@@ -1,12 +1,19 @@
 .swiper {
-  width: 100%;
+  width: 90%;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-top: 4rem;
+  margin-bottom: 15rem;
 }
 
 .swiper-slide-next,
 .swiper-slide-prev {
   pointer-events: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #694105;
+  font-weight: 900;
 }
 
 .swiper-slide {
