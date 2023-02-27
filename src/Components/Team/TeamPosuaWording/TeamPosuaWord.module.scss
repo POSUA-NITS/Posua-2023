@@ -96,8 +96,8 @@
 }
 
 @media only screen and (max-width: 412px) {
-  .containerTeamWordMukha{
-    margin-inline: .5em;
+  .containerTeamWordMukha {
+    margin-inline: 0.5em;
     padding-bottom: 5em;
 
     .WordingMukha1 {
@@ -109,11 +109,11 @@
     .WordingMukha2 {
       display: none;
     }
-    .WordingTeamPosua > p{
+    .WordingTeamPosua > p {
       font-size: 1.2rem;
       top: 106px;
     }
-    .Heading{
+    .Heading {
       font-size: 2.7rem;
     }
   }
