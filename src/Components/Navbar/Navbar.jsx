@@ -14,7 +14,7 @@ function Navbarbox({ isOpen }) {
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
           <a
-            href="/Home"
+            href="/"
             className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
               activeButton === "Posua" ? Styles.active : ""
             }`}
