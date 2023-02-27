@@ -17,8 +17,7 @@ p {
   background-size: cover;
 }
 
-
-.artistdetail{
+.artistdetail {
   width: 80%;
   flex: none;
   order: 1;
@@ -29,16 +28,21 @@ p {
   justify-content: center;
   align-items: center;
   border: 4px solid;
-border-image-source: linear-gradient(91.92deg, #732B0D 0.1%, #A4471B 49.06%, #93560F 100.1%);
-border-image-slice: 1;
-border-radius: 30px !important;
-margin-bottom: 10vw !important;
-  h1{
+  border-image-source: linear-gradient(
+    91.92deg,
+    #732b0d 0.1%,
+    #a4471b 49.06%,
+    #93560f 100.1%
+  );
+  border-image-slice: 1;
+  border-radius: 30px !important;
+  margin-bottom: 10vw !important;
+  h1 {
     text-align: center;
     font-size: 5vw;
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
-    background: linear-gradient(91.92deg, #7A2400 0.1%, #EBB02A 100.1%);
+    background: linear-gradient(91.92deg, #7a2400 0.1%, #ebb02a 100.1%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -47,9 +51,9 @@ margin-bottom: 10vw !important;
   }
 }
 
-.aboutbha{
+.aboutbha {
   padding: 2vw 3.5vw;
-  h3{
+  h3 {
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     font-size: 1.6vw;
@@ -67,7 +71,7 @@ margin-bottom: 10vw !important;
 //   }
 // }
 
-.btnleft{
+.btnleft {
   margin-left: 2vw;
   margin-right: auto;
 }
@@ -302,7 +306,8 @@ margin-bottom: 10vw !important;
   margin: 0 auto;
   transition: 0.25s ease-in-out;
   height: 80%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 70.1%, #000000 100%), url(1620542093122684-0.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 70.1%, #000000 100%),
+    url(1620542093122684-0.jpg);
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 0;
@@ -359,7 +364,7 @@ margin-bottom: 10vw !important;
 
 .flowerholder {
   position: relative;
-overflow: hidden;
+  overflow: hidden;
   // display: flex;
   // justify-content: space-between;
   // width: 100%;

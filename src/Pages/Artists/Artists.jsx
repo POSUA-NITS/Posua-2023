@@ -1,10 +1,10 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import style from "./Artists.module.scss";
 import UpcomingArtists from "./UpcomingArtists";
 import PreviousArtists from "./PreviousArtists";
 const Artists = () => {
   useEffect(() => {
-    document.title = 'Artists | Posua';
+    document.title = "Artists | Posua";
   }, []);
   return (
     <>

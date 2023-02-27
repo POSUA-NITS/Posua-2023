@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
-import posuaLogo from "./PosuaLogo.png";
+import posuaLogo from "./posualogo.png";
 
 function Navbarbox({ isOpen }) {
-  const [activeButton, setActiveButton] = useState("Posua");
+  const [activeButton, setActiveButton] = useState("false");
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -14,7 +14,7 @@ function Navbarbox({ isOpen }) {
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
           <a
-            href="#"
+            href="/Home"
             className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
               activeButton === "Posua" ? Styles.active : ""
             }`}
@@ -26,8 +26,8 @@ function Navbarbox({ isOpen }) {
           </a>
         </div>
         <a
-          href="#"
-          className={`${Styles.navbarButton} ${
+          href="/Events"
+          className={`${Styles.EventsButton} ${Styles.navbarButton} ${
             activeButton === "Events" ? Styles.active : ""
           }`}
           data-btn="Events"
@@ -36,8 +36,8 @@ function Navbarbox({ isOpen }) {
           Events
         </a>
         <a
-          href="#"
-          className={`${Styles.navbarButton} ${
+          href="/Gallery"
+          className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
             activeButton === "Gallery" ? Styles.active : ""
           }`}
           data-btn="Gallery"
@@ -46,8 +46,8 @@ function Navbarbox({ isOpen }) {
           Gallery
         </a>
         <a
-          href="#"
-          className={`${Styles.navbarButton} ${
+          href="/Teams"
+          className={`${Styles.TeamButton} ${Styles.navbarButton} ${
             activeButton === "Team" ? Styles.active : ""
           }`}
           data-btn="Team"
@@ -56,8 +56,8 @@ function Navbarbox({ isOpen }) {
           Team
         </a>
         <a
-          href="#"
-          className={`${Styles.navbarButton} ${
+          href="Artists"
+          className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
             activeButton === "Artist" ? Styles.active : ""
           }`}
           data-btn="Artist"
@@ -66,8 +66,8 @@ function Navbarbox({ isOpen }) {
           Artist
         </a>
         <a
-          href="#"
-          className={`${Styles.navbarButton} ${
+          href="Sponsors"
+          className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
             activeButton === "Sponsors" ? Styles.active : ""
           }`}
           data-btn="Sponsors"
@@ -85,12 +85,9 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
-        const navbar = document.querySelector(".navbarContainer");
-        // const navbar = document.querySelector(".navbar");
-        if (navbar && !navbar.contains(event.target)) {
-          toggleMenu(false);
-        }
+      const isButton = event.target.closest("[data-btn]");
+      if (ref.current && !ref.current.contains(event.target) && isOpen && !isButton) {
+        toggleMenu(false);
       }
     };
 
@@ -99,12 +96,12 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
     return () => {
       window.removeEventListener("click", handleClickOutside);
     };
-  }, [ref, toggleMenu]);
+  }, [ref, isOpen, toggleMenu]);
 
   return (
     <div
       ref={ref}
-      className={`hamburger-menu ${isOpen ? "active" : ""}`}
+      className={`${Styles.hamburgerMenu} ${isOpen ? Styles.active : ""}`}
       onClick={() => toggleMenu(!isOpen)}
     >
       <span></span>
