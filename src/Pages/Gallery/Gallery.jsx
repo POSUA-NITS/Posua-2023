@@ -6,6 +6,7 @@ import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
 import lface from "../../Assets/left_face.png"
 import rface from "../../Assets/right_face.png"
+import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 
 const Gallery = () => {
   return (
