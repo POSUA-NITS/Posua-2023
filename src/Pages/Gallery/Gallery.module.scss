@@ -1,8 +1,7 @@
-.container{
+.container {
   background-image: url("./background.png");
   overflow-x: hidden;
 
-  
   .para {
     width: 72rem;
     height: 15rem;
@@ -39,59 +38,54 @@
         transform: scale(1.4) translateX(180px);
       }
     }
-    
+
     @keyframes phoolRightAnime {
       to {
         transform: scale(1.4) translateX(-180px);
       }
     }
-
   }
 
-  .faces{
+  .faces {
+    .face_left {
+      height: 16rem;
+      width: 18rem;
 
-  .face_left {
-    height: 16rem;
-    width: 18rem;
+      img {
+        height: 28rem;
+        width: 20rem;
 
-    img {
-      height:28rem;
-      width:20rem;
-
-      position: absolute;
-      left: 0;
-      top: 53rem;
+        position: absolute;
+        left: 0;
+        top: 53rem;
+      }
     }
-  }
-  .face_right {
+    .face_right {
+      img {
+        height: 28rem;
+        width: 20rem;
 
-    img{
-      height:28rem;
-      width:20rem;
-
-      position: absolute;
-      right: 0;
-      top: 53rem;
+        position: absolute;
+        right: 0;
+        top: 53rem;
+      }
     }
   }
 }
-}
 
-@media only screen and (max-width: 1200px){
-  .container{
-
-    .header{
+@media only screen and (max-width: 1200px) {
+  .container {
+    .header {
       margin-top: 5rem;
     }
 
-    .para{
+    .para {
       width: 60%;
       font-size: 3vmin;
     }
 
-    .faces{
+    .faces {
       display: none;
     }
   }
-
 }

@@ -4,16 +4,17 @@ import right_flower from "../../Assets/right_flower.png";
 import { Header } from "../../Components/Header/Header";
 import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
-import lface from "../../Assets/left_face.png"
-import rface from "../../Assets/right_face.png"
+import lface from "../../Assets/left_face.png";
+import rface from "../../Assets/right_face.png";
 import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 
 const Gallery = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.header}><Header title="GALLERY"/></div>
-        
-      
+      <div className={styles.header}>
+        <Header title="GALLERY" />
+      </div>
+
       <p className={styles.para}>
         Photographs are memories frozen in time. To cherish the memories made during all
         the editions of Posua, we have collected and immortalised them as photographs. The
@@ -33,13 +34,13 @@ const Gallery = () => {
 
       <div className={styles.faces}>
         <div className={styles.face_left}>
-           <img src={lface} alt="image" />
+          <img src={lface} alt="image" />
         </div>
         <div className={styles.face_right}>
-           <img src={rface} alt="image" />
+          <img src={rface} alt="image" />
         </div>
       </div>
-      <FilmRoll/>
+      <FilmRoll />
     </div>
   );
 };

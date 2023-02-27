@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
-import styles from "./Carousel.module.scss"
+import styles from "./Carousel.module.scss";
 import { CarouselCard, CarouselButton } from "../../Components";
 
 import "swiper/css";
@@ -52,13 +52,14 @@ const Carousel = () => {
   return (
     <>
       <div className={styles.btncont}>
-      {
-        data.map((val, idx) => {
+        {data.map((val, idx) => {
           return (
-            <CarouselButton key={idx} data={{text: val.title, onClick: () => slideTo(idx + 1)}}/>
-          )
-        })
-      }
+            <CarouselButton
+              key={idx}
+              data={{ text: val.title, onClick: () => slideTo(idx + 1) }}
+            />
+          );
+        })}
       </div>
 
       <Swiper
