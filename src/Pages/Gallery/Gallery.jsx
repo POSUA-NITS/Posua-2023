@@ -39,6 +39,7 @@ const Gallery = () => {
            <img src={rface} alt="image" />
         </div>
       </div>
+      <FilmRoll/>
     </div>
   );
 };

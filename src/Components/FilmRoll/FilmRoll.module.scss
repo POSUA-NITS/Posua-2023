@@ -1,16 +1,25 @@
-.enclose {
+.enclose::-webkit-scrollbar {
+    display: none;
+}
 
+.enclose {
+    
     // .box {
-    //     --mask:
-    //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
-    //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
-    //     -webkit-mask: var(--mask);
-    //             mask: var(--mask);
-    //   }
-        width: 90%;
+        //     --mask:
+        //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
+        //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
+        //     -webkit-mask: var(--mask);
+        //             mask: var(--mask);
+        //   }
+        width: 100%;
         overflow-x: scroll;
         scroll-behavior: smooth;
         margin-left: auto;
+        position: relative;
+        
+        .roll::-webkit-scrollbar {
+            display: none;
+        }
 
     .roll {
         display: flex;
@@ -21,6 +30,7 @@
         .oneRoll {
             position: relative;
             width: 80vw;
+            height: fit-content;
 
             .reel {
                 width: 100%;
