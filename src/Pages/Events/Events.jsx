@@ -10,16 +10,12 @@ const Events = () => {
       <Navbar />
 
       <div className={styles.main}>
-        <Header title="EVENTS"/>
+        <Header title="EVENTS" />
         <div className={styles.content}>{data.content}</div>
         <Phool />
         <Carousel />
       </div>
-
-
     </>
-
-
   );
 };
 
