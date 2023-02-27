@@ -1,0 +1,31 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  pointer-events: none;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  transition: border 100ms linear !important;
+}
+
+@media (width <= 640px) {
+  .swiper-slide {
+    width: 300px;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

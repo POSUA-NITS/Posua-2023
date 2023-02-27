@@ -1,0 +1,97 @@
+.container{
+  background-image: url("./background.png");
+  overflow-x: hidden;
+
+  
+  .para {
+    width: 72rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 3rem;
+
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 36px;
+    text-align: center;
+
+    color: #433d07;
+  }
+
+  .flowers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .phol_left {
+      // height: 12rem;
+      animation: phoolLeftAnime ease-in-out 6s 0s infinite;
+      animation-direction: alternate-reverse;
+    }
+    .phol_right {
+      // height: 12rem;
+      animation: phoolRightAnime ease-in-out 6s 0s infinite;
+      animation-direction: alternate-reverse;
+    }
+    @keyframes phoolLeftAnime {
+      to {
+        transform: scale(1.4) translateX(180px);
+      }
+    }
+    
+    @keyframes phoolRightAnime {
+      to {
+        transform: scale(1.4) translateX(-180px);
+      }
+    }
+
+  }
+
+  .faces{
+
+  .face_left {
+    height: 16rem;
+    width: 18rem;
+
+    img {
+      height:28rem;
+      width:20rem;
+
+      position: absolute;
+      left: 0;
+      top: 53rem;
+    }
+  }
+  .face_right {
+
+    img{
+      height:28rem;
+      width:20rem;
+
+      position: absolute;
+      right: 0;
+      top: 53rem;
+    }
+  }
+}
+}
+
+@media only screen and (max-width: 1200px){
+  .container{
+
+    .header{
+      margin-top: 5rem;
+    }
+
+    .para{
+      width: 60%;
+      font-size: 3vmin;
+    }
+
+    .faces{
+      display: none;
+    }
+  }
+
+}

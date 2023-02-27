@@ -35,52 +35,61 @@
         }
       }
       .Card {
-        transition: all 1s ease-in-out;
-        width: 400px;
-        height: 35rem;
-      }
-      .Images {
-        width: 270px;
-        position: absolute;
-        top: 16%;
-        transition: all 1s ease-in-out;
+        width: 26rem;
       }
       .TextForRotation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        position: absolute;
-        bottom: 0.5rem;
-        opacity: 0;
-        transition: all 600ms ease-in-out;
+        opacity: 1;
+      }
+      .Images {
+        transform: scale(1.05);
       }
     }
-  }
-  
-  @media only screen and (max-width: 450px) {
     .Card {
-      width: 300px !important;
-      height: 28rem !important;
+      transition: all 1s ease-in-out;
+      width: 400px;
+      height: 35rem;
     }
     .Images {
-      width: 200px !important;
+      width: 270px;
+      position: absolute;
+      top: 16%;
+      transition: all 1s ease-in-out;
     }
     .TextForRotation {
-      opacity: 1 !important;
-    }
-    .Designation{
-      font-size: 3rem !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      position: absolute;
+      bottom: 0.5rem;
+      opacity: 0;
+      transition: all 600ms ease-in-out;
     }
   }
-  
-  // @media only screen and (max-width: 420px) {
-  
-  // }
-  
-  // @media only screen and (max-width: 360px) {
-  //   .Images {
-  //     left: 17.5% !important;
-  //   }
-  // }
-  
+}
+
+@media only screen and (max-width: 450px) {
+  .Card {
+    width: 300px !important;
+    height: 28rem !important;
+  }
+  .Images {
+    width: 200px !important;
+  }
+  .TextForRotation {
+    opacity: 1 !important;
+  }
+  .Designation {
+    font-size: 3rem !important;
+  }
+}
+
+// @media only screen and (max-width: 420px) {
+
+// }
+
+// @media only screen and (max-width: 360px) {
+//   .Images {
+//     left: 17.5% !important;
+//   }
+// }

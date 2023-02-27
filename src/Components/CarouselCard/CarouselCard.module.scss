@@ -1,8 +1,28 @@
 .main {
+  --carousel-heading-font-size: 3rem;
+  --carousel-content-font-size: 1rem;
+}
+
+@media (width <= 760px) {
+  .main {
+    --carousel-heading-font-size: 1.5rem;
+    --carousel-content-font-size: 0.6rem;
+  }
+}
+
+.main {
   position: relative;
   font-family: var(--posua-font-1);
   height: 100%;
   border-radius: 10px;
+  border: 40px solid;
+  border-image: url("../../Assets/frame.png") 60 round;
+
+  @media screen and (width <= 640px) {
+    border: 30px solid;
+    border-image: url("../../Assets/frame.png") 60 round;
+  }
+
   background-color: var(--posua-bg-1);
   .image {
     height: 100%;
@@ -36,6 +56,14 @@
     .content {
       visibility: hidden;
       margin: 0 1.5rem;
+      font-size: var(--carousel-content-font-size);
+      max-width: 80%;
+      max-height: 60%;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      scrollbar-width: none;
     }
   }
   &:hover .heading {
@@ -62,22 +90,22 @@
 
 @keyframes heading {
   0% {
-    transform: translateY(50%);
-    font-size: 2rem;
+    transform: translateY(70%);
+    font-size: 0.5rem;
     opacity: 0;
   }
   45% {
-    transform: translateY(50%);
+    transform: translateY(70%);
     opacity: 1;
-    font-size: 4rem;
+    font-size: var(--carousel-heading-font-size);
   }
   50% {
-    transform: translateY(50%);
-    font-size: 4rem;
+    transform: translateY(70%);
+    font-size: var(--carousel-heading-font-size);
   }
   100% {
-    transform: translateY(-60%);
-    font-size: 4rem;
+    transform: translateY(-40%);
+    font-size: var(--carousel-heading-font-size);
     opacity: 1;
   }
 }

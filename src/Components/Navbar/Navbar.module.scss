@@ -11,45 +11,64 @@
     max-width: 100%;
     margin: auto;
     height: 62px;
-    display: flex;
     gap: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
   
   .navbarButton {
-    width: 70px;
     font-family: "Philosopher", sans-serif;
     font-size: 20px;
     color: black;
     padding: 10px;
-    transition: font-size 0.2s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
     text-decoration: none;
     text-align: center;
   }
+  .EventsButton{
+    width: 90px;
+  }
+  .GalleryButton{
+    width: 91.7px;
+  }
+  .TeamButton{
+    width: 75px;
+  }
+  .ArtistButton{
+    width: 78px;
+  }
+  .SponsorsButton{
+    width: 109.3px;
+  }
   
   .posuaButton {
-    width: 9vw;
+    width: 131px;
     font-family: "Philosopher", sans-serif;
-    padding: 10px 30px;
-    transition: font-size 0.2s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
     text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: none;
-    padding: 0;
-    background-color: transparent;
+    background: linear-gradient(to right, #6f360d, #ffa500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+  }
+  .posualogo {
+    height: 25px;
+    width: 25px;
+    transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
   }
   .navbarButton:hover,
   .navbarButton.active {
-    font-size: 25px;
+    font-size: 23px;
   }
   .posuaButton:hover,
   .posuaButton.active {
-    font-size: 32px;
+    font-size: 30px;
   }
   .posuaButton:hover .posualogo,
   .posuaButton.active .posualogo {
@@ -57,13 +76,17 @@
     height: 28px;
     width: 28px;
   }
-  .navbar-container.active {
-    display: flex;
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
   .hamburgerMenu {
     left: 0%;
-    top: 10px;
-    position: absolute;
+    position: fixed;
     display: none;
     cursor: pointer;
     padding: 25px;
@@ -72,57 +95,67 @@
   }
   
   .hamburgerMenu span {
-  .hamburger-menu {
     display: block;
+    width: 100%;
+    height: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #9d5018, #ffa500);
+    transition: all 0.2s ease;
   }
   @media screen and (max-width: 768px) {
     .navbarContainer {
     flex-direction: column;
-    gap:2em;
+    gap: 2em;
     height: 100%;
     position: absolute;
     left: -100%;
     opacity: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
     transition: all 0.5s ease;
     z-index: 1;
     width: 75%;
-    }
-    
-    .navbarContainer.active {
-     background-color: rgba(153, 76, 22, 0.2);
-     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .navbarContainer.active {
+    background-color: rgba(153, 76, 22, 0.2);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1em);
     left: 0;
+    top: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    }
-    
-    .navbarButton {
+  }
+
+  .navbarButton {
     width: 100%;
-    }
-    
-    .posuaButton {
+  }
+
+  .posuaButton {
     width: 100%;
-    }
-    
-    .hamburgerMenu {
+  }
+
+  .hamburgerMenu {
     display: block;
-    }
-    
-    .hamburgerMenu span {
+  }
+
+  .hamburgerMenu span {
     display: block;
     transition: all 0.3s ease-in-out;
-    }
-    
-    .hamburgerMenu.active span:nth-child(1) {
-    transform: rotate(45deg) translate(9px, 5px);
-    }
-    
-    .hamburgerMenu.active span:nth-child(2) {
-    opacity: 0;
-    }
-    
-    .hamburgerMenu.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(9px, -5px);
-    }
-    }
   }
+
+  .hamburgerMenu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(9px, 5px);
+  }
+
+  .hamburgerMenu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburgerMenu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(9px, -5px);
+  }
+}
+
