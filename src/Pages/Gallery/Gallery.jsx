@@ -1,5 +1,5 @@
 import styles from "./Gallery.module.scss";
-import left_flower from "../../Assets/Left_flower.png";
+import left_flower from "../../Assets/flowerbrown.png";
 import right_flower from "../../Assets/right_flower.png";
 import { Header } from "../../Components/Header/Header";
 import Lottie from "react-lottie-player";
@@ -10,7 +10,8 @@ import rface from "../../Assets/right_face.png"
 const Gallery = () => {
   return (
     <div className={styles.container}>
-        <Header title="GALLERY"/>
+      <div className={styles.header}><Header title="GALLERY"/></div>
+        
       
       <p className={styles.para}>
         Photographs are memories frozen in time. To cherish the memories made during all
@@ -21,10 +22,10 @@ const Gallery = () => {
       </p>
 
       <div className={styles.flowers}>
-        <div className={styles.fleft}>
+        <div className={styles.phol_left}>
           <img src={left_flower} alt="image" />
         </div>
-        <div className={styles.fright}>
+        <div className={styles.phol_right}>
           <img src={right_flower} alt="image" />
         </div>
       </div>

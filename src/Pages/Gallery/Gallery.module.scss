@@ -1,17 +1,18 @@
 .container{
   background-image: url("./background.png");
+  overflow-x: hidden;
 
   
   .para {
-    width: 1216px;
-    height: 180px;
+    width: 72rem;
+    height: 15rem;
     margin: auto;
     margin-top: 3rem;
 
     font-family: "Philosopher";
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 1.8rem;
     line-height: 36px;
     text-align: center;
 
@@ -21,55 +22,76 @@
   .flowers {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
-    .fleft {
-      height: 12rem;
+    .phol_left {
+      // height: 12rem;
+      animation: phoolLeftAnime ease-in-out 6s 0s infinite;
+      animation-direction: alternate-reverse;
     }
-    .fright {
-      height: 12rem;
+    .phol_right {
+      // height: 12rem;
+      animation: phoolRightAnime ease-in-out 6s 0s infinite;
+      animation-direction: alternate-reverse;
     }
+    @keyframes phoolLeftAnime {
+      to {
+        transform: scale(1.4) translateX(180px);
+      }
+    }
+    
+    @keyframes phoolRightAnime {
+      to {
+        transform: scale(1.4) translateX(-180px);
+      }
+    }
+
   }
 
-  .dhull {
-    height: 11rem;
-    width: 10rem;
-
-    position: absolute;
-    left: 25.08%;
-    top: 20.25%;
-
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-  }
-
-  .dhulr {
-    height: 11rem;
-    width: 10rem;
-
-    position: absolute;
-    left: 63.92%;
-    top: 20.25%;
-  }
+  .faces{
 
   .face_left {
     height: 16rem;
     width: 18rem;
 
     img {
-      height:32rem;
+      height:28rem;
       width:20rem;
 
       position: absolute;
       left: 0;
-      top: 52rem;
+      top: 53rem;
     }
   }
   .face_right {
 
     img{
+      height:28rem;
+      width:20rem;
+
       position: absolute;
       right: 0;
-      top: 52rem;
+      top: 53rem;
     }
   }
+}
+}
+
+@media only screen and (max-width: 1200px){
+  .container{
+
+    .header{
+      margin-top: 5rem;
+    }
+
+    .para{
+      width: 60%;
+      font-size: 3vmin;
+    }
+
+    .faces{
+      display: none;
+    }
+  }
+
 }
