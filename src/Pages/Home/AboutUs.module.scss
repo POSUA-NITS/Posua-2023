@@ -1,0 +1,54 @@
+.aboutUs {
+  display: flex;
+}
+.cameraWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.camera {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.AboutUsfilm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.film {
+  position: absolute;
+  width: 80%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.AboutUsContent {
+  padding: 20% 20% 35% 23%;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content {
+    width: fit-content;
+  height: 100%;
+  font-size: 100%;
+}
