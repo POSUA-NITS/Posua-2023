@@ -12,57 +12,97 @@
     font-family: "Philosopher";
     font-weight: 700;
   }
+
   .sliderDiv {
+    outline: none;
     position: relative;
     display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
     &:hover {
       .Card {
-        height: 35rem;
-        width: 27rem;
+        width: 26rem;
       }
+
       .TextForRotation {
         opacity: 1;
       }
+
       .Images {
         transform: scale(1.05);
       }
     }
+
     .Card {
       transition: all 1s ease-in-out;
       width: 400px;
-      height: 33rem;
+      height: 35rem;
     }
+
     .Images {
       width: 270px;
       position: absolute;
       top: 16%;
       transition: all 1s ease-in-out;
     }
+
     .TextForRotation {
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 2rem;
       position: absolute;
-      bottom: 0.1rem;
+      bottom: 0.5rem;
       opacity: 0;
-      transition: all 450ms ease-in-out;
+      transition: all 600ms ease-in-out;
     }
   }
+
+  .Card {
+    transition: all 1s ease-in-out;
+    width: 400px;
+    height: 33rem;
+  }
+
+  .Images {
+    width: 270px;
+    position: absolute;
+    top: 16%;
+    transition: all 1s ease-in-out;
+  }
+
+  .TextForRotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0.1rem;
+    opacity: 0;
+    transition: all 450ms ease-in-out;
+  }
+
+  .Designation {
+    font-size: 3rem !important;
+  }
 }
+
 
 @media only screen and (max-width: 450px) {
   .Card {
     width: 300px !important;
     height: 28rem !important;
   }
+
   .Images {
     width: 200px !important;
   }
+
   .TextForRotation {
     opacity: 1 !important;
   }
