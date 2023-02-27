@@ -1,6 +1,7 @@
 import styles from "./Gallery.module.scss";
 import left_flower from "../../Assets/Left_flower.png";
 import right_flower from "../../Assets/right_flower.png";
+import { Header } from "../../Components/Header/Header";
 import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
 import lface from "../../Assets/left_face.png"
@@ -9,23 +10,8 @@ import rface from "../../Assets/right_face.png"
 const Gallery = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.dhull}>
-        <Lottie
-          loop
-          animationData={lottieJson}
-          play
-          style={{ width: 190, height: 170 }}
-        />
-      </div>
-      <div className={styles.title}>GALLERY</div>
-      <div className={styles.dhulr}>
-        <Lottie
-          loop
-          animationData={lottieJson}
-          play
-          style={{ width: 190, height: 170 }}
-        />
-      </div>
+        <Header title="GALLERY"/>
+      
       <p className={styles.para}>
         Photographs are memories frozen in time. To cherish the memories made during all
         the editions of Posua, we have collected and immortalised them as photographs. The

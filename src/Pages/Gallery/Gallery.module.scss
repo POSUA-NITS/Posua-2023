@@ -1,24 +1,7 @@
 .container{
   background-image: url("./background.png");
 
-  .title {
-    width: 29%;
-    height: 30%;
-    margin: auto;
-    padding-top: 3rem;
-
-    font-family: "Philosopher";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 6rem;
-    line-height: 101px;
-
-    background: linear-gradient(91.92deg, #7a2400 0.1%, #ebb02a 100.1%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
+  
   .para {
     width: 1216px;
     height: 180px;
