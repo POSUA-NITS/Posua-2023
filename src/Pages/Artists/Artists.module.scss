@@ -1,4 +1,10 @@
-.artists {
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.artists, .modalartist{
   background: url("../../Assets/Artists/bg-artists.jfif");
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +45,7 @@
     animation-name: animatebgred;
     animation-duration: 2.5s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
@@ -59,7 +65,7 @@
   animation-name: animatetabla;
   animation-duration: 2.5s;
   animation-timing-function: linear;
-  animation-delay: 2s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
@@ -78,7 +84,7 @@
     animation-name: animategamcha;
     animation-duration: 2.5s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
@@ -99,7 +105,7 @@
     animation-name: animateflute;
     animation-duration: 2.5s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
@@ -148,6 +154,21 @@
   transform: rotateY(180deg);
 }
 
+.modell{
+
+  background: url("../../Assets/Artists/bg-artists.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 2;
+  margin: 0 auto;
+  height: 80%;
+}
 .artismainh1 {
   font-size: 5.2vw;
   font-family: "Philosopher", sans-serif;
@@ -158,9 +179,18 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  animation: textcolorchange ease-in-out 2.5s 0s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes textcolorchange{
+  to{
+    background-image:linear-gradient(#ebb02a 10.1%,31.92deg )
+  }
 }
 
 .indicard {
+  cursor: pointer;
   width: 40%;
   height: 42vw;
   background: rgba(242, 238, 227, 1);
@@ -186,7 +216,7 @@
   height: 100%;
   width: 10%;
   transition: 0.25s ease-in-out;
-  // transform: scaleY(1.1);
+  transform: scaleY(1.1);
 }
 
 .rightcardimg {
@@ -196,46 +226,48 @@
   height: 100%;
   transition: 0.25s ease-in-out;
   width: 10%;
+  transform: scaleY(1.1);
 }
 
 .artistpic {
   position: absolute;
   top: 12%;
-  left: 15%;
-  right: 15%;
+  left: 7%;
+  right: 7%;
   bottom: 12%;
-  width: 70%;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
   transition: 0.25s ease-in-out;
-  height: 65%;
+  height: 70%;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0rem;
+}
+
+.artistdetails{
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  top: 60%;
+ padding-left: 15%;
 }
 
 .artistname {
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -87%);
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-family: "Philosopher", sans-serif;
-  font-weight: 700;
-  //    background-image: rgba(0, 0, 0, 1);
-  color: rgba(0, 0, 0, 1);
-  //    background-size: 100%;
-  //    -webkit-background-clip: text;
-  //    -moz-background-clip: text;
-  //    -webkit-text-fill-color: transparent;
-  //    -moz-text-fill-color: transparent;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
 }
 
 .artistwork {
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -95%);
+  margin-top: 1vw;
   h3 {
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     font-family: "Philosopher", sans-serif;
-    font-weight: 700;
-    color: rgba(237, 28, 36, 1);
+    font-weight: 500;
+    color: whitesmoke;
   }
 }
 
@@ -252,7 +284,7 @@
 }
 
 .indicard:hover .artistpic {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .allupcomingcard {
@@ -265,22 +297,57 @@
 .flowerholder {
   position: relative;
   // overflow-x: hidden;
+  // display: flex;
+  // justify-content: space-between;
+  // width: 100%;
 }
 
 .leftflower {
   // position: absolute;
   // left: -2%;
+  // display: block;
   width: 40%;
   object-fit: contain;
+  // transform: scale(0.7);
+  animation: leftflwr ease-in-out 3s 0s infinite;
+  animation-direction: alternate-reverse;
 }
 
 .rightflower {
   position: absolute;
+  // display: block;
   right: 0;
+// overflow: hidden;
   transform: scaleX(-1);
   width: 40%;
   object-fit: contain;
+  // animation: phoolRightAnime ease-in-out 3s 0s infinite;
+  animation-direction: alternate-reverse;
 }
+@keyframes phoolRightAnime {
+  to {
+    transform: scale(1.1) translateX(-90px) ;
+  }
+}
+.btmartist{
+  background: rgba(0, 0, 0, 0.4);
+}
+@keyframes leftflwr {
+  to {
+    transform: scale(1.1) translateX(-90px);
+  }
+}
+
+@keyframes rightflwr {
+  // from{
+  //   transform: scaleX(-1);
+  // }
+  to {
+    transform:scale(1.1)  translateX(+90px);
+  }
+}
+
+
 
 // .previosucont{
 //     padding-top: 3vw;
@@ -320,7 +387,7 @@
 }
 
 .indicardpast:hover .artistpic {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #left {
@@ -349,6 +416,10 @@
   to {
     transform: rotate(20deg);
   }
+}
+
+#nobghead{
+  background-image: none !important;
 }
 
 @media only screen and (max-width: 600px) {
