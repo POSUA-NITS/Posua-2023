@@ -1,14 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 .artists,
 .artistdetail {
   background: url("../../Assets/Artists/bg-artists.jfif");
@@ -16,6 +5,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .artistdetail {
   width: 80%;
@@ -27,16 +17,15 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 4px solid;
+  border: 4px solid ;
   border-image-source: linear-gradient(
     91.92deg,
     #732b0d 0.1%,
     #a4471b 49.06%,
-    #93560f 100.1%
-  );
+    #93560f 100.1%);
   border-image-slice: 1;
   border-radius: 30px !important;
-  margin-bottom: 10vw !important;
+  padding-bottom: 5vw !important;
   h1 {
     text-align: center;
     font-size: 5vw;
@@ -49,6 +38,13 @@ p {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
   }
+}
+
+.imgcross{
+  width: 40%;
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
 }
 
 .aboutbha {
@@ -74,6 +70,9 @@ p {
 .btnleft {
   margin-left: 2vw;
   margin-right: auto;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .artistsmain {
@@ -82,6 +81,7 @@ p {
   padding-top: 7vw;
   padding-bottom: 7vw;
   text-align: center;
+  user-select: none;
 }
 
 .titleholderartist {
@@ -106,8 +106,8 @@ p {
   width: 20%;
   height: 100%;
   img {
-    width: 100%;
-    height: 100%;
+    width: 105%;
+    height: 80%;
     transform: scaleX(1.5);
     animation-name: animatebgred;
     animation-duration: 2.5s;
@@ -126,8 +126,8 @@ p {
   width: 17%;
   height: 100%;
   img {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 80%;
   }
   animation-name: animatetabla;
   animation-duration: 2.5s;
@@ -147,7 +147,7 @@ p {
   height: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     animation-name: animategamcha;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -161,14 +161,14 @@ p {
   position: absolute;
   z-index: 4;
   left: 0;
-  top: 50%;
+  top: 40%;
   left: 13%;
   transform: scaleX(-1);
   width: 25%;
   height: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     animation-name: animateflute;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -185,7 +185,7 @@ p {
   }
 
   to {
-    transform: scaleX(1.7);
+    transform: scaleX(1.8);
   }
 }
 
@@ -236,6 +236,8 @@ p {
   height: 80%;
 }
 .artismainh1 {
+  margin: 0;
+  padding: 0;
   font-size: 5.2vw;
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
@@ -308,8 +310,8 @@ p {
   height: 80%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 70.1%, #000000 100%),
     url(1620542093122684-0.jpg);
-  border-top-right-radius: 2rem;
-  border-top-left-radius: 2rem;
+  border-top-right-radius: 3vw;
+  border-top-left-radius: 3vw;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0rem;
 }
@@ -425,6 +427,7 @@ p {
   order: 1;
   margin-top: 8vw;
   margin-bottom: 8vw;
+  cursor: pointer;
   position: relative;
 }
 
@@ -476,7 +479,16 @@ p {
   background-image: none !important;
 }
 
+.cross{
+  font-size: 100vw;
+}
+
 @media only screen and (max-width: 600px) {
+  .artistsmain{
+    padding-top: 30vw;
+  }
+
+ 
   .main {
     width: 50px;
     height: 50px;
@@ -499,15 +511,95 @@ p {
     }
   }
 }
-
+// @media screen and (min-width:660px){
+//   .tlebr{
+//     display: none;
+//   }
+// }
 @media only screen and (max-width: 660px) {
-  .indicard {
-    width: 45%;
-    height: 60vw;
+  .artistsmain{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
-  .indicardpast {
-    width: 45%;
-    height: 60vw;
+  // .titleholderartist{
+  //   display: flex;
+  // }
+
+  .artismainh1{
+    font-size: 9.3vw;
   }
+
+  .artistdetail h1{
+    margin-bottom: 6vw;
+  }
+
+  .imgcross{
+    width: 20%;
+    object-fit: contain;
+  }
+
+  .btnleft{
+    margin-left: 5%;
+    text-align: left;
+    margin-bottom: 5vw;
+  }
+
+  .aboutbha h3{
+    font-size: 4vw;
+  }
+
+  .allupcomingcard, .allpreviouscard {
+    width: 100%;
+    // margin: 4vw auto 12vw auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .indicard,.indicardpast {
+    cursor: pointer;
+    width: 80%;
+    height: 85vw;
+    margin: 12vw auto;
+    background: rgba(242, 238, 227, 1);
+    border-radius: 0.225rem;
+    flex: none;
+    order: 1;
+    position: relative;
+  }
+
+  .artistpic{
+    border-top-right-radius: 6vw;
+    border-top-left-radius: 6vw;
+  }
+
+  .artistname{
+    font-size: 7vw;
+  }
+
+  .artistwork{
+    margin-top: 2vw;
+    h3{
+      font-size: 6vw;
+    }
+  }
+
+  .artistdetail{
+    margin: 10vw auto 0 auto!important;
+    padding-bottom: 10vw !important;
+  }
+ 
+  #pastpptt{
+    padding-top: 20vw !important;
+  }
+
+  .artistdetail h1{
+    font-size: 7vw;
+  }
+
+
+  // .artistsmain{
+  //   display: none;
+  // }
 }
