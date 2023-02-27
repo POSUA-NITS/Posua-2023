@@ -1,9 +1,9 @@
-import React from 'react'
-import style from '../../Pages/Artists/Artists.module.scss'
+import React from "react";
+import style from "../../Pages/Artists/Artists.module.scss";
 const Title = (props) => {
   return (
-   <>
-    <div className={style.artistsmain}>
+    <>
+      <div className={style.artistsmain}>
         <div className={style.animateposua}>
           <div className={style.redbg}>
             <img
@@ -68,8 +68,8 @@ const Title = (props) => {
           </div>
         </div>
       </div>
-   </>
-  )
-}
+    </>
+  );
+};
 
-export default Title
+export default Title;

@@ -9,7 +9,7 @@ const Events = () => {
   return (
     <div className={styles.main}>
       <Header title="EVENTS" />
-{/* <Title headtitle="EVENTS" /> */}
+      {/* <Title headtitle="EVENTS" /> */}
       <div className={styles.phoolTema}>
         <img id={styles.phoolRight} src="src/Assets/flowerbrown.png" alt="" />
         <img id={styles.phoolLeft} src="src/assets/flower.png" alt="" />

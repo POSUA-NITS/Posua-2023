@@ -6,7 +6,6 @@
   background-size: cover;
 }
 
-
 .artistdetail {
   width: 80%;
   flex: none;
@@ -17,12 +16,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 4px solid ;
+  border: 4px solid;
   border-image-source: linear-gradient(
     91.92deg,
     #732b0d 0.1%,
     #a4471b 49.06%,
-    #93560f 100.1%);
+    #93560f 100.1%
+  );
   border-image-slice: 1;
   border-radius: 30px !important;
   padding-bottom: 5vw !important;
@@ -40,7 +40,7 @@
   }
 }
 
-.imgcross{
+.imgcross {
   width: 40%;
   pointer-events: none;
   user-select: none;
@@ -479,16 +479,15 @@
   background-image: none !important;
 }
 
-.cross{
+.cross {
   font-size: 100vw;
 }
 
 @media only screen and (max-width: 600px) {
-  .artistsmain{
+  .artistsmain {
     padding-top: 30vw;
   }
 
- 
   .main {
     width: 50px;
     height: 50px;
@@ -517,7 +516,7 @@
 //   }
 // }
 @media only screen and (max-width: 660px) {
-  .artistsmain{
+  .artistsmain {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -526,30 +525,31 @@
   //   display: flex;
   // }
 
-  .artismainh1{
+  .artismainh1 {
     font-size: 9.3vw;
   }
 
-  .artistdetail h1{
+  .artistdetail h1 {
     margin-bottom: 6vw;
   }
 
-  .imgcross{
+  .imgcross {
     width: 20%;
     object-fit: contain;
   }
 
-  .btnleft{
+  .btnleft {
     margin-left: 5%;
     text-align: left;
     margin-bottom: 5vw;
   }
 
-  .aboutbha h3{
+  .aboutbha h3 {
     font-size: 4vw;
   }
 
-  .allupcomingcard, .allpreviouscard {
+  .allupcomingcard,
+  .allpreviouscard {
     width: 100%;
     // margin: 4vw auto 12vw auto;
     display: flex;
@@ -557,7 +557,8 @@
     flex-wrap: wrap;
   }
 
-  .indicard,.indicardpast {
+  .indicard,
+  .indicardpast {
     cursor: pointer;
     width: 80%;
     height: 85vw;
@@ -569,35 +570,34 @@
     position: relative;
   }
 
-  .artistpic{
+  .artistpic {
     border-top-right-radius: 6vw;
     border-top-left-radius: 6vw;
   }
 
-  .artistname{
+  .artistname {
     font-size: 7vw;
   }
 
-  .artistwork{
+  .artistwork {
     margin-top: 2vw;
-    h3{
+    h3 {
       font-size: 6vw;
     }
   }
 
-  .artistdetail{
-    margin: 10vw auto 0 auto!important;
+  .artistdetail {
+    margin: 10vw auto 0 auto !important;
     padding-bottom: 10vw !important;
   }
- 
-  #pastpptt{
+
+  #pastpptt {
     padding-top: 20vw !important;
   }
 
-  .artistdetail h1{
+  .artistdetail h1 {
     font-size: 7vw;
   }
-
 
   // .artistsmain{
   //   display: none;

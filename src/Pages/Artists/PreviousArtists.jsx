@@ -6,7 +6,9 @@ import rightcardpart from "../../Assets/Artists/right-card-part-removebg.png";
 import Title from "../../Components/Title/Title";
 const PreviousArtists = () => {
   const [togglepast, setTogglepast] = useState(true);
-  {/* artist1*/ }
+  {
+    /* artist1*/
+  }
   const [togglePa1, setTogglePa1] = useState(false);
   function handleShowpa1() {
     setTogglepast(!togglepast);
@@ -16,9 +18,13 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa1(!togglePa1);
   }
-  {/* artist1*/ }
+  {
+    /* artist1*/
+  }
 
-  {/* artist2*/ }
+  {
+    /* artist2*/
+  }
   const [togglePa2, setTogglePa2] = useState(false);
   function handleShowpa2() {
     setTogglepast(!togglepast);
@@ -28,9 +34,13 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa2(!togglePa2);
   }
-  {/* artist2*/ }
+  {
+    /* artist2*/
+  }
 
-  {/* artist3*/ }
+  {
+    /* artist3*/
+  }
   const [togglePa3, setTogglePa3] = useState(false);
   function handleShowpa3() {
     setTogglepast(!togglepast);
@@ -40,9 +50,13 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa3(!togglePa3);
   }
-  {/* artist3*/ }
+  {
+    /* artist3*/
+  }
 
-  {/* artist4*/ }
+  {
+    /* artist4*/
+  }
   const [togglePa4, setTogglePa4] = useState(false);
   function handleShowpa4() {
     setTogglepast(!togglepast);
@@ -52,9 +66,13 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa4(!togglePa4);
   }
-  {/* artist4*/ }
+  {
+    /* artist4*/
+  }
 
-  {/* artist5*/ }
+  {
+    /* artist5*/
+  }
   const [togglePa5, setTogglePa5] = useState(false);
   function handleShowpa5() {
     setTogglepast(!togglepast);
@@ -64,9 +82,13 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa5(!togglePa5);
   }
-  {/* artist5*/ }
+  {
+    /* artist5*/
+  }
 
-  {/* artist6*/ }
+  {
+    /* artist6*/
+  }
   const [togglePa6, setTogglePa6] = useState(false);
   function handleShowpa6() {
     setTogglepast(!togglepast);
@@ -76,7 +98,9 @@ const PreviousArtists = () => {
     setTogglepast(!togglepast);
     setTogglePa6(!togglePa6);
   }
-  {/* artist6*/ }
+  {
+    /* artist6*/
+  }
   return (
     <>
       <Title headtitle="PREVIOUS ARTISTS" />
@@ -85,21 +109,20 @@ const PreviousArtists = () => {
       </div> */}
       {togglepast && (
         <div className={style.allpreviouscard}>
-
           {/*artist1 */}
-          <div className={style.indicardpast} onClick={handleShowpa1} >
+          <div className={style.indicardpast} onClick={handleShowpa1}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -114,19 +137,19 @@ const PreviousArtists = () => {
           </div>
           {/*artist1 */}
           {/*artist2 */}
-          <div className={style.indicardpast} onClick={handleShowpa2} >
+          <div className={style.indicardpast} onClick={handleShowpa2}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -142,19 +165,19 @@ const PreviousArtists = () => {
           {/*artist2 */}
 
           {/*artist3 */}
-          <div className={style.indicardpast} onClick={handleShowpa3} >
+          <div className={style.indicardpast} onClick={handleShowpa3}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -177,12 +200,12 @@ const PreviousArtists = () => {
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -198,19 +221,19 @@ const PreviousArtists = () => {
           {/*artist4 */}
 
           {/*artis5 */}
-          <div className={style.indicardpast} onClick={handleShowpa5} >
+          <div className={style.indicardpast} onClick={handleShowpa5}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
-              (e.currentTarget.src =
-                "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -231,18 +254,18 @@ const PreviousArtists = () => {
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
             <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
-                onMouseOver={(e) =>
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              onMouseOver={(e) =>
                 (e.currentTarget.src =
                   "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
-                }
-                onMouseOut={(e) =>
+              }
+              onMouseOut={(e) =>
                 (e.currentTarget.src =
                   "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
-                }
-                className={style.artistpic}
-                alt=""
-              />
+              }
+              className={style.artistpic}
+              alt=""
+            />
             <div className={style.artistdetails}>
               <h2 className={style.artistname}>Past Artist1</h2>
               <div className={style.artistwork}>
@@ -252,24 +275,27 @@ const PreviousArtists = () => {
             <div className={style.btmartist}> </div>
           </div>
           {/*artist6 */}
-
         </div>
       )}
 
       {/*artist detail1*/}
       {togglePa1 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa1} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa1}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast1</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast0, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast0, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
@@ -288,17 +314,21 @@ const PreviousArtists = () => {
 
       {togglePa2 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa2} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa2}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast2</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
@@ -317,17 +347,21 @@ const PreviousArtists = () => {
 
       {togglePa3 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa3} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa3}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast2</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
@@ -346,17 +380,21 @@ const PreviousArtists = () => {
 
       {togglePa4 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa4} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa4}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast2</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
@@ -375,17 +413,21 @@ const PreviousArtists = () => {
 
       {togglePa5 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa5} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa5}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast2</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast2, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
@@ -404,17 +446,21 @@ const PreviousArtists = () => {
 
       {togglePa6 && (
         <div className={style.artistdetail}>
-          <button className={style.btnleft} onClick={handleHidepa6} >
-            <img className={style.imgcross} src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png" alt="" />
+          <button className={style.btnleft} onClick={handleHidepa6}>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharalipast6</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              POSUAPast6, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
+              POSUAPast6, the spring fest of NIT Silchar, spreads out exuberance all
+              around with the arrival of spring rejuvenating the land. This ecstatic
+              grandeur lets us enliven the beauteous culture of the land of Assam with
+              joyful activities bringing out the heritages and indispensable indigenous
               traditions. In this perfect period, POSUA brings a plethora of events to
               celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
               Silchar, spreads out exuberance all around with the arrival of spring
