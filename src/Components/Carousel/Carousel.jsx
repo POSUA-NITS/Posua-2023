@@ -9,7 +9,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-
 import "./Carousel.scss";
 
 const Carousel = () => {
@@ -35,8 +34,8 @@ const Carousel = () => {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 2
-          }
+            slidesPerView: 2,
+          },
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
