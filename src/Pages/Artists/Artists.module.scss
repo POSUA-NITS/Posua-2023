@@ -1,10 +1,16 @@
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
 
-
-.artists, .modalartist{
+.artists,
+.modalartist {
   background: url("../../Assets/Artists/bg-artists.jfif");
   background-position: center;
   background-repeat: no-repeat;
@@ -154,8 +160,7 @@ h1,h2,h3,h4,h5,h6,p{
   transform: rotateY(180deg);
 }
 
-.modell{
-
+.modell {
   background: url("../../Assets/Artists/bg-artists.jfif");
   background-position: center;
   background-repeat: no-repeat;
@@ -183,9 +188,9 @@ h1,h2,h3,h4,h5,h6,p{
   animation-direction: alternate-reverse;
 }
 
-@keyframes textcolorchange{
-  to{
-    background-image:linear-gradient(#ebb02a 10.1%,31.92deg )
+@keyframes textcolorchange {
+  to {
+    background-image: linear-gradient(#ebb02a 10.1%, 31.92deg);
   }
 }
 
@@ -246,12 +251,12 @@ h1,h2,h3,h4,h5,h6,p{
   border-bottom-right-radius: 0rem;
 }
 
-.artistdetails{
+.artistdetails {
   width: 100%;
   text-align: left;
   position: absolute;
   top: 60%;
- padding-left: 15%;
+  padding-left: 15%;
 }
 
 .artistname {
@@ -317,7 +322,7 @@ h1,h2,h3,h4,h5,h6,p{
   position: absolute;
   // display: block;
   right: 0;
-// overflow: hidden;
+  // overflow: hidden;
   transform: scaleX(-1);
   width: 40%;
   object-fit: contain;
@@ -326,10 +331,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
 @keyframes phoolRightAnime {
   to {
-    transform: scale(1.1) translateX(-90px) ;
+    transform: scale(1.1) translateX(-90px);
   }
 }
-.btmartist{
+.btmartist {
   background: rgba(0, 0, 0, 0.4);
 }
 @keyframes leftflwr {
@@ -343,11 +348,9 @@ h1,h2,h3,h4,h5,h6,p{
   //   transform: scaleX(-1);
   // }
   to {
-    transform:scale(1.1)  translateX(+90px);
+    transform: scale(1.1) translateX(+90px);
   }
 }
-
-
 
 // .previosucont{
 //     padding-top: 3vw;
@@ -418,7 +421,7 @@ h1,h2,h3,h4,h5,h6,p{
   }
 }
 
-#nobghead{
+#nobghead {
   background-image: none !important;
 }
 

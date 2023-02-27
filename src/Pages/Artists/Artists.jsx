@@ -16,8 +16,8 @@ const Artists = () => {
   return (
     <>
       <div className={style.artists}>
-       <UpcomingArtists />
-       <PreviousArtists />
+        <UpcomingArtists />
+        <PreviousArtists />
       </div>
     </>
   );
