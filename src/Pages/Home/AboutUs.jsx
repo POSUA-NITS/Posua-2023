@@ -11,7 +11,7 @@ const AboutUs = () => {
       </div>
       <div className={styles.AboutUsfilm}>
         <div className={styles.AboutUsContent}>
-          <h1>About Us</h1>
+          <h2 className={styles.AboutUsHeader}>About Us</h2>
           <div className={styles.content}>{data.content}</div>
         </div>
         <img src={film} alt="flim" className={styles.film}></img>

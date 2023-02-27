@@ -31,7 +31,7 @@
 
 .film {
   position: absolute;
-  width: 80%;
+  width: 90%;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -39,16 +39,50 @@
   max-height: 100%;
 }
 .AboutUsContent {
-  padding: 20% 20% 35% 23%;
+  padding: 20% 16% 35% 19.5%;
   text-align: center;
   width: 90%;
+  gap: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+.AboutUsHeader{
+  font-family: "Philosopher", sans-serif;
+  font-size: 9vmin;
+  font-weight: bold;
+  margin-top: -4rem;
+  background: linear-gradient(to right, #7a2400, #ebb02a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .content {
     width: fit-content;
   height: 100%;
-  font-size: 100%;
+  font-size: 2.5vmin;
 }
+@media screen and (max-width: 600px){
+.cameraWrap{
+  display: none;
+}
+.AboutUsfilm{
+  overflow-x: clip;
+  margin-top: 4em;
+  width: 100%;
+  height: 100vh;
+  margin-right: 3.5%;
+}
+.AboutUsContent{
+  gap: 0.5em;
+  width: 100%;
+}
+.AboutUsHeader{
+  margin-top: -7rem;
+}
+.film{
+  width: 100%;
+  height: 100vh;
+}
+}
+    
