@@ -1,9 +1,9 @@
-import React, {useState, useEffect, useRef} from "react";
-import Styles from"./Navbar.module.scss";
-import posuaLogo from "./PosuaLogo.png";
+import React, { useState, useEffect, useRef } from "react";
+import Styles from "./Navbar.module.scss";
+import posuaLogo from "./posualogo.png";
 
 function Navbarbox({ isOpen }) {
-  const [activeButton, setActiveButton] = useState("Posua");
+  const [activeButton, setActiveButton] = useState("false");
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -11,26 +11,69 @@ function Navbarbox({ isOpen }) {
 
   return (
     <nav className={`${Styles.navbar}`}>
-      <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ''}`}>
+      <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
-          <a href="#" className={` ${Styles.navbarButton} ${Styles.posuaButton} ${activeButton === 'Posua' ? Styles.active : ''}`} data-btn="Posua" onClick={() => handleButtonClick('Posua')}>
-            P<img src={posuaLogo} className={Styles.posualogo}/>SUA
+          <a
+            href="/Home"
+            className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
+              activeButton === "Posua" ? Styles.active : ""
+            }`}
+            data-btn="Posua"
+            onClick={() => handleButtonClick("Posua")}
+          >
+            P<img src={posuaLogo} className={Styles.posualogo} />
+            SUA
           </a>
         </div>
-        <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Events' ? Styles.active : ''}`} data-btn="Events" onClick={() => handleButtonClick('Events')}>
+        <a
+          href="/Events"
+          className={`${Styles.EventsButton} ${Styles.navbarButton} ${
+            activeButton === "Events" ? Styles.active : ""
+          }`}
+          data-btn="Events"
+          onClick={() => handleButtonClick("Events")}
+        >
           Events
         </a>
-        <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Gallery' ? Styles.active : ''}`} data-btn="Gallery" onClick={() => handleButtonClick('Gallery')}>
+        <a
+          href="/Gallery"
+          className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
+            activeButton === "Gallery" ? Styles.active : ""
+          }`}
+          data-btn="Gallery"
+          onClick={() => handleButtonClick("Gallery")}
+        >
           Gallery
         </a>
-        <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Team' ? Styles.active : ''}`} data-btn="Team" onClick={() => handleButtonClick('Team')}>
+        <a
+          href="/Teams"
+          className={`${Styles.TeamButton} ${Styles.navbarButton} ${
+            activeButton === "Team" ? Styles.active : ""
+          }`}
+          data-btn="Team"
+          onClick={() => handleButtonClick("Team")}
+        >
           Team
         </a>
-        <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Artist' ? Styles.active : ''}`} data-btn="Artist" onClick={() => handleButtonClick('Artist')}>
+        <a
+          href="Artists"
+          className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
+            activeButton === "Artist" ? Styles.active : ""
+          }`}
+          data-btn="Artist"
+          onClick={() => handleButtonClick("Artist")}
+        >
           Artist
         </a>
-        <a href="#" className={`${Styles.navbarButton} ${activeButton === 'Sponsors' ? Styles.active : ''}`} data-btn="Sponsors" onClick={() => handleButtonClick('Sponsors')}>
-         Sponsors
+        <a
+          href="Sponsors"
+          className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
+            activeButton === "Sponsors" ? Styles.active : ""
+          }`}
+          data-btn="Sponsors"
+          onClick={() => handleButtonClick("Sponsors")}
+        >
+          Sponsors
         </a>
       </div>
     </nav>
@@ -42,12 +85,9 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
-        const navbar = document.querySelector('.navbarContainer');
-        // const navbar = document.querySelector(".navbar");
-        if (navbar && !navbar.contains(event.target)) {
-          toggleMenu(false);
-        }
+      const isButton = event.target.closest("[data-btn]");
+      if (ref.current && !ref.current.contains(event.target) && isOpen && !isButton) {
+        toggleMenu(false);
       }
     };
 
@@ -56,12 +96,12 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
     return () => {
       window.removeEventListener("click", handleClickOutside);
     };
-  }, [ref, toggleMenu]);
+  }, [ref, isOpen, toggleMenu]);
 
   return (
     <div
       ref={ref}
-      className={`hamburger-menu ${isOpen ? "active" : ""}`}
+      className={`${Styles.hamburgerMenu} ${isOpen ? Styles.active : ""}`}
       onClick={() => toggleMenu(!isOpen)}
     >
       <span></span>
