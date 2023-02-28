@@ -10,6 +10,8 @@ const FilmRoll = () => {
     const [clicked, setClicked] = useState('default')
 
     return (
+        <>
+            <img src="/assets/Reel/scroll.gif" alt="<<< Scroll" className={Styles.scrollpoint} />
         <div className={Styles.enclose}>
             {/* <div className={Styles.box}>
 
@@ -119,6 +121,7 @@ const FilmRoll = () => {
         <img src={Reel} alt="" /> */}
             </div>
         </div>
+        </>
     )
 }
 
