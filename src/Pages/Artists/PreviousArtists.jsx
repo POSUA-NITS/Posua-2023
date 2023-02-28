@@ -109,9 +109,9 @@ const PreviousArtists = () => {
         <Header title="PREVIOUS ARTISTS" />
       </div> */}
       {togglepast && (
-        <div className={style.allpreviouscard}>
+        <div className={style.allpreviouscard} id={style.slide50}>
           {/*artist1 */}
-          <div className={style.indicardpast} onClick={handleShowpa1}>
+          <div className={style.indicardpast} onClick={handleShowpa1} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -138,7 +138,7 @@ const PreviousArtists = () => {
           </div>
           {/*artist1 */}
           {/*artist2 */}
-          <div className={style.indicardpast} onClick={handleShowpa2}>
+          <div className={style.indicardpast} onClick={handleShowpa2} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -166,7 +166,7 @@ const PreviousArtists = () => {
           {/*artist2 */}
 
           {/*artist3 */}
-          <div className={style.indicardpast} onClick={handleShowpa3}>
+          <div className={style.indicardpast} onClick={handleShowpa3} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -194,7 +194,7 @@ const PreviousArtists = () => {
           {/*artist3 */}
 
           {/*artist4 */}
-          <div className={style.indicardpast} onClick={handleShowpa4}>
+          <div className={style.indicardpast} onClick={handleShowpa4} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -222,7 +222,7 @@ const PreviousArtists = () => {
           {/*artist4 */}
 
           {/*artis5 */}
-          <div className={style.indicardpast} onClick={handleShowpa5}>
+          <div className={style.indicardpast} onClick={handleShowpa5} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -250,7 +250,7 @@ const PreviousArtists = () => {
           {/*artist5 */}
 
           {/*artist6 */}
-          <div className={style.indicardpast} onClick={handleShowpa6}>
+          <div className={style.indicardpast} onClick={handleShowpa6} id={style.hideup}>
             <img src={topcardpart} className={style.topcardimg} alt="" />
             <img src={leftcardpart} className={style.leftcardimg} alt="" />
             <img src={rightcardpart} className={style.rightcardimg} alt="" />
@@ -281,7 +281,7 @@ const PreviousArtists = () => {
 
       {/*artist detail1*/}
       {togglePa1 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa1}>
             <img
               className={style.imgcross}
@@ -314,7 +314,7 @@ const PreviousArtists = () => {
       )}
 
       {togglePa2 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa2}>
             <img
               className={style.imgcross}
@@ -347,7 +347,7 @@ const PreviousArtists = () => {
       )}
 
       {togglePa3 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa3}>
             <img
               className={style.imgcross}
@@ -380,7 +380,7 @@ const PreviousArtists = () => {
       )}
 
       {togglePa4 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa4}>
             <img
               className={style.imgcross}
@@ -413,7 +413,7 @@ const PreviousArtists = () => {
       )}
 
       {togglePa5 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa5}>
             <img
               className={style.imgcross}
@@ -446,7 +446,7 @@ const PreviousArtists = () => {
       )}
 
       {togglePa6 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleHidepa6}>
             <img
               className={style.imgcross}

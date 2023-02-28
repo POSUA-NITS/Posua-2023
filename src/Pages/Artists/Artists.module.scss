@@ -6,6 +6,16 @@
   background-size: cover;
 }
 
+@keyframes anidetial {
+  from{
+    transform: translateY(-100px);
+    opacity: 0;
+  }to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .artistdetail {
   width: 80%;
   flex: none;
@@ -25,10 +35,14 @@
   );
   border-image-slice: 1;
   border-radius: 30px !important;
-  padding-bottom: 5vw !important;
+  padding-bottom: 2.5vw !important;
+  &#detailanimate{
+    animation: anidetial 1s ease;
+  }
   h1 {
     text-align: center;
     font-size: 5vw;
+    margin: 0;
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     background: linear-gradient(91.92deg, #7a2400 0.1%, #ebb02a 100.1%);
@@ -53,7 +67,7 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     font-size: 1.6vw;
-    line-height: 1.6;
+    // line-height: 1.6;
   }
 }
 
@@ -261,15 +275,26 @@
   }
 }
 
+@keyframes opacitytransition {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
 .indicard {
   cursor: pointer;
   width: 40%;
-  height: 42vw;
+  height: 35vw;
   // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
   order: 1;
   position: relative;
+  &#hideup{
+    animation: opacitytransition .5s ease-in;
+  }
 }
 
 .topcardimg {
@@ -365,11 +390,23 @@
   transform: scale(1.05);
 }
 
+@keyframes slidingdown{
+  from{
+    transform: translateY(100px);
+  }to{
+    transform: translateY(0);
+  }
+}
+
 .allupcomingcard {
-  width: 85%;
+  width: 75%;
   margin: 4vw auto 12vw auto;
   display: flex;
   justify-content: space-between;
+  transition: height 2s ease;
+  &#slide50{
+    animation: slidingdown .75s ease-in-out;
+  }
 }
 
 .flowerholder {
@@ -437,7 +474,7 @@
 
 .ver {
   display: flex;
-  margin-left: 23.2%;
+  margin-left: 22%;
   align-items: center;
   .verline {
     background-color: rgba(238, 238, 238, 1);
@@ -522,17 +559,20 @@
 }
 
 .allpreviouscard {
-  width: 85%;
+  width: 75%;
   margin: 0vw auto 0vw auto;
   padding-bottom: 12vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  &#slide50{
+    animation: slidingdown .75s ease-in-out;
+  }
 }
 
 .indicardpast {
   width: 40%;
-  height: 42vw;
+  height: 35vw;
   // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
@@ -541,6 +581,9 @@
   margin-bottom: 8vw;
   cursor: pointer;
   position: relative;
+  &#hideup{
+    animation: opacitytransition .5s ease-in;
+  }
 }
 
 .indicardpast:hover .topcardimg {
@@ -599,7 +642,7 @@
   font-size: 100vw;
 }
 
-#whitehorline{
+#whitehorline {
   background-color: rgba(239, 239, 239, 0.75) !important;
 }
 
@@ -713,7 +756,7 @@
   .btnleft {
     margin-left: 5%;
     text-align: left;
-    margin-bottom: 5vw;
+    // margin-bottom: 5vw;
   }
 
   .aboutbha h3 {
@@ -768,7 +811,8 @@
   }
 
   .artistdetail h1 {
-    font-size: 7vw;
+    font-size: 5vw;
+    margin-bottom: 2vw;
   }
 
   // .artistsmain{

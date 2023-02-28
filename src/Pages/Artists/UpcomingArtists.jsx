@@ -40,10 +40,10 @@ const UpcomingArtists = () => {
       <Title headtitle="UPCOMING ARTISTS" />
 
       {togglepar && (
-        <div className={style.allupcomingcard}>
+        <div className={style.allupcomingcard} id={style.slide50}>
           {/* artist1 starts */}
           {toggle && (
-            <div className={style.indicard} onClick={handleHide}>
+            <div className={style.indicard} onClick={handleHide} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
               <img src={topcardpart} className={style.topcardimg} alt="" />
               <img src={leftcardpart} className={style.leftcardimg} alt="" />
@@ -75,7 +75,7 @@ const UpcomingArtists = () => {
 
           {/* artist 2 starts*/}
           {toggle2 && (
-            <div className={style.indicard} onClick={handleHide2}>
+            <div className={style.indicard} onClick={handleHide2} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
               <img src={topcardpart} className={style.topcardimg} alt="" />
               <img src={leftcardpart} className={style.leftcardimg} alt="" />
@@ -108,7 +108,7 @@ const UpcomingArtists = () => {
 
       {/*artist 1 deatisl starts*/}
       {toggle1 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleShow2}>
             <img
               className={style.imgcross}
@@ -143,7 +143,7 @@ const UpcomingArtists = () => {
 
       {/*artist 2 deatisl starts*/}
       {toggle3 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleShow}>
             <img
               className={style.imgcross}
