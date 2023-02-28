@@ -11,7 +11,7 @@
   overflow: hidden;
 
   .content {
-    padding: 0 15%;
+    padding: 5% 15%;
     font-size: 3vmin;
     text-align: center;
     font-family: "Philosopher", sans-serif;
@@ -56,6 +56,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .main {
+    padding-top: 50px;
+  }
+
   .content {
     font-size: 2vmin;
   }

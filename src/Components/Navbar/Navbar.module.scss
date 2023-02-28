@@ -1,110 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-  .navbar {
-    background-color: rgba(153, 76, 22, 0.2);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    transition: all 0.5s linear;
+.navbar {
+  background-color: rgba(153, 76, 22, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transition: all 0.5s linear;
+}
+
+.navbarContainer {
+  max-width: 100%;
+  margin: auto;
+  height: 62px;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbarButton {
+  font-family: "Philosopher", sans-serif;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  transition: font-size 0.5s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+}
+.EventsButton {
+  width: 90px;
+}
+.GalleryButton {
+  width: 91.7px;
+}
+.TeamButton {
+  width: 75px;
+}
+.ArtistButton {
+  width: 78px;
+}
+.SponsorsButton {
+  width: 109.3px;
+}
+
+.posuaButton {
+  width: 131px;
+  font-family: "Philosopher", sans-serif;
+  transition: font-size 0.5s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #6f360d, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+}
+.posualogo {
+  height: 25px;
+  width: 25px;
+  transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
+}
+.navbarButton:hover,
+.navbarButton.active {
+  font-size: 23px;
+}
+.posuaButton:hover,
+.posuaButton.active {
+  font-size: 30px;
+}
+.posuaButton:hover .posualogo,
+.posuaButton.active .posualogo {
+  animation: rotate 2s;
+  height: 28px;
+  width: 28px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
   }
-  
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hamburgerMenu {
+  left: 0%;
+  position: fixed;
+  display: none;
+  cursor: pointer;
+  padding: 25px;
+  width: 90px;
+  z-index: 100;
+}
+
+.hamburgerMenu span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #9d5018, #ffa500);
+  transition: all 0.2s ease;
+}
+@media screen and (max-width: 768px) {
   .navbarContainer {
-    max-width: 100%;
-    margin: auto;
-    height: 62px;
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .navbarButton {
-    font-family: "Philosopher", sans-serif;
-    font-size: 20px;
-    color: black;
-    padding: 10px;
-    transition: font-size 0.5s ease-in-out;
-    text-decoration: none;
-    text-align: center;
-  }
-  .EventsButton{
-    width: 90px;
-  }
-  .GalleryButton{
-    width: 91.7px;
-  }
-  .TeamButton{
-    width: 75px;
-  }
-  .ArtistButton{
-    width: 78px;
-  }
-  .SponsorsButton{
-    width: 109.3px;
-  }
-  
-  .posuaButton {
-    width: 131px;
-    font-family: "Philosopher", sans-serif;
-    transition: font-size 0.5s ease-in-out;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to right, #6f360d, #ffa500);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 28px;
-  }
-  .posualogo {
-    height: 25px;
-    width: 25px;
-    transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
-  }
-  .navbarButton:hover,
-  .navbarButton.active {
-    font-size: 23px;
-  }
-  .posuaButton:hover,
-  .posuaButton.active {
-    font-size: 30px;
-  }
-  .posuaButton:hover .posualogo,
-  .posuaButton.active .posualogo {
-    animation: rotate 2s;
-    height: 28px;
-    width: 28px;
-  }
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  .hamburgerMenu {
-    left: 0%;
-    position: fixed;
-    display: none;
-    cursor: pointer;
-    padding: 25px;
-    width: 90px;
-    z-index: 100;
-  }
-  
-  .hamburgerMenu span {
-    display: block;
-    width: 100%;
-    height: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    background: linear-gradient(to right, #9d5018, #ffa500);
-    transition: all 0.2s ease;
-  }
-  @media screen and (max-width: 768px) {
-    .navbarContainer {
     flex-direction: column;
     gap: 2em;
     height: 100%;
@@ -158,4 +158,3 @@
     transform: rotate(-45deg) translate(9px, -5px);
   }
 }
-
