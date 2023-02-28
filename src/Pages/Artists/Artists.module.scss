@@ -7,10 +7,11 @@
 }
 
 @keyframes anidetial {
-  from{
+  from {
     transform: translateY(-100px);
     opacity: 0;
-  }to{
+  }
+  to {
     transform: translateY(0px);
     opacity: 1;
   }
@@ -36,7 +37,7 @@
   border-image-slice: 1;
   border-radius: 30px !important;
   padding-bottom: 2.5vw !important;
-  &#detailanimate{
+  &#detailanimate {
     animation: anidetial 1s ease;
   }
   h1 {
@@ -276,9 +277,10 @@
 }
 
 @keyframes opacitytransition {
-  from{
+  from {
     opacity: 0;
-  }to{
+  }
+  to {
     opacity: 1;
   }
 }
@@ -292,8 +294,8 @@
   flex: none;
   order: 1;
   position: relative;
-  &#hideup{
-    animation: opacitytransition .5s ease-in;
+  &#hideup {
+    animation: opacitytransition 0.5s ease-in;
   }
 }
 
@@ -390,10 +392,11 @@
   transform: scale(1.05);
 }
 
-@keyframes slidingdown{
-  from{
+@keyframes slidingdown {
+  from {
     transform: translateY(100px);
-  }to{
+  }
+  to {
     transform: translateY(0);
   }
 }
@@ -404,8 +407,8 @@
   display: flex;
   justify-content: space-between;
   transition: height 2s ease;
-  &#slide50{
-    animation: slidingdown .75s ease-in-out;
+  &#slide50 {
+    animation: slidingdown 0.75s ease-in-out;
   }
 }
 
@@ -565,8 +568,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  &#slide50{
-    animation: slidingdown .75s ease-in-out;
+  &#slide50 {
+    animation: slidingdown 0.75s ease-in-out;
   }
 }
 
@@ -581,8 +584,8 @@
   margin-bottom: 8vw;
   cursor: pointer;
   position: relative;
-  &#hideup{
-    animation: opacitytransition .5s ease-in;
+  &#hideup {
+    animation: opacitytransition 0.5s ease-in;
   }
 }
 
