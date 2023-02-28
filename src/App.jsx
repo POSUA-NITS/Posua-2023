@@ -1,6 +1,6 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { Navbar } from "./Components";
-import { Home } from "./Pages";
+import Home from "./Pages/Home/Home";
 import Error from "./Pages/Error/Error";
 import Events from "./Pages/Events/Events";
 import Gallery from "./Pages/Gallery/Gallery";
@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/artists" element={<Artists />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 };

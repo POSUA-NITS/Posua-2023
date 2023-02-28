@@ -1,13 +1,13 @@
 .containerMemStructure {
   display: flex;
   position: static;
-  
+
   .teamMemberGrid {
     align-items: center;
     // position: relative;
     height: 580px;
   }
-  
+
   .imageHoldingWrapper {
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@
       }
     }
   }
-  
+
   .LottiesSVG {
     position: relative;
     bottom: 318px;
@@ -38,26 +38,26 @@
     justify-content: center;
     position: relative;
     bottom: 360px;
-    
+
     .gamusaWriting {
       position: relative;
       bottom: 5.2rem;
       font-weight: 600;
-      font-family: 'Philosopher', sans-serif;
+      font-family: "Philosopher", sans-serif;
     }
   }
 }
 
 @media (max-width: 420px) {
-  .containerMemStructure{
+  .containerMemStructure {
     margin-top: -6rem;
   }
-  .teamMemberGrid{
+  .teamMemberGrid {
     transform: scale(0.8);
     // position: relative;
     // right: 60px;
   }
-  .imageHoldingWrapper{
+  .imageHoldingWrapper {
     justify-content: left;
     overflow: hidden;
   }

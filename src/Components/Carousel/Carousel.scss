@@ -6,11 +6,13 @@
   margin-bottom: 15rem;
 }
 
-.swiper-slide-next, .swiper-slide-prev {
+.swiper-slide-next,
+.swiper-slide-prev {
   pointer-events: none;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   color: #694105;
   font-weight: 900;
 }

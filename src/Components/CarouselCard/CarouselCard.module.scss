@@ -18,7 +18,7 @@
   border: 40px solid;
   border-image: url("../../Assets/frame.png") 60 round;
 
-  @media  screen and (width <= 640px) {
+  @media screen and (width <= 640px) {
     border: 30px solid;
     border-image: url("../../Assets/frame.png") 60 round;
   }
