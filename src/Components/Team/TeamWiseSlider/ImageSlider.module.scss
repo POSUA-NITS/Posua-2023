@@ -43,7 +43,6 @@
       .Images {
         transform: scale(1.05);
       }
-    }
     .Card {
       transition: all 1s ease-in-out;
       width: 400px;
@@ -66,7 +65,7 @@
       transition: all 600ms ease-in-out;
     }
   }
-// }
+}
 
 @media only screen and (max-width: 450px) {
   .Card {

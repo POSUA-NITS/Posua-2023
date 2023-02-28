@@ -55,6 +55,18 @@ const TeamMembers = () => {
           />
         ))}
       </div>
+      <p className={styles.Designation}>Developers</p>
+      <div className={styles.wrapper}>
+        {Members.map((element, i) => (
+          <TeamMemberStructure
+            key={i}
+            name={element.name}
+            desig={element.desig}
+            email={element.email}
+            image={element.image}
+          />
+        ))}
+      </div>
     </div>
   );
 };
