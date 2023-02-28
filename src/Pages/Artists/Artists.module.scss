@@ -361,7 +361,7 @@
   transform: scale(1.05);
 }
 
-.indicardpast:hover .btmartist{
+.indicardpast:hover .btmartist {
   transform: scale(1.05);
 }
 
@@ -414,7 +414,7 @@
   border-bottom-left-radius: 2vw;
   border-bottom-right-radius: 2vw;
   padding: 2vw 2vw 0vw 2vw;
-  .line{
+  .line {
     display: flex;
     background-color: none;
     align-items: center;
@@ -422,61 +422,61 @@
   }
 }
 
-.horline{
+.horline {
   background-color: rgba(237, 28, 36, 1);
-  height: .25vw;
+  height: 0.25vw;
   border-radius: 31.64px;
   width: 47%;
 }
 
-.playline{
+.playline {
   display: flex;
   align-items: center;
   margin-bottom: 2vw;
 }
 
-.ver{
+.ver {
   display: flex;
   margin-left: 23.2%;
   align-items: center;
-  .verline{
+  .verline {
     background-color: rgba(238, 238, 238, 1);
     height: 1.7vw;
-    width: .15vw;
+    width: 0.15vw;
     border-radius: 5vw;
   }
 }
 
-.verrighttri{
+.verrighttri {
   display: flex;
   align-items: center;
-  .triright{
+  .triright {
     width: 0;
-	height: 0;
-	border-top: 1vw solid transparent;
-	border-left: 2vw solid rgba(238, 238, 238, 1);
-	border-bottom: 1vw solid transparent;
-  margin-right: 1%;
+    height: 0;
+    border-top: 1vw solid transparent;
+    border-left: 2vw solid rgba(238, 238, 238, 1);
+    border-bottom: 1vw solid transparent;
+    margin-right: 1%;
   }
 }
 
-.verline1{
+.verline1 {
   background-color: rgba(238, 238, 238, 1);
-    height: 1.7vw;
-    width: .15vw;
-    border-radius: 5vw;
+  height: 1.7vw;
+  width: 0.15vw;
+  border-radius: 5vw;
 }
 
-.trileft{
+.trileft {
   width: 0;
-	height: 0;
-	border-top: 1vw solid transparent;
-	border-right: 2vw solid rgba(238, 238, 238, 1);
-	border-bottom: 1vw solid transparent;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-right: 2vw solid rgba(238, 238, 238, 1);
+  border-bottom: 1vw solid transparent;
   margin-left: 1%;
 }
 
-.bigcircle{
+.bigcircle {
   margin-left: 10%;
   margin-right: 10%;
   width: 3vw;
@@ -486,24 +486,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .redrighttri{
+  .redrighttri {
     width: 0;
-	height: 0;
-  margin-left: 10%;
-	border-top: .7vw solid transparent;
-	border-left: 1.5vw solid rgba(176, 34, 39, 1);
-	border-bottom: .7vw solid transparent;
+    height: 0;
+    margin-left: 10%;
+    border-top: 0.7vw solid transparent;
+    border-left: 1.5vw solid rgba(176, 34, 39, 1);
+    border-bottom: 0.7vw solid transparent;
   }
 }
 
-.circle{
+.circle {
   width: 1vw;
   height: 1vw;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 1);
 }
 
-.hrline{
+.hrline {
   width: 50%;
   object-fit: contain;
   background-color: none;
@@ -559,7 +559,7 @@
   transform: scale(1.05);
 }
 
-.indicard:hover .btmartist{
+.indicard:hover .btmartist {
   transform: scale(1.05);
 }
 
@@ -627,50 +627,49 @@
   }
 }
 
-
 @media only screen and (max-width: 660px) {
   .artistsmain {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  .btmartist{
+  .btmartist {
     padding: 5vw 5vw 0vw 5vw;
-    .line{
+    .line {
       margin-bottom: 5vw;
     }
   }
 
-  .horline{
-    height: .6vw;
+  .horline {
+    height: 0.6vw;
   }
 
-  .circle{
+  .circle {
     width: 2.5vw;
     height: 2.5vw;
   }
 
-  .playline{
+  .playline {
     margin-bottom: 5vw;
   }
 
-  .ver{
+  .ver {
     margin-left: 23.7%;
-    .verline{
+    .verline {
       height: 4vw;
-      width: .5vw;
+      width: 0.5vw;
       border-radius: 10vw;
     }
   }
 
-  .trileft{
+  .trileft {
     border-top: 2vw solid transparent;
     border-right: 4vw solid rgba(238, 238, 238, 1);
     border-bottom: 2vw solid transparent;
     margin-left: 2%;
   }
 
-  .bigcircle{
+  .bigcircle {
     margin-left: 10%;
     margin-right: 10%;
     width: 7vw;
@@ -679,27 +678,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .redrighttri{
-    border-top: 1.4vw solid transparent;
-    border-left: 3vw solid rgba(176, 34, 39, 1);
-    border-bottom: 1.4vw solid transparent;
+    .redrighttri {
+      border-top: 1.4vw solid transparent;
+      border-left: 3vw solid rgba(176, 34, 39, 1);
+      border-bottom: 1.4vw solid transparent;
     }
   }
 
-  .verrighttri{
-    .triright{
-    border-top: 2vw solid transparent;
-    border-left: 4vw solid rgba(238, 238, 238, 1);
-    border-bottom: 2vw solid transparent;
-    margin-right: 2%;
+  .verrighttri {
+    .triright {
+      border-top: 2vw solid transparent;
+      border-left: 4vw solid rgba(238, 238, 238, 1);
+      border-bottom: 2vw solid transparent;
+      margin-right: 2%;
     }
   }
 
-  .verline1{
+  .verline1 {
     background-color: rgba(238, 238, 238, 1);
-      height: 4vw;
-      width: .5vw;
-      border-radius:10vw;
+    height: 4vw;
+    width: 0.5vw;
+    border-radius: 10vw;
   }
 
   .imgcross {

@@ -51,12 +51,12 @@ const UpcomingArtists = () => {
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
                 }
                 onMouseOut={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
                 }
                 className={style.artistpic}
                 alt=""
@@ -67,10 +67,8 @@ const UpcomingArtists = () => {
                 <div className={style.artistwork}>
                   <h3>Singer</h3>
                 </div>
-
-
               </div>
-             <Playcontrols />
+              <Playcontrols />
             </div>
           )}
           {/*artist1 ends */}
@@ -85,12 +83,12 @@ const UpcomingArtists = () => {
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
                 }
                 onMouseOut={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
                 }
                 className={style.artistpic}
                 alt=""
