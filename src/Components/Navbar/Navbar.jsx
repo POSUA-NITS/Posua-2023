@@ -13,35 +13,72 @@ function Navbarbox({ isOpen }) {
     <nav className={`${Styles.navbar}`}>
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
-          <Link to="/" className={` ${Styles.navbarButton} ${Styles.posuaButton} ${activeButton === "Posua" ? Styles.active : ""
+          <Link
+            to="/"
+            className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
+              activeButton === "Posua" ? Styles.active : ""
             }`}
             data-btn="Posua"
-            onClick={() => handleButtonClick("Posua")}>  P<img src={posuaLogo} className={Styles.posualogo} />
-            SUA</Link>
+            onClick={() => handleButtonClick("Posua")}
+          >
+            {" "}
+            P<img src={posuaLogo} className={Styles.posualogo} />
+            SUA
+          </Link>
         </div>
-        <Link to="events" className={`${Styles.EventsButton} ${Styles.navbarButton} ${activeButton === "Events" ? Styles.active : ""
+        <Link
+          to="events"
+          className={`${Styles.EventsButton} ${Styles.navbarButton} ${
+            activeButton === "Events" ? Styles.active : ""
           }`}
           data-btn="Events"
-          onClick={() => handleButtonClick("Events")}>Events</Link>
+          onClick={() => handleButtonClick("Events")}
+        >
+          Events
+        </Link>
 
-        <Link to="gallery" className={`${Styles.GalleryButton} ${Styles.navbarButton} ${activeButton === "Gallery" ? Styles.active : ""
+        <Link
+          to="gallery"
+          className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
+            activeButton === "Gallery" ? Styles.active : ""
           }`}
           data-btn="Gallery"
-          onClick={() => handleButtonClick("Gallery")}>Gallery</Link>
+          onClick={() => handleButtonClick("Gallery")}
+        >
+          Gallery
+        </Link>
 
-        <Link to="teams" className={`${Styles.TeamButton} ${Styles.navbarButton} ${activeButton === "Team" ? Styles.active : ""
+        <Link
+          to="teams"
+          className={`${Styles.TeamButton} ${Styles.navbarButton} ${
+            activeButton === "Team" ? Styles.active : ""
           }`}
           data-btn="Team"
-          onClick={() => handleButtonClick("Team")}>Team</Link>
+          onClick={() => handleButtonClick("Team")}
+        >
+          Team
+        </Link>
 
-        <Link to="artists" className={`${Styles.ArtistButton} ${Styles.navbarButton} ${activeButton === "Artist" ? Styles.active : ""
+        <Link
+          to="artists"
+          className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
+            activeButton === "Artist" ? Styles.active : ""
           }`}
           data-btn="Artist"
-          onClick={() => handleButtonClick("Artist")}>Artist</Link>
-        <Link to="sponsors" className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${activeButton === "Sponsors" ? Styles.active : ""
+          onClick={() => handleButtonClick("Artist")}
+        >
+          Artist
+        </Link>
+        <Link
+          to="sponsors"
+          className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
+            activeButton === "Sponsors" ? Styles.active : ""
           }`}
           data-btn="Sponsors"
-          onClick={() => handleButtonClick("Sponsors")}>Sponsors</Link>
+          onClick={() => handleButtonClick("Sponsors")}
+        >
+          Sponsors
+        </Link>
       </div>
     </nav>
   );

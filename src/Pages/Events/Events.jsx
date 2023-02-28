@@ -4,7 +4,7 @@ import styles from "./Events.module.scss";
 import { Header } from "../../Components/Header/Header";
 import { Phool } from "../../Components/Phool/Phool";
 import { Carousel, Navbar } from "../../Components";
-import Flowerinout from '../Artists/Flowerinout'
+import Flowerinout from "../Artists/Flowerinout";
 const Events = () => {
   useEffect(() => {
     document.title = "Events | Posua 2023";
@@ -15,7 +15,7 @@ const Events = () => {
         <Header title="EVENTS" />
         <div className={styles.content}>{data.content}</div>
         {/* <Phool /> */}
-     <Flowerinout />
+        <Flowerinout />
         <Carousel />
       </div>
     </>

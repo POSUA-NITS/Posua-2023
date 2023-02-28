@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import styles from "./Team.module.scss";
 import TeamPosuaWording from "../../Components/Team/TeamPosuaWording/TeamPosuaWording";
 import TeamMember from "../../Components/Team/TeamMembers/TeamMembers.jsx";

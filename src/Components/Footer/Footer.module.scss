@@ -2,8 +2,8 @@
 
 .footer {
   background-image: url("../../Assets/footer.png");
-padding-top: 2.5vw;
-padding-bottom: 2.55vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.55vw;
   background-size: cover;
   display: flex;
 
@@ -23,7 +23,7 @@ padding-bottom: 2.55vw;
         font-family: "philosopher" !important;
         line-height: 1.4rem;
         font-size: 1.1rem;
-        a{
+        a {
           text-decoration: none;
           color: white;
         }
@@ -49,21 +49,21 @@ padding-bottom: 2.55vw;
   }
 }
 
-.linksmedia a{
+.linksmedia a {
   transition: all 0.25s ease !important;
 }
 
-.linksmedia:hover a{
+.linksmedia:hover a {
   color: #fd4a50 !important;
 }
 
-@media screen and (max-width:700px){
-  .footer{
+@media screen and (max-width: 700px) {
+  .footer {
     flex-direction: column;
-    .container{
+    .container {
       width: 100%;
       flex-direction: column;
-      ul{
+      ul {
         margin-top: 2vw;
         margin-bottom: 2vw;
       }
