@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  position: absolute;
+  z-index: -3;
+  top: 30%;
+}
+
+.box {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoolLeft {
+  position: relative;
+  transform: scale(0.8);
+  z-index: -1;
+  animation: phoolLeftAnime ease-in-out 6s 0s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.phoolRight {
+  position: relative;
+  z-index: -2;
+  transform: scale(0.8);
+  animation: phoolRightAnime ease-in-out 6s 0s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes phoolLeftAnime {
+  to {
+    transform: scale(1) translateX(180px);
+  }
+}
+
+@keyframes phoolRightAnime {
+  to {
+    transform: scale(1) translateX(-180px);
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .phoolLeft {
+    right: -300px;
+    transform: scale(0.4);
+    animation: phoolLeftAnime ease-in-out 4s 0s infinite;
+    animation-direction: alternate-reverse;
+  }
+  .phoolRight {
+    left: -380px;
+    transform: scale(0.5);
+    animation: phoolLeftAnime ease-in-out 4s 0s infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes phoolLeftAnime {
+    to {
+      transform: scale(0.5) translateX(180px);
+    }
+  }
+  @keyframes phoolRightAnime {
+    to {
+      transform: scale(0.4) translateX(-180px);
+    }
+  }
+}

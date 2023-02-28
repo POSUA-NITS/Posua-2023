@@ -17,6 +17,7 @@ specifiers:
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-hover-slideshow: ^2.1.12
   react-lottie: ^1.2.3
   react-lottie-player: ^1.5.4
   react-router-dom: ^6.4.3
@@ -31,6 +32,7 @@ dependencies:
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-hover-slideshow: 2.1.12_biqbaboplfbrettd7655fr4n2y
   react-lottie: 1.2.3_react@18.2.0
   react-lottie-player: 1.5.4_react@18.2.0
   react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
@@ -302,7 +304,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
-    dev: true
 
   /@babel/template/7.18.10:
     resolution: {integrity: sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==}
@@ -820,7 +821,6 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
-    dev: true
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -884,6 +884,14 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dom-helpers/5.2.1:
+    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
+    dependencies:
+      '@babel/runtime': 7.20.1
+      csstype: 3.1.1
+    dev: false
+    optional: true
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -2080,7 +2088,6 @@ packages:
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /object-inspect/1.12.2:
     resolution: {integrity: sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==}
@@ -2265,7 +2272,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
@@ -2286,9 +2292,20 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-hover-slideshow/2.1.12_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-yEQ5/2bLMatUtrLceCmeo2d+2cPjapEOzmdi9jKupezFddW4d6TuMmWFVUyDBUffqpO8PIRY+jX3WKoHvE/+tg==}
+    peerDependencies:
+      react: ^17.0.1
+      react-dom: ^17.0.1
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    optionalDependencies:
+      react-transition-group: 4.4.5_biqbaboplfbrettd7655fr4n2y
+    dev: false
+
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: true
 
   /react-lottie-player/1.5.4_react@18.2.0:
     resolution: {integrity: sha512-eM0g11bAc4EJJuDDfCoNloaAYphfXlIpYnriOt4nRU66PpVmvKhajvP2aif4YflGY2ArAFXhWxs418YzdebK9w==}
@@ -2356,6 +2373,22 @@ packages:
       resize-observer-polyfill: 1.5.1
     dev: false
 
+  /react-transition-group/4.4.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
+    requiresBuild: true
+    peerDependencies:
+      react: '>=16.6.0'
+      react-dom: '>=16.6.0'
+    dependencies:
+      '@babel/runtime': 7.20.1
+      dom-helpers: 5.2.1
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+    optional: true
+
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
@@ -2375,7 +2408,6 @@ packages:
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-    dev: true
 
   /regexp.prototype.flags/1.4.3:
     resolution: {integrity: sha512-fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==}

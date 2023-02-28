@@ -1,8 +1,8 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
-
-import { CarouselCard } from "../../Components";
+import React, { useState } from "react";
+import { Swiper, SwiperSlide, useSwiperSlide } from "swiper/react";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
+import styles from "./Carousel.module.scss";
+import { CarouselCard, CarouselButton } from "../../Components";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -11,18 +11,71 @@ import "swiper/css/navigation";
 
 import "./Carousel.scss";
 
-const Carousel = () => {
-  const data = {
+const data = [
+  {
+    idx: 1,
     title: "Rongili",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa? corporis dolorem fuga ipsa?",
+  },
+
+  {
+    idx: 2,
+    title: "Bihu",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa? corporis dolorem fuga ipsa?",
+  },
+
+  {
+    idx: 3,
+    title: "Magh",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa? corporis dolorem fuga ipsa?",
+  },
+
+  {
+    idx: 4,
+    title: "Bordoisila",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa? corporis dolorem fuga ipsa?",
+  },
+
+  {
+    idx: 5,
+    title: "Pitha",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis veniam velit sunt harum, consequuntur ut perspiciatis? Dicta, velit! Rem et accusantium alias tenetur, fugiat qui libero perferendis hic porro eaque sint dignissimos maxime incidunt quos asperiores quod quae unde nobis inventore. Modi magni adipisci labore, corporis dolorem fuga ipsa? corporis dolorem fuga ipsa?",
+  },
+];
+
+const Carousel = () => {
+  const [swiperRef, setSwiperRef] = useState(null);
+  const [slide, _] = useState(data);
+  const [activeSlideIdx, setactiveSlideIdx] = useState(1)
+  const slideTo = (index) => {
+    setactiveSlideIdx(index);
+    swiperRef.slideTo(index - 1, 0);
   };
   return (
     <>
+      <div className={styles.btncont}>
+        {data.map((val, idx) => {
+          return (
+            <CarouselButton key={idx} data={{text: val.title, onClick: () => slideTo(idx + 1), active: activeSlideIdx === val.idx }}/>
+          )
+        })
+      }
+
+      </div>
+
       <Swiper
+        onSwiper={setSwiperRef}
         effect={"coverflow"}
         navigation={true}
-        loop={true}
+        autoplay={{
+          delay: 8000,
+          disableOnInteraction: true
+        }}
         centeredSlides={true}
         slidesPerView={1}
         coverflowEffect={{
@@ -38,23 +91,15 @@ const Carousel = () => {
           },
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
       >
-        <SwiperSlide>
-          <CarouselCard data={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <CarouselCard data={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <CarouselCard data={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <CarouselCard data={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <CarouselCard data={data} />
-        </SwiperSlide>
+        {slide.map((slideContent, index) => {
+          return (
+            <SwiperSlide key={index} virtualIndex={index}>
+              <CarouselCard data={slideContent} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );
