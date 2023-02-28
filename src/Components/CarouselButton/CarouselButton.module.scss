@@ -6,6 +6,16 @@
   background: linear-gradient(to right, #7a2400, #ebb02a);
   border: 2px solid #7a2400;
   background-clip: text;
+  align-items: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    .image {
+      height: 1.2rem;
+    }
+  }
 }
