@@ -7,7 +7,7 @@ const Playcontrols = () => {
         <div className={style.line}>
           <div className={style.horline}></div>
           <div className={style.circle}></div>
-          <div className={style.horline}></div>
+          <div className={style.horline} id={style.whitehorline}></div>
         </div>
 
         <div className={style.playline}>
