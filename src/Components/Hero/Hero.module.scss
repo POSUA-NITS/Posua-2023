@@ -2,6 +2,10 @@
   --speed: 2s;
 }
 
+.hero::-webkit-scrollbar {
+  display: none;
+}
+
 .hero {
   position: relative;
   height: 100vh;

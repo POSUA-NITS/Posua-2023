@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
 import posuaLogo from "./posualogo.png";
-
+import { Link } from "react-router-dom";
 function Navbarbox({ isOpen }) {
   const [activeButton, setActiveButton] = useState("false");
 
@@ -13,68 +13,35 @@ function Navbarbox({ isOpen }) {
     <nav className={`${Styles.navbar}`}>
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
-          <a
-            href="/"
-            className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
-              activeButton === "Posua" ? Styles.active : ""
+          <Link to="/" className={` ${Styles.navbarButton} ${Styles.posuaButton} ${activeButton === "Posua" ? Styles.active : ""
             }`}
             data-btn="Posua"
-            onClick={() => handleButtonClick("Posua")}
-          >
-            P<img src={posuaLogo} className={Styles.posualogo} />
-            SUA
-          </a>
+            onClick={() => handleButtonClick("Posua")}>  P<img src={posuaLogo} className={Styles.posualogo} />
+            SUA</Link>
         </div>
-        <a
-          href="/Events"
-          className={`${Styles.EventsButton} ${Styles.navbarButton} ${
-            activeButton === "Events" ? Styles.active : ""
+        <Link to="events" className={`${Styles.EventsButton} ${Styles.navbarButton} ${activeButton === "Events" ? Styles.active : ""
           }`}
           data-btn="Events"
-          onClick={() => handleButtonClick("Events")}
-        >
-          Events
-        </a>
-        <a
-          href="/Gallery"
-          className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
-            activeButton === "Gallery" ? Styles.active : ""
+          onClick={() => handleButtonClick("Events")}>Events</Link>
+
+        <Link to="gallery" className={`${Styles.GalleryButton} ${Styles.navbarButton} ${activeButton === "Gallery" ? Styles.active : ""
           }`}
           data-btn="Gallery"
-          onClick={() => handleButtonClick("Gallery")}
-        >
-          Gallery
-        </a>
-        <a
-          href="/Teams"
-          className={`${Styles.TeamButton} ${Styles.navbarButton} ${
-            activeButton === "Team" ? Styles.active : ""
+          onClick={() => handleButtonClick("Gallery")}>Gallery</Link>
+
+        <Link to="teams" className={`${Styles.TeamButton} ${Styles.navbarButton} ${activeButton === "Team" ? Styles.active : ""
           }`}
           data-btn="Team"
-          onClick={() => handleButtonClick("Team")}
-        >
-          Team
-        </a>
-        <a
-          href="Artists"
-          className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
-            activeButton === "Artist" ? Styles.active : ""
+          onClick={() => handleButtonClick("Team")}>Team</Link>
+
+        <Link to="artists" className={`${Styles.ArtistButton} ${Styles.navbarButton} ${activeButton === "Artist" ? Styles.active : ""
           }`}
           data-btn="Artist"
-          onClick={() => handleButtonClick("Artist")}
-        >
-          Artist
-        </a>
-        <a
-          href="Sponsors"
-          className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
-            activeButton === "Sponsors" ? Styles.active : ""
+          onClick={() => handleButtonClick("Artist")}>Artist</Link>
+        <Link to="sponsors" className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${activeButton === "Sponsors" ? Styles.active : ""
           }`}
           data-btn="Sponsors"
-          onClick={() => handleButtonClick("Sponsors")}
-        >
-          Sponsors
-        </a>
+          onClick={() => handleButtonClick("Sponsors")}>Sponsors</Link>
       </div>
     </nav>
   );

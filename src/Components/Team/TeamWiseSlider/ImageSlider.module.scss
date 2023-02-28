@@ -1,29 +1,39 @@
 .imgslider {
-  margin-inline: 2.5vw;
-  padding-bottom: 6rem;
-
-  .Designation {
-    margin-bottom: 1.6rem;
-    text-align: center;
-    font-size: 3.6rem;
-    background-image: linear-gradient(90deg, #371000 14.1%, #ffbf2a 82.1%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Philosopher";
-    font-weight: 700;
-  }
-  .sliderDiv {
-    outline: none;
-    position: relative;
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    &:hover {
+    margin-inline: 5.5vw;
+    padding-bottom: 6rem;
+  
+    .Designation {
+      margin-bottom: 1.6rem;
+      text-align: center;
+      font-size: 3.6rem;
+      background-image: linear-gradient(90deg, #371000 14.1%, #ffbf2a 82.1%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Philosopher";
+      font-weight: 700;
+    }
+    .sliderDiv {
+      outline: none;
+      position: relative;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      &:hover {
+        .Card {
+          width: 26rem;
+        }
+        .TextForRotation {
+          opacity: 1;
+        }
+        .Images {
+          transform: scale(1.05);
+        }
+      }
       .Card {
         width: 26rem;
       }
@@ -33,37 +43,27 @@
       .Images {
         transform: scale(1.05);
       }
-    }
     .Card {
-      width: 26rem;
-    }
-    .TextForRotation {
-      opacity: 1;
+      transition: all 1s ease-in-out;
+      width: 400px;
+      height: 35rem;
     }
     .Images {
-      transform: scale(1.05);
+      width: 270px;
+      position: absolute;
+      top: 16%;
+      transition: all 1s ease-in-out;
     }
-  }
-  .Card {
-    transition: all 1s ease-in-out;
-    width: 400px;
-    height: 35rem;
-  }
-  .Images {
-    width: 270px;
-    position: absolute;
-    top: 16%;
-    transition: all 1s ease-in-out;
-  }
-  .TextForRotation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    position: absolute;
-    bottom: 0.5rem;
-    opacity: 0;
-    transition: all 600ms ease-in-out;
+    .TextForRotation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      position: absolute;
+      bottom: 0.5rem;
+      opacity: 0;
+      transition: all 600ms ease-in-out;
+    }
   }
 }
 
