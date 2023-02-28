@@ -5,6 +5,8 @@ import styles from "./ImageSlider.module.scss";
 import MemberSlider from "./MemberSlider";
 
 const ImageSlider = ({ images }) => {
+
+    
   const settings = {
     infinite: true,
     dots: true,
@@ -13,8 +15,9 @@ const ImageSlider = ({ images }) => {
     initialSlide: 0,
     lazyLoad: true,
     autoplay: true,
-    autoplaySpeed: 2200,
+    autoplaySpeed: 2500,
     leftArrow: true,
+    nexttArrow: true,
     pauseOnHover: true,
     responsive: [
       {
