@@ -7,6 +7,13 @@ const CarouselButton = ({ data }) => {
         {data.text}
         {data.active && <img className={styles.image} src="/assets/jaapi.svg" />}
       </div>
+{/* 
+
+const CarouselButton = ({ data }) => {
+  return (
+    <button onClick={data.onClick} className={styles.button}>
+      {data.text} */}
+
     </button>
 
     // const CarouselButton = ({ data }) => {

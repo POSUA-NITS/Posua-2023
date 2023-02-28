@@ -7,7 +7,6 @@ import { Carousel, Navbar } from "../../Components";
 const Events = () => {
   return (
     <>
-      <Navbar />
 
       <div className={styles.main}>
         <Header title="EVENTS" />

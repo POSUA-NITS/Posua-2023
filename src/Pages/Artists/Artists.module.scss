@@ -85,6 +85,9 @@
 }
 
 .titleholderartist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   flex: none;
   order: 1;
@@ -235,6 +238,7 @@
   margin: 0 auto;
   height: 80%;
 }
+
 .artismainh1 {
   margin: 0;
   padding: 0;
@@ -261,7 +265,7 @@
   cursor: pointer;
   width: 40%;
   height: 42vw;
-  background: rgba(242, 238, 227, 1);
+  // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
   order: 1;
@@ -357,6 +361,10 @@
   transform: scale(1.05);
 }
 
+.indicardpast:hover .btmartist{
+  transform: scale(1.05);
+}
+
 .allupcomingcard {
   width: 85%;
   margin: 4vw auto 12vw auto;
@@ -387,6 +395,7 @@
   animation: phoolRightAnime ease-in-out 3s 0s infinite;
   animation-direction: alternate-reverse;
 }
+
 @keyframes phoolRightAnime {
   to {
     transform: scale(1.1) translateX(90px);
@@ -395,6 +404,109 @@
 
 .btmartist {
   background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  z-index: 10;
+  right: 10%;
+  // height: 8vw;
+  transition: 0.25s ease-in-out;
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+  padding: 2vw 2vw 0vw 2vw;
+  .line{
+    display: flex;
+    background-color: none;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+}
+
+.horline{
+  background-color: rgba(237, 28, 36, 1);
+  height: .25vw;
+  border-radius: 31.64px;
+  width: 47%;
+}
+
+.playline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.ver{
+  display: flex;
+  margin-left: 23.2%;
+  align-items: center;
+  .verline{
+    background-color: rgba(238, 238, 238, 1);
+    height: 1.7vw;
+    width: .15vw;
+    border-radius: 5vw;
+  }
+}
+
+.verrighttri{
+  display: flex;
+  align-items: center;
+  .triright{
+    width: 0;
+	height: 0;
+	border-top: 1vw solid transparent;
+	border-left: 2vw solid rgba(238, 238, 238, 1);
+	border-bottom: 1vw solid transparent;
+  margin-right: 1%;
+  }
+}
+
+.verline1{
+  background-color: rgba(238, 238, 238, 1);
+    height: 1.7vw;
+    width: .15vw;
+    border-radius: 5vw;
+}
+
+.trileft{
+  width: 0;
+	height: 0;
+	border-top: 1vw solid transparent;
+	border-right: 2vw solid rgba(238, 238, 238, 1);
+	border-bottom: 1vw solid transparent;
+  margin-left: 1%;
+}
+
+.bigcircle{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 3vw;
+  border-radius: 50%;
+  height: 3vw;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .redrighttri{
+    width: 0;
+	height: 0;
+  margin-left: 10%;
+	border-top: .7vw solid transparent;
+	border-left: 1.5vw solid rgba(176, 34, 39, 1);
+	border-bottom: .7vw solid transparent;
+  }
+}
+
+.circle{
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hrline{
+  width: 50%;
+  object-fit: contain;
+  background-color: none;
 }
 
 @keyframes leftflwr {
@@ -421,7 +533,7 @@
 .indicardpast {
   width: 40%;
   height: 42vw;
-  background: rgba(242, 238, 227, 1);
+  // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
   order: 1;
@@ -444,6 +556,10 @@
 }
 
 .indicardpast:hover .artistpic {
+  transform: scale(1.05);
+}
+
+.indicard:hover .btmartist{
   transform: scale(1.05);
 }
 
@@ -510,27 +626,80 @@
     }
   }
 }
-// @media screen and (min-width:660px){
-//   .tlebr{
-//     display: none;
-//   }
-// }
+
+
 @media only screen and (max-width: 660px) {
   .artistsmain {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  // .titleholderartist{
-  //   display: flex;
-  // }
-
-  .artismainh1 {
-    font-size: 9.3vw;
+  .btmartist{
+    padding: 5vw 5vw 0vw 5vw;
+    .line{
+      margin-bottom: 5vw;
+    }
   }
 
-  .artistdetail h1 {
-    margin-bottom: 6vw;
+  .horline{
+    height: .6vw;
+  }
+
+  .circle{
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+
+  .playline{
+    margin-bottom: 5vw;
+  }
+
+  .ver{
+    margin-left: 23.7%;
+    .verline{
+      height: 4vw;
+      width: .5vw;
+      border-radius: 10vw;
+    }
+  }
+
+  .trileft{
+    border-top: 2vw solid transparent;
+    border-right: 4vw solid rgba(238, 238, 238, 1);
+    border-bottom: 2vw solid transparent;
+    margin-left: 2%;
+  }
+
+  .bigcircle{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 7vw;
+    height: 7vw;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .redrighttri{
+    border-top: 1.4vw solid transparent;
+    border-left: 3vw solid rgba(176, 34, 39, 1);
+    border-bottom: 1.4vw solid transparent;
+    }
+  }
+
+  .verrighttri{
+    .triright{
+    border-top: 2vw solid transparent;
+    border-left: 4vw solid rgba(238, 238, 238, 1);
+    border-bottom: 2vw solid transparent;
+    margin-right: 2%;
+    }
+  }
+
+  .verline1{
+    background-color: rgba(238, 238, 238, 1);
+      height: 4vw;
+      width: .5vw;
+      border-radius:10vw;
   }
 
   .imgcross {
@@ -562,8 +731,8 @@
     cursor: pointer;
     width: 80%;
     height: 85vw;
-    margin: 12vw auto;
-    background: rgba(242, 238, 227, 1);
+    margin: 20vw auto;
+    // background: rgba(242, 238, 227, 1);
     border-radius: 0.225rem;
     flex: none;
     order: 1;

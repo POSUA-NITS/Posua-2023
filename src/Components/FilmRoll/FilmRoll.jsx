@@ -7,11 +7,10 @@ import { useState } from "react";
 const FilmRoll = () => {
   const [clicked, setClicked] = useState("default");
 
-  return (
-    <div className={Styles.enclose}>
-      {/* <div className={Styles.box}>
-
-      </div> */}
+    return (
+        <>
+            <img src="/assets/Reel/scroll.gif" alt="<<< Scroll" className={Styles.scrollpoint} />
+        <div className={Styles.enclose}>
 
       {clicked !== "default" ? <Clicked clicked={clicked} setClicked={setClicked} /> : ""}
 
@@ -211,12 +210,16 @@ const FilmRoll = () => {
             ></div>
           </div>
         </div>
-
-        {/* <img src={Reel} alt="" />
-        <img src={Reel} alt="" /> */}
       </div>
-    </div>
-  );
-};
+      </div>
+        </>
+    )
+}
+
+//         {/* <img src={Reel} alt="" />
+//         <img src={Reel} alt="" /> */}
+//     </div>
+//   );
+// };
 
 export default FilmRoll;

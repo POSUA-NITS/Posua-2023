@@ -5,6 +5,7 @@ import topcardpart from "../../Assets/Artists/top-card-part-removebg.png";
 import rightcardpart from "../../Assets/Artists/right-card-part-removebg.png";
 import Flowerinout from "./Flowerinout";
 import Title from "../../Components/Title/Title";
+import Playcontrols from "./Playcontrols";
 const UpcomingArtists = () => {
   const [togglepar, setTogglepar] = useState(true);
   const [toggle, setToggle] = useState(true);
@@ -50,12 +51,12 @@ const UpcomingArtists = () => {
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
-                  (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
                 }
                 onMouseOut={(e) =>
-                  (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
                 }
                 className={style.artistpic}
                 alt=""
@@ -66,8 +67,10 @@ const UpcomingArtists = () => {
                 <div className={style.artistwork}>
                   <h3>Singer</h3>
                 </div>
+
+
               </div>
-              <div className={style.btmartist}> </div>
+             <Playcontrols />
             </div>
           )}
           {/*artist1 ends */}
@@ -82,12 +85,12 @@ const UpcomingArtists = () => {
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
-                  (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
                 }
                 onMouseOut={(e) =>
-                  (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
                 }
                 className={style.artistpic}
                 alt=""
@@ -98,7 +101,7 @@ const UpcomingArtists = () => {
                   <h3>Singer</h3>
                 </div>
               </div>
-              <div className={style.btmartist}> </div>
+              <Playcontrols />
             </div>
           )}
           {/*artist2 ends */}

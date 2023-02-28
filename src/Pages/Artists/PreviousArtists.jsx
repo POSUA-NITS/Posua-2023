@@ -4,6 +4,7 @@ import leftcardpart from "../../Assets/Artists/left-card-part-removebg.png";
 import topcardpart from "../../Assets/Artists/top-card-part-removebg.png";
 import rightcardpart from "../../Assets/Artists/right-card-part-removebg.png";
 import Title from "../../Components/Title/Title";
+import Playcontrols from "./Playcontrols";
 const PreviousArtists = () => {
   const [togglepast, setTogglepast] = useState(true);
   {
@@ -133,7 +134,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist1 */}
           {/*artist2 */}
@@ -160,7 +161,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist2 */}
 
@@ -188,7 +189,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist3 */}
 
@@ -216,7 +217,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist4 */}
 
@@ -244,7 +245,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist5 */}
 
@@ -272,7 +273,7 @@ const PreviousArtists = () => {
                 <h3>Singer</h3>
               </div>
             </div>
-            <div className={style.btmartist}> </div>
+            <Playcontrols />
           </div>
           {/*artist6 */}
         </div>
