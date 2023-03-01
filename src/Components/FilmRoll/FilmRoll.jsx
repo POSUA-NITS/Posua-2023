@@ -6,7 +6,11 @@ import { useState } from "react";
 
 const FilmRoll = () => {
   const [clicked, setClicked] = useState("default");
+  const [winWidth, setWinWidth] = useState(window.innerWidth)
 
+  window.addEventListener('resize', () => {
+    setWinWidth(window.innerWidth)
+  })
   return (
     <>
       <img
@@ -20,7 +24,6 @@ const FilmRoll = () => {
         ) : (
           ""
         )}
-
         <div className={Styles.roll}>
           <div className={Styles.oneRoll}>
             <img src={Reel} alt="" className={Styles.reel} />
@@ -222,7 +225,6 @@ const FilmRoll = () => {
     </>
   );
 };
-
 //         {/* <img src={Reel} alt="" />
 //         <img src={Reel} alt="" /> */}
 //     </div>
