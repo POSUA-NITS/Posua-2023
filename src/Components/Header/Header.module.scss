@@ -9,11 +9,16 @@
   padding: 4% 0;
 }
 
+.heading{
+  word-break: break-word;
+
+}
+
 .main {
   width: 100px;
   height: 100px;
   left: 100px;
-  margin: 0 7%;
+  margin: 0 3%;
 
   .b {
     position: relative;
