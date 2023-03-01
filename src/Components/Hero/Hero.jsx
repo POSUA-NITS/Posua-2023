@@ -1,14 +1,19 @@
 import React from 'react'
+import { useState } from 'react'
 import Styles from './Hero.module.scss'
 
 const Hero = () => {
-
+  const [winWidth, setWinWidth] = useState(window.innerWidth)
   document.getElementsByClassName('sky')
   document.getElementsByClassName('clouds')
 
+  window.addEventListener('resize',()=>{
+    setWinWidth(window.innerWidth)
+  })
+
   return (
     <>
-    <div className={Styles.hero}>
+    <div className={winWidth>800?Styles.hero:Styles.hero_mobile}>
       <img src="/assets/Hero/sky.png" alt="" className={Styles.sky} />
       <img src="/assets/Hero/clouds.png" alt="" className={Styles.clouds} />
       {/* <div className={Styles.posua}> */}
