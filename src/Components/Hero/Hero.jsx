@@ -4,6 +4,7 @@ import Styles from './Hero.module.scss'
 
 const Hero = () => {
   const [winWidth, setWinWidth] = useState(window.innerWidth)
+  
   document.getElementsByClassName('sky')
   document.getElementsByClassName('clouds')
 

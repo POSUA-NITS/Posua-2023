@@ -1,142 +1,96 @@
 .scrollpoint {
-    position: absolute;
-    right: 50px;
-    width: 140px;
-    // top: -10px;
-    opacity: 0.7;
+  position: absolute;
+  right: 50px;
+  width: 140px;
+  // top: -10px;
+  opacity: 0.7;
 }
+
 .enclose::-webkit-scrollbar {
   display: none;
 }
 
 .enclose {
 
-    // .box {
-    //     --mask:
-    //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
-    //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
-    //     -webkit-mask: var(--mask);
-    //             mask: var(--mask);
-    //   }
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    margin-left: auto;
-    position: relative;
-    height: 405px;
-    margin-bottom: 3rem;
+  // .box {
+  //     --mask:
+  //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
+  //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
+  //     -webkit-mask: var(--mask);
+  //             mask: var(--mask);
+  //   }
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  margin-left: auto;
+  position: relative;
+  height: 405px;
+  margin-bottom: 3rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
+
+
+  .roll::-webkit-scrollbar,
+  .enclose::-webkit-scrollbar {
+    display: none;
+  }
+
+  .roll {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 400px;
+    width: 5265px;
 
+    .oneRoll {
+      position: relative;
+      // width: 80vw;
+      // height: fit-content;
+      height: 100%;
+      width: 25%;
+      flex-shrink: 0;
 
-    .roll::-webkit-scrollbar,
-    .enclose::-webkit-scrollbar {
-        display: none;
-    }
-
-    .roll {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        display: flex;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        height: 400px;
-        width: 5265px;
-
-        .oneRoll {
-            position: relative;
-            // width: 80vw;
-            // height: fit-content;
-            height: 100%;
-            width: 25%;
-            flex-shrink: 0;
-
-            .reel {
-                z-index: 11 !important;
-                position: absolute;
-                top: 11px;
-                left: 0px;
-                height: 100%;
-            }
-
-            .imgsEnclose:nth-child(2) .imgs,
-            .imgsEnclose:nth-child(2) .click {
-                position: absolute;
-                left: 0px;
-                top: 160px;
-                transform: rotateY(-39deg) rotateX(-10deg) rotateZ(5deg) scale(1.3);
-            }
-
-            .imgsEnclose:nth-child(3) .imgs,
-            .imgsEnclose:nth-child(3) .click {
-                position: absolute;
-                left: 25%;
-                top: 150px;
-                transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
-            }
-
-            .imgsEnclose:nth-child(4) .imgs,
-            .imgsEnclose:nth-child(4) .click {
-                position: absolute;
-                left: 50%;
-                top: 85px;
-                transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
-            }
-
-            .imgsEnclose:nth-child(5) .imgs,
-            .imgsEnclose:nth-child(5) .click {
-                position: absolute;
-                left: 75%;
-                top: 85px;
-                transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
-            }
-
-            .click {
-                width: 25%;
-                aspect-ratio: 1.8;
-                cursor: pointer;
-                z-index: 12;
-            }
-
-            .imgs {
-                width: 25%;
-                z-index: 10;
-            }
-        }
-    }
-
-    .backdrop {
-        position: fixed;
-        z-index: 14;
-        background: rgba(0, 0, 0, 0.448);
-        width: 100%;
-        height: 100%;
+      .reel {
+        z-index: 11 !important;
+        position: absolute;
+        top: 11px;
         left: 0px;
-        top: 0px;
-    }
-
-    .clicked img {
-        position: fixed;
-        z-index: 15;
-        width: 50%;
-        left: 50%;
-        top: 50%;
-        transform: translateX(-50%) translateY(-50%);
+        height: 100%;
       }
 
-      @media (width<800){
-        .clicked img{
-          width: 90%;
-        }
+      .imgsEnclose:nth-child(2) .imgs,
+      .imgsEnclose:nth-child(2) .click {
+        position: absolute;
+        left: 0px;
+        top: 160px;
+        transform: rotateY(-39deg) rotateX(-10deg) rotateZ(5deg) scale(1.3);
+      }
+
+      .imgsEnclose:nth-child(3) .imgs,
+      .imgsEnclose:nth-child(3) .click {
+        position: absolute;
+        left: 25%;
+        top: 150px;
+        transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
+      }
+
+      .imgsEnclose:nth-child(4) .imgs,
+      .imgsEnclose:nth-child(4) .click {
+        position: absolute;
+        left: 50%;
+        top: 85px;
+        transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
       }
 
       .imgsEnclose:nth-child(5) .imgs,
       .imgsEnclose:nth-child(5) .click {
         position: absolute;
         left: 75%;
-        top: 68px;
+        top: 85px;
         transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
       }
 
@@ -152,7 +106,8 @@
         z-index: 10;
       }
     }
-  // }
+  }
+
   .backdrop {
     position: fixed;
     z-index: 14;
@@ -162,11 +117,211 @@
     left: 0px;
     top: 0px;
   }
+
   .clicked img {
     position: fixed;
     z-index: 15;
     width: 50%;
     left: 50%;
     top: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
+  
+  .clicked_mobile img {
+    position: fixed;
+    z-index: 15;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+  }
+
+  .imgsEnclose:nth-child(5) .imgs,
+  .imgsEnclose:nth-child(5) .click {
+    position: absolute;
+    left: 75%;
+    top: 68px;
+    transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
+  }
+
+  .click {
+    width: 25%;
+    aspect-ratio: 1.8;
+    cursor: pointer;
+    z-index: 12;
+  }
+
+  .imgs {
+    width: 25%;
+    z-index: 10;
+  }
+}
+
+
+.enclose_mobile {
+
+  // .box {
+  //     --mask:
+  //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
+  //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
+  //     -webkit-mask: var(--mask);
+  //             mask: var(--mask);
+  //   }
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  margin-left: auto;
+  position: relative;
+  height: 405px;
+  margin-bottom: 3rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
+
+
+  .roll::-webkit-scrollbar,
+  .enclose::-webkit-scrollbar {
+    display: none;
+  }
+
+  .roll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 270px;
+    width: 3555px;
+
+    .oneRoll {
+      position: relative;
+      // width: 80vw;
+      // height: fit-content;
+      height: 100%;
+      width: 25%;
+      flex-shrink: 0;
+
+      .reel {
+        z-index: 11 !important;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+      }
+
+      .imgsEnclose:nth-child(2) .imgs,
+      .imgsEnclose:nth-child(2) .click {
+        position: absolute;
+        left: 0px;
+        top: 99px;
+        transform: rotateY(-39deg) rotateX(-10deg) rotateZ(5deg) scale(1.3);
+      }
+
+      .imgsEnclose:nth-child(3) .imgs,
+      .imgsEnclose:nth-child(3) .click {
+        position: absolute;
+        left: 25%;
+        top: 97px;
+        transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
+      }
+
+      .imgsEnclose:nth-child(4) .imgs,
+      .imgsEnclose:nth-child(4) .click {
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        transform: rotateY(41deg) rotateX(-9deg) rotateZ(-11deg) scale(1.3);
+      }
+
+      .imgsEnclose:nth-child(5) .imgs,
+      .imgsEnclose:nth-child(5) .click {
+        position: absolute;
+        left: 75%;
+        top: 47px;
+        transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
+      }
+
+      .click {
+        width: 25%;
+        aspect-ratio: 1.8;
+        cursor: pointer;
+        z-index: 12;
+      }
+
+      .imgs {
+        width: 25%;
+        z-index: 10;
+      }
+    }
+  }
+
+  .backdrop {
+    position: fixed;
+    z-index: 14;
+    background: rgba(0, 0, 0, 0.448);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+
+  .clicked img {
+    position: fixed;
+    z-index: 15;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .clicked_mobile img {
+    position: fixed;
+    z-index: 15;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+  }
+
+  .imgsEnclose:nth-child(5) .imgs,
+  .imgsEnclose:nth-child(5) .click {
+    position: absolute;
+    left: 75%;
+    top: 68px;
+    transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
+  }
+
+  .click {
+    width: 25%;
+    aspect-ratio: 1.8;
+    cursor: pointer;
+    z-index: 12;
+  }
+
+  .imgs {
+    width: 25%;
+    z-index: 10;
+  }
+}
+
+// }
+.backdrop {
+  position: fixed;
+  z-index: 14;
+  background: rgba(0, 0, 0, 0.448);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.clicked img {
+  position: fixed;
+  z-index: 15;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+}
+
 // }
