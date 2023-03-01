@@ -42,9 +42,21 @@ const UpcomingArtists = () => {
           {toggle && (
             <div className={style.indicard} onClick={handleHide} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
-              <img src='https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png' className={style.leftcardimg} alt="" />
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                className={style.topcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                className={style.leftcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                className={style.rightcardimg}
+                alt=""
+              />
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
@@ -74,9 +86,21 @@ const UpcomingArtists = () => {
           {toggle2 && (
             <div className={style.indicard} onClick={handleHide2} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
-              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                className={style.topcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                className={style.leftcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                className={style.rightcardimg}
+                alt=""
+              />
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>

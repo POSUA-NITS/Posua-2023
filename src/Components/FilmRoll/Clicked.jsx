@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./FilmRoll.module.scss";
-import './FilmRoll.css'
+import "./FilmRoll.css";
 
 const Clicked = (props) => {
   const { clicked, setClicked } = props;

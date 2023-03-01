@@ -115,20 +115,20 @@
     top: 0px;
   }
 
-    .clicked img {
-        position: fixed;
-        z-index: 15;
-        width: 50%;
-        left: 50%;
-        top: 50%;
-        transform: translateX(-50%) translateY(-50%);
-      }
+  .clicked img {
+    position: fixed;
+    z-index: 15;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
 
-      @media (width<800){
-        .clicked img{
-          width: 90%;
-        }
-      }
+  @media (width<800) {
+    .clicked img {
+      width: 90%;
+    }
+  }
 
   .imgsEnclose:nth-child(5) .imgs,
   .imgsEnclose:nth-child(5) .click {
@@ -145,26 +145,26 @@
     z-index: 12;
   }
 
-      .imgs {
-        width: 25%;
-        z-index: 10;
-      }
-    }
-  // }
-  .backdrop {
-    position: fixed;
-    z-index: 14;
-    background: rgba(0, 0, 0, 0.448);
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
+  .imgs {
+    width: 25%;
+    z-index: 10;
   }
-  .clicked img {
-    position: fixed;
-    z-index: 15;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-  }
+}
+// }
+.backdrop {
+  position: fixed;
+  z-index: 14;
+  background: rgba(0, 0, 0, 0.448);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+.clicked img {
+  position: fixed;
+  z-index: 15;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+}
 // }
