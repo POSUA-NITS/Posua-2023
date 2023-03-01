@@ -4,7 +4,7 @@ import Styles from './Hero.module.scss'
 
 const Hero = () => {
   const [winWidth, setWinWidth] = useState(window.innerWidth)
-  
+
   document.getElementsByClassName('sky')
   document.getElementsByClassName('clouds')
 
@@ -28,9 +28,9 @@ const Hero = () => {
       <img src="/assets/Hero/layer3.png" alt="" className={Styles.layer3} />
       <img src="/assets/Hero/layer2.png" alt="" className={Styles.layer2} />
       <img src="/assets/Hero/layer1.png" alt="" className={Styles.layer1} />
-      <img src="/assets/Hero/bush.png" alt="" className={Styles.bush} />
       {/* <img src="/assets/Hero/bush.png" alt="" className={Styles.bushInverted} /> */}
     </div>
+      <img src="/assets/Hero/bush.png" alt="" className={Styles.bush} />
     </>
   )
 }
