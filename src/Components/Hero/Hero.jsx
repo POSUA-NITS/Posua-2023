@@ -34,7 +34,7 @@ const Hero = () => {
       <img src="/assets/Hero/layer1.png" alt="" className={Styles.layer1} />
       {/* <img src="/assets/Hero/bush.png" alt="" className={Styles.bushInverted} /> */}
     </div>
-      <img src="/assets/Hero/bush.png" alt="" className={Styles.bush} />
+      <img src="/assets/Hero/bush.png" alt="" className={winWidth>800?Styles.bush:Styles.bush_mobile} />
     </>
   );
 };
