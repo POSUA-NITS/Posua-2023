@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import style from "./Artists.module.scss";
-import leftcardpart from "../../Assets/Artists/left-card-part-removebg.png";
-import topcardpart from "../../Assets/Artists/top-card-part-removebg.png";
-import rightcardpart from "../../Assets/Artists/right-card-part-removebg.png";
 import Title from "../../Components/Title/Title";
 import Playcontrols from "./Playcontrols";
 const PreviousArtists = () => {
@@ -112,9 +109,9 @@ const PreviousArtists = () => {
         <div className={style.allpreviouscard} id={style.slide50}>
           {/*artist1 */}
           <div className={style.indicardpast} onClick={handleShowpa1} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
@@ -139,9 +136,9 @@ const PreviousArtists = () => {
           {/*artist1 */}
           {/*artist2 */}
           <div className={style.indicardpast} onClick={handleShowpa2} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
@@ -167,9 +164,9 @@ const PreviousArtists = () => {
 
           {/*artist3 */}
           <div className={style.indicardpast} onClick={handleShowpa3} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
@@ -195,9 +192,9 @@ const PreviousArtists = () => {
 
           {/*artist4 */}
           <div className={style.indicardpast} onClick={handleShowpa4} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
@@ -223,9 +220,9 @@ const PreviousArtists = () => {
 
           {/*artis5 */}
           <div className={style.indicardpast} onClick={handleShowpa5} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
@@ -251,9 +248,9 @@ const PreviousArtists = () => {
 
           {/*artist6 */}
           <div className={style.indicardpast} onClick={handleShowpa6} id={style.hideup}>
-            <img src={topcardpart} className={style.topcardimg} alt="" />
-            <img src={leftcardpart} className={style.leftcardimg} alt="" />
-            <img src={rightcardpart} className={style.rightcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png" className={style.topcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png" className={style.leftcardimg} alt="" />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png" className={style.rightcardimg} alt="" />
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
