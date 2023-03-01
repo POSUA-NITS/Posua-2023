@@ -10,11 +10,8 @@ export const Header = (props) => {
       </div>
 
       <div className={styles.heading}>
-      
-      <h1 style={{ fontSize: props.fontSize }}
-      >{props.title}</h1>
+        <h1 style={{ fontSize: props.fontSize }}>{props.title}</h1>
       </div>
-
 
       <div className={styles.main} id={styles.right}>
         <img className={styles.b} src="src/Assets/DholPepa/b.svg" alt="b" />
