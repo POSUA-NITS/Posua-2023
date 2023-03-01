@@ -9,9 +9,9 @@ const Events = () => {
     <>
 
       <div className={styles.main}>
-        <Header title="EVENTS" />
+        <Header title="EVENTS" fontSize="3rem"  />
         <div className={styles.content}>{data.content}</div>
-        <Phool />
+        
         <Carousel />
       </div>
     </>
