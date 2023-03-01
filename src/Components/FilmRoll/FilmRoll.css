@@ -1,0 +1,10 @@
+/* .clicked img{
+  width: 90% !important;
+} */
+
+
+@media only screen and (width<800){
+    .clicked img{
+      width: 90%;
+    }
+  }

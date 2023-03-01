@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./FilmRoll.module.scss";
+import './FilmRoll.css'
 
 const Clicked = (props) => {
   const { clicked, setClicked } = props;
@@ -12,7 +13,7 @@ const Clicked = (props) => {
           setClicked("default");
         }}
       ></div>
-      <div className={Styles.clicked}>
+      <div className={`${Styles.clicked} clicked`}>
         <img src={clicked} alt="" />
       </div>
     </>
