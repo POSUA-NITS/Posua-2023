@@ -5,8 +5,6 @@ import styles from "./ImageSlider.module.scss";
 import MemberSlider from "./MemberSlider";
 
 const ImageSlider = ({ images }) => {
-
-    
   const settings = {
     infinite: true,
     dots: true,

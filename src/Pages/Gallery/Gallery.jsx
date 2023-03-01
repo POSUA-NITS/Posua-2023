@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./Gallery.module.scss";
 import left_flower from "../../Assets/flowerbrown.png";
 import right_flower from "../../Assets/right_flower.png";
@@ -9,6 +10,9 @@ import rface from "../../Assets/right_face.png";
 import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 
 const Gallery = () => {
+  useEffect(() => {
+    document.title = "Gallery | Posua 2023";
+  }, []);
   return (
     <div className={styles.container}>
       <div className={styles.header}>
