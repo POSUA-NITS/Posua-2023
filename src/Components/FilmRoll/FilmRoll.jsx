@@ -6,11 +6,11 @@ import { useState } from "react";
 
 const FilmRoll = () => {
   const [clicked, setClicked] = useState("default");
-  const [winWidth, setWinWidth] = useState(window.innerWidth)
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
 
-  window.addEventListener('resize', () => {
-    setWinWidth(window.innerWidth)
-  })
+  window.addEventListener("resize", () => {
+    setWinWidth(window.innerWidth);
+  });
   return (
     <>
       <img
@@ -18,7 +18,7 @@ const FilmRoll = () => {
         alt="<<< Scroll"
         className={Styles.scrollpoint}
       />
-      <div className={winWidth>800?Styles.enclose:Styles.enclose_mobile}>
+      <div className={winWidth > 800 ? Styles.enclose : Styles.enclose_mobile}>
         {clicked !== "default" ? (
           <Clicked clicked={clicked} setClicked={setClicked} />
         ) : (
