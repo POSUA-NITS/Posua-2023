@@ -25,34 +25,34 @@
     margin-right: 0.5em;
     &:hover {
       .Card {
-        width: 26rem;
+        // width: 26rem;
+        transform: scale(1.03);
       }
       .TextForRotation {
         opacity: 1;
       }
       .Images {
-        transform: scale(1.05);
+        transform: scale(1.04);
       }
     }
+      // .Card {
+      //   width: 26rem;
+      // }
+      // .TextForRotation {
+      //   opacity: 1;
+      // }
     .Card {
-      width: 26rem;
-    }
-    .TextForRotation {
-      opacity: 1;
-    }
-    .Images {
-      transform: scale(1.05);
-    }
-    .Card {
-      transition: all 1s ease-in-out;
+      transition: all 0.6s ease-in-out;
       width: 400px;
       height: 35rem;
     }
     .Images {
-      width: 270px;
+      width: 268px;
+      height: 410px;
+      object-fit: cover;
       position: absolute;
       top: 16%;
-      transition: all 1s ease-in-out;
+      transition: all 0.6s ease-in-out;
     }
     .TextForRotation {
       display: flex;
