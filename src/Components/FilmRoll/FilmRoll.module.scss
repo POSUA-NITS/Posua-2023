@@ -11,7 +11,29 @@
 }
 
 .enclose {
+  // .box {
+  //     --mask:
+  //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
+  //       radial-gradient(193.27px at 50% -166.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 49px)/360px 98px repeat-x;
+  //     -webkit-mask: var(--mask);
+  //             mask: var(--mask);
+  //   }
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  margin-left: auto;
+  position: relative;
+  height: 405px;
+  margin-bottom: 3rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
 
+  .roll::-webkit-scrollbar,
+  .enclose::-webkit-scrollbar {
+    display: none;
+  }
   // .box {
   //     --mask:
   //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
@@ -36,7 +58,6 @@
   .enclose::-webkit-scrollbar {
     display: none;
   }
-
   .roll {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -299,12 +320,51 @@
     z-index: 12;
   }
 
+  }
+
+  @media (width<800) {
+    .clicked img {
+      width: 90%;
+    }
+  }
+
+  .imgsEnclose:nth-child(5) .imgs,
+  .imgsEnclose:nth-child(5) .click {
+    position: absolute;
+    left: 75%;
+    top: 68px;
+    transform: rotateY(42deg) rotateX(12deg) rotateZ(10deg) scale(1.3);
+  }
+
+  .click {
+    width: 25%;
+    aspect-ratio: 1.8;
+    cursor: pointer;
+    z-index: 12;
+  }
+
   .imgs {
     width: 25%;
     z-index: 10;
   }
 }
-
+// }
+.backdrop {
+  position: fixed;
+  z-index: 14;
+  background: rgba(0, 0, 0, 0.448);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+.clicked img {
+  position: fixed;
+  z-index: 15;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+}
 // }
 .backdrop {
   position: fixed;

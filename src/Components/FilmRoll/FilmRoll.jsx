@@ -11,14 +11,19 @@ const FilmRoll = () => {
   window.addEventListener('resize', () => {
     setWinWidth(window.innerWidth)
   })
-
   return (
     <>
-      <img src="/assets/Reel/scroll.gif" alt="<<< Scroll" className={Styles.scrollpoint} />
-      <div className={winWidth>800?Styles.enclose:Styles.enclose_mobile}>
-
-        {clicked !== "default" ? <Clicked clicked={clicked} setClicked={setClicked} /> : ""}
-
+      <img
+        src="/assets/Reel/scroll.gif"
+        alt="<<< Scroll"
+        className={Styles.scrollpoint}
+      />
+      <div className={Styles.enclose}>
+        {clicked !== "default" ? (
+          <Clicked clicked={clicked} setClicked={setClicked} />
+        ) : (
+          ""
+        )}
         <div className={Styles.roll}>
           <div className={Styles.oneRoll}>
             <img src={Reel} alt="" className={Styles.reel} />
@@ -218,9 +223,8 @@ const FilmRoll = () => {
         </div>
       </div>
     </>
-  )
-}
-
+  );
+};
 //         {/* <img src={Reel} alt="" />
 //         <img src={Reel} alt="" /> */}
 //     </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import camera from "./camera.png"
-import film from "./film.png"
+import camera from "./camera.png";
+import film from "./film.png";
 import data from "./data.json";
-import styles from "./AboutUs.module.scss"
+import styles from "./AboutUs.module.scss";
 const AboutUs = () => {
   return (
     <section className={styles.aboutUs}>

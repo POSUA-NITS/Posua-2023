@@ -18,6 +18,10 @@ const Hero = () => {
       <img src="/assets/Hero/sky.png" alt="" className={Styles.sky} />
       <img src="/assets/Hero/clouds.png" alt="" className={Styles.clouds} />
       {/* <div className={Styles.posua}> */}
+      {/* <div className={Styles.hero}> */}
+        <img src="/assets/Hero/sky.png" alt="" className={Styles.sky} />
+        <img src="/assets/Hero/clouds.png" alt="" className={Styles.clouds} />
+        {/* <div className={Styles.posua}> */}
         <img src="/assets/Hero/posua.png" alt="" className={Styles.posua} />
 
       {/* </div> */}
@@ -32,7 +36,7 @@ const Hero = () => {
     </div>
       <img src="/assets/Hero/bush.png" alt="" className={Styles.bush} />
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

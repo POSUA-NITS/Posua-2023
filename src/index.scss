@@ -17,4 +17,6 @@
   box-sizing: border-box;
   font-family: var(--posua-font-1);
   font-family: var(--posua-font-1);
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }

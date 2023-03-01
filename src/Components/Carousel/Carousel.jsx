@@ -51,7 +51,7 @@ const data = [
 const Carousel = () => {
   const [swiperRef, setSwiperRef] = useState(null);
   const [slide, _] = useState(data);
-  const [activeSlideIdx, setactiveSlideIdx] = useState(1)
+  const [activeSlideIdx, setactiveSlideIdx] = useState(1);
   const slideTo = (index) => {
     setactiveSlideIdx(index);
     swiperRef.slideTo(index - 1, 0);
@@ -61,11 +61,16 @@ const Carousel = () => {
       <div className={styles.btncont}>
         {data.map((val, idx) => {
           return (
-            <CarouselButton key={idx} data={{text: val.title, onClick: () => slideTo(idx + 1), active: activeSlideIdx === val.idx }}/>
-          )
-        })
-      }
-
+            <CarouselButton
+              key={idx}
+              data={{
+                text: val.title,
+                onClick: () => slideTo(idx + 1),
+                active: activeSlideIdx === val.idx,
+              }}
+            />
+          );
+        })}
       </div>
 
       <Swiper
@@ -74,7 +79,7 @@ const Carousel = () => {
         navigation={true}
         autoplay={{
           delay: 8000,
-          disableOnInteraction: true
+          disableOnInteraction: true,
         }}
         centeredSlides={true}
         slidesPerView={1}
