@@ -2,6 +2,10 @@
 // This is a part of Template
 .home {
   // height: 100vh;
+  .hero_enclose{
+    height: 110vh;
+    overflow: hidden;
+  }
   h1 {
     font-weight: bold;
   }

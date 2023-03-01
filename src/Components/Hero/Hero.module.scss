@@ -1,6 +1,14 @@
 :root {
     --speed: 2s;
 }
+.bush {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 100vh;
+}
 
 .hero::-webkit-scrollbar {
   display: none;
@@ -11,7 +19,7 @@
     height: 100vh;
     // justify-content: center;
     overflow: hidden;
-    overflow-y: visible;
+    // overflow-y: visible;
 
     img {
         position: absolute;
@@ -81,9 +89,6 @@
         animation: forwards var(--speed) layer1;
     }
 
-    .bush {
-        transform: translateX(-50%) translateY(20%);
-    }
 
     .bushInverted {
         transform: translateX(-50%) translateY(80%) rotateX(180deg);
@@ -211,7 +216,7 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-    overflow-y: visible;
+    // overflow-y: visible;
     
     img {
         transition-delay: 5.25s;
@@ -390,8 +395,7 @@
             transform: translateY(-2%);
         }
     }
-}
-=======
+// }
   position: relative;
   height: 100vh;
   // justify-content: center;

@@ -10,7 +10,9 @@ const Home = () => {
   }, []);
   return (
     <main className={style.home}>
-      <Hero />
+      <div className={style.hero_enclose}>
+        <Hero />
+      </div>
       <AboutUs />
     </main>
   );
