@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import style from "./Artists.module.scss";
-import leftcardpart from "../../Assets/Artists/left-card-part-removebg.png";
-import topcardpart from "../../Assets/Artists/top-card-part-removebg.png";
-import rightcardpart from "../../Assets/Artists/right-card-part-removebg.png";
-import { HoverSlideshow } from "react-hover-slideshow";
+import Flowerinout from "./Flowerinout";
+import Title from "../../Components/Title/Title";
+import Playcontrols from "./Playcontrols";
 const UpcomingArtists = () => {
   const [togglepar, setTogglepar] = useState(true);
   const [toggle, setToggle] = useState(true);
@@ -20,14 +19,6 @@ const UpcomingArtists = () => {
     setTogglepar(!togglepar);
     setToggle1(!toggle1);
   }
-  const imageURLs = [
-    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg",
-    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677494643/posua/simanta-shekhar_tpryho.jpg",
-    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg",
-    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677494643/posua/simanta-shekhar_tpryho.jpg",
-  ];
-  // const activeIndex, setActiveIndex = useState(0);
-
   // for artist 1
 
   // for artist 2
@@ -43,119 +34,83 @@ const UpcomingArtists = () => {
 
   return (
     <>
-      <div className={style.artistsmain}>
-        <div className={style.animateposua}>
-          <div className={style.redbg}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677100739/posua/rd_bg_duat4m.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.gmcha}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128222/posua/gmcha_nobg_fqin50.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.tabla}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128053/posua/tabla-nobg_my9jwi.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.flute}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128156/posua/flute-nobg_mggx4t.png"
-              alt=""
-            />{" "}
-          </div>
-        </div>
-        <div className={style.titleholderartist}>
-          {" "}
-          <h1 className={style.artismainh1}>UPCOMING ARTISTS</h1>
-        </div>
-
-        <div className={style.animateposua} id={style.right}>
-          <div className={style.redbg}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677100739/posua/rd_bg_duat4m.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.gmcha}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128222/posua/gmcha_nobg_fqin50.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.tabla}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128053/posua/tabla-nobg_my9jwi.png"
-              alt=""
-            />
-          </div>
-
-          <div className={style.flute}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128156/posua/flute-nobg_mggx4t.png"
-              alt=""
-            />{" "}
-          </div>
-        </div>
-      </div>
+      <Title headtitle="UPCOMING ARTISTS" />
 
       {togglepar && (
-        <div className={style.allupcomingcard}>
+        <div className={style.allupcomingcard} id={style.slide50}>
           {/* artist1 starts */}
           {toggle && (
-            <div className={style.indicard} onClick={handleHide}>
+            <div className={style.indicard} onClick={handleHide} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
-              <img src={topcardpart} className={style.topcardimg} alt="" />
-              <img src={leftcardpart} className={style.leftcardimg} alt="" />
-              <img src={rightcardpart} className={style.rightcardimg} alt="" />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                className={style.topcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                className={style.leftcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                className={style.rightcardimg}
+                alt=""
+              />
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
                 onMouseOver={(e) =>
                   (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677494643/posua/simanta-shekhar_tpryho.jpg")
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
                 }
                 onMouseOut={(e) =>
                   (e.currentTarget.src =
-                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg")
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
                 }
                 className={style.artistpic}
                 alt=""
               />
-              {/* <HoverSlideshow
-                                // aria-label="My pretty picture slideshow"
-                                images={imageURLs}
-                                className={style.artistpic}
-                            /> */}
+
               <div className={style.artistdetails}>
                 <h2 className={style.artistname}>Priyanka Bharali</h2>
                 <div className={style.artistwork}>
                   <h3>Singer</h3>
                 </div>
               </div>
-              <div className={style.btmartist}> </div>
+              <Playcontrols />
             </div>
           )}
           {/*artist1 ends */}
 
           {/* artist 2 starts*/}
           {toggle2 && (
-            <div className={style.indicard} onClick={handleHide2}>
+            <div className={style.indicard} onClick={handleHide2} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
-              <img src={topcardpart} className={style.topcardimg} alt="" />
-              <img src={leftcardpart} className={style.leftcardimg} alt="" />
-              <img src={rightcardpart} className={style.rightcardimg} alt="" />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                className={style.topcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                className={style.leftcardimg}
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                className={style.rightcardimg}
+                alt=""
+              />
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+                onMouseOver={(e) =>
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                }
+                onMouseOut={(e) =>
+                  (e.currentTarget.src =
+                    "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                }
                 className={style.artistpic}
                 alt=""
               />
@@ -165,7 +120,7 @@ const UpcomingArtists = () => {
                   <h3>Singer</h3>
                 </div>
               </div>
-              <div className={style.btmartist}> </div>
+              <Playcontrols />
             </div>
           )}
           {/*artist2 ends */}
@@ -174,37 +129,13 @@ const UpcomingArtists = () => {
 
       {/*artist 1 deatisl starts*/}
       {toggle1 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleShow2}>
-            <svg
-              style={{ cursor: "pointer" }}
-              width="37"
-              height="37"
-              viewBox="0 0 37 37"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 4L33 33M33 4L4 33"
-                stroke="url(#paint0_linear_883_93800)"
-                stroke-width="8"
-                stroke-linecap="round"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_883_93800"
-                  x1="4.02627"
-                  y1="4.14358"
-                  x2="33.9636"
-                  y2="5.14583"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#732B0D" />
-                  <stop offset="0.489583" stop-color="#A4471B" />
-                  <stop offset="1" stop-color="#93560F" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharali0</h1>
           <div className={style.aboutbha}>
@@ -233,37 +164,13 @@ const UpcomingArtists = () => {
 
       {/*artist 2 deatisl starts*/}
       {toggle3 && (
-        <div className={style.artistdetail}>
+        <div className={style.artistdetail} id={style.detailanimate}>
           <button className={style.btnleft} onClick={handleShow}>
-            <svg
-              style={{ cursor: "pointer" }}
-              width="37"
-              height="37"
-              viewBox="0 0 37 37"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 4L33 33M33 4L4 33"
-                stroke="url(#paint0_linear_883_93800)"
-                stroke-width="8"
-                stroke-linecap="round"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_883_93800"
-                  x1="4.02627"
-                  y1="4.14358"
-                  x2="33.9636"
-                  y2="5.14583"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#732B0D" />
-                  <stop offset="0.489583" stop-color="#A4471B" />
-                  <stop offset="1" stop-color="#93560F" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <img
+              className={style.imgcross}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              alt=""
+            />
           </button>
           <h1>Priyanka Bharali1</h1>
           <div className={style.aboutbha}>
@@ -289,22 +196,7 @@ const UpcomingArtists = () => {
         </div>
       )}
       {/*artist 2 deatisl ends*/}
-
-      <div
-        className={style.flowerholder}
-        style={{ userSelect: "none", pointerEvents: "none" }}
-      >
-        <img
-          className={style.leftflower}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677491804/posua/left_flwr-removebg-preview_yymznr.png"
-          alt=""
-        />
-        <img
-          className={style.rightflower}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677486535/posua/right_flwr-removebg-preview_rt6eq7.png"
-          alt=""
-        />
-      </div>
+      <Flowerinout />
     </>
   );
 };

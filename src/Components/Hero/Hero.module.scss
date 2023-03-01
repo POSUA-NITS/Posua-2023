@@ -1,14 +1,33 @@
-:root{
-    --speed : 2s;
+:root {
+    --speed: 2s;
+}
+.bush {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 100vh;
+}
+.bush_mobile {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-55%);
+    top: 100vh;
 }
 
+.hero::-webkit-scrollbar {
+  display: none;
+}
 
 .hero {
     position: relative;
     height: 100vh;
     // justify-content: center;
     overflow: hidden;
-    overflow-y: visible;
+    // overflow-y: visible;
 
     img {
         position: absolute;
@@ -55,149 +74,529 @@
     .pines {
         transform: translateX(-50%) translateY(-3rem);
         animation: forwards var(--speed) pines;
-        
+
     }
 
-    .layer4{
+    .layer4 {
         width: 90%;
         transform: translateX(-50%) translateY(-20%);
         animation: forwards var(--speed) layer4;
     }
-    
-    .layer3{
+
+    .layer3 {
         width: 100%;
         animation: forwards var(--speed) layer3;
         transform: translateX(-50%) translateY(-20%);
     }
-    
-    .layer2{
+
+    .layer2 {
         animation: forwards var(--speed) layer2;
     }
-    
-    .layer1{
+
+    .layer1 {
         animation: forwards var(--speed) layer1;
     }
-    
-    .bush{
-        transform: translateX(-50%) translateY(20%);
-    }
-    
-    .bushInverted{
+
+
+    .bushInverted {
         transform: translateX(-50%) translateY(80%) rotateX(180deg);
     }
-    
-    .whitishBush{
+
+    .whitishBush {
         transform: translateX(-50%) translateY(-3rem);
         animation: forwards var(--speed) whitishBush;
     }
+
+    @keyframes clouds {
+        0% {
+            transform: translateX(-50%) scale(100%);
+        }
+
+        100% {
+            transform: translateX(-50%) scale(165%, 142%);
+        }
+    }
+
+    @keyframes hills {
+        0% {
+            transform: translateX(-50%) translateY(-10%);
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(5%);
+        }
+    }
+
+    @keyframes pines {
+        0% {
+            transform: translateX(-50%) translateY(-10%);
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(4%);
+        }
+    }
+
+
+    @keyframes layer4 {
+        0% {
+            // transform: translateX(-50%) translateY(-20%);    
+            width: 90%;
+        }
+
+        100% {
+            // transform: translateX(-50%) translateY(-20%);            
+            width: 120%;
+        }
+    }
+
+    @keyframes layer3 {
+        0% {
+            // transform: translateX(-50%) translateY(4%);
+            transform: translateX(-50%) translateY(-18%);
+            width: 100%;
+        }
+
+        100% {
+            width: 120%;
+            transform: translateX(-50%) translateY(-20%);
+        }
+    }
+
+    @keyframes layer2 {
+        0% {
+            transform: translateX(-50%) translateY(-10%);
+            // transform: translateX(-50%) translateY(4%);
+            // transform: translateX(-50%) translateY(-18%);
+            // width: 100%;
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(-18%);
+            // width: 120%;
+            // transform: translateX(-50%) translateY(-20%);
+        }
+    }
+
+    @keyframes layer1 {
+        0% {
+            width: 100%;
+            transform: translateX(-60%) translateY(-20%);
+            // transform: translateX(-50%) translateY(-10%);
+            // transform: translateX(-50%) translateY(4%);
+            // transform: translateX(-50%) translateY(-18%);
+            // width: 100%;
+        }
+
+        100% {
+            width: 120%;
+            transform: translateX(-60%) translateY(-20%);
+            // transform: translateX(-50%) translateY(-18%);
+            // width: 120%;
+            // transform: translateX(-50%) translateY(-20%);
+        }
+    }
+
+    @keyframes posua {
+        0% {
+            transform: scale(2.3) translateY(8rem);
+        }
+
+        100% {
+            // transform: translateX(-63%) translateY(-18rem);
+            transform: scale(4.3) translateY(2rem);
+        }
+    }
+
+    @keyframes whitishBush {
+        0% {
+            transform: translateX(-50%) translateY(-10%);
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(-2%);
+        }
+    }
 }
 
-@keyframes clouds {
-    0% {
+
+.hero_mobile {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    // .bush {
+    //     transform: translateX(-50%) translateY(-15%);
+    // }
+    // overflow-y: visible;
+    
+    img {
+        transition-delay: 5.25s;
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        left: 0%;
+    }
+
+    .sky {}
+
+    .clouds {
+        width: 80%;
+        min-width: 80%;
+        min-height: 80%;
         transform: translateX(-50%) scale(100%);
+        animation: forwards var(--speed) clouds_mobile;
     }
+
+    .hills {
+        height: 110%;
+        left: 50%;
+        transform: translateX(-50%) translateY(0%);
+        animation: forwards var(--speed) hills_mobile;
+    }
+
+    .posua {
+        width: 10%;
+        min-width: 30%;
+        min-height: 10%;
+        left: 35%;
+        transform: translateX(140%) scale(2.3) translateY(40vh);
+        animation: forwards var(--speed) posua_mobile;
+    }
+
+    .pines {
+        transform: translateY(-10%);
+        animation: forwards var(--speed) pines_mobile;
+
+    }
+
+    .layer4 {
+        animation: forwards var(--speed) layer4_mobile;
+        height: 90%;
+        transform: translateX(-90%) translateY(20%);
+        left: 100%;
+    }
+
+    .layer3 {
+        animation: forwards var(--speed) layer3_mobile;
+        left: 100%;
+        transform: translateX(-100%) translateY(-18%);
+        height: 100%;
+    }
+
+    .layer2 {
+        transform: translateY(-10%);
+        animation: forwards var(--speed) layer2_mobile;
+    }
+
+    .layer1 {
+        height: 120%;
+        transform: translateY(-20%);
+        animation: forwards var(--speed) layer1_mobile;
+    }
+
+
+    .bushInverted {
+        transform: translateX(-50%) translateY(80%) rotateX(180deg);
+    }
+
+    .whitishBush {
+        transform: translateX(-50%) translateY(-3rem);
+        animation: forwards var(--speed) whitishBush_mobile;
+    }
+
+    @keyframes clouds_mobile {
+        0% {
+            transform: translateX(-50%) scale(100%);
+        }
+
+        100% {
+            transform: translateX(-50%) scale(165%, 142%);
+        }
+    }
+
+    @keyframes hills_mobile {
+        0% {
+            transform: translateX(-50%) translateY(0%);
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(10%);
+        }
+    }
+
+    @keyframes pines_mobile {
+        0% {
+            transform: translateY(-10%);
+        }
+
+        100% {
+            transform: translateY(4%);
+        }
+    }
+
+
+    @keyframes layer4_mobile {
+        0% {
+            height: 90%;
+            transform: translateX(-90%) translateY(20%);
+            left: 100%;
+        }
+
+        100% {
+            transform: translateX(-90%);
+            height: 120%;
+            left: 100%;
+        }
+    }
+
+    @keyframes layer3_mobile {
+        0% {
+            left: 100%;
+            transform: translateX(-100%) translateY(-18%);
+            height: 100%;
+        }
+
+        100% {
+            height: 120%;
+            transform: translateX(-85%) translateY(-20%);
+        }
+    }
+
+    @keyframes layer2_mobile {
+        0% {
+            transform: translateY(-10%);
+        }
+
+        100% {
+            transform: translateY(-32%);
+        }
+    }
+
+    @keyframes layer1_mobile {
+        0% {
+            height: 120%;
+            transform: translateY(-20%);
+        }
+
+        100% {
+            height: 150%;
+            transform: translateX(-25%) translateY(-35%);
+        }
+    }
+
+    @keyframes posua_mobile {
+        0% {
+            transform: translateX(140%) scale(2.3) translateY(40vh);
+        }
+
+        100% {
+            transform: scale(4.3) translateY(2rem);
+        }
+    }
+
+    @keyframes whitishBush_mobile {
+        0% {
+            transform: translateY(-10%);
+        }
+
+        100% {
+            transform: translateY(-2%);
+        }
+    }
+}
+//   position: relative;
+//   height: 100vh;
+//   // justify-content: center;
+//   overflow: hidden;
+//   overflow-y: visible;
+
+//   img {
+//     position: absolute;
+//     min-width: 100%;
+//     min-height: 100%;
+//     left: 50%;
+//     transform: translateX(-50%);
+//   }
+
+//   .sky {
+//     // height: 100%;
+//     // transform: scale(1.4rem);
+//   }
+
+//   .clouds {
+//     // transform: scale();
+//     width: 80%;
+//     min-width: 80%;
+//     min-height: 80%;
+//     animation: forwards var(--speed) clouds;
+//   }
+
+//   .hills {
+//     width: 110%;
+//     animation: forwards var(--speed) hills;
+//   }
+
+//   .posua {
+//     // img{
+//     //     transform: translateX(0px);
+//     //     left: 0px;
+//     //     z-index: 200;
+//     //     width: 100%;
+//     // }
+//     // transform: translateX(-63%) translateY(-18rem) scale(0.4);
+//     width: 10%;
+//     min-width: 30%;
+//     min-height: 10%;
+//     transform: scale(4.3) translateY(2rem);
+//     left: 35%;
+//     animation: forwards var(--speed) posua;
+//   }
+
+//   .pines {
+//     transform: translateX(-50%) translateY(-3rem);
+//     animation: forwards var(--speed) pines;
+//   }
+
+//   .layer4 {
+//     width: 90%;
+//     transform: translateX(-50%) translateY(-20%);
+//     animation: forwards var(--speed) layer4;
+//   }
+
+//   .layer3 {
+//     width: 100%;
+//     animation: forwards var(--speed) layer3;
+//     transform: translateX(-50%) translateY(-20%);
+//   }
+
+//   .layer2 {
+//     animation: forwards var(--speed) layer2;
+//   }
+
+//   .layer1 {
+//     animation: forwards var(--speed) layer1;
+//   }
+
+//   .bush {
+//     transform: translateX(-50%) translateY(20%);
+//   }
+
+//   .bushInverted {
+//     transform: translateX(-50%) translateY(80%) rotateX(180deg);
+//   }
+
+//   .whitishBush {
+//     transform: translateX(-50%) translateY(-3rem);
+//     animation: forwards var(--speed) whitishBush;
+//   }
+  
+//   @keyframes clouds {
+//       0% {
+//           transform: translateX(-50%) scale(100%);
+//         }
+        
+//         100% {
+//             transform: translateX(-50%) scale(165%, 142%);
+//         }
+//     }
     
-    100% {
-        transform: translateX(-50%) scale(165%, 142%);
-    }
-}
-
-@keyframes hills {
-    0% {
-        transform: translateX(-50%) translateY(-10%);
-    }
+//     @keyframes hills {
+//         0% {
+//             transform: translateX(-50%) translateY(-10%);
+//         }
+        
+//         100% {
+//             transform: translateX(-50%) translateY(5%);
+//         }
+//     }
     
-    100% {
-        transform: translateX(-50%) translateY(5%);
-    }
-}
+//     @keyframes pines {
+//         0% {
+//     transform: translateX(-50%) translateY(-10%);
+//   }
 
-@keyframes pines {
-    0% {
-        transform: translateX(-50%) translateY(-10%);
-    }
+//   100% {
+//       transform: translateX(-50%) translateY(4%);
+//     }
+// }
+
+// @keyframes layer4 {
+//     0% {
+//         // transform: translateX(-50%) translateY(-20%);
+//         width: 90%;
+//     }
     
-    100% {
-        transform: translateX(-50%) translateY(4%);
-    }
-}
-
-
-@keyframes layer4 {
-    0% {
-        // transform: translateX(-50%) translateY(-20%);    
-        width: 90%;
-    }
+//     100% {
+//         // transform: translateX(-50%) translateY(-20%);
+//         width: 120%;
+//     }
+// }
+// @keyframes layer3 {
+//     0% {
+//         // transform: translateX(-50%) translateY(4%);
+//         transform: translateX(-50%) translateY(-18%);
+//         width: 100%;
+//     }
     
-    100% {
-        // transform: translateX(-50%) translateY(-20%);            
-        width: 120%;
-    }
-}
-@keyframes layer3 {
-    0% {
-        // transform: translateX(-50%) translateY(4%);
-        transform: translateX(-50%) translateY(-18%);
-        width: 100%;
-    }
+//     100% {
+//         width: 120%;
+//         transform: translateX(-50%) translateY(-20%);
+//     }
+// }
+
+// @keyframes layer2 {
+//     0% {
+//         transform: translateX(-50%) translateY(-10%);
+//         // transform: translateX(-50%) translateY(4%);
+//         // transform: translateX(-50%) translateY(-18%);
+//         // width: 100%;
+//     }
+
+//   100% {
+//     transform: translateX(-50%) translateY(-18%);
+//     // width: 120%;
+//     // transform: translateX(-50%) translateY(-20%);
+// }
+// }
+
+// @keyframes layer1 {
+//     0% {
+//         width: 100%;
+//         transform: translateX(-60%) translateY(-20%);
+//         // transform: translateX(-50%) translateY(-10%);
+//         // transform: translateX(-50%) translateY(4%);
+//         // transform: translateX(-50%) translateY(-18%);
+//         // width: 100%;
+//     }
     
-    100% {
-        width: 120%;
-        transform: translateX(-50%) translateY(-20%);
-    }
-}
+//     100% {
+//         width: 120%;
+//         transform: translateX(-60%) translateY(-20%);
+//         // transform: translateX(-50%) translateY(-18%);
+//         // width: 120%;
+//         // transform: translateX(-50%) translateY(-20%);
+//     }
+// }
 
-@keyframes layer2 {
-    0% {
-        transform: translateX(-50%) translateY(-10%);
-        // transform: translateX(-50%) translateY(4%);
-        // transform: translateX(-50%) translateY(-18%);
-        // width: 100%;
-    }
+// @keyframes posua {
+//   0% {
+//     transform: scale(2.3) translateY(8rem);
+// }
+
+// 100% {
+//     // transform: translateX(-63%) translateY(-18rem);
+//     transform: scale(4.3) translateY(2rem);
+// }
+// }
+
+// @keyframes whitishBush {
+//     0% {
+//         transform: translateX(-50%) translateY(-10%);
+//     }
     
-    100% {
-        transform: translateX(-50%) translateY(-18%);
-        // width: 120%;
-        // transform: translateX(-50%) translateY(-20%);
-    }
-}
+//     100% {
+//         transform: translateX(-50%) translateY(-2%);
+//     }
+// }
 
-@keyframes layer1 {
-    0% {
-        width: 100%;
-        transform: translateX(-60%) translateY(-20%);
-        // transform: translateX(-50%) translateY(-10%);
-        // transform: translateX(-50%) translateY(4%);
-        // transform: translateX(-50%) translateY(-18%);
-        // width: 100%;
-    }
-    
-    100% {
-        width: 120%;
-        transform: translateX(-60%) translateY(-20%);
-        // transform: translateX(-50%) translateY(-18%);
-        // width: 120%;
-        // transform: translateX(-50%) translateY(-20%);
-    }
-}
-
-@keyframes posua {
-    0% {
-        transform: scale(2.3) translateY(8rem);
-    }
-    
-    100% {
-        // transform: translateX(-63%) translateY(-18rem);
-        transform: scale(4.3) translateY(2rem);
-    }
-}
-
-@keyframes whitishBush {
-    0% {
-        transform: translateX(-50%) translateY(-10%);
-    }
-
-    100% {
-        transform: translateX(-50%) translateY(-2%);
-    }
-}
+// }
