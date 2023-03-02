@@ -1,9 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Styles from "./Hero.module.scss";
-import React from "react";
-import { useState } from "react";
-import Styles from "./Hero.module.scss";
 
 const Hero = () => {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
