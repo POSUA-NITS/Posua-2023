@@ -16,6 +16,11 @@
     text-align: center;
     line-height: 30px;
     font-family: "Philosopher", sans-serif;
+    display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
   }
 }
 
