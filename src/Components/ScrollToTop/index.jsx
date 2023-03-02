@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import style from './index.module.scss'
+import style from "./index.module.scss";
 import { useWindowScroll } from "react-use";
-import { AiOutlineArrowUp } from 'react-icons/ai';
+import { AiOutlineArrowUp } from "react-icons/ai";
 const ScrollToTop = () => {
   const { y: pageYOffset } = useWindowScroll();
   const [visible, setVisibility] = useState(false);
@@ -17,10 +17,7 @@ const ScrollToTop = () => {
     return false;
   }
   return (
-    <div
-      className={style.scrolltotop}
-      onClick={ScrollToTop}
-    >
+    <div className={style.scrolltotop} onClick={ScrollToTop}>
       <center>
         {/* <i className="icon fas fa-chevron-up"></i> */}
         <AiOutlineArrowUp className={style.icon} size={20} />

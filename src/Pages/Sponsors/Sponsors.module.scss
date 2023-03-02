@@ -1,18 +1,18 @@
-.sponsorsmain{
-    background: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
+.sponsorsmain {
+  background: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 5vw;
-  .prevsponosr{
-   margin-top: 1vw;
-   padding-bottom: 6vw;
-   h1{
-    font-size: 4vw;
-    margin: 0 auto;
-   }
+  .prevsponosr {
+    margin-top: 1vw;
+    padding-bottom: 6vw;
+    h1 {
+      font-size: 4vw;
+      margin: 0 auto;
+    }
   }
-  .prevsponhlder{
+  .prevsponhlder {
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -20,19 +20,19 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5vw;
-    .imgprespon{
-        width:23%;
-        flex: none;
-        order: 1;
-        height: 20vw;
-       
-        img{
-            width: 100%;
-            height: 100%;
-        }
+    .imgprespon {
+      width: 23%;
+      flex: none;
+      order: 1;
+      height: 20vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
-}
-.moresponsors{
+  }
+  .moresponsors {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -40,94 +40,93 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 8vw;
-    .imgmoresponhlder{
-        width: 55%;
-        margin-left: 5%;
-        margin-right: 5%;
-        height: 20vw;
-        img{
-            width: 100%;
-            height: 100%;
-        }
-    }
-    .teaoclk{
-        width: 25%;
-        margin-right: 5%;
-        margin-left: 5%;
-        height: 20vw;
-        img{
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-}
-
-.sponsorssub{
-    margin: 5vw auto 0 auto;
-    padding-bottom: 5vw;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    .assospon{
-        flex: none;
-        order: 1;
-        height: 25vw;
-       position: relative;
-        margin: 0 auto;
+    .imgmoresponhlder {
+      width: 55%;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 20vw;
+      img {
         width: 100%;
-        background: url(https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677705951/posua/WhatsApp_Image_2023-03-02_at_02.55.29_br3ixa.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        .bgspon{
-            position: absolute;
-            z-index: 3;
-            width: 70%;
-            height: 95%;
-            top: 2.5%;
-            left: 15%;
-            pointer-events: none;
-            padding-top: 2vw;
-        }
-        .cubeimg{
-            position: absolute;
-            z-index: 5;
-            width: 33%;
-            height: 58%;
-            pointer-events: none;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%,-80%);
-        }
-        h1{
-            position: absolute;
-            z-index: 5;
-            font-size: 3vw;
-            width: 70%;
-           text-align: center;
-            top: 17%;
-            left: 50%;
-            transform: translate(-50%,-17%);
-            margin:0 ;
-        }
+        height: 100%;
+      }
     }
+    .teaoclk {
+      width: 25%;
+      margin-right: 5%;
+      margin-left: 5%;
+      height: 20vw;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 }
 
-@media screen and (max-width:768px){
-    .sponsorsmain{
-        padding-top: 17vw;
+.sponsorssub {
+  margin: 5vw auto 0 auto;
+  padding-bottom: 5vw;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  .assospon {
+    flex: none;
+    order: 1;
+    height: 25vw;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    background: url(https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677705951/posua/WhatsApp_Image_2023-03-02_at_02.55.29_br3ixa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .bgspon {
+      position: absolute;
+      z-index: 3;
+      width: 70%;
+      height: 95%;
+      top: 2.5%;
+      left: 15%;
+      pointer-events: none;
+      padding-top: 2vw;
     }
-
-    .sponsorssub{
-        margin-top: 10vw;
-        padding-bottom: 15vw;
+    .cubeimg {
+      position: absolute;
+      z-index: 5;
+      width: 33%;
+      height: 58%;
+      pointer-events: none;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -80%);
     }
-    .prevsponosr{
-        padding-bottom: 10vw !important;
-        h1{
-            font-size: 7vw !important;
-        }
+    h1 {
+      position: absolute;
+      z-index: 5;
+      font-size: 3vw;
+      width: 70%;
+      text-align: center;
+      top: 17%;
+      left: 50%;
+      transform: translate(-50%, -17%);
+      margin: 0;
     }
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .sponsorsmain {
+    padding-top: 17vw;
+  }
+
+  .sponsorssub {
+    margin-top: 10vw;
+    padding-bottom: 15vw;
+  }
+  .prevsponosr {
+    padding-bottom: 10vw !important;
+    h1 {
+      font-size: 7vw !important;
+    }
+  }
+}

@@ -22,7 +22,11 @@ function Navbarbox({ isOpen }) {
             onClick={() => handleButtonClick("Posua")}
           >
             {" "}
-            P<img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677703827/posua/posualogo_o2dpjj.png" className={Styles.posualogo} />
+            P
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677703827/posua/posualogo_o2dpjj.png"
+              className={Styles.posualogo}
+            />
             SUA
           </Link>
         </div>

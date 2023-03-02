@@ -39,10 +39,16 @@ const Gallery = () => {
 
       <div className={styles.faces}>
         <div className={styles.face_left}>
-          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png" alt="image" />
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png"
+            alt="image"
+          />
         </div>
         <div className={styles.face_right}>
-          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.png" alt="image" />
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.png"
+            alt="image"
+          />
         </div>
       </div>
       <FilmRoll />

@@ -8,37 +8,43 @@ const TeamMembers = () => {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
-      image: "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
+      image:
+        "https://res.cloudinary.com/dp92qug2f/image/upload/v1677699572/posua/Dummy_jz0yvm.png",
     },
   ];
 
