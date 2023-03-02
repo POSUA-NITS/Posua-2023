@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Header title="GALLERY" />
+        <Header title="GALLERY" fontSize="8vw" />
       </div>
 
       <p className={styles.para}>
