@@ -9,7 +9,7 @@ const Sponsors = () => {
   return (
     <>
       <div className={style.sponsorsmain}>
-        <Header title="SPONSORS" />
+        <Header title="SPONSORS" fontSize="8vw" />
 
         <div className={style.sponsorssub}>
           <div className={style.assospon}>

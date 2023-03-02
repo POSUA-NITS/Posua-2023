@@ -2,24 +2,20 @@
   --speed: 2s;
 }
 .bush {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    top: 100vh;
-    width: 100%;
-    overflow: hidden;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 100vh;
 }
 .bush_mobile {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-55%);
-    top: 100vh;
-    width: 100%;
-    overflow: hidden;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-55%);
+  top: 90vh;
 }
 
 .hero::-webkit-scrollbar {

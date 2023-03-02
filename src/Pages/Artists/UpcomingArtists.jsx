@@ -3,6 +3,8 @@ import style from "./Artists.module.scss";
 import Flowerinout from "./Flowerinout";
 import Title from "../../Components/Title/Title";
 import Playcontrols from "./Playcontrols";
+import { Header } from "../../Components/Header/Header";
+
 const UpcomingArtists = () => {
   const [togglepar, setTogglepar] = useState(true);
   const [toggle, setToggle] = useState(true);
@@ -34,7 +36,10 @@ const UpcomingArtists = () => {
 
   return (
     <>
-      <Title headtitle="UPCOMING ARTISTS" />
+      {/* <Title headtitle="UPCOMING ARTISTS" /> */}
+      <div className={style.headBox}>
+        <Header title="UPCOMING ARTIST" fontSize="6vw" />
+      </div>
 
       {togglepar && (
         <div className={style.allupcomingcard} id={style.slide50}>
