@@ -18,7 +18,7 @@ const FilmRoll = () => {
         alt="<<< Scroll"
         className={Styles.scrollpoint}
       />
-      <div className={winWidth>800?Styles.enclose:Styles.enclose_mobile}>
+      <div className={winWidth>800 && winHeight<winWidth ?Styles.enclose:Styles.enclose_mobile}>
         {clicked !== "default" ? (
           <Clicked clicked={clicked} setClicked={setClicked} />
         ) : (
