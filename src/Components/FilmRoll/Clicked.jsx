@@ -5,11 +5,11 @@ import "./FilmRoll.css";
 
 const Clicked = (props) => {
   const { clicked, setClicked } = props;
-  const [winWidth, setWinWidth] = useState(window.innerWidth)
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
 
-  window.addEventListener('resize',()=>{
-    setWinWidth(window.innerWidth)
-  })
+  window.addEventListener("resize", () => {
+    setWinWidth(window.innerWidth);
+  });
 
   return (
     <>

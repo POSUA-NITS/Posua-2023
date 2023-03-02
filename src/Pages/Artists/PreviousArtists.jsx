@@ -115,24 +115,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -154,24 +154,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -194,24 +194,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -234,24 +234,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -274,24 +274,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
@@ -314,24 +314,24 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
               className={style.rightcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
               }
               className={style.artistpic}
               alt=""
