@@ -102,8 +102,8 @@ const PreviousArtists = () => {
   }
   return (
     <>
-       <div className={style.headBox}>
-        <    Header title="PREVIOUS ARTIST" fontSize="6vw" />
+      <div className={style.headBox}>
+        <Header title="PREVIOUS ARTIST" fontSize="6vw" />
       </div>
       {/* <div className={style.tlebr}>
         <Header title="PREVIOUS ARTISTS" />

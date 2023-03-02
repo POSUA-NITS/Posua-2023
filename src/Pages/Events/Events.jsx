@@ -9,7 +9,7 @@ const Events = () => {
   useEffect(() => {
     document.title = "Events | Posua 2023";
   }, []);
-  
+
   return (
     <>
       <div className={styles.main}>
