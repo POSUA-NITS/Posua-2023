@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
 
 .footer {
-  background-image: url("../../Assets/footer.png");
-  height: 50vh;
+  background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_960,f_auto,fl_lossy/v1677669056/posua/footer_hkjaxr.png");
+  padding-top: 2.5vw;
+  padding-bottom: 2.55vw;
   background-size: cover;
   display: flex;
 
@@ -22,6 +23,10 @@
         font-family: "philosopher" !important;
         line-height: 1.4rem;
         font-size: 1.1rem;
+        a {
+          text-decoration: none;
+          color: white;
+        }
       }
 
       .headings {
@@ -39,6 +44,28 @@
         transform: translateX(-50%);
         bottom: -12px;
         background-color: white;
+      }
+    }
+  }
+}
+
+.linksmedia a {
+  transition: all 0.25s ease !important;
+}
+
+.linksmedia:hover a {
+  color: #fd4a50 !important;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    .container {
+      width: 100%;
+      flex-direction: column;
+      ul {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
       }
     }
   }

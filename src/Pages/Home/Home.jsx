@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AboutUs from "./AboutUs";
 import Borhomthuri from "./Borhomthuri";
 import { Button } from "../../Components";
@@ -5,9 +6,14 @@ import Hero from "../../Components/Hero/Hero";
 
 import style from "./Home.module.scss";
 const Home = () => {
+  useEffect(() => {
+    document.title = "Posua 2023";
+  }, []);
   return (
     <main className={style.home}>
-      <Hero />
+      <div className={style.hero_enclose}>
+        <Hero />
+      </div>
       <AboutUs />
       <Borhomthuri/>
     </main>

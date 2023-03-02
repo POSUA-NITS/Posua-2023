@@ -1,20 +1,20 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 .artists,
 .artistdetail {
-  background: url("../../Assets/Artists/bg-artists.jfif");
+  background: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@keyframes anidetial {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .artistdetail {
@@ -36,10 +36,14 @@ p {
   );
   border-image-slice: 1;
   border-radius: 30px !important;
-  margin-bottom: 10vw !important;
+  padding-bottom: 2.5vw !important;
+  &#detailanimate {
+    animation: anidetial 1s ease;
+  }
   h1 {
     text-align: center;
     font-size: 5vw;
+    margin: 0;
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     background: linear-gradient(91.92deg, #7a2400 0.1%, #ebb02a 100.1%);
@@ -51,13 +55,20 @@ p {
   }
 }
 
+.imgcross {
+  width: 40%;
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
+}
+
 .aboutbha {
   padding: 2vw 3.5vw;
   h3 {
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     font-size: 1.6vw;
-    line-height: 1.6;
+    // line-height: 1.6;
   }
 }
 
@@ -74,6 +85,9 @@ p {
 .btnleft {
   margin-left: 2vw;
   margin-right: auto;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .artistsmain {
@@ -82,9 +96,13 @@ p {
   padding-top: 7vw;
   padding-bottom: 7vw;
   text-align: center;
+  user-select: none;
 }
 
 .titleholderartist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   flex: none;
   order: 1;
@@ -106,8 +124,8 @@ p {
   width: 20%;
   height: 100%;
   img {
-    width: 100%;
-    height: 100%;
+    width: 105%;
+    height: 80%;
     transform: scaleX(1.5);
     animation-name: animatebgred;
     animation-duration: 2.5s;
@@ -126,8 +144,8 @@ p {
   width: 17%;
   height: 100%;
   img {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 80%;
   }
   animation-name: animatetabla;
   animation-duration: 2.5s;
@@ -147,7 +165,7 @@ p {
   height: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     animation-name: animategamcha;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -161,14 +179,14 @@ p {
   position: absolute;
   z-index: 4;
   left: 0;
-  top: 50%;
+  top: 40%;
   left: 13%;
   transform: scaleX(-1);
   width: 25%;
   height: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     animation-name: animateflute;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -185,7 +203,7 @@ p {
   }
 
   to {
-    transform: scaleX(1.7);
+    transform: scaleX(1.8);
   }
 }
 
@@ -222,7 +240,7 @@ p {
 }
 
 .modell {
-  background: url("../../Assets/Artists/bg-artists.jfif");
+  background: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -235,7 +253,10 @@ p {
   margin: 0 auto;
   height: 80%;
 }
+
 .artismainh1 {
+  margin: 0;
+  padding: 0;
   font-size: 5.2vw;
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
@@ -255,15 +276,27 @@ p {
   }
 }
 
+@keyframes opacitytransition {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .indicard {
   cursor: pointer;
   width: 40%;
-  height: 42vw;
-  background: rgba(242, 238, 227, 1);
+  height: 35vw;
+  // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
   order: 1;
   position: relative;
+  &#hideup {
+    animation: opacitytransition 0.5s ease-in;
+  }
 }
 
 .topcardimg {
@@ -308,8 +341,8 @@ p {
   height: 80%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 70.1%, #000000 100%),
     url(1620542093122684-0.jpg);
-  border-top-right-radius: 2rem;
-  border-top-left-radius: 2rem;
+  border-top-right-radius: 3vw;
+  border-top-left-radius: 3vw;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0rem;
 }
@@ -355,11 +388,28 @@ p {
   transform: scale(1.05);
 }
 
+.indicardpast:hover .btmartist {
+  transform: scale(1.05);
+}
+
+@keyframes slidingdown {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .allupcomingcard {
-  width: 85%;
+  width: 75%;
   margin: 4vw auto 12vw auto;
   display: flex;
   justify-content: space-between;
+  transition: height 2s ease;
+  &#slide50 {
+    animation: slidingdown 0.75s ease-in-out;
+  }
 }
 
 .flowerholder {
@@ -385,6 +435,7 @@ p {
   animation: phoolRightAnime ease-in-out 3s 0s infinite;
   animation-direction: alternate-reverse;
 }
+
 @keyframes phoolRightAnime {
   to {
     transform: scale(1.1) translateX(90px);
@@ -393,6 +444,109 @@ p {
 
 .btmartist {
   background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  z-index: 10;
+  right: 10%;
+  // height: 8vw;
+  transition: 0.25s ease-in-out;
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+  padding: 2vw 2vw 0vw 2vw;
+  .line {
+    display: flex;
+    background-color: none;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+}
+
+.horline {
+  background-color: rgba(237, 28, 36, 1);
+  height: 0.25vw;
+  border-radius: 31.64px;
+  width: 47%;
+}
+
+.playline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.ver {
+  display: flex;
+  margin-left: 22%;
+  align-items: center;
+  .verline {
+    background-color: rgba(238, 238, 238, 1);
+    height: 1.7vw;
+    width: 0.15vw;
+    border-radius: 5vw;
+  }
+}
+
+.verrighttri {
+  display: flex;
+  align-items: center;
+  .triright {
+    width: 0;
+    height: 0;
+    border-top: 1vw solid transparent;
+    border-left: 2vw solid rgba(238, 238, 238, 1);
+    border-bottom: 1vw solid transparent;
+    margin-right: 1%;
+  }
+}
+
+.verline1 {
+  background-color: rgba(238, 238, 238, 1);
+  height: 1.7vw;
+  width: 0.15vw;
+  border-radius: 5vw;
+}
+
+.trileft {
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-right: 2vw solid rgba(238, 238, 238, 1);
+  border-bottom: 1vw solid transparent;
+  margin-left: 1%;
+}
+
+.bigcircle {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 3vw;
+  border-radius: 50%;
+  height: 3vw;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .redrighttri {
+    width: 0;
+    height: 0;
+    margin-left: 10%;
+    border-top: 0.7vw solid transparent;
+    border-left: 1.5vw solid rgba(176, 34, 39, 1);
+    border-bottom: 0.7vw solid transparent;
+  }
+}
+
+.circle {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hrline {
+  width: 50%;
+  object-fit: contain;
+  background-color: none;
 }
 
 @keyframes leftflwr {
@@ -408,24 +562,31 @@ p {
 }
 
 .allpreviouscard {
-  width: 85%;
+  width: 75%;
   margin: 0vw auto 0vw auto;
   padding-bottom: 12vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  &#slide50 {
+    animation: slidingdown 0.75s ease-in-out;
+  }
 }
 
 .indicardpast {
   width: 40%;
-  height: 42vw;
-  background: rgba(242, 238, 227, 1);
+  height: 35vw;
+  // background: rgba(242, 238, 227, 1);
   border-radius: 0.225rem;
   flex: none;
   order: 1;
   margin-top: 8vw;
   margin-bottom: 8vw;
+  cursor: pointer;
   position: relative;
+  &#hideup {
+    animation: opacitytransition 0.5s ease-in;
+  }
 }
 
 .indicardpast:hover .topcardimg {
@@ -441,6 +602,10 @@ p {
 }
 
 .indicardpast:hover .artistpic {
+  transform: scale(1.05);
+}
+
+.indicard:hover .btmartist {
   transform: scale(1.05);
 }
 
@@ -476,7 +641,19 @@ p {
   background-image: none !important;
 }
 
+.cross {
+  font-size: 100vw;
+}
+
+#whitehorline {
+  background-color: rgba(239, 239, 239, 0.75) !important;
+}
+
 @media only screen and (max-width: 600px) {
+  .artistsmain {
+    padding-top: 30vw;
+  }
+
   .main {
     width: 50px;
     height: 50px;
@@ -501,13 +678,152 @@ p {
 }
 
 @media only screen and (max-width: 660px) {
-  .indicard {
-    width: 45%;
-    height: 60vw;
+  .headBox {
+    padding-top: 15%;
+    margin-bottom: -10%;
   }
 
-  .indicardpast {
-    width: 45%;
-    height: 60vw;
+  .artistsmain {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
+
+  .btmartist {
+    padding: 5vw 5vw 0vw 5vw;
+    .line {
+      margin-bottom: 5vw;
+    }
+  }
+
+  .horline {
+    height: 0.6vw;
+  }
+
+  .circle {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+
+  .playline {
+    margin-bottom: 5vw;
+  }
+
+  .ver {
+    margin-left: 23.7%;
+    .verline {
+      height: 4vw;
+      width: 0.5vw;
+      border-radius: 10vw;
+    }
+  }
+
+  .trileft {
+    border-top: 2vw solid transparent;
+    border-right: 4vw solid rgba(238, 238, 238, 1);
+    border-bottom: 2vw solid transparent;
+    margin-left: 2%;
+  }
+
+  .bigcircle {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 7vw;
+    height: 7vw;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .redrighttri {
+      border-top: 1.4vw solid transparent;
+      border-left: 3vw solid rgba(176, 34, 39, 1);
+      border-bottom: 1.4vw solid transparent;
+    }
+  }
+
+  .verrighttri {
+    .triright {
+      border-top: 2vw solid transparent;
+      border-left: 4vw solid rgba(238, 238, 238, 1);
+      border-bottom: 2vw solid transparent;
+      margin-right: 2%;
+    }
+  }
+
+  .verline1 {
+    background-color: rgba(238, 238, 238, 1);
+    height: 4vw;
+    width: 0.5vw;
+    border-radius: 10vw;
+  }
+
+  .imgcross {
+    width: 20%;
+    object-fit: contain;
+  }
+
+  .btnleft {
+    margin-left: 5%;
+    text-align: left;
+    // margin-bottom: 5vw;
+  }
+
+  .aboutbha h3 {
+    font-size: 4vw;
+  }
+
+  .allupcomingcard,
+  .allpreviouscard {
+    width: 100%;
+    // margin: 4vw auto 12vw auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .indicard,
+  .indicardpast {
+    cursor: pointer;
+    width: 80%;
+    height: 85vw;
+    margin: 20vw auto;
+    // background: rgba(242, 238, 227, 1);
+    border-radius: 0.225rem;
+    flex: none;
+    order: 1;
+    position: relative;
+  }
+
+  .artistpic {
+    border-top-right-radius: 6vw;
+    border-top-left-radius: 6vw;
+  }
+
+  .artistname {
+    font-size: 7vw;
+  }
+
+  .artistwork {
+    margin-top: 2vw;
+    h3 {
+      font-size: 6vw;
+    }
+  }
+
+  .artistdetail {
+    margin: 10vw auto 0 auto !important;
+    padding-bottom: 10vw !important;
+  }
+
+  #pastpptt {
+    padding-top: 20vw !important;
+  }
+
+  .artistdetail h1 {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+  }
+
+  // .artistsmain{
+  //   display: none;
+  // }
 }

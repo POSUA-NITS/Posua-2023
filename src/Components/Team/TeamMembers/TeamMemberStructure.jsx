@@ -1,7 +1,6 @@
 import Lottie from "react-lottie";
 import animationData from "../../../Assets/Pepa.json";
 import styles from "./TeamMemStructure.module.scss";
-import Gamusa from "../../../Assets/Gamusa.png";
 import { useState } from "react";
 
 const TeamMemberStructure = (data) => {
@@ -40,7 +39,7 @@ const TeamMemberStructure = (data) => {
           />
         </div>
         <div className={styles.gamusa}>
-          <img src={Gamusa} />
+          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700061/posua/Gamusa_f1677o.png" />
           <div className={styles.gamusaWriting}>
             <p>{data.name}</p>
             <p>{data.desig}</p>

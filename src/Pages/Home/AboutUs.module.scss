@@ -1,5 +1,6 @@
 .aboutUs {
   display: flex;
+  margin-top: 10rem;
 }
 .cameraWrap {
   position: relative;
@@ -48,7 +49,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.AboutUsHeader{
+.AboutUsHeader {
   font-family: "Philosopher", sans-serif;
   font-size: 9vmin;
   font-weight: bold;
@@ -58,31 +59,30 @@
   -webkit-background-clip: text;
 }
 .content {
-    width: fit-content;
+  width: fit-content;
   height: 100%;
   font-size: 2.5vmin;
 }
-@media screen and (max-width: 600px){
-.cameraWrap{
-  display: none;
+@media screen and (max-width: 600px) {
+  .cameraWrap {
+    display: none;
+  }
+  .AboutUsfilm {
+    overflow-x: clip;
+    margin-top: 4em;
+    width: 100%;
+    height: 100vh;
+    margin-right: 3.5%;
+  }
+  .AboutUsContent {
+    gap: 0.5em;
+    width: 100%;
+  }
+  .AboutUsHeader {
+    margin-top: -7rem;
+  }
+  .film {
+    width: 100%;
+    height: 100vh;
+  }
 }
-.AboutUsfilm{
-  overflow-x: clip;
-  margin-top: 4em;
-  width: 100%;
-  height: 100vh;
-  margin-right: 3.5%;
-}
-.AboutUsContent{
-  gap: 0.5em;
-  width: 100%;
-}
-.AboutUsHeader{
-  margin-top: -7rem;
-}
-.film{
-  width: 100%;
-  height: 100vh;
-}
-}
-    

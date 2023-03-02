@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
-import posuaLogo from "./posualogo.png";
-
+// import posuaLogo from "./posualogo.png";
+import { Link } from "react-router-dom";
 function Navbarbox({ isOpen }) {
   const [activeButton, setActiveButton] = useState("false");
 
@@ -13,20 +13,25 @@ function Navbarbox({ isOpen }) {
     <nav className={`${Styles.navbar}`}>
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
         <div>
-          <a
-            href="/"
+          <Link
+            to="/"
             className={` ${Styles.navbarButton} ${Styles.posuaButton} ${
               activeButton === "Posua" ? Styles.active : ""
             }`}
             data-btn="Posua"
             onClick={() => handleButtonClick("Posua")}
           >
-            P<img src={posuaLogo} className={Styles.posualogo} />
+            {" "}
+            P
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677703827/posua/posualogo_o2dpjj.png"
+              className={Styles.posualogo}
+            />
             SUA
-          </a>
+          </Link>
         </div>
-        <a
-          href="/Events"
+        <Link
+          to="events"
           className={`${Styles.EventsButton} ${Styles.navbarButton} ${
             activeButton === "Events" ? Styles.active : ""
           }`}
@@ -34,9 +39,10 @@ function Navbarbox({ isOpen }) {
           onClick={() => handleButtonClick("Events")}
         >
           Events
-        </a>
-        <a
-          href="/Gallery"
+        </Link>
+
+        <Link
+          to="gallery"
           className={`${Styles.GalleryButton} ${Styles.navbarButton} ${
             activeButton === "Gallery" ? Styles.active : ""
           }`}
@@ -44,9 +50,10 @@ function Navbarbox({ isOpen }) {
           onClick={() => handleButtonClick("Gallery")}
         >
           Gallery
-        </a>
-        <a
-          href="/Teams"
+        </Link>
+
+        <Link
+          to="teams"
           className={`${Styles.TeamButton} ${Styles.navbarButton} ${
             activeButton === "Team" ? Styles.active : ""
           }`}
@@ -54,9 +61,10 @@ function Navbarbox({ isOpen }) {
           onClick={() => handleButtonClick("Team")}
         >
           Team
-        </a>
-        <a
-          href="Artists"
+        </Link>
+
+        <Link
+          to="artists"
           className={`${Styles.ArtistButton} ${Styles.navbarButton} ${
             activeButton === "Artist" ? Styles.active : ""
           }`}
@@ -64,9 +72,9 @@ function Navbarbox({ isOpen }) {
           onClick={() => handleButtonClick("Artist")}
         >
           Artist
-        </a>
-        <a
-          href="Sponsors"
+        </Link>
+        <Link
+          to="sponsors"
           className={`${Styles.SponsorsButton} ${Styles.navbarButton} ${
             activeButton === "Sponsors" ? Styles.active : ""
           }`}
@@ -74,7 +82,7 @@ function Navbarbox({ isOpen }) {
           onClick={() => handleButtonClick("Sponsors")}
         >
           Sponsors
-        </a>
+        </Link>
       </div>
     </nav>
   );
