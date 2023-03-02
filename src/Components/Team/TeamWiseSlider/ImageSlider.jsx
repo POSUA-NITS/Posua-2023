@@ -53,6 +53,21 @@ const ImageSlider = ({ images }) => {
           </Slider>
         </div>
       </div>
+      <div className={styles.imgslider}>
+        <p className={styles.Designation}>Developers</p>
+        <div className={styles.sliderWrapper}>
+          <Slider {...settings} className={styles.slide}>
+            {MemberSlider &&
+              MemberSlider.map((item) => (
+                <div className={styles.sliderDiv} key={item.id}>
+                  <img className={styles.Card} src={item.card} />
+                  <p className={styles.TextForRotation}>{item.text}</p>
+                  <img className={styles.Images} src={item.src} alt={item.alt} />
+                </div>
+              ))}
+          </Slider>
+        </div>
+      </div>
     </>
   );
 };

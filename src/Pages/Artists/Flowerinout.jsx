@@ -9,12 +9,12 @@ const Flowerinout = () => {
       >
         <img
           className={style.leftflower}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677491804/posua/left_flwr-removebg-preview_yymznr.png"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_960,f_auto,fl_lossy/v1677491804/posua/left_flwr-removebg-preview_yymznr.png"
           alt=""
         />
         <img
           className={style.rightflower}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677486535/posua/right_flwr-removebg-preview_rt6eq7.png"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_960,f_auto,fl_lossy/v1677486535/posua/right_flwr-removebg-preview_rt6eq7.png"
           alt=""
         />
       </div>
