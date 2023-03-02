@@ -6,9 +6,11 @@ import { useState } from "react";
 const FilmRoll = () => {
   const [clicked, setClicked] = useState("default");
   const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const [winHeight, setWinHeight] = useState(window.innerHeight);
 
   window.addEventListener("resize", () => {
     setWinWidth(window.innerWidth);
+    setWinHeight(window.innerHeight);
   });
   return (
     <>
