@@ -17,6 +17,8 @@
   }
 }
 
+
+
 .artistdetail {
   width: 80%;
   flex: none;
@@ -678,6 +680,13 @@
 }
 
 @media only screen and (max-width: 660px) {
+
+  .headBox{
+    padding-top: 15%;
+    margin-bottom: -10%;
+  }
+
+
   .artistsmain {
     padding-left: 0 !important;
     padding-right: 0 !important;

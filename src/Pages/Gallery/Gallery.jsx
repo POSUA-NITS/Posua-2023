@@ -26,6 +26,10 @@ const Gallery = () => {
         exhilaration of fun activities that constitute Posua.
       </p>
 
+
+      <Flowerinout />
+
+
       {/* <div className={styles.flowers}>
         <div className={styles.phol_left}>
           <img src={left_flower} alt="image" />
@@ -35,7 +39,7 @@ const Gallery = () => {
         </div>
       </div> */}
 
-      <Flowerinout />
+      
 
       <div className={styles.faces}>
         <div className={styles.face_left}>

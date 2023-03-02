@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "./Artists.module.scss";
 import Title from "../../Components/Title/Title";
 import Playcontrols from "./Playcontrols";
+import { Header } from "../../Components/Header/Header";
 const PreviousArtists = () => {
   const [togglepast, setTogglepast] = useState(true);
   {
@@ -101,7 +102,9 @@ const PreviousArtists = () => {
   }
   return (
     <>
-      <Title headtitle="PREVIOUS ARTISTS" />
+       <div className={style.headBox}>
+        <    Header title="PREVIOUS ARTIST" fontSize="6vw" />
+      </div>
       {/* <div className={style.tlebr}>
         <Header title="PREVIOUS ARTISTS" />
       </div> */}
