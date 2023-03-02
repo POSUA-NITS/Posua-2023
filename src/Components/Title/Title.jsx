@@ -7,28 +7,28 @@ const Title = (props) => {
         <div className={style.animateposua}>
           <div className={style.redbg}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677100739/posua/rd_bg_duat4m.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677100739/posua/rd_bg_duat4m.png"
               alt=""
             />
           </div>
 
           <div className={style.gmcha}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128222/posua/gmcha_nobg_fqin50.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128222/posua/gmcha_nobg_fqin50.png"
               alt=""
             />
           </div>
 
           <div className={style.tabla}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128053/posua/tabla-nobg_my9jwi.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128053/posua/tabla-nobg_my9jwi.png"
               alt=""
             />
           </div>
 
           <div className={style.flute}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128156/posua/flute-nobg_mggx4t.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128156/posua/flute-nobg_mggx4t.png"
               alt=""
             />{" "}
           </div>
@@ -41,28 +41,28 @@ const Title = (props) => {
         <div className={style.animateposua} id={style.right}>
           <div className={style.redbg}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677100739/posua/rd_bg_duat4m.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677100739/posua/rd_bg_duat4m.png"
               alt=""
             />
           </div>
 
           <div className={style.gmcha}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128222/posua/gmcha_nobg_fqin50.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128222/posua/gmcha_nobg_fqin50.png"
               alt=""
             />
           </div>
 
           <div className={style.tabla}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128053/posua/tabla-nobg_my9jwi.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128053/posua/tabla-nobg_my9jwi.png"
               alt=""
             />
           </div>
 
           <div className={style.flute}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677128156/posua/flute-nobg_mggx4t.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677128156/posua/flute-nobg_mggx4t.png"
               alt=""
             />{" "}
           </div>

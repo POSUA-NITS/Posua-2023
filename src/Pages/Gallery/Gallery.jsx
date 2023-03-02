@@ -5,9 +5,8 @@ import right_flower from "../../Assets/right_flower.png";
 import { Header } from "../../Components/Header/Header";
 import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
-import lface from "../../Assets/left_face.png";
-import rface from "../../Assets/right_face.png";
 import FilmRoll from "../../Components/FilmRoll/FilmRoll";
+import Flowerinout from "../Artists/Flowerinout";
 
 const Gallery = () => {
   useEffect(() => {
@@ -27,21 +26,23 @@ const Gallery = () => {
         exhilaration of fun activities that constitute Posua.
       </p>
 
-      <div className={styles.flowers}>
+      {/* <div className={styles.flowers}>
         <div className={styles.phol_left}>
           <img src={left_flower} alt="image" />
         </div>
         <div className={styles.phol_right}>
           <img src={right_flower} alt="image" />
         </div>
-      </div>
+      </div> */}
+
+      <Flowerinout />
 
       <div className={styles.faces}>
         <div className={styles.face_left}>
-          <img src={lface} alt="image" />
+          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png" alt="image" />
         </div>
         <div className={styles.face_right}>
-          <img src={rface} alt="image" />
+          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.png" alt="image" />
         </div>
       </div>
       <FilmRoll />

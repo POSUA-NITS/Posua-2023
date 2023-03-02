@@ -1,6 +1,5 @@
 import React from "react";
 import Styles from "./FilmRoll.module.scss";
-import Reel from "../../Assets/Reel.svg";
 import Clicked from "./Clicked";
 import { useState } from "react";
 
@@ -14,7 +13,7 @@ const FilmRoll = () => {
   return (
     <>
       <img
-        src="/assets/Reel/scroll.gif"
+        src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700959/posua/scroll_df5mpf.gif"
         alt="<<< Scroll"
         className={Styles.scrollpoint}
       />
@@ -26,196 +25,196 @@ const FilmRoll = () => {
         )}
         <div className={Styles.roll}>
           <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" className={Styles.reel} />
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
           </div>
           <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" className={Styles.reel} />
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
           </div>
           <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" className={Styles.reel} />
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+          </div>
+          <div className={Styles.oneRoll}>
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" className={Styles.reel} />
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+          </div>
+          <div className={Styles.oneRoll}>
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" className={Styles.reel} />
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
+                }}
+              ></div>
+            </div>
+            <div className={Styles.imgsEnclose}>
+              <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png" alt="" className={Styles.imgs} />
+              <div
+                className={Styles.click}
+                onClick={() => {
+                  setClicked("https://res.cloudinary.com/dp92qug2f/image/upload/v1677701145/posua/reel_r5bnes.png");
                 }}
               ></div>
             </div>
@@ -225,8 +224,8 @@ const FilmRoll = () => {
     </>
   );
 };
-//         {/* <img src={Reel} alt="" />
-//         <img src={Reel} alt="" /> */}
+//         {/* <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" />
+//         <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" /> */}
 //     </div>
 //   );
 // };
