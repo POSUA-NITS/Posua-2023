@@ -347,6 +347,9 @@
   border-bottom-right-radius: 0rem;
 }
 
+#coverimg{
+  object-fit: cover;
+}
 .artistdetails {
   width: 100%;
   text-align: left;
@@ -405,6 +408,7 @@
   width: 75%;
   margin: 4vw auto 12vw auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   transition: height 2s ease;
   &#slide50 {
@@ -810,7 +814,7 @@
   }
 
   .artistdetail {
-    margin: 10vw auto 0 auto !important;
+    margin: 20vw auto 0 auto !important;
     padding-bottom: 10vw !important;
   }
 

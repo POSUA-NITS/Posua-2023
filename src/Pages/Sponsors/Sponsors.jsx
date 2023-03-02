@@ -9,7 +9,7 @@ const Sponsors = () => {
   return (
     <>
       <div className={style.sponsorsmain}>
-        <Header title="SPONSORS" fontSize="8vw" />
+        <Header title="SPONSORS" fontSize="6vw" />
 
         <div className={style.sponsorssub}>
           <div className={style.assospon}>
@@ -20,7 +20,7 @@ const Sponsors = () => {
             />
             <h1>CO-POWERED BY</h1>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677709263/posua/WhatsApp_Image_2023-03-02_at_03.47.16-min_ivaxyp.jpg"
               alt=""
               className={style.cubeimg}
             />
@@ -31,9 +31,9 @@ const Sponsors = () => {
               alt=""
               className={style.bgspon}
             />
-            <h1>ASSOCIATE SPONSOR</h1>
+            <h1>MEDIA PARTNER</h1>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677709204/posua/WhatsApp_Image_2023-03-02_at_03.47.22-min_gy8z1r.jpg"
               alt=""
               className={style.cubeimg}
             />
@@ -44,9 +44,9 @@ const Sponsors = () => {
               alt=""
               className={style.bgspon}
             />
-            <h1>IN ASSOCIATION WITH</h1>
+            <h1>PARTNER</h1>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677788066/posua/WhatsApp_Image_2023-03-03_at_01.43.51_fii7g5.jpg"
               alt=""
               className={style.cubeimg}
             />
@@ -57,7 +57,7 @@ const Sponsors = () => {
               alt=""
               className={style.bgspon}
             />
-            <h1>CAFE PARTNER</h1>
+            <h1>PARTNER</h1>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
               alt=""

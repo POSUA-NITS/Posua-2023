@@ -141,7 +141,7 @@ const PreviousArtists = () => {
               alt=""
             />
             <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
+              <h2 className={style.artistname}>Priyanka Bharali</h2>
               <div className={style.artistwork}>
                 <h3>Singer</h3>
               </div>
@@ -149,6 +149,45 @@ const PreviousArtists = () => {
             <Playcontrols />
           </div>
           {/*artist1 */}
+            {/*artist6 */}
+            <div className={style.indicardpast} onClick={handleShowpa6} id={style.hideup}>
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              className={style.topcardimg}
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              className={style.leftcardimg}
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              className={style.rightcardimg}
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677787106/posua/maxresdefault_edezq4.jpg"
+              onMouseOver={(e) =>
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677787106/posua/maxresdefault_edezq4.jpg")
+              }
+              onMouseOut={(e) =>
+                (e.currentTarget.src =
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677787106/posua/maxresdefault_edezq4.jpg")
+              }
+              className={style.artistpic}  id={style.coverimg}
+              alt=""
+            />
+            <div className={style.artistdetails}>
+              <h2 className={style.artistname}>Tezpuriya Thespian</h2>
+              <div className={style.artistwork}>
+                <h3>Band</h3>
+              </div>
+            </div>
+            <Playcontrols />
+          </div>
+          {/*artist6 */}
           {/*artist2 */}
           <div className={style.indicardpast} onClick={handleShowpa2} id={style.hideup}>
             <img
@@ -167,20 +206,20 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677784902/posua/p169_gbatfy.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785046/posua/zubeen-garg_fzzjlj.webp")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785093/posua/Zubeen-Hospitalized-Shifted-to-ICU-for-24-Hours_1658305106491_1658305113562_1658305113562_fgv1gr.webp")
               }
-              className={style.artistpic}
+              className={style.artistpic} id={style.coverimg}
               alt=""
             />
             <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
+              <h2 className={style.artistname}>Zubeen Garg</h2>
               <div className={style.artistwork}>
                 <h3>Singer</h3>
               </div>
@@ -207,20 +246,20 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677785325/posua/p38_djjqlt.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785445/posua/280117360_3147362838837253_4847765272253453342_n.jpg_hiddef.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785486/posua/278904714_3139465349627002_1271890122984205712_n.jpg_nmumpg.jpg")
               }
-              className={style.artistpic}
+              className={style.artistpic} id={style.coverimg}
               alt=""
             />
             <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
+              <h2 className={style.artistname}>Neel Akash</h2>
               <div className={style.artistwork}>
                 <h3>Singer</h3>
               </div>
@@ -247,20 +286,20 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677494643/posua/simanta-shekhar_tpryho.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785679/posua/Simanta_Shekhar_m3pss4.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677785795/posua/artist_4642892-1500240408_vtmltu.jpg")
               }
-              className={style.artistpic}
+              className={style.artistpic} id={style.coverimg}
               alt=""
             />
             <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
+              <h2 className={style.artistname}>Simanta Shekhar</h2>
               <div className={style.artistwork}>
                 <h3>Singer</h3>
               </div>
@@ -287,20 +326,20 @@ const PreviousArtists = () => {
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677785923/posua/p166_pcttv8.jpg"
               onMouseOver={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677786036/posua/157923-926908393532722286754489886065733283348480n.webp_gkdzre.jpg")
               }
               onMouseOut={(e) =>
                 (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
+                  "https://res.cloudinary.com/dp92qug2f/image/upload/v1677786083/posua/manas_sr8oab.jpg")
               }
-              className={style.artistpic}
+              className={style.artistpic} id={style.coverimg}
               alt=""
             />
             <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
+              <h2 className={style.artistname}>Manash Robin</h2>
               <div className={style.artistwork}>
                 <h3>Singer</h3>
               </div>
@@ -309,45 +348,7 @@ const PreviousArtists = () => {
           </div>
           {/*artist5 */}
 
-          {/*artist6 */}
-          <div className={style.indicardpast} onClick={handleShowpa6} id={style.hideup}>
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
-              className={style.topcardimg}
-              alt=""
-            />
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
-              className={style.leftcardimg}
-              alt=""
-            />
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
-              className={style.rightcardimg}
-              alt=""
-            />
-            <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677346353/SriGen4.0/bharali_sbpig2.jpg"
-              onMouseOver={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513047/WhatsApp_Image_2023-02-27_at_20.35.32_uo4bnn.jpg")
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.src =
-                  "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677513050/WhatsApp_Image_2023-02-27_at_20.35.22_ai2wby.jpg")
-              }
-              className={style.artistpic}
-              alt=""
-            />
-            <div className={style.artistdetails}>
-              <h2 className={style.artistname}>Past Artist1</h2>
-              <div className={style.artistwork}>
-                <h3>Singer</h3>
-              </div>
-            </div>
-            <Playcontrols />
-          </div>
-          {/*artist6 */}
+        
         </div>
       )}
 
@@ -361,7 +362,7 @@ const PreviousArtists = () => {
               alt=""
             />
           </button>
-          <h1>Priyanka Bharalipast1</h1>
+          <h1>Priyanka Bharali</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
@@ -394,7 +395,7 @@ const PreviousArtists = () => {
               alt=""
             />
           </button>
-          <h1>Priyanka Bharalipast2</h1>
+          <h1>Zubeen Garg</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
@@ -427,7 +428,7 @@ const PreviousArtists = () => {
               alt=""
             />
           </button>
-          <h1>Priyanka Bharalipast2</h1>
+          <h1>Neel Akash</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
@@ -460,7 +461,7 @@ const PreviousArtists = () => {
               alt=""
             />
           </button>
-          <h1>Priyanka Bharalipast2</h1>
+          <h1>Simanta Shekhar</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
@@ -493,7 +494,7 @@ const PreviousArtists = () => {
               alt=""
             />
           </button>
-          <h1>Priyanka Bharalipast2</h1>
+          <h1>Manash Robin</h1>
           <div className={style.aboutbha}>
             <h3>
               {" "}
