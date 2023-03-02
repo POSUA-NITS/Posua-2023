@@ -3,7 +3,7 @@
 }
 .bush {
   position: absolute;
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -11,11 +11,11 @@
 }
 .bush_mobile {
   position: absolute;
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
   left: 50%;
   transform: translateX(-50%) translateY(-55%);
-  top: 100vh;
+  top: 90vh;
 }
 
 .hero::-webkit-scrollbar {
