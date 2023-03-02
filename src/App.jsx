@@ -8,7 +8,7 @@ import Teams from "./Pages/Teams/Teams";
 import Artists from "./Pages/Artists/Artists";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
-import Sponsors from "./Pages/Sponsors/sponsors";
+import Sponsors from "./Pages/Sponsors/Sponsors";
 const App = () => {
   return (
     <BrowserRouter>
