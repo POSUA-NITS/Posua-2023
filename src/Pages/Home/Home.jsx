@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import Borhomthuri from "./Borhomthuri";
 import { Button } from "../../Components";
 import Hero from "../../Components/Hero/Hero";
 
@@ -8,6 +9,7 @@ const Home = () => {
     <main className={style.home}>
       <Hero />
       <AboutUs />
+      <Borhomthuri/>
     </main>
   );
 };
