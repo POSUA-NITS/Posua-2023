@@ -7,6 +7,8 @@ import Gallery from "./Pages/Gallery/Gallery";
 import Teams from "./Pages/Teams/Teams";
 import Artists from "./Pages/Artists/Artists";
 import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
+import Sponsors from "./Pages/Sponsors/sponsors";
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,8 +19,10 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/artists" element={<Artists />} />
+        <Route path="/sponsors" element={<Sponsors />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </BrowserRouter>
   );

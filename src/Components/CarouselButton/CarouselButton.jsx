@@ -5,7 +5,12 @@ const CarouselButton = ({ data }) => {
     <button onClick={data.onClick} className={styles.button}>
       <div className={styles.container}>
         {data.text}
-        {data.active && <img className={styles.image} src="/assets/jaapi.svg" />}
+        {data.active && (
+          <img
+            className={styles.image}
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701966/posua/jaapi_c8sz7a.svg"
+          />
+        )}
       </div>
       {/* 
 

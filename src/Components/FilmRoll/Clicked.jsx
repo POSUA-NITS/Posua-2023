@@ -5,11 +5,11 @@ import "./FilmRoll.css";
 
 const Clicked = (props) => {
   const { clicked, setClicked } = props;
-  const [winWidth, setWinWidth] = useState(window.innerWidth)
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
 
-  window.addEventListener('resize',()=>{
-    setWinWidth(window.innerWidth)
-  })
+  window.addEventListener("resize", () => {
+    setWinWidth(window.innerWidth);
+  });
 
   return (
     <>
@@ -19,7 +19,9 @@ const Clicked = (props) => {
           setClicked("default");
         }}
       ></div>
-      <div className={`${winWidth>800?Styles.clicked:Styles.clicked_mobile} clicked`}>
+      <div
+        className={`${winWidth > 800 ? Styles.clicked : Styles.clicked_mobile} clicked`}
+      >
         <img src={clicked} alt="" />
       </div>
     </>
