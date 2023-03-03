@@ -4,15 +4,10 @@ import Styles from "./Hero.module.scss";
 
 const Hero = () => {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
-  
-  document.getElementsByClassName("sky");
-  document.getElementsByClassName("clouds");
+
   document.getElementsByClassName("sky");
   document.getElementsByClassName("clouds");
 
-  window.addEventListener("resize", () => {
-    setWinWidth(window.innerWidth);
-  });
   window.addEventListener("resize", () => {
     setWinWidth(window.innerWidth);
   });
@@ -102,12 +97,15 @@ const Hero = () => {
         />
         {/* <img src="/assets/Hero/bush.png" alt="" className={Styles.bushInverted} /> */}
       </div>
-      <img
+      <div
         // src="/assets/Hero/bush.png"
-        src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677768382/posua/bush-min_dqh93w.png"
         alt=""
         className={winWidth > 800 ? Styles.bush : Styles.bush_mobile}
-      />
+      >
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677768382/posua/bush-min_dqh93w.png"
+          alt="" />
+      </div>
     </>
   );
 };

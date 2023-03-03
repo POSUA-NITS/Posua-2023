@@ -8,10 +8,12 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   top: 100vh;
+  overflow-x: hidden;
 }
 .bush_mobile {
   position: absolute;
   width: 100%;
+  overflow-x: hidden;
   min-height: 100%;
   left: 50%;
   transform: translateX(-50%) translateY(-55%);
@@ -358,11 +360,11 @@
 
   @keyframes layer2_mobile {
     0% {
-      transform: translateY(-10%);
+      transform: translateY(0%);
     }
 
     100% {
-      transform: translateY(-32%);
+      transform: translateY(-12%);
     }
   }
 
