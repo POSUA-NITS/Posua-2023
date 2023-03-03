@@ -13,7 +13,7 @@ const Events = () => {
   return (
     <>
       <div className={styles.main}>
-        <Header title="UPCOMING ARTISTS" fontSize="5vw" />
+        <Header title="EVENTS" fontSize="5vw" />
         <div className={styles.content}>{data.content}</div>
         {/* <Phool /> */}
         <Flowerinout />
