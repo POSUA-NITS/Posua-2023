@@ -13,10 +13,10 @@
     padding: 0 15%;
     font-size: 3vmin;
     text-align: center;
-    line-height: 30px;
+    line-height: 1.6;
     font-family: "Philosopher", sans-serif;
     display: -webkit-box;
-        -webkit-line-clamp: 7;
+        // -webkit-line-clamp: 7;
         -webkit-box-orient: vertical;
         overflow: hidden;
     font-family: var(--posua-font-1), sans-serif;
@@ -82,5 +82,10 @@
 @media screen and (max-width:660px){
   .main{
     padding-top: 18vw !important;
+  }
+
+  .content{
+    line-height: 1.4;
+    padding: 5% 11.5% 0 11.5% !important;
   }
 }
