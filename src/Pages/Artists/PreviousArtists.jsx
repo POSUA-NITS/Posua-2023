@@ -111,7 +111,7 @@ const PreviousArtists = () => {
       {togglepast && (
         <div className={style.allpreviouscard} id={style.slide50}>
           {/*artist1 */}
-          <div className={style.indicardpast} onClick={handleShowpa1}  id={style.hideup}>
+          <div className={style.indicardpast}   id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
@@ -150,7 +150,7 @@ const PreviousArtists = () => {
           </div>
           {/*artist1 */}
             {/*artist6 */}
-            <div className={style.indicardpast} onClick={handleShowpa6} id={style.hideup}>
+            <div className={style.indicardpast}  id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
@@ -189,7 +189,7 @@ const PreviousArtists = () => {
           </div>
           {/*artist6 */}
           {/*artist2 */}
-          <div className={style.indicardpast} onClick={handleShowpa2} id={style.hideup}>
+          <div className={style.indicardpast} id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
@@ -229,7 +229,7 @@ const PreviousArtists = () => {
           {/*artist2 */}
 
           {/*artist3 */}
-          <div className={style.indicardpast} onClick={handleShowpa3} id={style.hideup}>
+          <div className={style.indicardpast}  id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
@@ -269,7 +269,7 @@ const PreviousArtists = () => {
           {/*artist3 */}
 
           {/*artist4 */}
-          <div className={style.indicardpast} onClick={handleShowpa4} id={style.hideup}>
+          <div className={style.indicardpast}  id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
@@ -309,7 +309,7 @@ const PreviousArtists = () => {
           {/*artist4 */}
 
           {/*artis5 */}
-          <div className={style.indicardpast} onClick={handleShowpa5} id={style.hideup}>
+          <div className={style.indicardpast}  id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
