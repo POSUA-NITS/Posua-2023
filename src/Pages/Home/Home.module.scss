@@ -2,6 +2,9 @@
 // This is a part of Template
 .home {
   // height: 100vh;
+  background-image: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
   .hero_enclose{
     height: 110vh;
@@ -9,5 +12,24 @@
   }
   h1 {
     font-weight: bold;
+  }
+
+  .letter{
+    height:100%;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+      width: 80rem;
+      margin-bottom: 10rem;
+    }
+
+    @media only screen and (max-width:1070px){
+      img{
+        width: 80%;
+        }
+    }
   }
 }

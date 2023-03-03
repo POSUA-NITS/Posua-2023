@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^2.2.0",
+    "blurhash": "^2.0.5",
     "react": "^18.2.0",
+    "react-blurhash": "^0.3.0",
     "react-dom": "^18.2.0",
     "react-hover-slideshow": "^2.1.12",
     "react-icons": "^4.7.1",

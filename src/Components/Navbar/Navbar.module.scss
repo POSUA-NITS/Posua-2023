@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .navbar {
-  background-color: white;
-  backdrop-filter: blur(1em);
+  background-color: rgb(234, 205, 171);
+  backdrop-filter: blur(1.5em);
   position: fixed;
   width: 100%;
   top: 0;
@@ -32,18 +32,23 @@
   text-decoration: none;
   text-align: center;
 }
+
 .EventsButton {
   width: 90px;
 }
+
 .GalleryButton {
   width: 91.7px;
 }
+
 .TeamButton {
   width: 75px;
 }
+
 .ArtistButton {
   width: 78px;
 }
+
 .SponsorsButton {
   width: 109.3px;
 }
@@ -62,33 +67,40 @@
   -webkit-text-fill-color: transparent;
   font-size: 28px;
 }
+
 .posualogo {
   height: 25px;
   width: 25px;
   transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
 }
+
 .navbarButton:hover,
 .navbarButton.active {
   font-size: 23px;
 }
+
 .posuaButton:hover,
 .posuaButton.active {
   font-size: 30px;
 }
+
 .posuaButton:hover .posualogo,
 .posuaButton.active .posualogo {
   animation: rotate 2s;
   height: 28px;
   width: 28px;
 }
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .hamburgerMenu {
   left: 0%;
   position: fixed;
@@ -108,6 +120,7 @@
   background: linear-gradient(to right, #9d5018, #ffa500);
   transition: all 0.2s ease;
 }
+
 @media screen and (max-width: 768px) {
   .navbarContainer {
     flex-direction: column;
@@ -123,7 +136,7 @@
     z-index: 2000;
     width: 75vw;
   }
-  
+
   .navbar {
     background-color: transparent;
     backdrop-filter: none;
