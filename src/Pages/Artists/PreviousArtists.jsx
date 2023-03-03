@@ -111,7 +111,7 @@ const PreviousArtists = () => {
       {togglepast && (
         <div className={style.allpreviouscard} id={style.slide50}>
           {/*artist1 */}
-          <div className={style.indicardpast} onClick={handleShowpa1} id={style.hideup}>
+          <div className={style.indicardpast} onClick={handleShowpa1}  id={style.hideup}>
             <img
               src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
               className={style.topcardimg}
