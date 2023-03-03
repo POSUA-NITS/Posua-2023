@@ -23,7 +23,11 @@
       text-align: center;
       img {
         position: relative;
-        top: 10px;
+        border-radius: 50%;
+        width: 91.7%;
+        height: 90.5%;
+        object-fit: cover;
+        top: 12px;
       }
     }
   }
@@ -42,6 +46,7 @@
     .gamusaWriting {
       position: relative;
       bottom: 5.2rem;
+      line-height: 1.25rem;
       font-weight: 600;
       font-family: "Philosopher", sans-serif;
     }

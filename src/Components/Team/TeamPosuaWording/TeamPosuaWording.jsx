@@ -13,13 +13,7 @@ const TeamPosuaWording = () => {
               <h1 className={styles.Heading}>TEAM POSUA</h1>
             </div>
             <p>
-              With the arrival of spring and the departure of winter days, our Mother
-              Nature expresses her joy of welcoming the calming rejuvenation via greenery
-              and brightness all around her. Our Spring Fest, Posua is that venture which
-              nurtures this celebration. This spree witnesses everyone coming together to
-              work as a team, be it the students, the faculty members and the entire
-              fraternity of NIT Silchar into its circle of gaiety and also ensures of
-              breaking all the barriers among the crowd and bringing everyone together.
+            Posua is not just a fiesta; it's an emotional journey for the Assamese residents of NIT Silchar. It's a moment to commemorate their vast and rich cultural identity and demonstrate their love and pride for their roots. The festival fosters a sense of belonging, camaraderie and keeps the Assamese culture alive in the hearts of the residents. The festival is a kaleidoscope of colors, sounds, emotions, an emotion that connects the residents with their roots and keep them grounded in their identity, and that brings the campus to life.
             </p>
           </div>
           <div className={styles.WordingMukha2}>
