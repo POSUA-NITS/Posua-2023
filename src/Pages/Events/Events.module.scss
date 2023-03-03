@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
-
 * {
   margin: 0;
 }
@@ -9,13 +7,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  padding-top: 5rem !important;
 
   .content {
     padding: 0 15%;
     font-size: 3vmin;
     text-align: center;
     line-height: 30px;
-    font-family: "Philosopher", sans-serif;
+    font-family: var(--posua-font-1), sans-serif;
   }
 }
 

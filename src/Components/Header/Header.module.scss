@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
-
 .HeaderBox {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +56,7 @@
 
 h1 {
   width: fit-content;
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--posua-font-1), sans-serif;
   font-size: 11vmin;
   font-weight: bold;
   margin: 2% 6%;

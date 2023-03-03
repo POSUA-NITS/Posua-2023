@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 .navbar {
   background-color: rgb(234, 205, 171);
   backdrop-filter: blur(1.5em);
@@ -24,7 +22,7 @@
 }
 
 .navbarButton {
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--posua-font-1), sans-serif;
   font-size: 20px;
   color: black;
   padding: 10px;
@@ -55,7 +53,7 @@
 
 .posuaButton {
   width: 131px;
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--posua-font-1), sans-serif;
   transition: font-size 0.5s ease-in-out;
   text-decoration: none;
   font-weight: bold;
@@ -63,6 +61,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, #6f360d, #ffa500);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 28px;
