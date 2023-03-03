@@ -7,7 +7,7 @@ const Borhomthuri = () => {
         <section className={styles.borhomthuri}>
 
             <div className={styles.header}>
-                <Header title="BORHOMTHURI" />
+                <Header title="BORHOMTHURI" fontSize="5vw" />
             </div >
             <div className={styles.para}>
                 <p >
