@@ -1,13 +1,13 @@
 .casette_img{
     position: relative;
     width: 70%;
-    max-width: 35rem;
+    max-width: 20rem;
     margin: auto;
     .casette_cd{
-        width: 50%;
+        width: 65%;
         position: absolute;
         left: 50%;
-        top: -33%;
+        top: -40%;
         transform: translateX(-50%);
         transition: 0.25s;
         .text{

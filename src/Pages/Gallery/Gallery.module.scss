@@ -3,10 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-
+padding-top: 5vw;
   .para {
     width: 72rem;
-    height: 15rem;
+    // height: 15rem;
     margin: auto;
     margin-top: 3rem;
 
@@ -50,7 +50,7 @@
 
   .faces {
     .face_left {
-      height: 16rem;
+      height: 1rem;
       width: 18rem;
 
       img {
@@ -77,10 +77,6 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
-    .header {
-      margin-top: 5rem;
-    }
-
     .para {
       width: 60%;
       font-size: 3vmin;
@@ -89,5 +85,11 @@
     .faces {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width:660px){
+  .container{
+    padding-top: 18vw;
   }
 }
