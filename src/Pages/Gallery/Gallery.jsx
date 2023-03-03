@@ -7,8 +7,13 @@ import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
 import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 import Flowerinout from "../Artists/Flowerinout";
+import Casette from "../../Components/Casette/Casette";
+import { useState } from "react";
 
 const Gallery = () => {
+
+  const [year, setYear] = useState('2022')
+
   useEffect(() => {
     document.title = "Gallery | Posua 2023";
   }, []);
@@ -37,6 +42,8 @@ const Gallery = () => {
         </div>
       </div> */}
 
+      <Casette year={year} setYear={setYear}/>
+
       <div className={styles.faces}>
         <div className={styles.face_left}>
           <img
@@ -51,7 +58,7 @@ const Gallery = () => {
           />
         </div>
       </div>
-      <FilmRoll />
+      <FilmRoll year={year} setYear={setYear} />
     </div>
   );
 };
