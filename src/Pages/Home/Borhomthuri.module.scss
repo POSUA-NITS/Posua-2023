@@ -17,11 +17,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
-  line-height: 36px;
+  // line-height: 36px;
+  line-height: 1.6;
   text-align: center;
   padding-bottom: 6rem;
 
-  color: #433d07;
+  color: #161515;
 }
 
 
@@ -197,7 +198,7 @@
 @media screen and (max-width: 600px) {
   .para {
     font-size: 1rem;
-
+line-height: 1.4;
   }
 }
 

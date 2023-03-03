@@ -46,6 +46,7 @@ const ImageSlider = ({ images, title }) => {
               MemberSlider.map((item) => (
                 <div className={styles.sliderDiv} key={item.id}>
                   <img className={styles.Card} src={item.card} />
+                  <p className={styles.Name}>{item.name}</p>
                   <p className={styles.TextForRotation}>{item.text}</p>
                   <img className={styles.Images} src={item.src} alt={item.alt} />
                 </div>

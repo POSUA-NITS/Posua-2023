@@ -88,6 +88,13 @@ const TeamMembers = () => {
       image:
         "https://res.cloudinary.com/dldebeast/image/upload/v1677834027/Satyik_Pritam_Yogi_dpoeon.webp",
     },
+    {
+      name: "Satyik Pritam Yogi",
+      desig: "Treasurer",
+      email: "satyikpritamy@gmail.com",
+      image:
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677834027/Satyik_Pritam_Yogi_dpoeon.jpg",
+    },
   ];
 
   return (
@@ -100,6 +107,7 @@ const TeamMembers = () => {
             desig={element.desig}
             email={element.email}
             image={element.image}
+            index={i}
           />
         ))}
       </div>

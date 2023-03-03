@@ -12,6 +12,7 @@ import Sponsors from "./Pages/Sponsors/Sponsors";
 import { Suspense } from "react";
 import Loader from "./Components/Loader/Loader";
 import { useState } from "react";
+import Scrolling from "./Pages/Artists/Scrolling";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   return (
@@ -19,8 +20,8 @@ const App = () => {
       <BrowserRouter>
       {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
         <Navbar />
+      <Scrolling>
         <Routes>
-          <Route path="/" element={<Home setIsLoaded={setIsLoaded} />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/teams" element={<Teams />} />
@@ -30,8 +31,8 @@ const App = () => {
         </Routes>
         <ScrollToTop />
         <Footer />
+      </Scrolling>
       </BrowserRouter>
-    // </Suspense>
   );
 };
 
