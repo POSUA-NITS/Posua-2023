@@ -12,7 +12,9 @@ const Teams = () => {
     <div className={styles.containerTeam}>
       <TeamPosuaWording />
       <TeamMember />
-      <ImageSlider />
+      <ImageSlider title="team" />
+      <ImageSlider title="Developers" />
+      <ImageSlider title="Developers" />
     </div>
   );
 };

@@ -5,8 +5,13 @@ import {Blurhash} from 'react-blurhash';
 
 
 
-const Hero = () => {
+const Hero = (props) => {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const {setIsLoaded} = props
+
+  const posua = document.getElementById("posua")
+  console.log(posua);
+
   const placeholder = (
     <Blurhash
       hash="L3Lc^j?u*0fQ-mRjNGo0Zgivofae"
@@ -69,6 +74,7 @@ const Hero = () => {
         <img loading="lazy" placeholder={placeholder}
           src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677768523/posua/posua-min.png_rqmadd.webp"
           alt=""
+          id="posua"
           className={Styles.posua}
         />
         {/* <img loading="lazy" placeholder={placeholder} src="https://ik.imagekit.io/lbrdi6gxa/posua2023/posua-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677767129104" alt="" className={Styles.posua} /> */}

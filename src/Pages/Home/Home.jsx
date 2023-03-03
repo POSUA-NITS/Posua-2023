@@ -4,6 +4,7 @@ import Borhomthuri from "./Borhomthuri";
 import { Button } from "../../Components";
 import Hero from "../../Components/Hero/Hero";
 import style from "./Home.module.scss";
+import Loader from "../../Components/Loader/Loader";
 
 const Home = () => {
   useEffect(() => {

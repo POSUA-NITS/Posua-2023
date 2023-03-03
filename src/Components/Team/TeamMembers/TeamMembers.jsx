@@ -9,14 +9,14 @@ const TeamMembers = () => {
       desig: "Chief Patron",
       email: "rgupta@mech.nits.ac.in",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677783990/rajat_zptvuj.webp",
+        "https://res.cloudinary.com/dggtknx3n/image/upload/v1677862569/posua/WhatsApp_Image_2023-03-03_at_22.25.22_wwcmuh.webp",
     },
     {
       name: "Dr. Pranjit Barman",
       desig: "Mentor",
       email: "pranjit@che.nits.ac.in",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677785003/Pranjit_Barman_zxorco.webp",
+        "https://res.cloudinary.com/dggtknx3n/image/upload/v1677862420/posua/WhatsApp_Image_2023-03-03_at_22.22.04_japahv.webp",
     },
     {
       name: "Dr. LC Saikia",
@@ -82,11 +82,11 @@ const TeamMembers = () => {
         "https://res.cloudinary.com/dldebeast/image/upload/v1677836349/Abhijit_Kalita_h2pb3p.webp",
     },
     {
-      name: "Satyik Pritam Yogi",
-      desig: "Treasurer",
-      email: "satyikpritamy@gmail.com",
+      name: "Mrinmoi Bora",
+      desig: "Chief Coordinator",
+      email: "Mrinmoiborah2@gmail.com",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677834027/Satyik_Pritam_Yogi_dpoeon.webp",
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677879253/Mrinmoi_Bora_n8bulz.webp",
     },
     {
       name: "Satyik Pritam Yogi",

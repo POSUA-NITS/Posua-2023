@@ -6,7 +6,7 @@
     margin-bottom: 1.6rem;
     text-align: center;
     font-size: 3.6rem;
-    background-image: linear-gradient(90deg, #371000 14.1%, #ffbf2a 82.1%);
+    background-image: linear-gradient(90deg, #461806 14.1%, #e1851d 82.1%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -64,7 +64,7 @@
       align-items: center;
       font-size: 1.8rem;
       position: absolute;
-      bottom: 2.4rem;
+      bottom: 2.5rem;
       opacity: 0;
       transition: all 600ms ease-in-out;      
     }
@@ -88,14 +88,14 @@
   }
   .Images {
     width: 200px !important;
-    height: 310px !important;
+    height: 300px !important;
   }
   .Name{
     font-size: 1rem !important;
     opacity: 1 !important;    
   }
   .TextForRotation {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
     opacity: 1 !important;
   }
   .Designation {
