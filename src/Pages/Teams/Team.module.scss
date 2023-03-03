@@ -4,3 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.headteam{
+  padding-top: 18vw !important;
+}
+@media screen and (min-width:660px){
+  .headteam{
+    display: none;
+  }
+}
