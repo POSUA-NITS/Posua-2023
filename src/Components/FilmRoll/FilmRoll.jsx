@@ -1,24 +1,32 @@
 import React from "react";
 import Styles from "./FilmRoll.module.scss";
-import Reel from "../../Assets/Reel.svg";
 import Clicked from "./Clicked";
 import { useState } from "react";
+import data from './gallery.json'
 
-const FilmRoll = () => {
+const FilmRoll = (props) => {
   const [clicked, setClicked] = useState("default");
-  const [winWidth, setWinWidth] = useState(window.innerWidth)
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const [winHeight, setWinHeight] = useState(window.innerHeight);
+  const {year, setYear} = props
 
-  window.addEventListener('resize', () => {
-    setWinWidth(window.innerWidth)
-  })
+  const img = data[year.toString()]?data[year.toString()].imgs:''
+
+  // console.log(data[year.toString()]?data[year.toString()].imgs[0]:'');
+  console.log(img?img[1]:'');
+
+  window.addEventListener("resize", () => {
+    setWinWidth(window.innerWidth);
+    setWinHeight(window.innerHeight);
+  });
   return (
     <>
       <img
-        src="/assets/Reel/scroll.gif"
+        src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700959/posua/scroll_df5mpf.gif"
         alt="<<< Scroll"
         className={Styles.scrollpoint}
       />
-      <div className={winWidth>800?Styles.enclose:Styles.enclose_mobile}>
+      <div className={winWidth>800 && winHeight<winWidth ?Styles.enclose:Styles.enclose_mobile}>
         {clicked !== "default" ? (
           <Clicked clicked={clicked} setClicked={setClicked} />
         ) : (
@@ -26,196 +34,135 @@ const FilmRoll = () => {
         )}
         <div className={Styles.roll}>
           <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg"
+              alt=""
+              className={Styles.reel}
+            />
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[0]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[0]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[1]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[1]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[2]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[2]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[3]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[3]:''
+                  );
                 }}
               ></div>
             </div>
           </div>
           <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg"
+              alt=""
+              className={Styles.reel}
+            />
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[4]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[4]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[5]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[5]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[6]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[6]:''
+                  );
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
+              <img
+                src={img?img[7]:''}
+                alt=""
+                className={Styles.imgs}
+              />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className={Styles.oneRoll}>
-            <img src={Reel} alt="" className={Styles.reel} />
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
-                }}
-              ></div>
-            </div>
-            <div className={Styles.imgsEnclose}>
-              <img src="/assets/Reel/reel.png" alt="" className={Styles.imgs} />
-              <div
-                className={Styles.click}
-                onClick={() => {
-                  setClicked("/assets/Reel/reel.png");
+                  setClicked(
+                    img?img[7]:''
+                  );
                 }}
               ></div>
             </div>
@@ -225,8 +172,8 @@ const FilmRoll = () => {
     </>
   );
 };
-//         {/* <img src={Reel} alt="" />
-//         <img src={Reel} alt="" /> */}
+//         {/* <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" />
+//         <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" /> */}
 //     </div>
 //   );
 // };

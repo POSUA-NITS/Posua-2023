@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .navbar {
-  background-color: rgba(153, 76, 22, 0.2);
+  background-color: rgb(234, 205, 171);
+  backdrop-filter: blur(1.5em);
+  position: fixed;
+  width: 100%;
+  top: 0;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
   transition: all 0.5s linear;
+  z-index: 2000;
 }
 
 .navbarContainer {
@@ -27,18 +32,23 @@
   text-decoration: none;
   text-align: center;
 }
+
 .EventsButton {
   width: 90px;
 }
+
 .GalleryButton {
   width: 91.7px;
 }
+
 .TeamButton {
   width: 75px;
 }
+
 .ArtistButton {
   width: 78px;
 }
+
 .SponsorsButton {
   width: 109.3px;
 }
@@ -57,33 +67,40 @@
   -webkit-text-fill-color: transparent;
   font-size: 28px;
 }
+
 .posualogo {
   height: 25px;
   width: 25px;
   transition: height 0.9s ease-in-out, width 0.9s ease-in-out;
 }
+
 .navbarButton:hover,
 .navbarButton.active {
   font-size: 23px;
 }
+
 .posuaButton:hover,
 .posuaButton.active {
   font-size: 30px;
 }
+
 .posuaButton:hover .posualogo,
 .posuaButton.active .posualogo {
   animation: rotate 2s;
   height: 28px;
   width: 28px;
 }
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .hamburgerMenu {
   left: 0%;
   position: fixed;
@@ -91,7 +108,7 @@
   cursor: pointer;
   padding: 25px;
   width: 90px;
-  z-index: 100;
+  z-index: 2001;
 }
 
 .hamburgerMenu span {
@@ -103,6 +120,7 @@
   background: linear-gradient(to right, #9d5018, #ffa500);
   transition: all 0.2s ease;
 }
+
 @media screen and (max-width: 768px) {
   .navbarContainer {
     flex-direction: column;
@@ -112,11 +130,20 @@
     left: -100%;
     opacity: 0;
     top: 0;
-    bottom: 0;
+    // bottom: 0;
     position: fixed;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 2000;
     width: 75vw;
+  }
+
+  .navbar {
+    background-color: transparent;
+    backdrop-filter: none;
+    position: none;
+    width: 0;
+    height: 100vh;
+    box-shadow: none;
   }
 
   .navbarContainer.active {

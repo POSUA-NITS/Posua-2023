@@ -1,6 +1,4 @@
 import styles from "./TeamPosuaWord.module.scss";
-import Mukha from "../../../Assets/Mukha.png";
-import flower from "../../../assets/flower.png";
 
 const TeamPosuaWording = () => {
   return (
@@ -8,7 +6,7 @@ const TeamPosuaWording = () => {
       <div className={styles.texturebg}>
         <div className={styles.containerTeamWordMukha}>
           <div className={styles.WordingMukha1}>
-            <img src={Mukha} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png" />
           </div>
           <div className={styles.WordingTeamPosua}>
             <div className={styles.center}>
@@ -19,16 +17,16 @@ const TeamPosuaWording = () => {
             </p>
           </div>
           <div className={styles.WordingMukha2}>
-            <img src={Mukha} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png" />
           </div>
         </div>
 
         <div className={styles.containerflower}>
           <div className={styles.flower2}>
-            <img src={flower} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699466/posua/flower_eube3x.png" />
           </div>
           <div className={styles.flower}>
-            <img src={flower} />
+            <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699466/posua/flower_eube3x.png" />
           </div>
         </div>
       </div>
