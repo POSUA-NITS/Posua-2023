@@ -1,0 +1,469 @@
+{
+  "Executive-Heads": [
+    {
+      "name": "Md Arshad Ahmed",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878840/posua/arshad_dmmf0a..webp"
+    },
+    {
+      "name": "Himanta Biswa Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677877273/posua/WhatsApp_Image_2023-03-04_at_02.29.06_pwjsrt..webp"
+    },
+    {
+      "name": "Palash Pratim Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878553/posua/IMG_20230228_223524_-_Palash_Pratim_Deka_svxn9l..webp"
+    },
+    {
+      "name": "Saurav Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878547/posua/IMG_20220331_133905_119_-_Saurabh_Jyoti_Deka_1_niesnp..webp"
+    },
+    {
+      "name": "Preetam Rajbongshi",
+      "img": ""
+    },
+    {
+      "name": "Nayan Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876905/posua/IMG20220724200128-01_-_Nayan_Deka_pmxqms..webp"
+    }
+  ],
+  "developers": [
+    {
+      "name": "Debojyoti Das",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866463/posua/WhatsApp_Image_2023-03-03_at_23.28.54_iplwje.webp"
+    },
+    {
+      "name": "Azad Ali",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866462/posua/WhatsApp_Image_2023-03-03_at_23.29.27_du1vb2.webp"
+    },
+    {
+      "name": "Trishanku Sarma",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865358/posua/IMG-20230219-WA0051-02_-_CS171_Trishanku_Sarma_dajdhl.webp"
+    },
+    {
+      "name": "Dhritiraj Borah",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677867888/posua/IMG_20230123_141639213_-_Dhritiraj_Borah_1_x1p7xm.webp"
+    },
+    {
+      "name": "Gaurav Gogoi",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865359/posua/gaurav_passport_-_Gaurav_Gogoi_mr7bwf.webp"
+    },
+    {
+      "name": "Manish Sharma",
+      "designation": "Co-Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865357/posua/IMG-20220506-WA0038_-_Manish_Sarmah_cuh4sy.webp"
+    },
+    {
+      "name": "Princhi Pawan Saikia",
+      "designation": "Co-Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865726/posua/IMG_1675_ovt7vq.webp"
+    },
+    {
+      "name": "Bhaskar Wary",
+      "designation": "Co-Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865660/posua/SAVE_20230301_131854_-_Bhaskar_Wary_shkknh.webp"
+    },
+    {
+      "name": "Partha Bhuyan",
+      "designation": "Co-Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866846/posua/IMG_0435_hpnvtw.webp"
+    },
+    {
+      "name": "Partha Pratim deka",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866053/posua/unoff_profile1_-_Partoo_xntn_mrkqn4.webp"
+    },
+    {
+      "name": "Aditya Ranjan",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/WhatsApp_Image_2023-03-03_at_01.20.08_-_CE070_Aditya_Ranjan_rrg4ht.webp"
+    },
+    {
+      "name": "Sandeep Kherkatary",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866053/posua/IMG_20230221_010955_597_-_San_K_ckq5md.webp"
+    },
+
+    {
+      "name": "Hrishikesh Borah",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/IMG_20230210_171121_-_Rex_eq7etf.webp"
+    },
+    {
+      "name": "Himangshu Sarma",
+      "designation": " Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866362/posua/WhatsApp_Image_2022-11-06_at_11.22.27_PM_-_Himangshu_Sarma_2_xjhkmz.webp"
+    },
+    {
+      "name": "Jaydeep Das",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866462/posua/WhatsApp_Image_2023-03-03_at_23.29.27_du1vb2.webp"
+    },
+    {
+      "name": "Pragya Annesha Baruah",
+      "designation": "Dev & UI/UX",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/20230303_011431_-_Pragya_Annesha_Baruah_esoqru.webp"
+    },
+    {
+      "name": "Aryadeep Gogoi",
+      "designation": "Dev & UI/UX",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865004/posua/WhatsApp_Image_2023-03-03_at_01.29.14_1_xqprxe.webp"
+    },
+    {
+      "name": "Jacinth Mahanta",
+      "designation": "UI/UX",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866053/posua/My_project_-_Jacinth_Mahanta_nqbohl.webp"
+    },
+    {
+      "name": "Maharnav Deka",
+      "designation": "UI/UX",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/IMG-20230303-WA0017_-_Maharnav_Deka_mnw123.webp"
+    }
+  ],
+
+  "Marketing": [
+    {
+      "name": "Arindom Bora",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677868105/posua/IMG-20221219-WA0004_2_-_Arindom_Bora_ezrkdm..webp"
+    },
+    {
+      "name": "Dhritiraj Borah",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677867888/posua/IMG_20230123_141639213_-_Dhritiraj_Borah_1_x1p7xm..webp"
+    },
+    {
+      "name": "Manab Khatioda",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677868112/posua/IMG20230119101026_-_Manab_Khatioda_r7dn7i..webp"
+    }
+  ],
+
+  "Cultural Rally": [
+    {
+      "name": "Prachurya Nath",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677869188/posua/IMG_20230220_150508_730_-_Prachurya_Nath_jlssgj.webp"
+    },
+    {
+      "name": "Karuna Rabha",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677872247/posua/IMG-20230123-WA0213_-_Karuna_Rabha_maguhw..webp"
+    },
+    {
+      "name": "Rupah Anand Hazarika",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677872579/posua/WhatsApp_Image_2023-03-04_at_01.09.17_ogghaz..webp"
+    },
+    {
+      "name": "Diksha Kakati",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677869188/posua/IMG-20230126-WA0137_-_Diksha_Kakati_rccsad..webp"
+    },
+    {
+      "name": "Pranjal Gogoi",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677869191/posua/1677657205063_-_Pranjal_Gogoi_wkueza..webp"
+    },
+    {
+      "name": "Jagriti Saikia",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677869188/posua/Screenshot_20230302-225302_Instagram_-_Prachurya_Nath_ny7gm2..webp"
+    },
+    {
+      "name": "Salma Sultana",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677869188/posua/IMG_20230226_153654_-_SALMA_SULTANA_mhrggt..webp"
+    }
+  ],
+
+  "Event-Management": [
+    {
+      "name": "Yashdeep Sarmah",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677872176/posua/WhatsApp_Image_2023-03-04_at_01.05.49_kvuuir..webp"
+    },
+    {
+      "name": "Tridip Borah",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876029/posua/WhatsApp_Image_2023-03-04_at_01.27.25_qtfi1t..webp"
+    },
+    {
+      "name": "Reeya Hazarika",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871750/posua/IMG_20230225_182625_-_Reeya_Hazarika_wlksps..webp"
+    },
+    {
+      "name": "Priyakshi Bharali",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876033/posua/IMG_20230225_181754_vzrspl..webp"
+    },
+    {
+      "name": "Sarmistha Bora",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871804/posua/IMG_20230225_184206_-_Sarmistha_Bora_iqfgke..webp"
+    },
+    {
+      "name": "JoySankar Saikia",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871389/posua/IMG_20230207_154442_-_Joysankar_Saikia_pl6wv8..webp"
+    },
+    {
+      "name": "Swarup Das",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871381/posua/IMG_20221214_151024504-01_-_Swarup_Das_fxxvte..webp"
+    },
+    {
+      "name": "Rahul Bora",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871380/posua/IMG_20230217_021349_121_-_013_Rahul_Bora_u5wvld.webp"
+    },
+    {
+      "name": "Biplob Phukan",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876030/posua/WhatsApp_Image_2023-03-04_at_01.26.18_faeq8x..webp"
+    },
+    {
+      "name": "Amrit Saikia",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871872/posua/IMG_20220108_204827_328_-_Amrit_Saikia_gqfu8s.webp"
+    },
+    {
+      "name": "Nipam Das",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871920/posua/IMG_20230302_111823_-_Nipam_Das_mm8thb..webp"
+    },
+    {
+      "name": "Suraj Jyoti Hazarika",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871963/posua/IMG_20220331_133905_119_-_Saurabh_Jyoti_Deka_ughotx..webp"
+    },
+    {
+      "name": "Bhargob Pratim Borah",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677872016/posua/IMG_20230228_225618_-_Bhargob_Borah_cd2lfv..webp"
+    },
+    {
+      "name": "Priyanki Priyam Borgohain",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677872060/posua/IMG-20230228-WA0011_-_Priyanki_Priyam_tal9gh..webp"
+    },
+    {
+      "name": "Ankita Jhanwar",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871390/posua/IMG_20230228_231700_-_ECEA054_Ankita_Jhanwar_i7rpts..webp"
+    },
+    {
+      "name": "Rishikesh Sarma",
+      "img": ""
+    },
+    {
+      "name": "Ruchir Bhattacharya",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871391/posua/IMG_20230131_210954_337_-_006_RUCHIR_BHATTACHARYYA_kx5qt7..webp"
+    }
+  ],
+
+  "Content": [
+    {
+      "name": "Emon Kalita",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876628/posua/IMG_20230227_233442_-_077_EMON_KALITA_dl7qea..webp"
+    },
+    {
+      "name": "Prapti Kashyap",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876779/posua/prapti_q5kcmy..webp"
+    }
+  ],
+
+  "T-Shirt": [
+    {
+      "name": "Nayan Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876905/posua/IMG20220724200128-01_-_Nayan_Deka_pmxqms..webp"
+    },
+    {
+      "name": "Himanta Biswa Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677877273/posua/WhatsApp_Image_2023-03-04_at_02.29.06_pwjsrt..webp"
+    }
+  ],
+
+  "Design": [
+    {
+      "name": "Nihar Jyoti Basisth",
+      "img": ""
+    },
+    {
+      "name": "Mugdha Thakuria",
+      "img": ""
+    },
+    {
+      "name": "Rajanya Kashyap Gogoi",
+      "img": ""
+    },
+    {
+      "name": "Mriganka Bharali",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677877774/posua/IMG_20230219_004201_-_Mriganka_Bharali_m1qbbm..webp"
+    },
+    {
+      "name": "Nishad Tasneem",
+      "img": ""
+    },
+    {
+      "name": "Himangshu Baruah",
+      "img": ""
+    }
+  ],
+
+  "Hospitality": [
+    {
+      "name": "Pallab Jyoti Baishya",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677869360/posua-23/IMG_20221218_135115_-_Pallab_Jyoti_Baishya_qxsnfd.webp"
+    },
+    {
+      "name": "Manash Jyoti Bora",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870237/posua-23/IMG_20230220_231806_-_Manash_Jyoti_Bora_y7zkbf.webp"
+    },
+    {
+      "name": "Priyabrat Bania",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870130/posua-23/IMG_20230228_225048_-_Priyabrat_Bania._nxogre.webp"
+    },
+    {
+      "name": "Prastuti Mazumdar",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870365/posua-23/20230212_121129_-_Prastuti_Mazumdar_nm3zhn.webp"
+    },
+    {
+      "name": "Reetika Saha",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870421/posua-23/IMG-20221122-WA0014_-_Reetika_Saha_k07rgr.webp"
+    },
+    {
+      "name": "Parismita Buragohain",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870554/posua-23/20230115_091605_-_EEA057_Parismita_Buragohain_eyfvxc.webp"
+    },
+    {
+      "name": "Sayantan Das",
+      "img": "...."
+    },
+    {
+      "name": "Amylika Goswami",
+      "img": "https://res.cloudinary.com/dedlyz6hn/image/upload/v1677877999/WhatsApp_Image_2023-03-04_at_1.38.29_AM_ekh4hi.jpg"
+    },
+    {
+      "name": "Rajashri Deka",
+      "img": "...."
+    },
+    {
+      "name": "Ripunjoy Sarma",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870900/posua-23/IMG_20220421_164535_-_Ripunjoy_Sarma_ourxcm.webp"
+    },
+    {
+      "name": "Akash Sahu",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677870822/posua-23/akash_sahu_posua_-_Akash_Sahu_zspokt.webp"
+    },
+    {
+      "name": "Nandini Ghosh",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677869137/posua-23/IMG_20230225_181916_zgwgyw.webp"
+    }
+  ],
+
+  "decoration": [
+    {
+      "name": "Palash Pratim Deka",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677871658/posua-23/IMG_20230228_223524_-_Palash_Pratim_Deka_callun.webp"
+    },
+    {
+      "name": "Partha Pratim Chaudhury",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677871710/posua-23/20221013_134251_-_Partha_Pratim_Choudhury_c6ullq.webp"
+    },
+    {
+      "name": "Trishna Gogoi",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677871754/posua-23/IMG-20221020-WA0091_-_Trishna_Gogoi_b9gdum.webp"
+    },
+    {
+      "name": "Rishikesh Sarma",
+      "img": "...."
+    },
+    {
+      "name": "Kalpataru Narah",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677871862/posua-23/IMG20220406101609_-_Kalpataru_Narah_xilpl4.webp"
+    },
+    {
+      "name": "Trishanku Sarma",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677871900/posua-23/IMG-20230219-WA0051-02_-_CS171_Trishanku_Sarma_petc3p.webp"
+    },
+    {
+      "name": "Himangshu Baruah",
+      "img": "...."
+    },
+    {
+      "name": "Gaurav Gogoi",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872021/posua-23/gaurav_passport_-_Gaurav_Gogoi_eqeaab.png"
+    },
+    {
+      "name": "Anurag Gogoi",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872084/posua-23/IMG-20221020-WA0010_-_Anurag_Gogoi_l4puin.webp"
+    },
+    {
+      "name": "Bikrom",
+      "img": "...."
+    },
+    {
+      "name": "Somiron",
+      "img": "...."
+    },
+    {
+      "name": "Ankur Gogoi",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872225/posua-23/IMG20221005061551_-_Ankur_Gogoi_nilnms.webp"
+    },
+    {
+      "name": "Avilash Nath",
+      "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872249/posua-23/IMG_20220419_001412_172_-_Avilash_Nath_x5b3lo.webp"
+    },
+    {
+      "name": "Rituparna Kagyung",
+      "img": "...."
+    },
+    {
+      "name": "Manas Jyoti Roy",
+      "img": "...."
+    }
+  ],
+
+  "Logistics": [
+    {
+      "name": "Navoneel Debnath",
+      "img": "https://res.cloudinary.com/dlwbjlw2d/image/upload/v1677869612/Posua%202023/Logistic/IMG_0019_-_Navoneel_Debnath_o3zuqx.webp"
+    },
+    {
+      "name": "Abhijeet Choudhary",
+      "img": "...."
+    },
+    {
+      "name": "Jubaraj Kakati",
+      "img": "...."
+    },
+    {
+      "name": "Dhiraj Pran Nath",
+      "img": "https://res.cloudinary.com/dlwbjlw2d/image/upload/v1677869615/Posua%202023/Logistic/IMG20230216125306_-_071_Dhiraj_Pran_Nath_k7bkfz.webp"
+    }
+  ],
+  "Food": [
+    {
+      "name": "Jajjalya Kashyap",
+      "img": "https://res.cloudinary.com/dlwbjlw2d/image/upload/v1677869654/Posua%202023/Food/IMG_20230301_000208_-_EEA031JAJJALYA_KASHYAP_zzpvtk.webp"
+    },
+    {
+      "name": "Jahidul Islam",
+      "img": "https://res.cloudinary.com/dlwbjlw2d/image/upload/v1677869659/Posua%202023/Food/Jahidulislam_-_Jahidul_Islam_y6ojyl.webp"
+    },
+    {
+      "name": "Tapas Jyoti Das",
+      "img": "...."
+    },
+    {
+      "name": "Rishikesh Sarma",
+      "img": "...."
+    },
+    {
+      "name": "Bikram Saikia",
+      "img": "https://res.cloudinary.com/dlwbjlw2d/image/upload/v1677869885/Posua%202023/Food/my_pic_-_CEB090_Bikram_Saikia_pmbq7y.webp"
+    },
+    {
+      "name": "Amlan Deep Hazarika",
+      "img": "...."
+    }
+  ],
+  "Infra": [
+    {
+      "name": "Subham Patar",
+      "img": "https://res.cloudinary.com/dedlyz6hn/image/upload/v1677876732/IMG_20230301_001224_-_Subham_patar_xazfby.webp"
+    },
+    {
+      "name": "Shirkha Jyoti Das",
+      "img": "https://res.cloudinary.com/dedlyz6hn/image/upload/v1677876696/a_id_image_-_Shirkha_Jyoti_Das_t2zpyj.webp"
+    },
+    {
+      "name": "Manab Khatioda",
+      "img": "https://res.cloudinary.com/dedlyz6hn/image/upload/v1677876586/IMG20230119101026_-_Manab_Khatioda_geomyo.webp"
+    },
+    {
+      "name": "Nripen Sonowal",
+      "img": "https://res.cloudinary.com/dedlyz6hn/image/upload/v1677876543/IMG_20220415_175903_-_022Nripen_Sonowal_zu337q.webp"
+    }
+  ]
+}

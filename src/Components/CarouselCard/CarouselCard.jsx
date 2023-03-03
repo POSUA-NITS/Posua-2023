@@ -6,7 +6,7 @@ const CarouselCard = ({ data }) => {
       {/* <img className={styles.image} src="/assets/stock.webp" /> */}
       <img
         className={styles.image}
-        src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677702053/posua/stock_vnov7d.webp"
+        src={data.src}
       />
       <div className={styles.overlay}>
         <div className={styles.heading}>
