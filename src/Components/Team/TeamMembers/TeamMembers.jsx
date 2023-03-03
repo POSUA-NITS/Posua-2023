@@ -35,44 +35,58 @@ const TeamMembers = () => {
     {
       name: "Dr. Jyotirmoy Haloi",
       desig: "Vice President",
-      email: "pranjit@che.nits.ac.in",
+      email: "jyotirmoy@civil.nits.ac.in",
       image:
         "https://res.cloudinary.com/dldebeast/image/upload/v1677784961/Jyotirmoy_Haloi_hoyyhk.jpg",
     },
     {
+      name: "Debanga Bikash Bora",
+      desig: "Convenor",
+      email: "debangabora14@gmail.com",
+      image:
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677834472/Debanga_Bikash_Bora_sj4fcq.webp",
+    },
+    {
       name: "Manash Pratim Goswami",
-      desig: "Chief Coorinator",
-      email: "pranjit@che.nits.ac.in",
+      desig: "Chief Coordinator",
+      email: "manash_ug@civil.nits.ac.in",
       image:
         "https://res.cloudinary.com/dldebeast/image/upload/v1677787158/Manash_Goswami_xuc901.jpg",
     },
     {
       name: "Afsana Yasmin",
-      desig: "Chief Coorinator",
-      email: "pranjit@che.nits.ac.in",
+      desig: "Chief Coordinator",
+      email: "afsana_ug@ece.nits.ac.in",
       image:
         "https://res.cloudinary.com/dldebeast/image/upload/v1677787158/Afsana_Yasmin_qfdkuc.jpg",
     },
     {
-      name: "Manash Pratim Goswami",
-      desig: "Chief Coorinator",
-      email: "pranjit@che.nits.ac.in",
+      name: "Chandraa Gogoi",
+      desig: "Chief Coordinator",
+      email: "mylittlec21@gmail.com",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677787158/Manash_Goswami_xuc901.jpg",
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677834728/Chandraa_Gogoi_zxaav7.jpg",
     },
     {
-      name: "Manash Pratim Goswami",
-      desig: "Chief Coorinator",
+      name: "Bhaskar Jyoti Deka",
+      desig: "Chief Coordinator",
       email: "pranjit@che.nits.ac.in",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677787158/Manash_Goswami_xuc901.jpg",
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677833385/Bhaskar_Jyoti_Deka_raikzm.jpg",
     },
     {
-      name: "Manash Pratim Goswami",
-      desig: "Chief Coorinator",
-      email: "pranjit@che.nits.ac.in",
+      name: "Abhijit Kalita",
+      desig: "Chief Coordinator",
+      email: "abhijitkalita536@gmail.com",
       image:
-        "https://res.cloudinary.com/dldebeast/image/upload/v1677787158/Manash_Goswami_xuc901.jpg",
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677836349/Abhijit_Kalita_h2pb3p.jpg",
+    },
+    {
+      name: "Satyik Pritam Yogi",
+      desig: "Treasurer",
+      email: "satyikpritamy@gmail.com",
+      image:
+        "https://res.cloudinary.com/dldebeast/image/upload/v1677834027/Satyik_Pritam_Yogi_dpoeon.jpg",
     },
   ];
 
