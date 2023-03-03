@@ -35,7 +35,7 @@ const FilmRoll = (props) => {
         <div className={Styles.roll}>
           <div className={Styles.oneRoll}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.webp"
               alt=""
               className={Styles.reel}
             />
@@ -102,7 +102,7 @@ const FilmRoll = (props) => {
           </div>
           <div className={Styles.oneRoll}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.webp"
               alt=""
               className={Styles.reel}
             />
@@ -172,8 +172,8 @@ const FilmRoll = (props) => {
     </>
   );
 };
-//         {/* <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" />
-//         <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.svg" alt="" /> */}
+//         {/* <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.webp" alt="" />
+//         <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701014/posua/Reel_fuh7ny.webp" alt="" /> */}
 //     </div>
 //   );
 // };

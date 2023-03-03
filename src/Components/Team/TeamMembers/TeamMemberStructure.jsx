@@ -39,7 +39,7 @@ const TeamMemberStructure = (data) => {
           />
         </div>
         <div className={styles.gamusa}>
-          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700061/posua/Gamusa_f1677o.png" />
+          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700061/posua/Gamusa_f1677o.webp" />
           <div className={styles.gamusaWriting}>
             <p>{data.name}</p>
             <p>{data.desig}</p>

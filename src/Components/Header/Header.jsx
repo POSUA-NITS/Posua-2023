@@ -5,22 +5,22 @@ export const Header = (props) => {
       <div className={styles.main} id={styles.left}>
         <img
           className={styles.b}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697564/posua/b_iw5aix.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697564/posua/b_iw5aix.webp"
           alt="b"
         />
         <img
           className={styles.d}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697638/posua/d_ylkh6u.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697638/posua/d_ylkh6u.webp"
           alt="b"
         />
         <img
           className={styles.g}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697670/posua/g_kryvgc.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697670/posua/g_kryvgc.webp"
           alt="b"
         />
         <img
           className={styles.p}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697698/posua/p_rc5hdr.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697698/posua/p_rc5hdr.webp"
           alt="b"
         />
       </div>
@@ -32,22 +32,22 @@ export const Header = (props) => {
       <div className={styles.main} id={styles.right}>
         <img
           className={styles.b}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697564/posua/b_iw5aix.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697564/posua/b_iw5aix.webp"
           alt="b"
         />
         <img
           className={styles.d}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697638/posua/d_ylkh6u.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697638/posua/d_ylkh6u.webp"
           alt="b"
         />
         <img
           className={styles.g}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697670/posua/g_kryvgc.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697670/posua/g_kryvgc.webp"
           alt="b"
         />
         <img
           className={styles.p}
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697698/posua/p_rc5hdr.svg"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677697698/posua/p_rc5hdr.webp"
           alt="b"
         />
       </div>

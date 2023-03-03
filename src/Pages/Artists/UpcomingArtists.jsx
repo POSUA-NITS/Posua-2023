@@ -48,17 +48,17 @@ const UpcomingArtists = () => {
             <div className={style.indicard} onClick={handleHide} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
                 className={style.topcardimg}
                 alt=""
               />
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
                 className={style.leftcardimg}
                 alt=""
               />
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
                 className={style.rightcardimg}
                 alt=""
               />
@@ -92,17 +92,17 @@ const UpcomingArtists = () => {
             <div className={style.indicard} onClick={handleHide2} id={style.hideup}>
               {/* <img src={artistbg} alt="" /> */}
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
                 className={style.topcardimg}
                 alt=""
               />
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
                 className={style.leftcardimg}
                 alt=""
               />
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
                 className={style.rightcardimg}
                 alt=""
               />
@@ -138,7 +138,7 @@ const UpcomingArtists = () => {
           <button className={style.btnleft} onClick={handleShow2}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -173,7 +173,7 @@ const UpcomingArtists = () => {
           <button className={style.btnleft} onClick={handleShow}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>

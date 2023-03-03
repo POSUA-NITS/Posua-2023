@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <AboutUs />
       <div className={style.letter}>
-          <img src='https://res.cloudinary.com/dhgfsshq4/image/upload/v1677847725/posua2023/Invitation_wtjxv6.png' alt="" />
+          <img src='https://res.cloudinary.com/dhgfsshq4/image/upload/v1677847725/posua2023/Invitation_wtjxv6.webp' alt="" />
       </div>
       <Borhomthuri/>
     </main>
