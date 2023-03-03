@@ -1,0 +1,72 @@
+.casette_img{
+    position: relative;
+    width: 70%;
+    max-width: 35rem;
+    margin: auto;
+    .casette_cd{
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: -33%;
+        transform: translateX(-50%);
+        transition: 0.25s;
+        .text{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(to right,#EAA72D, #EFD589);
+              background-clip: border-box;
+            background-clip: text;
+            color: transparent;
+            font-size: 42px;
+            top: 25px;
+        }
+        .text_bottom{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) rotateZ(180deg);
+            background: linear-gradient(to right,#EAA72D, #EFD589);
+            background-clip: border-box;
+            background-clip: text;
+            color: transparent;
+            font-size: 42px;
+            bottom: 25px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .cassette_body{
+        position: relative;
+    }
+    .body{
+        width: 100%;
+    }
+    .button_left, .button_right{
+        position: absolute;
+        top: 34.3%;
+        width: 3%;
+        cursor: pointer;
+    }
+    .disabled{
+        pointer-events: none;
+        opacity: 0.4;
+    }
+    .button_left{
+        left: 30.1%;
+    }
+    .button_right{
+        right: 30.3%;
+        transform: rotateZ(180deg);
+    }
+}
+@media screen and (max-width: 700px){
+    .casette_cd .text{
+        font-size: 22px !important;
+        top: 8px !important;
+    } 
+    .casette_cd .text_bottom{
+        font-size: 22px !important;
+        bottom: 8px !important;
+    }
+}
