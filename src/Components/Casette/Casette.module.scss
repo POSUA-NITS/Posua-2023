@@ -15,7 +15,8 @@
             left: 50%;
             transform: translateX(-50%);
             background: linear-gradient(to right,#EAA72D, #EFD589);
-              background-clip: border-box;
+            background-clip: border-box;
+            -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
             font-size: 42px;
