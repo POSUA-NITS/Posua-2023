@@ -9,19 +9,22 @@ import Artists from "./Pages/Artists/Artists";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import Sponsors from "./Pages/Sponsors/Sponsors";
+import Scrolling from "./Pages/Artists/Scrolling";
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/teams" element={<Teams />} />
-        <Route path="/artists" element={<Artists />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <Scrolling>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/artists" element={<Artists />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </Scrolling>
       <ScrollToTop />
       <Footer />
     </BrowserRouter>
