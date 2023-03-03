@@ -7,15 +7,20 @@ import Lottie from "react-lottie-player";
 import lottieJson from "../../Assets/Dhul.json";
 import FilmRoll from "../../Components/FilmRoll/FilmRoll";
 import Flowerinout from "../Artists/Flowerinout";
+import Casette from "../../Components/Casette/Casette";
+import { useState } from "react";
 
 const Gallery = () => {
+
+  const [year, setYear] = useState('2022')
+
   useEffect(() => {
     document.title = "Gallery | Posua 2023";
   }, []);
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Header title="GALLERY" fontSize="8vw" />
+        <Header title="GALLERY" fontSize="6vw" />
       </div>
 
       <p className={styles.para}>
@@ -37,21 +42,23 @@ const Gallery = () => {
         </div>
       </div> */}
 
+      <Casette year={year} setYear={setYear}/>
+
       <div className={styles.faces}>
         <div className={styles.face_left}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.webp"
             alt="image"
           />
         </div>
         <div className={styles.face_right}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.webp"
             alt="image"
           />
         </div>
       </div>
-      <FilmRoll />
+      <FilmRoll year={year} setYear={setYear} />
     </div>
   );
 };

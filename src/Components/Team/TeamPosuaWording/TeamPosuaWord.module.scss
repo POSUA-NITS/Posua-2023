@@ -2,7 +2,7 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding-top: 4rem;
+  padding-top: 9vw;
 }
 
 .containerflower {
@@ -33,9 +33,8 @@
 .WordingTeamPosua {
   h1 {
     display: flex;
-
-    font-size: 5.2vw;
-    font-family: "Philosopher", sans-serif;
+    font-size: 6vw;
+    font-family: var(--posua-font-1), sans-serif;
     font-weight: 700;
     background-image: linear-gradient(90deg, #371000 0.1%, #f3b526 90.1%);
     background-size: 100%;
@@ -51,15 +50,15 @@
     justify-content: center;
   }
   p {
-    padding-top: 6rem;
-    font-family: "Philosopher", sans-serif;
-    font-size: 1.5rem;
+    padding-top: 4rem;
+    font-family: var(--posua-font-1), sans-serif;
+    font-size: 1.3rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 34px;
     text-align: center;
 
-    color: #2e1300;
+    color: #161515;
   }
 }
 
@@ -98,7 +97,7 @@
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 430px) {
   .containerTeamWordMukha {
     margin-inline: 0.5em;
     padding-bottom: 5em;
@@ -113,8 +112,11 @@
       display: none;
     }
     .WordingTeamPosua > p {
-      font-size: 1.2rem;
-      top: 106px;
+      margin-inline: 2rem;
+      font-size: .9rem;
+      line-height: 1.4rem;
+      padding-top: 2rem;
+      // top: 106px;
     }
     .Heading {
       font-size: 2.7rem;

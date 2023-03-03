@@ -1,10 +1,28 @@
-.containerMemStructure {
-  display: flex;
-  position: static;
+#satyik_da{
+  grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .memEven{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .memOdd{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .containerMemStructure {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+
 
   .teamMemberGrid {
     align-items: center;
     // position: relative;
+    overflow: hidden;
     height: 580px;
   }
 
@@ -23,7 +41,11 @@
       text-align: center;
       img {
         position: relative;
-        top: 10px;
+        border-radius: 50%;
+        width: 91.7%;
+        height: 90.5%;
+        object-fit: cover;
+        top: 12px;
       }
     }
   }
@@ -38,17 +60,30 @@
     justify-content: center;
     position: relative;
     bottom: 360px;
-
+    
+    .gamusaImg{
+      transform: rotate(.5deg);
+    }
+    
     .gamusaWriting {
       position: relative;
       bottom: 5.2rem;
+      line-height: 1.25rem;
       font-weight: 600;
-      font-family: "Philosopher", sans-serif;
+      font-family: var(--posua-font-1), sans-serif;
     }
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
+  .memEven{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .memOdd{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
   .containerMemStructure {
     margin-top: -6rem;
   }
@@ -62,6 +97,6 @@
     overflow: hidden;
   }
   // .LottiesSVG{
-  //   transform: scale(0.8);
-  // }
+    //   transform: scale(0.8);
+    // }
 }

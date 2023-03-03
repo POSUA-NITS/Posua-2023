@@ -1,12 +1,21 @@
 import React from "react";
 import data from "./data.json";
 import styles from "./AboutUs.module.scss";
+import { useState } from "react";
 const AboutUs = () => {
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const [winHeight, setWinHeight] = useState(window.innerHeight);
+
+  window.addEventListener("resize", () => {
+    setWinWidth(window.innerWidth);
+    setWinHeight(window.innerHeight);
+  });
+
   return (
     <section className={styles.aboutUs}>
       <div className={styles.cameraWrap}>
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677702586/posua/camera_pbkow5.png"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863329/posua/camera_pbkow5-min_qfrf4l.webp"
           alt="camera"
           className={styles.camera}
         ></img>
@@ -17,7 +26,7 @@ const AboutUs = () => {
           <div className={styles.content}>{data.content}</div>
         </div>
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677702656/posua/film_eu7rig.png"
+          src={winWidth>600 && winWidth > winHeight?"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677702656/posua/film_eu7rig.webp": "https://res.cloudinary.com/dp92qug2f/image/upload/v1677787077/posua/about_us_nectaj.webp"}
           alt="flim"
           className={styles.film}
         ></img>

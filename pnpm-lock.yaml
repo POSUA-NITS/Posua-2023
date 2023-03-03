@@ -4,6 +4,7 @@ specifiers:
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
+  blurhash: ^2.0.5
   eslint: ^8.27.0
   eslint-config-airbnb: ^19.0.4
   eslint-config-prettier: ^8.5.0
@@ -16,6 +17,7 @@ specifiers:
   lint-staged: ^13.0.3
   prettier: ^2.7.1
   react: ^18.2.0
+  react-blurhash: ^0.3.0
   react-dom: ^18.2.0
   react-hover-slideshow: ^2.1.12
   react-icons: ^4.7.1
@@ -32,7 +34,9 @@ specifiers:
 
 dependencies:
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
+  blurhash: 2.0.5
   react: 18.2.0
+  react-blurhash: 0.3.0_3yj36mirjqglzs3tnjovhau2ge
   react-dom: 18.2.0_react@18.2.0
   react-hover-slideshow: 2.1.12_biqbaboplfbrettd7655fr4n2y
   react-icons: 4.7.1_react@18.2.0
@@ -665,6 +669,10 @@ packages:
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+
+  /blurhash/2.0.5:
+    resolution: {integrity: sha512-cRygWd7kGBQO3VEhPiTgq4Wc43ctsM+o46urrmPOiuAe+07fzlSB9OJVdpgDL0jPqXUVQ9ht7aq7kxOeJHRK+w==}
+    dev: false
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -2368,6 +2376,16 @@ packages:
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
+
+  /react-blurhash/0.3.0_3yj36mirjqglzs3tnjovhau2ge:
+    resolution: {integrity: sha512-XlKr4Ns1iYFRnk6DkAblNbAwN/bTJvxTVoxMvmTcURdc5oLoXZwqAF9N3LZUh/HT+QFlq5n6IS6VsDGsviYAiQ==}
+    peerDependencies:
+      blurhash: ^2.0.3
+      react: '>=15'
+    dependencies:
+      blurhash: 2.0.5
+      react: 18.2.0
+    dev: false
 
   /react-dom/18.2.0_react@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}

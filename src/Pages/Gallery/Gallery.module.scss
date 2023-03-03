@@ -1,21 +1,23 @@
 .container {
-  background-image: url("./background.png");
+  background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
-
+padding-top: 5vw;
   .para {
     width: 72rem;
-    height: 15rem;
+    // height: 15rem;
     margin: auto;
     margin-top: 3rem;
 
-    font-family: "Philosopher";
+    font-family: var(--posua-font-1);
     font-style: normal;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 36px;
     text-align: center;
 
-    color: #433d07;
+    color: #161515;
   }
 
   .flowers {
@@ -48,7 +50,7 @@
 
   .faces {
     .face_left {
-      height: 16rem;
+      height: 1rem;
       width: 18rem;
 
       img {
@@ -75,10 +77,6 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
-    .header {
-      margin-top: 5rem;
-    }
-
     .para {
       width: 60%;
       font-size: 3vmin;
@@ -87,5 +85,11 @@
     .faces {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width:660px){
+  .container{
+    padding-top: 18vw;
   }
 }
