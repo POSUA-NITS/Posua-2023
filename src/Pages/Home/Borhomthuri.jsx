@@ -11,7 +11,7 @@ const Borhomthuri = () => {
             </div >
             <div className={styles.para}>
                 <p >
-                    Borhomthuri is the annual souvenir of POSUA.It enfolds indispensable parts of Assamese Culture and also the emotions of students in the form of enthralling articles,poems,stories and sketches.Borhomthuri reflects the ardour of NITS Family towards POSUA and provides an opportunity for the literary skills of students to get revived.
+                    Borhomthuri is the annual souvenir of POSUA. It enfolds indispensable parts of Assamese Culture and also the emotions of students in the form of enthralling articles,poems,stories and sketches. Borhomthuri reflects the ardour of NITS Family towards POSUA and provides an opportunity for the literary skills of students to get revived.
                 </p>
             </div>
 
