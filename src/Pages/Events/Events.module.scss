@@ -1,20 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
-
 * {
   margin: 0;
 }
 
 .main {
-  background-image: url("src/Assets/texture.png");
-  height: 100%;
-  width: 100%;
+  background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
+  padding-top: 5rem !important;
 
   .content {
-    padding: 5% 15%;
+    padding: 0 15%;
     font-size: 3vmin;
     text-align: center;
-    font-family: "Philosopher", sans-serif;
+    line-height: 30px;
+    font-family: var(--posua-font-1), sans-serif;
+    color: #161515;
   }
 }
 
@@ -58,10 +59,11 @@
 @media only screen and (max-width: 600px) {
   .main {
     padding-top: 50px;
-  }
-
-  .content {
-    font-size: 2vmin;
+    .content {
+      padding: 3% 15%;
+      font-size: 3vmin;
+      line-height: 20px;
+    }
   }
 
   #phoolLeft {

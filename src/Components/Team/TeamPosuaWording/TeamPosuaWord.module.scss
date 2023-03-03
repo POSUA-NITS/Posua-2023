@@ -35,7 +35,7 @@
     display: flex;
 
     font-size: 5.2vw;
-    font-family: "Philosopher", sans-serif;
+    font-family: var(--posua-font-1), sans-serif;
     font-weight: 700;
     background-image: linear-gradient(90deg, #371000 0.1%, #f3b526 90.1%);
     background-size: 100%;
@@ -52,14 +52,14 @@
   }
   p {
     padding-top: 4rem;
-    font-family: "Philosopher", sans-serif;
+    font-family: var(--posua-font-1), sans-serif;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
     text-align: center;
 
-    color: #2e1300;
+    color: #161515;
   }
 }
 

@@ -40,8 +40,8 @@
   max-height: 100%;
 }
 .AboutUsContent {
-  padding: 20% 16% 35% 19.5%;
-  text-align: center;
+  padding: 20% 16% 35% 18.8%;
+  text-align: justify;
   width: 90%;
   gap: 1rem;
   display: flex;
@@ -50,7 +50,7 @@
   flex-direction: column;
 }
 .AboutUsHeader {
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--posua-font-1), sans-serif;
   font-size: 9vmin;
   font-weight: bold;
   margin-top: -4rem;
@@ -62,6 +62,7 @@
   width: fit-content;
   height: 100%;
   font-size: 2.5vmin;
+  color:   #161515;
 }
 @media screen and (max-width: 600px) {
   .cameraWrap {

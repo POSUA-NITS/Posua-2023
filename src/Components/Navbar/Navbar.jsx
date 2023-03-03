@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
-import posuaLogo from "./posualogo.png";
+// import posuaLogo from "./posualogo.webp";
 import { Link } from "react-router-dom";
 function Navbarbox({ isOpen }) {
   const [activeButton, setActiveButton] = useState("false");
@@ -22,7 +22,11 @@ function Navbarbox({ isOpen }) {
             onClick={() => handleButtonClick("Posua")}
           >
             {" "}
-            P<img src={posuaLogo} className={Styles.posualogo} />
+            P
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677703827/posua/posualogo_o2dpjj.webp"
+              className={Styles.posualogo}
+            />
             SUA
           </Link>
         </div>

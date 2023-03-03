@@ -1,0 +1,32 @@
+.scrolltotop {
+  position: fixed;
+  bottom: 12px;
+  right: 2%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: #7c2601;
+  border: 0.2vh solid #ce4144;
+  color: #fff;
+  z-index: 100;
+  cursor: pointer;
+  .icon {
+    margin-top: 10px;
+    animation: scrollTop 0.5s alternate ease infinite;
+  }
+}
+
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .scrolltotop {
+    right: 1%;
+  }
+}
