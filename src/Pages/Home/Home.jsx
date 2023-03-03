@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import AboutUs from "./AboutUs";
+import Borhomthuri from "./Borhomthuri";
 import { Button } from "../../Components";
 import Hero from "../../Components/Hero/Hero";
 
@@ -14,6 +15,7 @@ const Home = () => {
         <Hero />
       </div>
       <AboutUs />
+      <Borhomthuri/>
     </main>
   );
 };

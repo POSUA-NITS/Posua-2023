@@ -34,6 +34,7 @@
   .enclose::-webkit-scrollbar {
     display: none;
   }
+
   // .box {
   //     --mask:
   //       radial-gradient(193.27px at 50% calc(100% + 166.50px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 180px) calc(50% - 49px + .5px)/360px 98px repeat-x,
@@ -57,6 +58,7 @@
   .enclose::-webkit-scrollbar {
     display: none;
   }
+
   .roll {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -64,14 +66,14 @@
     overflow-x: scroll;
     overflow-y: hidden;
     height: 400px;
-    width: 5265px;
+    width: 2632px;
 
     .oneRoll {
       position: relative;
       // width: 80vw;
       // height: fit-content;
       height: 100%;
-      width: 25%;
+      width: 50%;
       flex-shrink: 0;
 
       .reel {
@@ -124,6 +126,8 @@
       .imgs {
         width: 25%;
         z-index: 10;
+        aspect-ratio: 1.8;
+        object-fit: cover;
       }
     }
   }
@@ -145,6 +149,9 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+    max-height: 90vh;
+    // aspect-ratio: 1.8;
+    object-fit: cover;
   }
 
   .clicked_mobile img {
@@ -209,14 +216,14 @@
     overflow-x: scroll;
     overflow-y: hidden;
     height: 270px;
-    width: 3555px;
+    width: 1777px;
 
     .oneRoll {
       position: relative;
       // width: 80vw;
       // height: fit-content;
       height: 100%;
-      width: 25%;
+      width: 50%;
       flex-shrink: 0;
 
       .reel {
@@ -269,6 +276,8 @@
       .imgs {
         width: 25%;
         z-index: 10;
+        aspect-ratio: 1.8;
+        object-fit: cover;
       }
     }
   }
@@ -342,6 +351,7 @@
   width: 25%;
   z-index: 10;
 }
+
 // }
 // }
 .backdrop {
@@ -353,6 +363,7 @@
   left: 0px;
   top: 0px;
 }
+
 .clicked img {
   position: fixed;
   z-index: 15;
@@ -360,6 +371,7 @@
   left: 50%;
   top: 50%;
 }
+
 // }
 .backdrop {
   position: fixed;
