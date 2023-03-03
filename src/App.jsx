@@ -9,14 +9,19 @@ import Artists from "./Pages/Artists/Artists";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import Sponsors from "./Pages/Sponsors/Sponsors";
+import { Suspense } from "react";
+import Loader from "./Components/Loader/Loader";
+import { useState } from "react";
 import Scrolling from "./Pages/Artists/Scrolling";
 const App = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
   return (
-    <BrowserRouter>
-      <Navbar />
+    // <Suspense fallback={<Loader />}>
+      <BrowserRouter>
+      {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
+        <Navbar />
       <Scrolling>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/teams" element={<Teams />} />
@@ -24,10 +29,10 @@ const App = () => {
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <ScrollToTop />
+        <Footer />
       </Scrolling>
-      <ScrollToTop />
-      <Footer />
-    </BrowserRouter>
+      </BrowserRouter>
   );
 };
 

@@ -5,8 +5,10 @@ import {Blurhash} from 'react-blurhash';
 
 
 
-const Hero = () => {
+const Hero = (props) => {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const {setIsLoaded} = props
+
   const placeholder = (
     <Blurhash
       hash="L3Lc^j?u*0fQ-mRjNGo0Zgivofae"

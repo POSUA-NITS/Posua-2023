@@ -58,25 +58,25 @@ const data = [
   //   content:"POSUA's annual souvenir is called Borhomthuri. In the form of captivating articles, poetry, stories, and sketches, it encompasses essential facets of Assamese culture as well as the feelings of pupils. The possibility for students' literary abilities to be resurrected is provided by Borhomthuri, which captures the enthusiasm of the NITS Family for POSUA",
   // },
   {
-    idx: 7,
+    idx: 6,
     title: "Hengul-Haital",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877106/HengulHaital_igipxk.webp",
     content:"In the  \"Hengul-Haital\" event, the vivacity of open Husori Bihu meets the stage's disclosure. The traditional rhythms and beats of \"Dhol, Pepa, and Taal\" energise the atmosphere and transform it into a joyful one.",
   },
   {
-    idx: 8,
+    idx: 7,
     title: "Ankuran",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877107/Ankuran_ts9yp1.webp",
     content:"Ankuran gives us a sense of understated elegance by fusing a child's innocence with a culture's wealth. The air is energised by the beats of the sweet Bihu melodies, \"the dhols, and pepas,\" heightened by the cuteness of the little children. Together with the performance, the crowd can't help but dance. Everyone can be moved by the dazzling movements of innocence.",
   },
   {
-    idx: 9,
+    idx: 8,
     title: "Rang Ghar",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877106/Rangghar_npzabr.webp",
     content:"The \"Posua\" local sports part transports us to the sweltering amphitheatre of Rang-Ghar in old Rangpur. The occasion allows us to partake in savoury competitions that allow us to delve deeper into our culture's origins.",
   },
   {
-    idx: 10,
+    idx: 9,
     title: "Bordoisila",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877107/Bordoisila_kdkvdy.webp",
     content:"The gorgeous \"Gabhorus,\" clothed in magnificent golden silk, is engulfing the NITS campus with their mesmerising performances, much like the seasonal wind \"Bordoisila\"  that rushes back to her family's home, carrying everything in her ardour and bustle. As the new \"Kopou,\" \"Gagana,\" \"Gamkharu,\" \"Junbiri,\" \"Hasoti,\" and \"Borhomthuri\" add to their attraction, this festival breathes the intensity and joy of spring.",
@@ -87,7 +87,7 @@ const data = [
 const Carousel = () => {
   const [swiperRef, setSwiperRef] = useState(null);
   const [slide, _] = useState(data);
-  const [activeSlideIdx, setactiveSlideIdx] = useState(1);
+  const [activeSlideIdx, setactiveSlideIdx] = useState(4);
   const slideTo = (index) => {
     setactiveSlideIdx(index);
     swiperRef.slideTo(index - 1, 0);
@@ -113,6 +113,7 @@ const Carousel = () => {
       <Swiper
         onSwiper={setSwiperRef}
         effect={"coverflow"}
+        initialSlide={3}
         navigation={true}
         autoplay={{
           delay: 8000,

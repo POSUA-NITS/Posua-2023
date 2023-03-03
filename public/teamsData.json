@@ -1,4 +1,30 @@
 {
+  "Executive-Heads": [
+    {
+      "name": "Md Arshad Ahmed",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878840/posua/arshad_dmmf0a..webp"
+    },
+    {
+      "name": "Himanta Biswa Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677877273/posua/WhatsApp_Image_2023-03-04_at_02.29.06_pwjsrt..webp"
+    },
+    {
+      "name": "Palash Pratim Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878553/posua/IMG_20230228_223524_-_Palash_Pratim_Deka_svxn9l..webp"
+    },
+    {
+      "name": "Saurav Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677878547/posua/IMG_20220331_133905_119_-_Saurabh_Jyoti_Deka_1_niesnp..webp"
+    },
+    {
+      "name": "Preetam Rajbongshi",
+      "img": ""
+    },
+    {
+      "name": "Nayan Deka",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677876905/posua/IMG20220724200128-01_-_Nayan_Deka_pmxqms..webp"
+    }
+  ],
   "developers": [
     
     {

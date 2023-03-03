@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./ImageSlider.module.scss";
 import MemberSlider from "./MemberSlider";
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images, title }) => {
   const settings = {
     infinite: true,
     dots: true,
