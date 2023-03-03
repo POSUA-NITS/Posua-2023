@@ -47,13 +47,13 @@ const Gallery = () => {
       <div className={styles.faces}>
         <div className={styles.face_left}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677699206/posua/Mukha_qhrupj.webp"
             alt="image"
           />
         </div>
         <div className={styles.face_right}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700705/posua/right_face_v0ry9m.webp"
             alt="image"
           />
         </div>

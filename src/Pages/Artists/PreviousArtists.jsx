@@ -113,17 +113,17 @@ const PreviousArtists = () => {
           {/*artist1 */}
           <div className={style.indicardpast}   id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -152,17 +152,17 @@ const PreviousArtists = () => {
             {/*artist6 */}
             <div className={style.indicardpast}  id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -191,17 +191,17 @@ const PreviousArtists = () => {
           {/*artist2 */}
           <div className={style.indicardpast} id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -231,17 +231,17 @@ const PreviousArtists = () => {
           {/*artist3 */}
           <div className={style.indicardpast}  id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -271,17 +271,17 @@ const PreviousArtists = () => {
           {/*artist4 */}
           <div className={style.indicardpast}  id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -311,17 +311,17 @@ const PreviousArtists = () => {
           {/*artis5 */}
           <div className={style.indicardpast}  id={style.hideup}>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677668382/posua/top-card-part-removebg_nzcc0n.webp"
               className={style.topcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668178/posua/left-card-part-removebg_ojv4ts.webp"
               className={style.leftcardimg}
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677668485/posua/right-card-part-removebg_yhebcv.webp"
               className={style.rightcardimg}
               alt=""
             />
@@ -358,7 +358,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa1}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -377,7 +377,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa2}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -396,7 +396,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa3}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -415,7 +415,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa4}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -434,7 +434,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa5}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>
@@ -453,7 +453,7 @@ const PreviousArtists = () => {
           <button className={style.btnleft} onClick={handleHidepa6}>
             <img
               className={style.imgcross}
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.png"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677494242/posua/WhatsApp_Image_2023-02-27_at_16.06.00-removebg-preview_xbd2fq.webp"
               alt=""
             />
           </button>

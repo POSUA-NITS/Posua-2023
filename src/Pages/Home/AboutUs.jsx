@@ -26,7 +26,7 @@ const AboutUs = () => {
           <div className={styles.content}>{data.content}</div>
         </div>
         <img
-          src={winWidth>600 && winWidth > winHeight?"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677702656/posua/film_eu7rig.png": "https://res.cloudinary.com/dp92qug2f/image/upload/v1677787077/posua/about_us_nectaj.png"}
+          src={winWidth>600 && winWidth > winHeight?"https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677702656/posua/film_eu7rig.webp": "https://res.cloudinary.com/dp92qug2f/image/upload/v1677787077/posua/about_us_nectaj.webp"}
           alt="flim"
           className={styles.film}
         ></img>

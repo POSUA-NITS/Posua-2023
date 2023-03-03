@@ -8,7 +8,7 @@ const CarouselButton = ({ data }) => {
         {data.active && (
           <img
             className={styles.image}
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701966/posua/jaapi_c8sz7a.svg"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677701966/posua/jaapi_c8sz7a.webp"
           />
         )}
       </div>

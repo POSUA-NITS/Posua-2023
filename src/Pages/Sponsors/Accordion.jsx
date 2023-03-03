@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Accordion.css";
 import datas from "../../Data/Accordiondata";
-// import japi from '../../../assets/japi.png'
+// import japi from '../../../assets/japi.webp'
 
 function Accordion() {
   const [tabIndex, settabIndex] = useState(0);
@@ -36,7 +36,7 @@ function Accordion() {
             >
               <img
                 className="img-dhol"
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677755900/posua/WhatsApp_Image_2023-03-02_at_16.47.17-removebg-preview_iju7ns.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677755900/posua/WhatsApp_Image_2023-03-02_at_16.47.17-removebg-preview_iju7ns.webp"
                 alt="dhol"
               />
               <span> {data.heading} </span>
@@ -47,7 +47,7 @@ function Accordion() {
               />
               <img
                 className="img-dhol"
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677755900/posua/WhatsApp_Image_2023-03-02_at_16.47.17-removebg-preview_iju7ns.png"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677755900/posua/WhatsApp_Image_2023-03-02_at_16.47.17-removebg-preview_iju7ns.webp"
                 alt="dhol"
               />
             </button>
