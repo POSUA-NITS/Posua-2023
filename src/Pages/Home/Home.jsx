@@ -4,7 +4,6 @@ import Borhomthuri from "./Borhomthuri";
 import { Button } from "../../Components";
 import Hero from "../../Components/Hero/Hero";
 import style from "./Home.module.scss";
-import Invitation from "/assets/Invitation.png"
 
 const Home = () => {
   useEffect(() => {
@@ -17,7 +16,7 @@ const Home = () => {
       </div>
       <AboutUs />
       <div className={style.letter}>
-          <img src={Invitation} alt="" />
+          <img src='https://res.cloudinary.com/dhgfsshq4/image/upload/v1677847725/posua2023/Invitation_wtjxv6.png' alt="" />
       </div>
       <Borhomthuri/>
     </main>

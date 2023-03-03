@@ -20,9 +20,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     img{
-    width: 80rem;
+      width: 80rem;
+      margin-bottom: 10rem;
     }
 
     @media only screen and (max-width:1070px){
