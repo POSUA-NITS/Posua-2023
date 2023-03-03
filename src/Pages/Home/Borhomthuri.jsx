@@ -1,14 +1,5 @@
 import React from "react";
 import styles from "./Borhomthuri.module.scss"
-import borhomthuricasette from "../../Assets/borhomthuricasette.png";
-import edition8 from "../../Assets/edition8.png";
-import casettereell from "../../Assets/casettereel.png";
-import casettereelr from "../../Assets/casettereel.png";
-import reelleft from "../../Assets/reelleft.png";
-import rightreel from "../../Assets/rightreel.png";
-import leftreel from "../../Assets/leftreel.png";
-
-
 import { Header } from "../../Components/Header/Header";
 
 const Borhomthuri = () => {
@@ -26,7 +17,7 @@ const Borhomthuri = () => {
 
             <div className={styles.maincasette}>
                 <div className={styles.casettereell} >
-                    <img src={leftreel} className={styles.wheel} alt="image" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863894/posua/leftreel-min_ta27cl.webp" className={styles.wheel} alt="image" />
 
                     <a href="https://drive.google.com/file/d/17sXVH1QLGPC4uB4OxDTJECIvQb5Lmlei/view?usp=share_link" target="_blank" className={`${styles.pdf1} ${styles.pdfs}`}></a>
                     <a href="https://drive.google.com/file/d/1ajRjjvoH8hCjXx0j5hKPdAMoJ3CykjDF/view?usp=share_link" target="_blank" className={`${styles.pdf2} ${styles.pdfs}`}></a>
@@ -35,10 +26,10 @@ const Borhomthuri = () => {
 
                 </div>
 
-                <img src={borhomthuricasette} alt="image" />
+                <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677864241/posua/borhomthuricasette-min_ut8e2a.webp" alt="image" />
 
                 <div className={styles.casettereelr}>
-                    <img src={rightreel}  alt="image" />
+                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863804/posua/rightreel-min_lxrtad.webp"  alt="image" />
                     <a href="https://drive.google.com/file/d/1yGROu16Gu_IjEjDxznBZd5dob_Gf_ddl/view?usp=share_link" target="_blank"  className={`${styles.pdf5} ${styles.pdfs2}`}></a>
                     <a href="https://drive.google.com/file/d/1ijJLJO2SNS4CX-SAZtFJSC-mKeg7gxMv/view?usp=share_link" target="_blank" className={`${styles.pdf6} ${styles.pdfs2}`}></a>
                     <a href="https://drive.google.com/file/d/1Y8ZVgXoLMVkyqDe732T_-A-FZL7LQ5CE/view?usp=share_link" target="_blank" className={`${styles.pdf7} ${styles.pdfs2}`}></a>
