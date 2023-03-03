@@ -67,13 +67,15 @@
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 2.5rem;
-  color: #7d776b;
+  /* color: #7d776b; */
+  color: #161515;
 }
 
 .accordion .content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s;
+  color: #161515;
 }
 .accordion-active .content {
   max-height: 300px;
