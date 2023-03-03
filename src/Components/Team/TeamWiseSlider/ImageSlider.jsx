@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./ImageSlider.module.scss";
 import MemberSlider from "./MemberSlider";
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images, title }) => {
   const settings = {
     infinite: true,
     dots: true,
@@ -39,7 +39,7 @@ const ImageSlider = ({ images }) => {
   return (
     <>
       <div className={styles.imgslider}>
-        <p className={styles.Designation}>Web Team</p>
+        <p className={styles.Designation}>{title}</p>
         <div className={styles.sliderWrapper}>
           <Slider {...settings} className={styles.slide}>
             {MemberSlider &&
@@ -53,21 +53,7 @@ const ImageSlider = ({ images }) => {
           </Slider>
         </div>
       </div>
-      <div className={styles.imgslider}>
-        <p className={styles.Designation}>Developers</p>
-        <div className={styles.sliderWrapper}>
-          <Slider {...settings} className={styles.slide}>
-            {MemberSlider &&
-              MemberSlider.map((item) => (
-                <div className={styles.sliderDiv} key={item.id}>
-                  <img className={styles.Card} src={item.card} />
-                  <p className={styles.TextForRotation}>{item.text}</p>
-                  <img className={styles.Images} src={item.src} alt={item.alt} />
-                </div>
-              ))}
-          </Slider>
-        </div>
-      </div>
+      
     </>
   );
 };
