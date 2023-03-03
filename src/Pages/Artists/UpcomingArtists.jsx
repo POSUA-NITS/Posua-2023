@@ -132,7 +132,8 @@ const UpcomingArtists = () => {
                   (e.currentTarget.src =
                     "https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677783229/posua/DSC_0102_1_-min_obvt2f.jpg")
                 }
-                className={style.artistpic}
+                className={style.artistpic} 
+                // id={style.coverimg}
                 alt=""
               />
               <div className={style.artistdetails}>

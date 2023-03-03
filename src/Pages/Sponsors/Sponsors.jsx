@@ -59,10 +59,40 @@ const Sponsors = () => {
             />
             <h1>PARTNER</h1>
             <img
-              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677861016/posua/WhatsApp_Image_2023-03-03_at_21.58.22-min_nlmihj.jpg"
               alt=""
               className={style.cubeimg}
             />
+          </div>
+          <div className={style.assospon}>
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677706662/posua/WhatsApp_Image_2023-03-02_at_03.06.57_u0vspw.jpg"
+              alt=""
+              className={style.bgspon}
+            />
+            <h1>PARTNER</h1>
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677861393/posua/WhatsApp_Image_2023-03-03_at_21.58.36-min_wqi6xp.jpg"
+              alt=""
+              className={style.cubeimg}
+            />
+          </div>
+          <div className={style.assospon}>
+            <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677706662/posua/WhatsApp_Image_2023-03-02_at_03.06.57_u0vspw.jpg"
+              alt=""
+              className={style.bgspon}
+            />
+            <h1>PARTNER</h1>
+            {/* <img
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1677707791/posua/WhatsApp_Image_2023-03-02_at_03.26.13_eykmsm.jpg"
+              alt=""
+              className={style.cubeimg}
+            /> */}
+            {/* <h2 className={style.cubeimg1}>Makhani Gravy</h2> */}
+            <h2 className={style.cubeimg2}>FPS Shop No.3</h2>
+            {/* <h2 className={style.cubeimg3}>Kitchen 2.0</h2> */}
+            {/* <h2  className={style.cubeimg}>Makhani Gravy</h2> */}
           </div>
         </div>
 
