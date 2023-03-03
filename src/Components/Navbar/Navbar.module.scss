@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
   .navbar {
-    background-color: rgba(153, 76, 22, 0.2);
-    backdrop-filter: blur(1em);
+    background-color: rgba(234, 205, 171);
     position: fixed;
     width: 100%;
     top: 0;
@@ -104,11 +103,12 @@
     height: 5px;
     margin: 5px;
     border-radius: 10px;
-    background: linear-gradient(to right, #9d5018, #ffa500);
+    background: linear-gradient(to right, #c50000, #ffffff, #c50000 );
     transition: all 0.2s ease;
   }
   @media screen and (max-width: 768px) {
     .navbar {
+      z-index: 99;
       background-color: transparent;
       backdrop-filter: none;
       position: none;
@@ -126,14 +126,13 @@
     bottom: 0;
     position: fixed;
     transition: all 0.5s ease;
-    z-index: 1;
-    width: 75%;
+    width: 75vw;
   }
 
   .navbarContainer.active {
     background-color: rgba(153, 76, 22, 0.2);
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(1em);
+    backdrop-filter: blur(1.5em);
     left: 0;
     top: 0;
     opacity: 1;
