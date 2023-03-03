@@ -654,6 +654,9 @@
   background-color: rgba(239, 239, 239, 0.75) !important;
 }
 
+.indithree{
+  margin: 15vw auto 0 auto!important;
+}
 @media only screen and (max-width: 600px) {
   .artistsmain {
     padding-top: 30vw;
@@ -828,7 +831,7 @@
     margin-bottom: 2vw;
   }
 
-  // .artistsmain{
-  //   display: none;
-  // }
+ .indithree{
+  margin-bottom: 15vw !important;
+ }
 }
