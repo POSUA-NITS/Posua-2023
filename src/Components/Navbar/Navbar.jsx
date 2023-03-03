@@ -9,6 +9,8 @@ function Navbarbox({ isOpen }) {
     setActiveButton(buttonName);
   };
 
+  
+
   return (
     <nav className={`${Styles.navbar}`}>
       <div className={`${Styles.navbarContainer} ${isOpen ? Styles.active : ""}`}>
