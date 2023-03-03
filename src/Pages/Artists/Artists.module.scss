@@ -84,6 +84,7 @@
 // }
 
 .btnleft {
+  position: relative;
   margin-left: 2vw;
   margin-right: auto;
   background: transparent;
@@ -349,6 +350,13 @@
   border-bottom-right-radius: 0rem;
 }
 
+#coverimg{
+  object-fit: cover;
+}
+
+// #containimg{
+//   object-fit: contain;
+// }
 .artistdetails {
   width: 100%;
   text-align: left;
@@ -407,6 +415,7 @@
   width: 75%;
   margin: 4vw auto 12vw auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   transition: height 2s ease;
   &#slide50 {
@@ -584,7 +593,7 @@
   order: 1;
   margin-top: 8vw;
   margin-bottom: 8vw;
-  cursor: pointer;
+  // cursor: pointer;
   position: relative;
   &#hideup {
     animation: opacitytransition 0.5s ease-in;
@@ -651,6 +660,9 @@
   background-color: rgba(239, 239, 239, 0.75) !important;
 }
 
+.indithree{
+  margin: 15vw auto 0 auto!important;
+}
 @media only screen and (max-width: 600px) {
   .artistsmain {
     padding-top: 30vw;
@@ -812,7 +824,7 @@
   }
 
   .artistdetail {
-    margin: 10vw auto 0 auto !important;
+    margin: 20vw auto 0 auto !important;
     padding-bottom: 10vw !important;
   }
 
@@ -825,7 +837,7 @@
     margin-bottom: 2vw;
   }
 
-  // .artistsmain{
-  //   display: none;
-  // }
+ .indithree{
+  margin-bottom: 15vw !important;
+ }
 }

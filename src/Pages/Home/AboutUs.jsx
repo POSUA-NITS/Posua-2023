@@ -15,7 +15,7 @@ const AboutUs = () => {
     <section className={styles.aboutUs}>
       <div className={styles.cameraWrap}>
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677702586/posua/camera_pbkow5.webp"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863329/posua/camera_pbkow5-min_qfrf4l.webp"
           alt="camera"
           className={styles.camera}
         ></img>

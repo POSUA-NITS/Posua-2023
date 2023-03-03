@@ -20,7 +20,7 @@ const Gallery = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Header title="GALLERY" fontSize="8vw" />
+        <Header title="GALLERY" fontSize="6vw" />
       </div>
 
       <p className={styles.para}>
