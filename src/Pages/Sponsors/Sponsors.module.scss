@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 5vw;
+  padding-top: 5vw;
   .prevsponosr {
     margin-top: 1vw;
     padding-bottom: 6vw;
@@ -174,5 +175,11 @@
   .cubeimg2 {
     font-size: 5vw !important;
     font-weight: 900 !important;
+  }
+}
+
+@media screen and (max-width:660px){
+  .sponsorsmain {
+    padding-top: 17vw;
   }
 }

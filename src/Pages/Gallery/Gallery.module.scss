@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-
+padding-top: 5vw;
   .para {
     width: 72rem;
     height: 15rem;
@@ -77,10 +77,6 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
-    .header {
-      margin-top: 5rem;
-    }
-
     .para {
       width: 60%;
       font-size: 3vmin;
@@ -89,5 +85,11 @@
     .faces {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width:660px){
+  .container{
+    padding-top: 18vw;
   }
 }

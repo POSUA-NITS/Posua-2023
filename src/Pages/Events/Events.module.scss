@@ -7,7 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding-top: 5rem !important;
+  padding-top: 5vw !important;
 
   .content {
     padding: 0 15%;
@@ -57,7 +57,6 @@
 
 @media only screen and (max-width: 600px) {
   .main {
-    padding-top: 50px;
     .content {
       padding: 3% 15%;
       font-size: 3vmin;
@@ -71,5 +70,11 @@
 
   #phoolRight {
     right: 7%;
+  }
+}
+
+@media screen and (max-width:660px){
+  .main{
+    padding-top: 18vw !important;
   }
 }
