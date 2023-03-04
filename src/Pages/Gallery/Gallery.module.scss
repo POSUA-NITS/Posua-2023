@@ -3,19 +3,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-  padding-top: 5vw;
+padding-top: 5vw;
   .para {
     width: 72rem;
     margin: auto;
-    margin-top: 3rem;
-
+    // margin-top: 3rem;
     font-family: var(--posua-font-1);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 36px;
+    font-size: 3.5vmin;
+    line-height: 1.6;
     text-align: center;
-
     color: #161515;
   }
 
@@ -77,13 +75,15 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
-    .header {
-      margin-top: 5rem;
-    }
+    // .header {
+    //   margin-top: 5rem;
+    // }
 
     .para {
-      width: 60%;
+      width: 80%;
       font-size: 3vmin;
+      margin-top: 5vw;
+      margin-bottom: 10vw;
     }
 
     .faces {
@@ -92,8 +92,8 @@
   }
 }
 
-@media screen and (max-width: 660px) {
-  .container {
+@media screen and (max-width:660px){
+  .container{
     padding-top: 18vw;
   }
 }
