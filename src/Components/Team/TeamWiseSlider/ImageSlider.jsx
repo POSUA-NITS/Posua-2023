@@ -13,7 +13,7 @@ const ImageSlider = ({ images, title, countTeam = 100 }) => {
 
   const settings = {
     infinite: true,
-    dots: true,
+    // dots: true,
     slidesToShow: countTeam >= 3 ? 3 : 2,
     slidesToScroll: 1,
     initialSlide: 0,
