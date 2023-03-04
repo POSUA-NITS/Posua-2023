@@ -15,8 +15,19 @@ const Teams = () => {
       </div>
       <TeamPosuaWording />
       <TeamMember />
-      <ImageSlider title="team" />
+      <ImageSlider title="Web" />
       <ImageSlider title="Developers" />
+      <ImageSlider title="Executive-Heads" />
+      <ImageSlider title="Marketing" />
+      <ImageSlider title="Infra" />
+      <ImageSlider title="Design" />
+      <ImageSlider title="Decoration" />
+      <ImageSlider title="Event-Management" />
+      <ImageSlider title="Hospitality" />
+      <ImageSlider title="Cultural-Rally" />
+      <ImageSlider title="Logistics" />
+      <ImageSlider title="Content" />
+      <ImageSlider title="T-Shirt" />
     </div>
   );
 };
