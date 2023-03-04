@@ -77,7 +77,7 @@
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/IMG-20230303-WA0017_-_Maharnav_Deka_mnw123.webp"
     }
   ],
-
+  
   "Web": [
     {
       "name": "Debojyoti Das",
@@ -103,6 +103,11 @@
       "name": "Gaurav Gogoi",
       "designation": "Head",
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865359/posua/gaurav_passport_-_Gaurav_Gogoi_mr7bwf.webp"
+    },
+    {
+      "name": "Reeya Hazarika",
+      "designation": "Head",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871750/posua/IMG_20230225_182625_-_Reeya_Hazarika_wlksps.webp"
     },
     {
       "name": "Manish Sarmah",
@@ -385,14 +390,6 @@
       "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872084/posua-23/IMG-20221020-WA0010_-_Anurag_Gogoi_l4puin.webp"
     },
     {
-      "name": "Bikrom",
-      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
-    },
-    {
-      "name": "Somiron",
-      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
-    },
-    {
       "name": "Ankur Gogoi",
       "img": "https://res.cloudinary.com/da0mfegaf/image/upload/v1677872225/posua-23/IMG20221005061551_-_Ankur_Gogoi_nilnms.webp"
     },
@@ -406,6 +403,14 @@
     },
     {
       "name": "Manas Jyoti Roy",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
+    },
+    {
+      "name": "Bikrom",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
+    },
+    {
+      "name": "Somiron",
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     }
   ],
