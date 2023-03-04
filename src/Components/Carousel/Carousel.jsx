@@ -25,7 +25,7 @@ const data = [
     title: "Rongili",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877110/Rongii_nnkeiq.webp",
     content:
-      "The performing art of dancing creates an ecstatic trance state in both the audience and the actors. The various events under Posua also include \"Rongili,\" the Female Bihu Dance Competition, which gives participants a stage  to showcase their dancing prowess and express their love for Bihu. This competition gives participants a chance to represent our culture and indigeneity through distinctive moves. The female Bihu dancers' dazzling movements convey their affection for the dance form as well as for our motherland in general. The audience is captivated by the beautiful performances of the Gabhorus  in this zealous and mesmerising atmosphere.",
+      "The various events under Posua also include \"Rongili,\" the Female Bihu Dance Competition, which gives participants a stage  to showcase their dancing prowess and express their love for Bihu. This competition gives participants a chance to represent our culture and indigeneity through distinctive moves. The female Bihu dancers' dazzling movements convey their affection for the dance form as well as for our motherland in general.",
   },
 
   {
