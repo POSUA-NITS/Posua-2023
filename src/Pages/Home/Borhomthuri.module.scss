@@ -43,8 +43,7 @@
   }
 
   .casettereell {
-    animation: rotate1 infinite 10s linear forwards;
-
+    animation: rotate1 infinite 15s 1s linear forwards;
     width: 100%;
     left: -40%;
     top: -28%;
@@ -85,7 +84,7 @@
   }
 
   .casettereelr {
-    animation: rotate2 infinite 10s linear forwards;
+    animation: rotate2 infinite 15s linear forwards;
 
     right: -42%;
     top: -28%;
