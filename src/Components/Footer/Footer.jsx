@@ -8,16 +8,16 @@ const Footer = () => {
         <ul>
           <li className={Styles.headings}>Contacts</li>
           <li className={Styles.contacts}>
-            Dr. Lalit Chandra Saikia   <a href="tel:+919435173835">+919435173835</a>{" "}
+            Dr. Lalit Chandra Saikia <a href="tel:+919435173835">+919435173835</a>{" "}
           </li>
           <li className={Styles.contacts}>
-            Dr. Nabanita Adhikary   <a href="tel:+919864428032">+919864428032</a>
+            Dr. Nabanita Adhikary <a href="tel:+919864428032">+919864428032</a>
           </li>
           <li className={Styles.contacts}>
-            Jyotirmoy Haloi   <a href="tel:+918876458563">+918876458563</a>
+            Jyotirmoy Haloi <a href="tel:+918876458563">+918876458563</a>
           </li>
           <li className={Styles.contacts}>
-            Debanga Bikash Bora   <a href="tel:+919678496566">+919678496566</a>
+            Debanga Bikash Bora <a href="tel:+919678496566">+919678496566</a>
           </li>
         </ul>
         <ul>
