@@ -1,26 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import Styles from "./Hero.module.scss";
-import {Blurhash} from 'react-blurhash';
-
-
+import { Blurhash } from "react-blurhash";
 
 const Hero = (props) => {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
   const {isLoaded, setIsLoaded} = props
 
-  const posua = document.getElementById("posua")
+  const posua = document.getElementById("posua");
   console.log(posua);
 
   const placeholder = (
-    <Blurhash
-      hash="L3Lc^j?u*0fQ-mRjNGo0Zgivofae"
-      width={200}
-      height={200}
-      punch={1}
-    />
+    <Blurhash hash="L3Lc^j?u*0fQ-mRjNGo0Zgivofae" width={200} height={200} punch={1} />
   );
-  
+
   // const Image = ({ src, alt }) => (
   //   <img loading="lazy" placeholder={placeholder} style={{animationDelay : isLoaded?'4.5s !important':''}}
   //     src={src}
@@ -31,7 +24,7 @@ const Hero = (props) => {
   //     placeholder={placeholder}
   //   />
   // );
-  
+
   document.getElementsByClassName("sky");
   document.getElementsByClassName("clouds");
 
@@ -133,7 +126,8 @@ const Hero = (props) => {
       >
         <img loading="lazy" placeholder={placeholder} style={{animationDelay : isLoaded?'4.5s !important':''}}
           src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677768382/posua/bush-min_dqh93w.webp"
-          alt="" />
+          alt=""
+        />
       </div>
     </>
   );

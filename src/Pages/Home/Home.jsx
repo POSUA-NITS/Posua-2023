@@ -20,9 +20,13 @@ const Home = (props) => {
       </div>
       <AboutUs />
       <div className={style.letter}>
-          <img style={{pointerEvents:"none"}} src='https://res.cloudinary.com/dp92qug2f/image/upload/v1677862834/posua/Invitation_wtjxv6-min_h0nl9y.webp' alt="" />
+        <img
+          style={{ pointerEvents: "none" }}
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677862834/posua/Invitation_wtjxv6-min_h0nl9y.webp"
+          alt=""
+        />
       </div>
-      <Borhomthuri/>
+      <Borhomthuri />
     </main>
   );
 };

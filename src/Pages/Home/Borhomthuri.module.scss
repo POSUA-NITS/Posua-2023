@@ -1,10 +1,9 @@
 .borhomthuri {
   // width: 100%;
-  h1{
+  h1 {
     font-size: x-large;
   }
 }
-
 
 .para {
   display: flex;
@@ -24,7 +23,6 @@
 
   color: #161515;
 }
-
 
 .maincasette {
   width: 70%;
@@ -61,28 +59,28 @@
       top: 29%;
       width: 23%;
       height: 23%;
-  }
+    }
 
     .pdf2 {
       left: 50%;
       top: 23%;
       width: 27%;
       height: 21%;
-  }
+    }
 
     .pdf3 {
       left: 27%;
       top: 55%;
       width: 24%;
       height: 23%;
-  }
+    }
 
     .pdf4 {
       width: 24%;
       left: 56%;
       top: 51%;
       height: 20%;
-  }
+    }
   }
 
   .casettereelr {
@@ -96,7 +94,6 @@
     position: absolute;
     width: 35%;
     height: 30%;
-
   }
 
   .pdf5 {
@@ -104,35 +101,34 @@
     top: 22%;
     width: 24%;
     height: 26%;
-}
+  }
 
   .pdf6 {
     left: 47%;
     top: 19%;
     width: 23%;
     height: 22%;
-}
+  }
 
   .pdf7 {
     left: 21%;
     top: 51%;
     width: 30%;
     height: 23%;
-}
+  }
 
   .pdf8 {
     width: 24%;
     left: 51%;
     top: 46%;
     height: 22%;
+  }
 }
+
+.casettereell:hover,
+.casettereelr:hover {
+  animation-play-state: paused;
 }
-
-// .casettereell:hover, .casettereelr:hover{
-//   animation-play-state: paused;
-// }
-
-
 
 .lreel {
   //     display: grid;
@@ -149,7 +145,6 @@
   //       grid-template-rows: repeat(1, 1fr);
   //     }
   .lreel1 {
-
     transform: rotate(350deg);
     animation: orbit 5s infinite linear;
   }
@@ -163,7 +158,6 @@
   //     .lreel4{
   //         transform: rotate(110deg);
   //     }
-
 }
 
 @keyframes orbit {
@@ -177,7 +171,6 @@
 }
 
 @keyframes rotate1 {
-
   0%,
   0% {
     transform: rotateZ(0);
@@ -189,7 +182,6 @@
 }
 
 @keyframes rotate2 {
-
   0%,
   0% {
     transform: rotateZ(0);
@@ -203,18 +195,16 @@
 @media screen and (max-width: 600px) {
   .para {
     font-size: 1rem;
-line-height: 1.4;
+    line-height: 1.4;
   }
 }
 
 @media screen and (max-width: 400px) {
   .para {
     font-size: 1rem;
-
   }
 
   .maincasette {
     width: 60%;
-
   }
 }

@@ -45,9 +45,16 @@ const ImageSlider = ({ images, title }) => {
             {TeamsData[`${title}`] &&
               TeamsData[`${title}`].map((item, i) => (
                 <div className={styles.sliderDiv} key={i}>
-                  <img className={styles.Card} src='https://res.cloudinary.com/dp92qug2f/image/upload/v1677669844/posua/card_nniokv.webp' />
+                  <img
+                    className={styles.Card}
+                    src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677669844/posua/card_nniokv.webp"
+                  />
                   <p className={styles.Name}>{item.name}</p>
-                  {item.designation?<p className={styles.Des}>{item.designation}</p>:''}
+                  {item.designation ? (
+                    <p className={styles.Des}>{item.designation}</p>
+                  ) : (
+                    ""
+                  )}
                   <p className={styles.TextForRotation}>{item.text}</p>
                   <img className={styles.Images} src={item.img} alt={item.alt} />
                 </div>

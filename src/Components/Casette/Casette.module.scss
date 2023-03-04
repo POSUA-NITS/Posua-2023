@@ -1,105 +1,107 @@
 .casette_img {
+  position: relative;
+  width: 70%;
+  max-width: 20rem;
+  margin: auto;
+
+  .casette_cd {
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    top: -40%;
+    transform: translateX(-50%);
+    transition: 0.25s;
+
+    .text {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(to right, #eaa72d, #efd589);
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-size: 42px;
+      top: 25px;
+    }
+
+    .text_bottom {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) rotateZ(180deg);
+      background: linear-gradient(to right, #eaa72d, #efd589);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 42px;
+      bottom: 25px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .cassette_body {
     position: relative;
-    width: 70%;
-    max-width: 20rem;
-    margin: auto;
+  }
 
-    .casette_cd {
-        width: 65%;
-        position: absolute;
-        left: 50%;
-        top: -40%;
-        transform: translateX(-50%);
-        transition: 0.25s;
+  .body {
+    width: 100%;
+  }
 
-        .text {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(to right, #EAA72D, #EFD589);
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            font-size: 42px;
-            top: 25px;
-        }
+  .button_left,
+  .button_right {
+    position: absolute;
+    top: 28.4%;
+    width: 9%;
+    cursor: pointer;
+    padding: 7px;
+  }
 
-        .text_bottom {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%) rotateZ(180deg);
-            background: linear-gradient(to right, #EAA72D, #EFD589);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            font-size: 42px;
-            bottom: 25px;
-        }
+  .disabled {
+    pointer-events: none;
+    opacity: 0.4;
+  }
 
-        img {
-            width: 100%;
-        }
-    }
+  .button_left {
+    left: 27.4%;
+    animation: gallery_click_left alternate forwards infinite ease-in-out 0.5s;
+  }
 
-    .cassette_body {
-        position: relative;
-    }
-
-    .body {
-        width: 100%;
-    }
-
-    .button_left,
-    .button_right {
-        position: absolute;
-        top: 28.4%;
-        width: 9%;
-        cursor: pointer;
-        padding: 7px;
-    }
-
-    .disabled {
-        pointer-events: none;
-        opacity: 0.4;
-    }
-
-    .button_left {
-        left: 27.4%;
-        animation: gallery_click_left alternate forwards infinite ease-in-out 0.5s;
-    }
-
-    .button_right {
-        right: 28.1%;
-        transform: rotateZ(180deg);
-        animation: gallery_click_right alternate forwards infinite ease-in-out 0.5s;
-    }
+  .button_right {
+    right: 28.1%;
+    transform: rotateZ(180deg);
+    animation: gallery_click_right alternate forwards infinite ease-in-out 0.5s;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .casette_cd .text {
-        font-size: 22px !important;
-        top: 8px !important;
-    }
+  .casette_cd .text {
+    font-size: 22px !important;
+    top: 8px !important;
+  }
 
-    .casette_cd .text_bottom {
-        font-size: 22px !important;
-        bottom: 8px !important;
-    }
+  .casette_cd .text_bottom {
+    font-size: 22px !important;
+    bottom: 8px !important;
+  }
 }
 
 @keyframes gallery_click_left {
-    0% {}
+  0% {
+  }
 
-    100% {
-        transform: translateX(-3px);
-    }
+  100% {
+    transform: translateX(-3px);
+  }
 }
 
 @keyframes gallery_click_right {
-    0% {}
+  0% {
+  }
 
-    100% {
-        transform: rotateZ(180deg) translateX(-3px);
-    }
+  100% {
+    transform: rotateZ(180deg) translateX(-3px);
+  }
 }
