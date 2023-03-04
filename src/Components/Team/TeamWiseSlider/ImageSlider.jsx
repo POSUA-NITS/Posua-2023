@@ -4,12 +4,19 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./ImageSlider.module.scss";
 import TeamsData from "./teamsData.json";
 
-const ImageSlider = ({ images, title }) => {
+const ImageSlider = ({ images, title,countTeam=100}) => {
+
+  // const [slidesToShow, setSlidesToShow] = useState(3);
+  // const numSlides = React.Children.count(children);
+  // if (numSlides < 3) {
+  //   setSlidesToShow(numSlides);
+  // }
+
   const settings = {
     infinite: true,
     dots: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: (countTeam>=3)?3:2,
+    slidesToScroll: 1,
     initialSlide: 0,
     lazyLoad: true,
     // autoplay: true,
@@ -47,7 +54,7 @@ const ImageSlider = ({ images, title }) => {
                 <div className={styles.sliderDiv} key={i}>
                   <img className={styles.Card} src='https://res.cloudinary.com/dp92qug2f/image/upload/v1677669844/posua/card_nniokv.webp' />
                   <p className={styles.Name}>{item.name}</p>
-                  {item.designation?<p className={styles.Des}>{item.designation}</p>:''}
+                  <p className={styles.Des}>{item.designation?item.designation:"Head"}</p>
                   <p className={styles.TextForRotation}>{item.text}</p>
                   <img className={styles.Images} src={item.img} alt={item.alt} />
                 </div>

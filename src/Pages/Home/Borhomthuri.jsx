@@ -29,7 +29,7 @@ const Borhomthuri = () => {
                 <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677864241/posua/borhomthuricasette-min_ut8e2a.webp" alt="image" />
 
                 <div className={styles.casettereelr}>
-                    <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863804/posua/rightreel-min_lxrtad.webp"  alt="image" />
+                    <img src="https://res.cloudinary.com/dggtknx3n/image/upload/v1677922930/posua/rightreel_1_ackeb2.webp"  alt="image" />
                     <a href="https://drive.google.com/file/d/1yGROu16Gu_IjEjDxznBZd5dob_Gf_ddl/view?usp=share_link" target="_blank"  className={`${styles.pdf5} ${styles.pdfs2}`}></a>
                     <a href="https://drive.google.com/file/d/1ijJLJO2SNS4CX-SAZtFJSC-mKeg7gxMv/view?usp=share_link" target="_blank" className={`${styles.pdf6} ${styles.pdfs2}`}></a>
                     <a href="https://drive.google.com/file/d/1Y8ZVgXoLMVkyqDe732T_-A-FZL7LQ5CE/view?usp=share_link" target="_blank" className={`${styles.pdf7} ${styles.pdfs2}`}></a>
