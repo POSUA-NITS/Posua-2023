@@ -24,22 +24,26 @@ const App = () => {
   return (
     <BrowserRouter>
       {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
-      {delay?<>
-        <Navbar />
-        <Scrolling>
-          <Routes>
-            <Route path="/" element={<Home isLoaded={isLoaded} />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/teams" element={<Teams />} />
-            <Route path="/artists" element={<Artists />} />
-            <Route path="/sponsors" element={<Sponsors />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
-          <ScrollToTop />
-          <Footer />
-        </Scrolling>
-      </>:''}
+      {delay ? (
+        <>
+          <Navbar />
+          <Scrolling>
+            <Routes>
+              <Route path="/" element={<Home isLoaded={isLoaded} />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/teams" element={<Teams />} />
+              <Route path="/artists" element={<Artists />} />
+              <Route path="/sponsors" element={<Sponsors />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
+            <ScrollToTop />
+            <Footer />
+          </Scrolling>
+        </>
+      ) : (
+        ""
+      )}
     </BrowserRouter>
   );
 };

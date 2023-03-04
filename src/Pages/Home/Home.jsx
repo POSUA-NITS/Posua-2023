@@ -11,7 +11,7 @@ const Home = (props) => {
     document.title = "Posua 2023";
   }, []);
 
-  const {isLoaded} = props
+  const { isLoaded } = props;
 
   return (
     <main className={style.home}>
