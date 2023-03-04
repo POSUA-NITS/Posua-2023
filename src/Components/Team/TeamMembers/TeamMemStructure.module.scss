@@ -1,23 +1,21 @@
-#satyik_da{
+#satyik_da {
   grid-column-start: 1;
-    grid-column-end: 3;
-  }
+  grid-column-end: 3;
+}
 
-  .memEven{
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  .memOdd{
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  
-  .containerMemStructure {
-    display: flex;
-    position: relative;
-    overflow: hidden;
+.memEven {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.memOdd {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
 
-
+.containerMemStructure {
+  display: flex;
+  position: relative;
+  overflow: hidden;
 
   .teamMemberGrid {
     align-items: center;
@@ -60,11 +58,11 @@
     justify-content: center;
     position: relative;
     bottom: 360px;
-    
-    .gamusaImg{
-      transform: rotate(.5deg);
+
+    .gamusaImg {
+      transform: rotate(0.5deg);
     }
-    
+
     .gamusaWriting {
       position: relative;
       bottom: 5.2rem;
@@ -76,11 +74,11 @@
 }
 
 @media (max-width: 460px) {
-  .memEven{
+  .memEven {
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  .memOdd{
+  .memOdd {
     grid-column-start: 1;
     grid-column-end: 2;
   }
@@ -97,6 +95,6 @@
     overflow: hidden;
   }
   // .LottiesSVG{
-    //   transform: scale(0.8);
-    // }
+  //   transform: scale(0.8);
+  // }
 }

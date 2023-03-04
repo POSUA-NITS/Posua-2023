@@ -11,8 +11,7 @@ import Casette from "../../Components/Casette/Casette";
 import { useState } from "react";
 
 const Gallery = () => {
-
-  const [year, setYear] = useState('2022')
+  const [year, setYear] = useState("2022");
 
   useEffect(() => {
     document.title = "Gallery | Posua 2023";
@@ -42,7 +41,7 @@ const Gallery = () => {
         </div>
       </div> */}
 
-      <Casette year={year} setYear={setYear}/>
+      <Casette year={year} setYear={setYear} />
 
       <div className={styles.faces}>
         <div className={styles.face_left}>

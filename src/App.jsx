@@ -17,9 +17,9 @@ const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   return (
     // <Suspense fallback={<Loader />}>
-      <BrowserRouter>
+    <BrowserRouter>
       {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
-        <Navbar />
+      <Navbar />
       <Scrolling>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => {
         <ScrollToTop />
         <Footer />
       </Scrolling>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 };
 

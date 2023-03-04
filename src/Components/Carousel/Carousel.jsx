@@ -17,7 +17,7 @@ const data = [
     title: "Abhijatri",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877107/Abhijatri_ysypiw.webp",
     content:
-      "The beauty and the test of our society will be how well we can achieve unity in diversity. Since the turn of the century, BorAxom has welcomed many communities and tribes into its fold, whose fusion has facilitated the development of the Greater Assamese Culture. In this cultural gathering that we refer to as \"Abhijatri,\" we NITians will demonstrate the timeline of our society, its holidays, and traditions",
+      'The beauty and the test of our society will be how well we can achieve unity in diversity. Since the turn of the century, BorAxom has welcomed many communities and tribes into its fold, whose fusion has facilitated the development of the Greater Assamese Culture. In this cultural gathering that we refer to as "Abhijatri," we NITians will demonstrate the timeline of our society, its holidays, and traditions',
   },
 
   {
@@ -25,7 +25,7 @@ const data = [
     title: "Rongili",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877110/Rongii_nnkeiq.webp",
     content:
-      "The various events under Posua also include \"Rongili,\" the Female Bihu Dance Competition, which gives participants a stage  to showcase their dancing prowess and express their love for Bihu. This competition gives participants a chance to represent our culture and indigeneity through distinctive moves. The female Bihu dancers' dazzling movements convey their affection for the dance form as well as for our motherland in general.",
+      'The various events under Posua also include "Rongili," the Female Bihu Dance Competition, which gives participants a stage  to showcase their dancing prowess and express their love for Bihu. This competition gives participants a chance to represent our culture and indigeneity through distinctive moves. The female Bihu dancers\' dazzling movements convey their affection for the dance form as well as for our motherland in general.',
   },
 
   {
@@ -48,7 +48,8 @@ const data = [
     idx: 5,
     title: "Rongtulika",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877108/Rangtulika_ohucke.webp",
-    content:"Rongtulika is an art contest organized by POSUA that offers young and creative minds a chance to give life to their imagination with a vivid spectrum of colors. It is a platform where children can express their ideas and thoughts on canvas, using different shades to create vibrant art works. The competition is not just an exciting event for the young participants, but also for the audience who get to witness the little artists skillfully blend their perspectives with beauty and grace.",
+    content:
+      "Rongtulika is an art contest organized by POSUA that offers young and creative minds a chance to give life to their imagination with a vivid spectrum of colors. It is a platform where children can express their ideas and thoughts on canvas, using different shades to create vibrant art works. The competition is not just an exciting event for the young participants, but also for the audience who get to witness the little artists skillfully blend their perspectives with beauty and grace.",
   },
 
   // {
@@ -61,28 +62,31 @@ const data = [
     idx: 6,
     title: "Hengul-Haital",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877106/HengulHaital_igipxk.webp",
-    content:"In the  \"Hengul-Haital\" event, the vivacity of open Husori Bihu meets the stage's disclosure. The traditional rhythms and beats of \"Dhol, Pepa, and Taal\" energise the atmosphere and transform it into a joyful one.",
+    content:
+      'In the  "Hengul-Haital" event, the vivacity of open Husori Bihu meets the stage\'s disclosure. The traditional rhythms and beats of "Dhol, Pepa, and Taal" energise the atmosphere and transform it into a joyful one.',
   },
   {
     idx: 7,
     title: "Ankuran",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877107/Ankuran_ts9yp1.webp",
-    content:"Ankuran gives us a sense of understated elegance by fusing a child's innocence with a culture's wealth. The air is energised by the beats of the sweet Bihu melodies, \"the dhols, and pepas,\" heightened by the cuteness of the little children. Together with the performance, the crowd can't help but dance. Everyone can be moved by the dazzling movements of innocence.",
+    content:
+      "Ankuran gives us a sense of understated elegance by fusing a child's innocence with a culture's wealth. The air is energised by the beats of the sweet Bihu melodies, \"the dhols, and pepas,\" heightened by the cuteness of the little children. Together with the performance, the crowd can't help but dance. Everyone can be moved by the dazzling movements of innocence.",
   },
   {
     idx: 8,
     title: "Rang Ghar",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877106/Rangghar_npzabr.webp",
-    content:"The \"Posua\" local sports part transports us to the sweltering amphitheatre of Rang-Ghar in old Rangpur. The occasion allows us to partake in savoury competitions that allow us to delve deeper into our culture's origins.",
+    content:
+      'The "Posua" local sports part transports us to the sweltering amphitheatre of Rang-Ghar in old Rangpur. The occasion allows us to partake in savoury competitions that allow us to delve deeper into our culture\'s origins.',
   },
   {
     idx: 9,
     title: "Bordoisila",
     src: "https://res.cloudinary.com/dldebeast/image/upload/v1677877107/Bordoisila_kdkvdy.webp",
-    content:"The gorgeous \"Gabhorus,\" clothed in magnificent golden silk, is engulfing the NITS campus with their mesmerising performances, much like the seasonal wind \"Bordoisila\"  that rushes back to her family's home, carrying everything in her ardour and bustle. As the new \"Kopou,\" \"Gagana,\" \"Gamkharu,\" \"Junbiri,\" \"Hasoti,\" and \"Borhomthuri\" add to their attraction, this festival breathes the intensity and joy of spring.",
+    content:
+      'The gorgeous "Gabhorus," clothed in magnificent golden silk, is engulfing the NITS campus with their mesmerising performances, much like the seasonal wind "Bordoisila"  that rushes back to her family\'s home, carrying everything in her ardour and bustle. As the new "Kopou," "Gagana," "Gamkharu," "Junbiri," "Hasoti," and "Borhomthuri" add to their attraction, this festival breathes the intensity and joy of spring.',
   },
 ];
-
 
 const Carousel = () => {
   const [swiperRef, setSwiperRef] = useState(null);

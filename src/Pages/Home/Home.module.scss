@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  .hero_enclose{
+  .hero_enclose {
     height: 110vh;
     // overflow: hidden;
   }
@@ -14,22 +14,22 @@
     font-weight: bold;
   }
 
-  .letter{
-    height:100%;
+  .letter {
+    height: 100%;
     padding-top: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    img{
+
+    img {
       width: 80rem;
       margin-bottom: 10rem;
     }
 
-    @media only screen and (max-width:1070px){
-      img{
+    @media only screen and (max-width: 1070px) {
+      img {
         width: 80%;
-        }
+      }
     }
   }
 }

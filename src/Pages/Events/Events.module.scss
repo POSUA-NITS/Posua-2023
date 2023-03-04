@@ -16,9 +16,9 @@
     line-height: 1.6;
     font-family: "Philosopher", sans-serif;
     display: -webkit-box;
-        // -webkit-line-clamp: 7;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+    // -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     font-family: var(--posua-font-1), sans-serif;
     color: #161515;
   }
@@ -79,12 +79,12 @@
   }
 }
 
-@media screen and (max-width:660px){
-  .main{
+@media screen and (max-width: 660px) {
+  .main {
     padding-top: 18vw !important;
   }
 
-  .content{
+  .content {
     line-height: 1.4;
     padding: 5% 11.5% 0 11.5% !important;
   }

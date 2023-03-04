@@ -4,10 +4,7 @@ const CarouselCard = ({ data }) => {
   return (
     <div className={styles.main}>
       {/* <img className={styles.image} src="/assets/stock.webp" /> */}
-      <img
-        className={styles.image}
-        src={data.src}
-      />
+      <img className={styles.image} src={data.src} />
       <div className={styles.overlay}>
         <div className={styles.heading}>
           {/* <img className={styles.jaapileft} src="/assets/jaapi.webp" /> */}

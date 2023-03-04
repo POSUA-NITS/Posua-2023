@@ -31,10 +31,10 @@
       .TextForRotation {
         opacity: 1;
       }
-      .Name{
+      .Name {
         opacity: 1;
       }
-      .Des{
+      .Des {
         opacity: 1;
       }
       .Images {
@@ -61,7 +61,7 @@
       top: 16%;
       transition: all 0.6s ease-in-out;
     }
-    .Name{
+    .Name {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -69,9 +69,9 @@
       position: absolute;
       bottom: 2.5rem;
       opacity: 0;
-      transition: all 600ms ease-in-out;      
+      transition: all 600ms ease-in-out;
     }
-    .Des{
+    .Des {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -80,7 +80,7 @@
       bottom: 0.5rem;
       opacity: 0;
       color: gray;
-      transition: all 600ms ease-in-out;      
+      transition: all 600ms ease-in-out;
     }
     .TextForRotation {
       display: flex;
@@ -104,16 +104,16 @@
     width: 200px !important;
     height: 300px !important;
   }
-  .Name{
+  .Name {
     font-size: 1rem !important;
-    opacity: 1 !important;    
+    opacity: 1 !important;
   }
-  .Des{
+  .Des {
     font-size: 1rem !important;
-    opacity: 1 !important;    
+    opacity: 1 !important;
   }
   .TextForRotation {
-    font-size: .9rem !important;
+    font-size: 0.9rem !important;
     opacity: 1 !important;
   }
   .Designation {
