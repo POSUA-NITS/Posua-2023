@@ -15,24 +15,35 @@ import { useState } from "react";
 import Scrolling from "./Pages/Artists/Scrolling";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [delay, setDelay] = useState(false);
+
+  setTimeout(() => {
+    setDelay(true);
+  }, 1000);
+
   return (
-    // <Suspense fallback={<Loader />}>
     <BrowserRouter>
       {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
-      <Navbar />
-      <Scrolling>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/teams" element={<Teams />} />
-          <Route path="/artists" element={<Artists />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-        <ScrollToTop />
-        <Footer />
-      </Scrolling>
+      {delay ? (
+        <>
+          <Navbar />
+          <Scrolling>
+            <Routes>
+              <Route path="/" element={<Home isLoaded={isLoaded} />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/teams" element={<Teams />} />
+              <Route path="/artists" element={<Artists />} />
+              <Route path="/sponsors" element={<Sponsors />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
+            <ScrollToTop />
+            <Footer />
+          </Scrolling>
+        </>
+      ) : (
+        ""
+      )}
     </BrowserRouter>
   );
 };

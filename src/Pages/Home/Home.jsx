@@ -6,14 +6,17 @@ import Hero from "../../Components/Hero/Hero";
 import style from "./Home.module.scss";
 import Loader from "../../Components/Loader/Loader";
 
-const Home = () => {
+const Home = (props) => {
   useEffect(() => {
     document.title = "Posua 2023";
   }, []);
+
+  const { isLoaded } = props;
+
   return (
     <main className={style.home}>
       <div className={style.hero_enclose}>
-        <Hero />
+        <Hero isLoaded={isLoaded} />
       </div>
       <AboutUs />
       <div className={style.letter}>
