@@ -53,34 +53,37 @@
 
     .pdfs {
       position: absolute;
-      // background: green;
       width: 40%;
       height: 30%;
     }
 
     .pdf1 {
-      left: 20%;
-    top: 21%;
-    width: 30%;
-    }
+      left: 22%;
+      top: 29%;
+      width: 23%;
+      height: 23%;
+  }
 
     .pdf2 {
       left: 50%;
-    top: 21%;
-    width: 30%;
-    }
+      top: 23%;
+      width: 27%;
+      height: 21%;
+  }
 
     .pdf3 {
-      left: 22%;
-      top: 52%;
-      width: 29%;
-    }
+      left: 27%;
+      top: 55%;
+      width: 24%;
+      height: 23%;
+  }
 
     .pdf4 {
-      width: 30%;
-    left: 51%;
-    top: 51%;
-    }
+      width: 24%;
+      left: 56%;
+      top: 51%;
+      height: 20%;
+  }
   }
 
   .casettereelr {
@@ -92,35 +95,38 @@
 
   .pdfs2 {
     position: absolute;
-    // background: green;
-    width: 40%;
+    width: 35%;
     height: 30%;
 
   }
 
   .pdf5 {
-    left: 20%;
-  top: 21%;
-  width: 30%;
-  }
+    left: 19%;
+    top: 22%;
+    width: 24%;
+    height: 26%;
+}
 
   .pdf6 {
-    left: 50%;
-  top: 21%;
-  width: 30%;
-  }
+    left: 47%;
+    top: 19%;
+    width: 23%;
+    height: 22%;
+}
 
   .pdf7 {
-    left: 22%;
-    top: 52%;
-    width: 29%;
-  }
+    left: 21%;
+    top: 51%;
+    width: 30%;
+    height: 23%;
+}
 
   .pdf8 {
-    width: 30%;
-  left: 51%;
-  top: 51%;
-  }
+    width: 24%;
+    left: 51%;
+    top: 46%;
+    height: 22%;
+}
 }
 
 .casettereell:hover, .casettereelr:hover{
@@ -209,7 +215,7 @@ line-height: 1.4;
   }
 
   .maincasette {
-    width: 70%;
+    width: 60%;
 
   }
 }
