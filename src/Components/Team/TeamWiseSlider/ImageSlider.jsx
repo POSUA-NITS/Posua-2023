@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ImageSlider.module.scss";
-import MemberSlider from "./MemberSlider";
+import TeamsData from "./teamsData.json";
 
 const ImageSlider = ({ images, title }) => {
   const settings = {
@@ -39,16 +39,17 @@ const ImageSlider = ({ images, title }) => {
   return (
     <>
       <div className={styles.imgslider}>
-        <p className={styles.Designation}>Executive Heads</p>
+        <p className={styles.Designation}>{title}</p>
         <div className={styles.sliderWrapper}>
           <Slider {...settings} className={styles.slide}>
-            {MemberSlider &&
-              MemberSlider.map((item) => (
-                <div className={styles.sliderDiv} key={item.id}>
-                  <img className={styles.Card} src={item.card} />
+            {TeamsData[`${title}`] &&
+              TeamsData[`${title}`].map((item, i) => (
+                <div className={styles.sliderDiv} key={i}>
+                  <img className={styles.Card} src='https://res.cloudinary.com/dp92qug2f/image/upload/v1677669844/posua/card_nniokv.webp' />
                   <p className={styles.Name}>{item.name}</p>
+                  {item.designation?<p className={styles.Des}>{item.designation}</p>:''}
                   <p className={styles.TextForRotation}>{item.text}</p>
-                  <img className={styles.Images} src={item.src} alt={item.alt} />
+                  <img className={styles.Images} src={item.img} alt={item.alt} />
                 </div>
               ))}
           </Slider>
