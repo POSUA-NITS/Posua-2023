@@ -225,21 +225,7 @@ const UpcomingArtists = () => {
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              Ranjit Gogoi, the spring fest of NIT Silchar, spreads out exuberance all around
-              with the arrival of spring rejuvenating the land. This ecstatic grandeur
-              lets us enliven the beauteous culture of the land of Assam with joyful
-              activities bringing out the heritages and indispensable indigenous
-              traditions. In this perfect period, POSUA brings a plethora of events to
-              celebrate the cultural splendour of ‘Bor Axom’.POSUA, the spring fest of NIT
-              Silchar, spreads out exuberance all around with the arrival of spring
-              rejuvenating the land. This ecstatic grandeur lets us enliven the beauteous
-              culture of the land of Assam with joyful activities bringing out the
-              heritages and indispensable indigenous traditions. In this perfect period,
-              POSUA brings a plethora of events to celebrate the cultural splendour of
-              ‘Bor Axom’. Protidhwoni reverberates the campus with zestful spirit of
-              ‘Husori dols; ‘Bordoisila’ would leave you in awe with the scintillating
-              performance of ‘gabhorusPOSUA, the spring fest of NIT Silchar, spreads out
-              exuberance all around with the arrival of spring rejuvenating the land.
+              শুকান ফাগুনৰ ৰুক্ষতাক আঁতৰাই বসন্তৰ প্ৰথমজাক বৰষুণে চৌদিশ জীপাল কৰি পেলাইছেহি। বৰষুণৰ ভিজা ভিজা পৰশত লাজুক লাজুক কৈ গছে কুঁহিপাত মেলাৰ সময়তে দূৰৈৰ পৰা ভাঁহি আহে বাঁহীৰ সুৰ, পেঁপাৰ মাত।<br/><br/>ঢোল-পেঁপা-গগনাৰ মাতেৰে ডেকা-গাভৰুৰ মন উন্মাদপূৰ্ণ কৰিবলৈ  অহা ৫ মাৰ্চ, ২০২৩ত এন.আই.টি শিলচৰৰ পদূলি শুৱনি কৰিবলৈ আহি আছে ঢোল বাদনৰ অন্যতম শিল্পী, বিশ্বৰ চুকে-কোণে ঢোল বাদন তথা বিহু প্ৰদৰ্শনেৰে মন আপ্লুত কৰা অসমীয়া কলা-সংস্কৃতিৰ সাধক, বিহু সম্ৰাট ৰঞ্জিত গগৈ আৰু তেওঁৰ সমাদৃত আকৰ্ষণীয় দলটো।<br/><br/>Isn’t your ‘Bihu boliya mon’ fueled with excitement, as the ‘Fagunor Posua’  sweeps through your doorstep? I bet you would have danced with joy if a ‘sinaki dhulor maat’ have greeted you with its hypnotizing rhythm at that moment!<br/><br/>“Ghen gighen taak taak, ghen gighen taak taak. ghen gighen ,taak gighen taak gighen taak taak…”<br/><br/>Then, why wait?!!! We are happy to announce that, on the auspicious day of Posua, our beloved Bihu Samrat Ranjit Gogoi and his hypnotizing band are arriving at our home, NIT Silchar to fill our hearts and soul with the mesmerizing sound of 'Dhul', 'Pepa', and 'Gogona', to rejuvenate our minds and may be to let us dance a little. Hoping to see you all!
             </h3>
           </div>
         </div>
@@ -260,7 +246,8 @@ const UpcomingArtists = () => {
           <div className={style.aboutbha}>
             <h3>
               {" "}
-              We have the Deusila Bihua Dol from Kahilipara gracing us with their presence. So gear up for thrilling and fun filled evening as we experience the ebullience of Spring with our very own Posua.
+              অসমৰ গাঁৱে-ভূঞে, চহৰে-নগৰে অসমীয়াৰ হুচৰিক মঞ্চত উপস্থাপন কৰি দৰ্শকৰ অপূৰ্ব খ্যাতি লাভ কৰিবলৈ সক্ষম হোৱা "দেউচিলা বিহুদল" আহি আজি এন. আই. টি. ৰ বাকৰি শুৱনি কৰিছেহি। এন. আই. টি. ৰ বিহুবলীয়া ৰাইজৰ মন প্ৰাণ জিনিবলৈ নিজৰ ঢোল, পেঁপা, গগনাৰ লগতে বিভিন্ন বাদ্যযন্ত্ৰৰ সুৰেৰে আপ্লুত কৰি তুলিবলৈ সাজু "দেউচিলা বিহুদল"।  ঢোলৰ চাপৰত হুঁচৰিৰ চেঁৱত আকৌ এবাৰ কঁকাল ভাঙি নাচিবলৈ, এতিয়া মাথোঁ  অপেক্ষা ৫ মাৰ্চ তাৰিখলৈ।<br/><br/>
+              Spring has finally arrived, and the anticipation has culminated in the sounds of Bihu beats all around the corner. And with this, NIT Silchar is all set to host performance of 'Deusila Bihudol', a renowned folk  group whose mesmerizing shows have captivated audiences and made them groove to the beats of Bihu. Brace yourselves for a magnificent cultural event as 'Deusila Bihudal' takes the stage with their drums, pepas, gaganas and various other musical instruments, ready to win the hearts of many. Hoping to see you all there promptly!
             </h3>
           </div>
         </div>

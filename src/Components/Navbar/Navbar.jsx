@@ -2,11 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
 // import posuaLogo from "./posualogo.webp";
 import { Link } from "react-router-dom";
-function Navbarbox({ isOpen }) {
+function Navbarbox({ isOpen, setOpen }) {
   const [activeButton, setActiveButton] = useState("false");
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
+    setOpen(!isOpen);
   };
 
   return (
@@ -128,7 +129,7 @@ function Navbar() {
 
   return (
     <div>
-      <Navbarbox isOpen={menuOpen} />
+      <Navbarbox isOpen={menuOpen} setOpen={setMenuOpen} />
       <HamburgerMenu isOpen={menuOpen} toggleMenu={toggleMenu} />
     </div>
   );

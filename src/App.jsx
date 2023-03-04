@@ -22,6 +22,7 @@ const App = () => {
         <Navbar />
       <Scrolling>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/teams" element={<Teams />} />
