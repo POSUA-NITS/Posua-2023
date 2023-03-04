@@ -16,15 +16,20 @@
       list-style: none;
       color: white;
       text-align: center;
-      max-width: 230px;
+      max-width: 20em;
       li {
         font-family: var(--posua-font-1) !important;
         line-height: 1.4rem;
         font-size: 1.1rem;
+        padding-top: 0.5em;
         a {
           text-decoration: none;
           color: white;
         }
+      }
+
+      .contacts {
+        text-align: left;
       }
 
       .headings {
@@ -64,6 +69,9 @@
       ul {
         margin-top: 2vw;
         margin-bottom: 2vw;
+        .contacts {
+          text-align: center;
+        }
       }
     }
   }

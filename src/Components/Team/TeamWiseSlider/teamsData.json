@@ -41,12 +41,6 @@
       "designation": "Developer",
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866053/posua/IMG_20230221_010955_597_-_San_K_ckq5md.webp"
     },
-
-    {
-      "name": "Hrishikesh Borah",
-      "designation": "Developer",
-      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/IMG_20230210_171121_-_Rex_eq7etf.webp"
-    },
     {
       "name": "Himangshu Sarma",
       "designation": " Developer",
@@ -58,14 +52,19 @@
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866462/posua/WhatsApp_Image_2023-03-03_at_23.29.27_du1vb2.webp"
     },
     {
-      "name": "Pragya Annesha Baruah",
-      "designation": "Dev & UI/UX",
-      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/20230303_011431_-_Pragya_Annesha_Baruah_esoqru.webp"
+      "name": "Hrishikesh Borah",
+      "designation": "Developer",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/IMG_20230210_171121_-_Rex_eq7etf.webp"
     },
     {
       "name": "Aryadeep Gogoi",
       "designation": "Dev & UI/UX",
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865004/posua/WhatsApp_Image_2023-03-03_at_01.29.14_1_xqprxe.webp"
+    },
+    {
+      "name": "Pragya Annesha Baruah",
+      "designation": "Dev & UI/UX",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677866052/posua/20230303_011431_-_Pragya_Annesha_Baruah_esoqru.webp"
     },
     {
       "name": "Jacinth Mahanta",
@@ -88,7 +87,7 @@
     {
       "name": "Azad Ali",
       "designation": "Head",
-      "img": "https://res.cloudinary.com/dhoi8bcqz/image/upload/v1677922379/POSUA%20TEAM/Azad_ali_hjrf7h.webp"
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677920032/posua/WhatsApp_Image_2023-03-04_at_14.21.20_yqarbg.webp"
     },
     {
       "name": "Trishanku Sarma",
@@ -106,7 +105,7 @@
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865359/posua/gaurav_passport_-_Gaurav_Gogoi_mr7bwf.webp"
     },
     {
-      "name": "Manish Sharma",
+      "name": "Manish Sarmah",
       "designation": "Co-Head",
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677865357/posua/IMG-20220506-WA0038_-_Manish_Sarmah_cuh4sy.webp"
     },
@@ -235,8 +234,12 @@
       "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677871390/posua/IMG_20230228_231700_-_ECEA054_Ankita_Jhanwar_i7rpts.webp"
     },
     {
+      "name": "Milind Barman",
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677922424/posua/milind-barman_-_Milind_Barman_enosrd.webp"
+    },
+    {
       "name": "Rishikesh Sarma",
-      "img": ""
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     },
     {
       "name": "Ruchir Bhattacharya",
@@ -359,7 +362,7 @@
     },
     {
       "name": "Rishikesh Sarma",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dldebeast/image/upload/v1677925579/Rishikesh_Sarma_jycut9.webp"
     },
     {
       "name": "Kalpataru Narah",
@@ -383,11 +386,11 @@
     },
     {
       "name": "Bikrom",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     },
     {
       "name": "Somiron",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     },
     {
       "name": "Ankur Gogoi",
@@ -399,11 +402,11 @@
     },
     {
       "name": "Rituparna Kagyung",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     },
     {
       "name": "Manas Jyoti Roy",
-      "img": ""
+      "img": "https://res.cloudinary.com/dggtknx3n/image/upload/v1677925036/posua/profile_ngtxmj.webp"
     }
   ],
 
@@ -436,11 +439,11 @@
     },
     {
       "name": "Tapas Jyoti Das",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dldebeast/image/upload/v1677925521/Tapas_Jyoti_Das_iuwhrg.webp"
     },
     {
       "name": "Rishikesh Sarma",
-      "img": "...."
+      "img": "https://res.cloudinary.com/dldebeast/image/upload/v1677925579/Rishikesh_Sarma_jycut9.webp"
     },
     {
       "name": "Bikram Saikia",
