@@ -7,11 +7,17 @@ const Footer = () => {
       <div className={Styles.container}>
         <ul>
           <li className={Styles.headings}>Contacts</li>
-          <li>
-            Name <a href="tel:+919876543210">+919876543210</a>{" "}
+          <li className={Styles.contacts}>
+            Dr. Lalit Chandra Saikia   <a href="tel:+919435173835">+919435173835</a>{" "}
           </li>
-          <li>
-            Name <a href="tel:+919876543210">+919876543210</a>
+          <li className={Styles.contacts}>
+            Dr. Nabanita Adhikary   <a href="tel:+919864428032">+919864428032</a>
+          </li>
+          <li className={Styles.contacts}>
+            Jyotirmoy Haloi   <a href="tel:+918876458563">+918876458563</a>
+          </li>
+          <li className={Styles.contacts}>
+            Debanga Bikash Bora   <a href="tel:+919678496566">+919678496566</a>
           </li>
         </ul>
         <ul>
