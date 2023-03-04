@@ -40,10 +40,10 @@
     animation-delay: 3.5s !important;
   }
 
-  .sky {
-    // height: 100%;
-    // transform: scale(1.4rem);
-  }
+  // .sky {
+  //   height: 100%;
+  //   transform: scale(1.4rem);
+  // }
 
   .clouds {
     // transform: scale();
@@ -88,7 +88,7 @@
   .layer3 {
     width: 100%;
     animation: forwards var(--speed) layer3;
-    transform: translateX(-50%) translateY(-20%);
+    // transform: translateX(-50%) translateY(-20%);
   }
 
   .layer2 {
@@ -153,7 +153,7 @@
   @keyframes layer3 {
     0% {
       // transform: translateX(-50%) translateY(4%);
-      transform: translateX(-50%) translateY(-18%);
+      transform: translateX(-50%) translateY(-12%);
       width: 100%;
     }
 
@@ -172,7 +172,7 @@
     }
 
     100% {
-      transform: translateX(-50%) translateY(-18%);
+      transform: translateX(-50%) translateY(-15%);
       // width: 120%;
       // transform: translateX(-50%) translateY(-20%);
     }
@@ -236,8 +236,8 @@
     left: 0%;
   }
 
-  .sky {
-  }
+  // .sky {
+  // }
 
   .clouds {
     width: 80%;
