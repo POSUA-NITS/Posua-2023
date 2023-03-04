@@ -34,7 +34,7 @@
       .Name {
         opacity: 1;
       }
-      .Des{
+      .Des {
         opacity: 1;
       }
       .Images {
@@ -71,7 +71,7 @@
       opacity: 0;
       transition: all 600ms ease-in-out;
     }
-    .Des{
+    .Des {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -80,7 +80,7 @@
       bottom: 0.5rem;
       opacity: 0;
       color: gray;
-      transition: all 600ms ease-in-out;      
+      transition: all 600ms ease-in-out;
     }
     .TextForRotation {
       display: flex;
@@ -108,9 +108,9 @@
     font-size: 1rem !important;
     opacity: 1 !important;
   }
-  .Des{
+  .Des {
     font-size: 1rem !important;
-    opacity: 1 !important;    
+    opacity: 1 !important;
   }
   .TextForRotation {
     font-size: 0.9rem !important;
