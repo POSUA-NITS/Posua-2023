@@ -123,3 +123,13 @@
     }
   }
 }
+ 
+@media screen and (max-width:660px){
+  .center{
+    display: none !important;
+  }
+
+  .containerTeamWordMukha{
+    padding-top: 0;
+  }
+}
