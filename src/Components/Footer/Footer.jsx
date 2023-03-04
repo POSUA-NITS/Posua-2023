@@ -8,7 +8,7 @@ const Footer = () => {
         <ul>
           <li className={Styles.headings}>Contacts</li>
           <li>
-            Name <a href="tel:+919876543210">+919876543210</a>{" "}
+            Name <a href="tel:+919876543210">+919876543210</a>
           </li>
           <li>
             Name <a href="tel:+919876543210">+919876543210</a>

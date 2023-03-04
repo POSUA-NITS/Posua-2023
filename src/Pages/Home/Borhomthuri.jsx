@@ -32,8 +32,8 @@ const Borhomthuri = () => {
                     <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677863804/posua/rightreel-min_lxrtad.webp"  alt="image" />
                     <a href="https://drive.google.com/file/d/1yGROu16Gu_IjEjDxznBZd5dob_Gf_ddl/view?usp=share_link" target="_blank"  className={`${styles.pdf5} ${styles.pdfs2}`}></a>
                     <a href="https://drive.google.com/file/d/1ijJLJO2SNS4CX-SAZtFJSC-mKeg7gxMv/view?usp=share_link" target="_blank" className={`${styles.pdf6} ${styles.pdfs2}`}></a>
-                    <a href="https://drive.google.com/file/d/1Y8ZVgXoLMVkyqDe732T_-A-FZL7LQ5CE/view?usp=share_link" target="_blank" className={`${styles.pdf7} ${styles.pdfs2}`}></a>
-                    <a href="https://drive.google.com/file/d/1cwh4FOwiud1WqRrtWo8xu2NqBDWCKIbd/view?usp=share_link" target="_blank" className={`${styles.pdf8} ${styles.pdfs2}`}></a>
+                    <a href="https://drive.google.com/file/d/1cwh4FOwiud1WqRrtWo8xu2NqBDWCKIbd/view?usp=share_link" target="_blank" className={`${styles.pdf7} ${styles.pdfs2}`}></a>
+                    <a href="https://drive.google.com/file/d/1Y8ZVgXoLMVkyqDe732T_-A-FZL7LQ5CE/view?usp=share_link" target="_blank" className={`${styles.pdf8} ${styles.pdfs2}`}></a>
 
                 </div>
             </div>
