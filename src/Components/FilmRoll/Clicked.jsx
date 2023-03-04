@@ -21,7 +21,11 @@ const Clicked = (props) => {
           setClicked("default");
         }}
       ></div>
-      <div className={`${winWidth>800 && winHeight<winWidth?Styles.clicked:Styles.clicked_mobile} clicked`}>
+      <div
+        className={`${
+          winWidth > 800 && winHeight < winWidth ? Styles.clicked : Styles.clicked_mobile
+        } clicked`}
+      >
         <img src={clicked} alt="" />
       </div>
     </>

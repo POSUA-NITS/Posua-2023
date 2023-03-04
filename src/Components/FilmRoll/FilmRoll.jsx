@@ -2,18 +2,18 @@ import React from "react";
 import Styles from "./FilmRoll.module.scss";
 import Clicked from "./Clicked";
 import { useState } from "react";
-import data from './gallery.json'
+import data from "./gallery.json";
 
 const FilmRoll = (props) => {
   const [clicked, setClicked] = useState("default");
   const [winWidth, setWinWidth] = useState(window.innerWidth);
   const [winHeight, setWinHeight] = useState(window.innerHeight);
-  const {year, setYear} = props
+  const { year, setYear } = props;
 
-  const img = data[year.toString()]?data[year.toString()].imgs:''
+  const img = data[year.toString()] ? data[year.toString()].imgs : "";
 
   // console.log(data[year.toString()]?data[year.toString()].imgs[0]:'');
-  console.log(img?img[1]:'');
+  console.log(img ? img[1] : "");
 
   window.addEventListener("resize", () => {
     setWinWidth(window.innerWidth);
@@ -26,7 +26,11 @@ const FilmRoll = (props) => {
         alt="<<< Scroll"
         className={Styles.scrollpoint}
       />
-      <div className={winWidth>800 && winHeight<winWidth ?Styles.enclose:Styles.enclose_mobile}>
+      <div
+        className={
+          winWidth > 800 && winHeight < winWidth ? Styles.enclose : Styles.enclose_mobile
+        }
+      >
         {clicked !== "default" ? (
           <Clicked clicked={clicked} setClicked={setClicked} />
         ) : (
@@ -40,62 +44,38 @@ const FilmRoll = (props) => {
               className={Styles.reel}
             />
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[0]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[0] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[0]:''
-                  );
+                  setClicked(img ? img[0] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[1]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[1] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[1]:''
-                  );
+                  setClicked(img ? img[1] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[2]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[2] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[2]:''
-                  );
+                  setClicked(img ? img[2] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[3]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[3] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[3]:''
-                  );
+                  setClicked(img ? img[3] : "");
                 }}
               ></div>
             </div>
@@ -107,62 +87,38 @@ const FilmRoll = (props) => {
               className={Styles.reel}
             />
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[4]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[4] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[4]:''
-                  );
+                  setClicked(img ? img[4] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[5]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[5] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[5]:''
-                  );
+                  setClicked(img ? img[5] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[6]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[6] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[6]:''
-                  );
+                  setClicked(img ? img[6] : "");
                 }}
               ></div>
             </div>
             <div className={Styles.imgsEnclose}>
-              <img
-                src={img?img[7]:''}
-                alt=""
-                className={Styles.imgs}
-              />
+              <img src={img ? img[7] : ""} alt="" className={Styles.imgs} />
               <div
                 className={Styles.click}
                 onClick={() => {
-                  setClicked(
-                    img?img[7]:''
-                  );
+                  setClicked(img ? img[7] : "");
                 }}
               ></div>
             </div>

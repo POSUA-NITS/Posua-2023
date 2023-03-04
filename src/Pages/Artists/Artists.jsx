@@ -10,7 +10,7 @@ const Artists = () => {
   return (
     <>
       <div className={style.artists}>
-       <UpcomingArtists />
+        <UpcomingArtists />
         <PreviousArtists />
         {/* <PreviousArtists /> */}
         {/* <Scrolling> </Scrolling> */}

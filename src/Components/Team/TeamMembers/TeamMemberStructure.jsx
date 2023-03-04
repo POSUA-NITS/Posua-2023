@@ -20,8 +20,13 @@ const TeamMemberStructure = (data) => {
 
   return (
     // <div className={`${styles.containerMemStructure} ${data.index===12?styles.satyik_da:styles.containerMemStructure}`}>
-    <div className={`${styles.containerMemStructure} ${data.index%2===0?styles.memEven:styles.memOdd}`} id={data.index===12?styles.satyik_da:''}>
-    <div className={styles.teamMemberGrid}>
+    <div
+      className={`${styles.containerMemStructure} ${
+        data.index % 2 === 0 ? styles.memEven : styles.memOdd
+      }`}
+      id={data.index === 12 ? styles.satyik_da : ""}
+    >
+      <div className={styles.teamMemberGrid}>
         <div className={styles.imageHoldingWrapper}>
           <div className={styles.emptyColoredDiv}>
             <img src={data.image} />
@@ -40,7 +45,10 @@ const TeamMemberStructure = (data) => {
           />
         </div>
         <div className={styles.gamusa}>
-          <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700061/posua/Gamusa_f1677o.webp" className={styles.gamusaImg}/>
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677700061/posua/Gamusa_f1677o.webp"
+            className={styles.gamusaImg}
+          />
           <div className={styles.gamusaWriting}>
             <p>{data.name}</p>
             <p>{data.desig}</p>

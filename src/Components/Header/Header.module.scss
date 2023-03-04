@@ -5,9 +5,10 @@
   justify-content: center;
   align-items: center;
   padding: 4% 0;
+  user-select: none;
 }
 
-.heading  {
+.heading {
   text-align: center;
   word-break: break-word;
 }
