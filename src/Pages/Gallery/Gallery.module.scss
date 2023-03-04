@@ -6,7 +6,6 @@
   padding-top: 5vw;
   .para {
     width: 72rem;
-    // height: 15rem;
     margin: auto;
     margin-top: 3rem;
 
@@ -50,12 +49,12 @@
 
   .faces {
     .face_left {
-      height: 1rem;
       width: 18rem;
 
       img {
-        height: 28rem;
-        width: 20rem;
+        margin-top: -8rem;
+        height: 25rem;
+        width: 15rem;
 
         position: absolute;
         left: 0;
@@ -64,8 +63,9 @@
     }
     .face_right {
       img {
-        height: 28rem;
-        width: 20rem;
+        margin-top: -8rem;
+        height: 24rem;
+        width: 15rem;
 
         position: absolute;
         right: 0;
@@ -77,6 +77,10 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
+    .header {
+      margin-top: 5rem;
+    }
+
     .para {
       width: 60%;
       font-size: 3vmin;
