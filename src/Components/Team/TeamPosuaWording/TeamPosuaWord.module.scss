@@ -2,7 +2,7 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding-top: 9vw;
+  // padding-top: 9vw;
 }
 
 .containerflower {
@@ -50,20 +50,20 @@
     justify-content: center;
   }
   p {
-    padding-top: 4rem;
+    // padding-top: 4rem;
     font-family: var(--posua-font-1), sans-serif;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
     text-align: center;
-
     color: #161515;
   }
 }
 
 .WordingMukha2 {
-  transform: scaleX(-1);
+  transform: scaleX(-1) scaleY(0.9);
+  margin-top: -14vw;
 }
 
 // .containerflower {
@@ -91,6 +91,10 @@
   }
 }
 
+.WordingMukha1{
+  transform:   scaleY(0.9);
+  margin-top: -14vw;
+}
 @media only screen and (max-width: 1196px) {
   .containerflower {
     display: none;
@@ -123,7 +127,9 @@
     }
   }
 }
-
+.center {
+  display: none !important;
+}
 @media screen and (max-width: 660px) {
   .center {
     display: none !important;
