@@ -17,7 +17,6 @@ const Teams = () => {
       <TeamMember />
       <ImageSlider title="team" />
       <ImageSlider title="Developers" />
-      <ImageSlider title="Developers" />
     </div>
   );
 };
