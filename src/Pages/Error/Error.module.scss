@@ -1,0 +1,27 @@
+.notfnd {
+    // background-image: url("../../Assets/texture.png");
+    background-image: url("https://res.cloudinary.com/dp92qug2f/image/upload/v1677668803/posua/bg-artists_tpba1w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  .txtntfnd{
+    text-align: center;
+    h1{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .gohm{
+    text-decoration: none;
+    font-size: 2vw;
+    color: rgb(102, 72, 2);
+  }

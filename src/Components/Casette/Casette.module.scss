@@ -92,6 +92,10 @@
     max-width: 12rem;
     margin-top: 5vh;
   }
+
+  .button_left, .button_right{
+    width: 10% !important;
+  }
 }
 
 @keyframes gallery_click_left {
