@@ -15,7 +15,8 @@ const Events = () => {
       <div className={styles.main}>
         <Header title="EVENTS" fontSize="6vw" />
         <div className={styles.content}>{data.content}</div>
-        {/* <Phool /> */}<br/>
+        {/* <Phool /> */}
+        <br />
         <Flowerinout />
         <Carousel />
       </div>

@@ -113,7 +113,7 @@
     }
     .WordingTeamPosua > p {
       margin-inline: 2rem;
-      font-size: .9rem;
+      font-size: 0.9rem;
       line-height: 1.4rem;
       padding-top: 2rem;
       // top: 106px;
@@ -123,13 +123,13 @@
     }
   }
 }
- 
-@media screen and (max-width:660px){
-  .center{
+
+@media screen and (max-width: 660px) {
+  .center {
     display: none !important;
   }
 
-  .containerTeamWordMukha{
+  .containerTeamWordMukha {
     padding-top: 0;
   }
 }
