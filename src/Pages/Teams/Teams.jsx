@@ -26,8 +26,8 @@ const Teams = () => {
       <ImageSlider title="Hospitality" />
       <ImageSlider title="Cultural-Rally" />
       <ImageSlider title="Logistics" />
-      <ImageSlider title="Content" />
-      <ImageSlider title="T-Shirt" />
+      <ImageSlider title="Content" countTeam={2} />
+      <ImageSlider title="T-Shirt" countTeam={2} />
     </div>
   );
 };

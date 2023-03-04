@@ -43,7 +43,8 @@
   }
 
   .casettereell {
-    animation: rotate1 infinite 15s 1s linear forwards;
+    animation: rotate1 infinite 15s linear forwards;
+
     width: 100%;
     left: -40%;
     top: -28%;
@@ -86,8 +87,8 @@
   .casettereelr {
     animation: rotate2 infinite 15s linear forwards;
 
-    right: -42%;
-    top: -28%;
+    right: -38%;
+    top: -30%;
   }
 
   .pdfs2 {
@@ -125,10 +126,6 @@
   }
 }
 
-.casettereell:hover,
-.casettereelr:hover {
-  animation-play-state: paused;
-}
 
 .lreel {
   //     display: grid;
