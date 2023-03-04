@@ -5,10 +5,16 @@
   background-size: cover;
 }
 .headteam {
-  padding-top: 18vw !important;
+  padding-top: 5vw !important;
 }
-@media screen and (min-width: 660px) {
+// @media screen and (min-width: 660px) {
+//   .headteam {
+//     display: none;
+//   }
+// }
+
+@media screen and (max-width:660px){
   .headteam {
-    display: none;
+    padding-top: 18vw !important;
   }
 }
