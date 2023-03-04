@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Styles from "./Navbar.module.scss";
 // import posuaLogo from "./posualogo.webp";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-use";
 function Navbarbox({ isOpen, setOpen }) {
   const [activeButton, setActiveButton] = useState("false");
 
@@ -120,12 +121,23 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
   );
 }
 
-function Navbar() {
+function Navbar(props) {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const {setIsLoaded} = props
   const toggleMenu = (value) => {
     setMenuOpen(value);
   };
+
+  var location = useLocation().pathname;
+  var tempLoc = location;
+
+  useEffect(()=>{
+    // if (tempLoc !== location){
+      // console.log(useLocation());
+      // console.log(location);
+    // }
+    setIsLoaded(false)
+  },[location])
 
   return (
     <div>

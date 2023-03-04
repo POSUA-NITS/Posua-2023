@@ -13,8 +13,10 @@ const Home = (props) => {
 
   const {isLoaded} = props
 
-  return (
-    <main className={style.home}>
+
+    
+    return (
+      <main className={style.home}>
       <div className={style.hero_enclose}>
         <Hero isLoaded={isLoaded} />
       </div>

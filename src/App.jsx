@@ -13,6 +13,7 @@ import { Suspense } from "react";
 import Loader from "./Components/Loader/Loader";
 import { useState } from "react";
 import Scrolling from "./Pages/Artists/Scrolling";
+import { useLocation } from "react-router-dom";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [delay, setDelay] = useState(false);
@@ -21,11 +22,13 @@ const App = () => {
     setDelay(true);
   }, 1000);
 
+  
+
   return (
     <BrowserRouter>
       {!isLoaded ? <Loader setIsLoaded={setIsLoaded} /> : null}
       {delay?<>
-        <Navbar />
+        <Navbar setIsLoaded={setIsLoaded} />
         <Scrolling>
           <Routes>
             <Route path="/" element={<Home isLoaded={isLoaded} />} />
